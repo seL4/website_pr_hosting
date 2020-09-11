@@ -10,7 +10,15 @@ a:hover {
   color: #263852 /* neutralDark */
 }
 
- footer {
+.nav-pills li.active a, .nav-pills li.active a:hover {
+  background-color: #385378; /* neutral */
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .nav-pills li a:hover {
+  background-color: #D6DBE4; /* neutralLighter */
+}
+
+footer {
 	padding-top: 32px;
 	padding-bottom: 16px;
 }
@@ -39,10 +47,20 @@ table.alttable tr:nth-child(even) {
 
 .breadcrumb {
     margin-bottom: 0px;
+    background-color: #EBEEF5; /* neutralLighter */
+}
+
+.breadcrumb>li+li:before {
+    color: #385378; /* neutral */
 }
 
 h1 {
     margin-bottom: 5px;
+}
+
+code {
+  color: #AC5D55; /* accent */
+  background-color: #EBEEF5; /* neutralLightest */
 }
 
 .hp_grid_container {
@@ -81,7 +99,7 @@ h1 {
   position: relative;
 }
 .homepage_item:hover {
-  background-color: #8897AE; /* neutralLight */
+  background-color: #D6DBE4; /* neutralLighter */
 }
 
 /* For making the whole div clickable */
@@ -244,7 +262,7 @@ a.divLink {
 
 .highlight {
   line-height: 1.3;
-  color:#820C00;  /* accentDark */
+  color:#B78B41;  /* emphasisDark */
   font-size:15px;
   font-weight:bold;
 }
