@@ -1,0 +1,9 @@
+<html><body><p>
+ERROR:html5validator.validator:Error: Attribute "color" not allowed on element "h1" at this point.
+ERROR:html5validator.validator:From line 124, column 1; to line 124, column 18 in resource file:/Foundation.html
+ERROR:html5validator.validator:Error: Attribute "color" not allowed on element "h1" at this point.
+ERROR:html5validator.validator:From line 124, column 1; to line 124, column 18 in resource file:/Foundation/About.html
+ERROR:html5validator.validator:Error: Attribute "color" not allowed on element "h1" at this point.
+ERROR:html5validator.validator:From line 124, column 1; to line 124, column 18 in resource file:/Foundation/index.html
+ERROR:html5validator.validator:Document checking completed.
+</p></body></html>
