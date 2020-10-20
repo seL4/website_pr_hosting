@@ -1,13 +1,11 @@
 <html><body><p>
-ERROR:html5validator.validator:Error: Character reference was not terminated by a semicolon.
-ERROR:html5validator.validator:From line 140, column 23; to line 140, column 30 in resource file:/Foundation/Services/endorsement.pml.html
 ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
 ERROR:html5validator.validator:From line 159, column 3; to line 159, column 6 in resource file:/Foundation/Services/home.html
 ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
-ERROR:html5validator.validator:From line 217, column 3; to line 217, column 6 in resource file:/Foundation/Services/home.html
+ERROR:html5validator.validator:From line 214, column 3; to line 214, column 6 in resource file:/Foundation/Services/home.html
 ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
 ERROR:html5validator.validator:From line 159, column 3; to line 159, column 6 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
-ERROR:html5validator.validator:From line 217, column 3; to line 217, column 6 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 214, column 3; to line 214, column 6 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Document checking completed.
 </p></body></html>
