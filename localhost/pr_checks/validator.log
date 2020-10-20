@@ -1,16 +1,14 @@
 <html><body><p>
-ERROR:html5validator.validator:Error: Element "p" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 137, column 5; to line 137, column 32 in resource file:/Foundation/Services/endorsement.pml.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 141, column 7; to line 141, column 27 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:From line 140, column 5; to line 140, column 25 in resource file:/Foundation/Services/endorsement.pml.html
 ERROR:html5validator.validator:Error: Character reference was not terminated by a semicolon.
-ERROR:html5validator.validator:From line 141, column 30; to line 141, column 37 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:From line 140, column 28; to line 140, column 35 in resource file:/Foundation/Services/endorsement.pml.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 157, column 7; to line 157, column 27 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:From line 155, column 7; to line 155, column 27 in resource file:/Foundation/Services/endorsement.pml.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 194, column 7; to line 194, column 27 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:From line 192, column 7; to line 192, column 27 in resource file:/Foundation/Services/endorsement.pml.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 254, column 7; to line 254, column 27 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:From line 252, column 7; to line 252, column 27 in resource file:/Foundation/Services/endorsement.pml.html
 ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
 ERROR:html5validator.validator:From line 159, column 3; to line 159, column 6 in resource file:/Foundation/Services/home.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
