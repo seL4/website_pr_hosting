@@ -1,12 +1,14 @@
 <html><body><p>
+ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
+ERROR:html5validator.validator:From line 158, column 3; to line 158, column 6 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 160, column 2; to line 160, column 22 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 175, column 2; to line 175, column 22 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 179, column 2; to line 179, column 22 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 194, column 2; to line 194, column 22 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: The "tt" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 197, column 7; to line 197, column 10 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 212, column 7; to line 212, column 10 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 201, column 2; to line 201, column 22 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 216, column 2; to line 216, column 22 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: The "valign" attribute on the "th" element is obsolete. Use CSS instead.
 ERROR:html5validator.validator:From line 169, column 9; to line 170, column 35 in resource file:/Foundation/Services/Acme/index.html
 ERROR:html5validator.validator:Document checking completed.
