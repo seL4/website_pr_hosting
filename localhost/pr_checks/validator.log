@@ -4,55 +4,55 @@ ERROR:html5validator.validator:From line 159, column 3; to line 159, column 6 in
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
 ERROR:html5validator.validator:From line 175, column 2; to line 175, column 22 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 192, column 2; to line 192, column 22 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 191, column 2; to line 191, column 22 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: No space between attributes.
-ERROR:html5validator.validator:From line 196, column 8; to line 204, column 11 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 195, column 8; to line 201, column 11 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: A slash was not immediately followed by ">".
-ERROR:html5validator.validator:From line 196, column 8; to line 204, column 18 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 195, column 8; to line 201, column 18 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: A slash was not immediately followed by ">".
-ERROR:html5validator.validator:From line 196, column 8; to line 204, column 19 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 195, column 8; to line 201, column 19 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Quote """ in attribute name. Probable cause: Matching quote missing somewhere earlier.
-ERROR:html5validator.validator:From line 196, column 8; to line 204, column 30 in resource file:/Foundation/Services/index.html
-ERROR:html5validator.validator:Error: Bad value "https://brkawy.com</a></li>↩	</ul>↩      </td>↩    </tr>↩↩↩    <tr>↩      <td>↩	<a href=" for attribute "href" on element "a": Illegal character in path segment: ">" is not allowed.
-ERROR:html5validator.validator:From line 196, column 8; to line 204, column 31 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 195, column 8; to line 201, column 30 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:Error: Bad value "https://brkawy.com</a></li>↩	</ul>↩      </td>↩    </tr>↩    <tr>↩      <td>↩	<a href=" for attribute "href" on element "a": Illegal character in path segment: ">" is not allowed.
+ERROR:html5validator.validator:From line 195, column 8; to line 201, column 31 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Attribute "https:" not allowed on element "a" at this point.
-ERROR:html5validator.validator:From line 196, column 8; to line 204, column 31 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 195, column 8; to line 201, column 31 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Attribute "cog.systems"" not allowed on element "a" at this point.
-ERROR:html5validator.validator:From line 196, column 8; to line 204, column 31 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 195, column 8; to line 201, column 31 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: End tag "td" seen, but there were open elements.
-ERROR:html5validator.validator:From line 207, column 7; to line 207, column 11 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 204, column 7; to line 204, column 11 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Unclosed element "ul".
-ERROR:html5validator.validator:From line 194, column 2; to line 194, column 5 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 193, column 2; to line 193, column 5 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 210, column 2; to line 210, column 22 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 207, column 2; to line 207, column 22 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: No space between attributes.
-ERROR:html5validator.validator:From line 214, column 8; to line 225, column 16 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 211, column 8; to line 221, column 16 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Quote """ in attribute name. Probable cause: Matching quote missing somewhere earlier.
-ERROR:html5validator.validator:From line 214, column 8; to line 225, column 22 in resource file:/Foundation/Services/index.html
-ERROR:html5validator.validator:Error: Bad value "https://cog.systems</a></li>↩	</ul>↩      </td>↩    </tr>↩↩  </table>↩↩↩  <h2>Trainings</h2>↩  <p>↩  No training has been endorsed or certified at this stage.↩  <font color=" for attribute "href" on element "a": Illegal character in path segment: ">" is not allowed.
-ERROR:html5validator.validator:From line 214, column 8; to line 225, column 23 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 211, column 8; to line 221, column 22 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:Error: Bad value "https://cog.systems</a></li>↩	</ul>↩      </td>↩    </tr>↩  </table>↩↩↩  <h2>Trainings</h2>↩  <p>↩  No training has been endorsed or certified at this stage.↩  <font color=" for attribute "href" on element "a": Illegal character in path segment: ">" is not allowed.
+ERROR:html5validator.validator:From line 211, column 8; to line 221, column 23 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Attribute "orange"" not allowed on element "a" at this point.
-ERROR:html5validator.validator:From line 214, column 8; to line 225, column 23 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 211, column 8; to line 221, column 23 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Start tag "a" seen but an element of the same type was already open.
-ERROR:html5validator.validator:From line 225, column 33; to line 225, column 95 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 221, column 33; to line 221, column 95 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Stray end tag "font".
-ERROR:html5validator.validator:From line 225, column 113; to line 225, column 119 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 221, column 113; to line 221, column 119 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
-ERROR:html5validator.validator:From line 226, column 3; to line 226, column 6 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 222, column 3; to line 222, column 6 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 250, column 3; to line 250, column 23 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 246, column 3; to line 246, column 23 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Stray end tag "div".
-ERROR:html5validator.validator:From line 273, column 1; to line 273, column 6 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 269, column 1; to line 269, column 6 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Stray end tag "div".
-ERROR:html5validator.validator:From line 276, column 1; to line 276, column 6 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 272, column 1; to line 272, column 6 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Stray end tag "body".
-ERROR:html5validator.validator:From line 294, column 1; to line 294, column 7 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 290, column 1; to line 290, column 7 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Stray end tag "html".
-ERROR:html5validator.validator:From line 295, column 1; to line 295, column 7 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 291, column 1; to line 291, column 7 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: End of file seen and there were open elements.
-ERROR:html5validator.validator:At line 295, column 8 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:At line 291, column 8 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Unclosed element "ul".
-ERROR:html5validator.validator:From line 212, column 2; to line 212, column 5 in resource file:/Foundation/Services/index.html
+ERROR:html5validator.validator:From line 209, column 2; to line 209, column 5 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Unclosed element "table".
 ERROR:html5validator.validator:From line 166, column 3; to line 166, column 9 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: Unclosed element "div".
