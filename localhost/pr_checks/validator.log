@@ -1,28 +1,16 @@
 <html><body><p>
 ERROR:html5validator.validator:Error: Element "p" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 135, column 5; to line 135, column 47 in resource file:/Foundation/Services/endorsement.pml.html
-ERROR:html5validator.validator:Error: The "align" attribute on the "p" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 135, column 5; to line 135, column 47 in resource file:/Foundation/Services/endorsement.pml.html
-ERROR:html5validator.validator:Error: Element "p" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 138, column 5; to line 138, column 22 in resource file:/Foundation/Services/endorsement.pml.html
-ERROR:html5validator.validator:Error: The "align" attribute on the "p" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 138, column 5; to line 138, column 22 in resource file:/Foundation/Services/endorsement.pml.html
-ERROR:html5validator.validator:Error: Element "p" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 141, column 5; to line 141, column 22 in resource file:/Foundation/Services/endorsement.pml.html
-ERROR:html5validator.validator:Error: The "align" attribute on the "p" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 141, column 5; to line 141, column 22 in resource file:/Foundation/Services/endorsement.pml.html
-ERROR:html5validator.validator:Error: Element "p" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 144, column 5; to line 144, column 22 in resource file:/Foundation/Services/endorsement.pml.html
-ERROR:html5validator.validator:Error: The "align" attribute on the "p" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 144, column 5; to line 144, column 22 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:From line 137, column 5; to line 137, column 32 in resource file:/Foundation/Services/endorsement.pml.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 145, column 7; to line 145, column 27 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:From line 141, column 7; to line 141, column 27 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:Error: Character reference was not terminated by a semicolon.
+ERROR:html5validator.validator:From line 141, column 30; to line 141, column 37 in resource file:/Foundation/Services/endorsement.pml.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 161, column 7; to line 161, column 27 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:From line 157, column 7; to line 157, column 27 in resource file:/Foundation/Services/endorsement.pml.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 198, column 7; to line 198, column 27 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:From line 194, column 7; to line 194, column 27 in resource file:/Foundation/Services/endorsement.pml.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
-ERROR:html5validator.validator:From line 259, column 7; to line 259, column 27 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:From line 255, column 7; to line 255, column 27 in resource file:/Foundation/Services/endorsement.pml.html
 ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
 ERROR:html5validator.validator:From line 159, column 3; to line 159, column 6 in resource file:/Foundation/Services/home.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
