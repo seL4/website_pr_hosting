@@ -1,4 +1,24 @@
 <html><body><p>
+ERROR:html5validator.validator:Error: No "li" element in scope but a "li" end tag seen.
+ERROR:html5validator.validator:From line 270, column 5; to line 270, column 9 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:Error: End tag "div" seen, but there were open elements.
+ERROR:html5validator.validator:From line 279, column 1; to line 279, column 6 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:Error: Unclosed element "ul".
+ERROR:html5validator.validator:From line 249, column 3; to line 249, column 6 in resource file:/Foundation/Services/endorsement.pml.html
+ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
+ERROR:html5validator.validator:From line 159, column 3; to line 159, column 6 in resource file:/Foundation/Services/home.html
+ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
+ERROR:html5validator.validator:From line 176, column 2; to line 176, column 22 in resource file:/Foundation/Services/home.html
+ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
+ERROR:html5validator.validator:From line 192, column 2; to line 192, column 22 in resource file:/Foundation/Services/home.html
+ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
+ERROR:html5validator.validator:From line 208, column 2; to line 208, column 22 in resource file:/Foundation/Services/home.html
+ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
+ERROR:html5validator.validator:From line 217, column 3; to line 217, column 6 in resource file:/Foundation/Services/home.html
+ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
+ERROR:html5validator.validator:From line 222, column 3; to line 222, column 23 in resource file:/Foundation/Services/home.html
+ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
+ERROR:html5validator.validator:From line 248, column 3; to line 248, column 23 in resource file:/Foundation/Services/home.html
 ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
 ERROR:html5validator.validator:From line 159, column 3; to line 159, column 6 in resource file:/Foundation/Services/index.html
 ERROR:html5validator.validator:Error: The "font" element is obsolete. Use CSS instead.
