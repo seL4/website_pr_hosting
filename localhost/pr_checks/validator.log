@@ -1,9 +1,2 @@
 <html><body><p>
-ERROR:html5validator.validator:Error: Element "emph" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 146, column 14; to line 146, column 19 in resource file:/Foundation.html
-ERROR:html5validator.validator:Error: Element "emph" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 146, column 14; to line 146, column 19 in resource file:/Foundation/About.html
-ERROR:html5validator.validator:Error: Element "emph" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 146, column 14; to line 146, column 19 in resource file:/Foundation/index.html
-ERROR:html5validator.validator:Document checking completed.
 </p></body></html>
