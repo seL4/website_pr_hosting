@@ -1,9 +1,2 @@
 <html><body><p>
-ERROR:html5validator.validator:Error: CSS: "border": Too many values or values are not recognized.
-ERROR:html5validator.validator:From line 135, column 3; to line 135, column 40 in resource file:/Foundation/Trademark/logo.pml.html
-ERROR:html5validator.validator:Error: CSS: "border": Too many values or values are not recognized.
-ERROR:html5validator.validator:From line 140, column 3; to line 140, column 40 in resource file:/Foundation/Trademark/logo.pml.html
-ERROR:html5validator.validator:Error: Bad value "http://localhost/Foundation/Trademark/home.pml"" for attribute "href" on element "a": Illegal character in path segment: """ is not allowed.
-ERROR:html5validator.validator:From line 145, column 19; to line 145, column 81 in resource file:/Foundation/Trademark/logo.pml.html
-ERROR:html5validator.validator:Document checking completed.
 </p></body></html>
