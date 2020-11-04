@@ -6,9 +6,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Contact | seL4</title>
+    <title>More info | seL4</title>
     <meta name="author" content="CSIRO's Data61" />
-    
+    <link href="https://sel4.systems/Info/home.pml" rel=canonical />
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/sel4.css" rel="stylesheet">
 
@@ -61,38 +61,38 @@
       
 
 
-<!-- /contact/ -->
+<!-- /Info/ -->
 <li>
 
 <a href='../index.html'>Home</a></li>
-<!-- /contact/ - /About/ -->
+<!-- /Info/ - /About/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../About/index.html">What is seL4? <span class="caret"></span></a>
 <ul class="dropdown-menu"><li class=""><a href="../About/index.html">What is seL4?</a></li>
 <li class=""><a href="http://localhost/About/Performance/">Performance</a></li>
 <li class=""><a href="../About/seL4-whitepaper.pdf">Whitepaper</a></li></ul></li>
-<!-- /contact/ - /Foundation/ -->
+<!-- /Info/ - /Foundation/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../Foundation/index.html">seL4 Foundation <span class="caret"></span></a>
 <ul class="dropdown-menu"><li class=""><a href="../Foundation/About.html">About the seL4 Foundation</a></li>
 <li class=""><a href="../Foundation/Governance/index.html">Governance</a></li>
 <li class=""><a href="../Foundation/Board.html">Governing Board</a></li>
-<!-- /contact/ - /Foundation/TSC/ -->
+<!-- /Info/ - /Foundation/TSC/ -->
 <li class=""><a href="../Foundation/TSC/index.html">TSC</a></li>
-<!-- /contact/ - /Foundation/Membership/ -->
+<!-- /Info/ - /Foundation/Membership/ -->
 <li class=""><a href="../Foundation/Membership.html">Membership</a></li>
 <li class=""><a href="../Foundation/Join.html">Join the Foundation now!</a></li>
 <li class=""><a href="../Foundation/Support/index.html">Support Us</a></li>
 <li class=""><a href="../Foundation/Trademark/index.html">Trademark</a></li>
 <li class=""><a href="../Foundation/Contact.html">Contact the seL4 Foundation</a></li></ul></li>
-<li class="active"><a href="../contact.html">Stay in Touch</a></li>
-<!-- /contact/ - /Contribute/ -->
+<li class=""><a href="../contact.html">Stay in Touch</a></li>
+<!-- /Info/ - /Contribute/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../Contribute.html">Contribute <span class="caret"></span></a>
 <ul class="dropdown-menu"><li class=""><a href="../Contribute.html">Contribute</a></li>
 <li class=""><a href="https://github.com/seL4">GitHub</a></li></ul></li>
 <li class=""><a href="../Use.html">Use</a></li>
 <li class=""><a href="../Learn.html">Learn</a></li>
-<!-- /contact/ - /Info/ -->
-<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../Info/index.html">More Info <span class="caret"></span></a>
-<ul class="dropdown-menu"><li class=""><a href="../Info/index.html">More Info</a></li>
+<!-- /Info/ - /Info/ -->
+<li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="index.html">More Info <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class="active"><a href="index.html">More Info</a></li>
 <li class=""><a href="https://docs.sel4.systems/projects/sel4/frequently-asked-questions.html">FAQ</a></li>
 <li class=""><a href="https://docs.sel4.systems/projects/roadmap.html">Roadmap</a></li>
 <li class=""><a href="https://ts.data61.csiro.au/">Research</a></li></ul></li>
@@ -102,81 +102,72 @@
 </div>
 <div class="container"> <!-- container -->
   <div class="row"> <!-- Breadcrumbs -->
-<!-- Contacts, /contact/ -->
-<!-- Home, /contact/home.pml -->
+<!-- More Info, /Info/ -->
+<!-- More Info, /Info/home.pml -->
 <ol class="breadcrumb">
 <li class=""><a href="../index.html">Home</a>
 <li class="">
-<a href="../contact.html">Contacts</a></li></ol>
+<a href="index.html">More Info</a></li></ol>
     </div> <!-- Breadcrumbs -->
 
     <a href='../index.html'><img style="width:20%; margin-top:20px; vertical-align:top;float:right; margin:10px;"
                      src='../images/logo-text-white.svg' alt='seL4' /></a>
 
-        <!--
-<title>Contact</title>
--->
+        <!--<title>More info</title> -->
 <!--
     Copyright 2020 seL4 Project a Series of LF Projects, LLC.
     SPDX-License-Identifier: CC-BY-SA-4.0
 -->
-<h1>Contact Information</h1>
+<h1>
+  More information about seL4
+</h1>
 
-<h2>Foundation</h2>
 
-<ul>
-<li><code>foundation<span>@</span>sel4<span>.</span>systems</code>
-</ul>
 
-<h2>Information and Announcements</h2>
+<div class="homepage_grid">
 
-<ul>
-<li><a href="http://localhost/lists/listinfo/announce">Announce mailing list</a> announcements about seL4 (low volume list)</li>
-<li><a href="https://microkerneldude.wordpress.com/category/sel4/">Blog</a></li>
-</ul>
+  <div class="homepage_item">
+    <a class="divLink" href="http://ts.data61.csiro.au/"></a>
+    <div class="hp_pic">
+      <img src="../images/call-graph.png" style="width:200px;" alt="seL4 call graph" />
+    </div>
+    <div class="hp_title">
+      Research
+    </div>
+    <div class="hp_text">
+      Learn about the research about seL4 happening
+      in the Trustworthy Systems group at CSIRO's Data61
+    </div>
+  </div>
 
-<h2>Development</h2>
+  <div class="homepage_item">
+    <a class="divLink" href="https://docs.sel4.systems/projects/roadmap.html"></a>
+    <div class="hp_pic">
+      <img src="../images/roadmap.jpg" style="width:200px;" alt="Roadmap" />
+    </div>
+    <div class="hp_title">
+      Roadmap
+    </div>
+    <div class="hp_text">
+      What is on roadmap for seL4 and the ecosystem?
+    </div>
+  </div>
 
-<p>
-Discussion about using and developing seL4 (questions, suggestions, updates, etc.)
-</p>
-<ul>
-<li><a href="http://localhost/lists/listinfo/devel">Developer mailing list</a></li>
-<li><a href="https://sel4.discourse.group/">Discourse forums</a></li>
-<li><a href="https://mattermost.ts.data61.csiro.au/sel4-external/">Mattermost chat</a></li>
-<li>IRC: we used to have an IRC channel, but we no longer monitor that, so do not recommend using it.</li>
-</ul>
+  <div class="homepage_item">
+    <a class="divLink" href="https://docs.sel4.systems/projects/sel4/frequently-asked-questions.html"></a>
+    <div class="hp_pic">
+      <img src="../images/faq.svg" style="width:200px;" alt="FAQ" />
+    </div>
+    <div class="hp_title">
+    FAQ
+    </div>
+    <div class="hp_text">
+      All your questions answered!
+    </div>
+  </div>
 
-<p>
-RFC (request for comments) proposing new features for seL4
-</p>
-<ul>
-<li><a href="https://docs.sel4.systems/processes/rfc-process">Information about the RFC process</a></li>
-<li><a href="https://sel4.atlassian.net/browse/RFC">RFC JIRA</a></li>
-<li><a href="https://sel4.systems/lists/listinfo/rfc">RFC announcement mailing list</a></li>
-</ul>
+</div>
 
-<p>
-Github
-</p>
-<ul>
-<li><a href="https://github.com/seL4">https://github.com/seL4</a></li>
-<li><a href="https://github.com/seL4Proj">https://github.com/seL4Proj</a></li>
-</ul>
-
-<h2>Direct Communication</h2>
-
-<ul>
-<li><code>support<span>@</span>sel4<span>.</span>systems</code> inquiries about professional support contracts</li> 
-<li><code>sel4<span>@</span>sel4<span>.</span>systems</code> communication that cannot be done on the public channels</li>
-<li><code>moderation<span>@</span>sel4<span>.</span>systems</code> requests or queries about community moderation. See <a href="https://docs.sel4.systems/processes/conduct.html">seL4 Code of Conduct</a></li>
-</ul>
-
-<h2>Website Issues</h2>
-
-<ul>
-<li><code>webmaster<span>@</span>sel4<span>.</span>systems</code>
-</ul>
 
 	<div class="divider"></div>
 </div><!-- container -->

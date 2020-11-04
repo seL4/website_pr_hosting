@@ -6,9 +6,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Support | seL4</title>
+    <title>About | seL4</title>
     <meta name="author" content="CSIRO's Data61" />
-    
+    <link href="https://sel4.systems/Foundation/Membership/home.pml" rel=canonical />
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
     <link href="../../css/sel4.css" rel="stylesheet">
 
@@ -61,36 +61,36 @@
       
 
 
-<!-- /Foundation/Support/ -->
+<!-- /Foundation/Membership/ -->
 <li>
 
 <a href='../../index.html'>Home</a></li>
-<!-- /Foundation/Support/ - /About/ -->
+<!-- /Foundation/Membership/ - /About/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../About/index.html">What is seL4? <span class="caret"></span></a>
 <ul class="dropdown-menu"><li class=""><a href="../../About/index.html">What is seL4?</a></li>
 <li class=""><a href="http://localhost/About/Performance/">Performance</a></li>
 <li class=""><a href="../../About/seL4-whitepaper.pdf">Whitepaper</a></li></ul></li>
-<!-- /Foundation/Support/ - /Foundation/ -->
+<!-- /Foundation/Membership/ - /Foundation/ -->
 <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="../index.html">seL4 Foundation <span class="caret"></span></a>
 <ul class="dropdown-menu"><li class=""><a href="../About.html">About the seL4 Foundation</a></li>
 <li class=""><a href="../Governance/index.html">Governance</a></li>
 <li class=""><a href="../Board.html">Governing Board</a></li>
-<!-- /Foundation/Support/ - /Foundation/TSC/ -->
+<!-- /Foundation/Membership/ - /Foundation/TSC/ -->
 <li class=""><a href="../TSC/index.html">TSC</a></li>
-<!-- /Foundation/Support/ - /Foundation/Membership/ -->
+<!-- /Foundation/Membership/ - /Foundation/Membership/ -->
 <li class=""><a href="../Membership.html">Membership</a></li>
 <li class=""><a href="../Join.html">Join the Foundation now!</a></li>
-<li class="active"><a href="index.html">Support Us</a></li>
+<li class=""><a href="../Support/index.html">Support Us</a></li>
 <li class=""><a href="../Trademark/index.html">Trademark</a></li>
 <li class=""><a href="../Contact.html">Contact the seL4 Foundation</a></li></ul></li>
 <li class=""><a href="../../contact.html">Stay in Touch</a></li>
-<!-- /Foundation/Support/ - /Contribute/ -->
+<!-- /Foundation/Membership/ - /Contribute/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../Contribute.html">Contribute <span class="caret"></span></a>
 <ul class="dropdown-menu"><li class=""><a href="../../Contribute.html">Contribute</a></li>
 <li class=""><a href="https://github.com/seL4">GitHub</a></li></ul></li>
 <li class=""><a href="../../Use.html">Use</a></li>
 <li class=""><a href="../../Learn.html">Learn</a></li>
-<!-- /Foundation/Support/ - /Info/ -->
+<!-- /Foundation/Membership/ - /Info/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../Info/index.html">More Info <span class="caret"></span></a>
 <ul class="dropdown-menu"><li class=""><a href="../../Info/index.html">More Info</a></li>
 <li class=""><a href="https://docs.sel4.systems/projects/sel4/frequently-asked-questions.html">FAQ</a></li>
@@ -103,66 +103,138 @@
 <div class="container"> <!-- container -->
   <div class="row"> <!-- Breadcrumbs -->
 <!-- seL4 Foundation, /Foundation/ -->
-<!-- Support Us, /Foundation/Support/ -->
-<!-- Home, /Foundation/Support/home.pml -->
+<!-- Membership, /Foundation/Membership/ -->
+<!-- Home, /Foundation/Membership/home.pml -->
 <ol class="breadcrumb">
 <li class=""><a href="../../index.html">Home</a>
 <li class="">
 <a href="../index.html">seL4 Foundation</a></li>
 <li class="">
-<a href="index.html">Support Us</a></li></ol>
+<a href="../Membership.html">Membership</a></li></ol>
     </div> <!-- Breadcrumbs -->
 
     <a href='../../index.html'><img style="width:20%; padding-top:5px; vertical-align:top;float:right; margin:10px;"
                      src='../../images/sel4-foundation-logo.svg' alt='seL4 foundation logo' />
     </a>
 
-        <!--<title>Support</title>-->
+        <!--<title>About</title>-->
 <!--
     Copyright 2020 seL4 Project a Series of LF Projects, LLC.
     SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 <h1>
-  Funding the next big steps for the seL4 project
+  seL4 Foundation Membership
 </h1>
-<br>
+<div>
   <p>
-  Alongside growing the seL4 ecosystem, protect and promote the seL4 brand
-  and provide longevity to seL4, one of the aims of the
-  <a href="../About.html">seL4 foundation</a> is to provide an avenue for
-  funding on-going engineering as well as sharing the cost of "big-ticket"
-  verification items, through its membership revenue, and through specific
-  fund-raising to address particular needs.
+    Below is the list of members of the <a title="seL4 Foundation"
+    href="../About.html">seL4 Foundation</a>. Want to be part of the adventure?
   </p>
   <p>
-    <b> Together, we can change the world of critical systems,
-        to achieve real security!
-    </b>
+    <span class=join> JOIN NOW
+      <a title="Join" href="../Join.html">HERE!</a></span>
   </p>
-  <p>
-  By <a href="../Membership.html">joining</a> the adventure, you can support:
-  </p>
-  <ul>
-    <li>
-      the funding of an on-going support of the community, maintenance of existing versions,
-      improvements of the infrastructure (in particular the automation of the seL4 verification
-      framework), evolution of the kernel, and, importantly, development of the ecosystem.
-    </li>
-    <li>
-      the funding of big-ticket items that are crucial to our aim of making seL4 ubiquitous.
-      The biggest of these are:
-       <ul>
-       <li> <b> Verification of the 64-bit Arm kernel </b>
-       </li>
-       <li> <b> Verification of the multicore kernel </b>
-       </li>
-       </ul>
-       The interest for these items is strong but the investment required
-       is above the pain limit of most single organisation. The foundation
-       provides a vehicle to pool investments to achieves these.
-    </li>
-  </ul>
-
+</div>
+<h2>Premium Members</h2>
+<div class="sponsors">
+  <div class="sponsor">
+    <div class="sponsor-pic">
+      <a href="https://trustworthy.systems/">
+	<img src="LOGOS/CSIRO.jpg" style="width: 200px" alt="CSIRO's Data61">
+      </a>
+    </div>
+    <div class="sponsor-name">
+      CSIRO's Data61
+    </div>
+  </div>
+  <div class="sponsor">
+    <div class="sponsor-pic">
+      <a href="http://hensoldt-cyber.com/">
+	<img src="LOGOS/HENSOLDT_Cyber.svg" style="width: 300px" alt="HENSOLDT Cyber logo">
+      </a>
+    </div>
+    <div class="sponsor-name">
+     HENSOLDT Cyber GmbH
+    </div>
+  </div>
+  <div class="sponsor">
+    <div class="sponsor-pic">
+      <a href="https://unsw.edu.au/">
+	<img src="LOGOS/UNSW.svg" style="width: 200px" alt="UNSW logo">
+      </a>
+    </div>
+    <div class="sponsor-name">
+      UNSW Sydney
+    </div>
+  </div>
+</div>
+<h2>General Members</h2>
+<div class="sponsors">
+  <div class="sponsor">
+    <div class="sponsor-pic">
+      <a href="https://www.adventiumlabs.com/">
+	<img src="LOGOS/adventium-labs.svg" style="width: 200px" alt="Adventium logo">
+      </a>
+    </div>
+    <div class="sponsor-name">
+      Adventium Labs
+    </div>
+  </div>  <div class="sponsor">
+    <div class="sponsor-pic">
+      <a href="https://brkawy.com">
+	<img src="LOGOS/Brkawy.png" style="width: 200px" alt="Breakaway logo">
+      </a>
+    </div>
+    <div class="sponsor-name">
+      Breakaway Consulting
+    </div>
+  </div>
+  <div class="sponsor">
+    <div class="sponsor-pic">
+      <a href="https://cog.systems/">
+	<img src="LOGOS/Cog.jpg" style="width: 200px" alt="Cog logo">
+      </a>
+    </div>
+    <div class="sponsor-name">
+      Cog Systems Inc
+    </div>
+  </div>
+  <div class="sponsor">
+    <div class="sponsor-pic">
+      <a href="https://dornerworks.com/">
+	<img src="LOGOS/DornerWorks.svg" style="width: 200px" alt="DornerWorks logo">
+      </a>
+    </div>
+    <div class="sponsor-name">
+      DornerWorks Ltd
+    </div>
+  </div>
+  <div class="sponsor">
+    <div class="sponsor-pic">
+      <a href="https://gh.st/">
+	<img src="LOGOS/GHOST.svg" style="width: 200px" alt="Ghost logo">
+      </a>
+    </div>
+    <div class="sponsor-name">
+      Ghost Locomotion Inc
+    </div>
+  </div>
+</div>
+<!--
+<h2>Associate Members</h2>
+<div class="sponsors">
+  <div class="sponsor">
+    <div class="sponsor-pic">
+      <a href="https://unsw.edu.au/">
+	<img src="LOGOS/UNSW.svg" style="width: 200px" alt="UNSW logo">
+      </a>
+    </div>
+    <div class="sponsor-name">
+      UNSW Sydney
+    </div>
+  </div>
+</div>
+-->
 
 	<div class="divider"></div>
 </div><!-- container -->
