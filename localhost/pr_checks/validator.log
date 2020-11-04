@@ -1,27 +1,2 @@
 <html><body><p>
-ERROR:html5validator.validator:Error: Saw """ when expecting an attribute name. Probable cause: "=" missing immediately before.
-ERROR:html5validator.validator:From line 138, column 3; to line 138, column 36 in resource file:/Foundation/Services/cog.pml.html
-ERROR:html5validator.validator:Error: Quote """ in attribute name. Probable cause: Matching quote missing somewhere earlier.
-ERROR:html5validator.validator:From line 138, column 3; to line 138, column 49 in resource file:/Foundation/Services/cog.pml.html
-ERROR:html5validator.validator:Error: Attribute ""padding:15px"" not allowed on element "table" at this point.
-ERROR:html5validator.validator:From line 138, column 3; to line 138, column 50 in resource file:/Foundation/Services/cog.pml.html
-ERROR:html5validator.validator:Error: Saw """ when expecting an attribute name. Probable cause: "=" missing immediately before.
-ERROR:html5validator.validator:From line 137, column 3; to line 137, column 36 in resource file:/Foundation/Services/dornerworks.pml.html
-ERROR:html5validator.validator:Error: Quote """ in attribute name. Probable cause: Matching quote missing somewhere earlier.
-ERROR:html5validator.validator:From line 137, column 3; to line 137, column 49 in resource file:/Foundation/Services/dornerworks.pml.html
-ERROR:html5validator.validator:Error: Attribute ""padding:15px"" not allowed on element "table" at this point.
-ERROR:html5validator.validator:From line 137, column 3; to line 137, column 50 in resource file:/Foundation/Services/dornerworks.pml.html
-ERROR:html5validator.validator:Error: Saw """ when expecting an attribute name. Probable cause: "=" missing immediately before.
-ERROR:html5validator.validator:From line 166, column 3; to line 166, column 36 in resource file:/Foundation/Services/home.pml.html
-ERROR:html5validator.validator:Error: Quote """ in attribute name. Probable cause: Matching quote missing somewhere earlier.
-ERROR:html5validator.validator:From line 166, column 3; to line 166, column 49 in resource file:/Foundation/Services/home.pml.html
-ERROR:html5validator.validator:Error: Attribute ""padding:15px"" not allowed on element "table" at this point.
-ERROR:html5validator.validator:From line 166, column 3; to line 166, column 50 in resource file:/Foundation/Services/home.pml.html
-ERROR:html5validator.validator:Error: Saw """ when expecting an attribute name. Probable cause: "=" missing immediately before.
-ERROR:html5validator.validator:From line 166, column 3; to line 166, column 36 in resource file:/Foundation/Services/index.html
-ERROR:html5validator.validator:Error: Quote """ in attribute name. Probable cause: Matching quote missing somewhere earlier.
-ERROR:html5validator.validator:From line 166, column 3; to line 166, column 49 in resource file:/Foundation/Services/index.html
-ERROR:html5validator.validator:Error: Attribute ""padding:15px"" not allowed on element "table" at this point.
-ERROR:html5validator.validator:From line 166, column 3; to line 166, column 50 in resource file:/Foundation/Services/index.html
-ERROR:html5validator.validator:Document checking completed.
 </p></body></html>
