@@ -1,21 +1,21 @@
 <html><body><p>
 ERROR:html5validator.validator:Error: Element "ul" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 207, column 3; to line 207, column 6 in resource file:/Foundation/Services/dornerworks.pml.html
+ERROR:html5validator.validator:From line 173, column 3; to line 173, column 6 in resource file:/Foundation/Services/dornerworks.pml.html
 ERROR:html5validator.validator:Error: No "li" element in scope but a "li" end tag seen.
-ERROR:html5validator.validator:From line 208, column 1; to line 208, column 5 in resource file:/Foundation/Services/dornerworks.pml.html
+ERROR:html5validator.validator:From line 174, column 1; to line 174, column 5 in resource file:/Foundation/Services/dornerworks.pml.html
 ERROR:html5validator.validator:Error: Element "h2" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 229, column 1; to line 229, column 4 in resource file:/Foundation/Services/dornerworks.pml.html
+ERROR:html5validator.validator:From line 195, column 1; to line 195, column 4 in resource file:/Foundation/Services/dornerworks.pml.html
 ERROR:html5validator.validator:Error: Element "ul" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 231, column 1; to line 231, column 4 in resource file:/Foundation/Services/dornerworks.pml.html
+ERROR:html5validator.validator:From line 197, column 1; to line 197, column 4 in resource file:/Foundation/Services/dornerworks.pml.html
 ERROR:html5validator.validator:Error: Element "h2" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 239, column 1; to line 239, column 4 in resource file:/Foundation/Services/dornerworks.pml.html
+ERROR:html5validator.validator:From line 205, column 1; to line 205, column 4 in resource file:/Foundation/Services/dornerworks.pml.html
 ERROR:html5validator.validator:Error: Element "p" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-ERROR:html5validator.validator:From line 241, column 1; to line 241, column 3 in resource file:/Foundation/Services/dornerworks.pml.html
+ERROR:html5validator.validator:From line 207, column 1; to line 207, column 3 in resource file:/Foundation/Services/dornerworks.pml.html
 ERROR:html5validator.validator:Error: End tag "div" seen, but there were open elements.
-ERROR:html5validator.validator:From line 251, column 1; to line 251, column 6 in resource file:/Foundation/Services/dornerworks.pml.html
+ERROR:html5validator.validator:From line 217, column 1; to line 217, column 6 in resource file:/Foundation/Services/dornerworks.pml.html
 ERROR:html5validator.validator:Error: Unclosed element "ul".
-ERROR:html5validator.validator:From line 204, column 3; to line 204, column 6 in resource file:/Foundation/Services/dornerworks.pml.html
+ERROR:html5validator.validator:From line 170, column 3; to line 170, column 6 in resource file:/Foundation/Services/dornerworks.pml.html
 ERROR:html5validator.validator:Error: Unclosed element "ul".
-ERROR:html5validator.validator:From line 201, column 1; to line 201, column 4 in resource file:/Foundation/Services/dornerworks.pml.html
+ERROR:html5validator.validator:From line 167, column 1; to line 167, column 4 in resource file:/Foundation/Services/dornerworks.pml.html
 ERROR:html5validator.validator:Document checking completed.
 </p></body></html>
