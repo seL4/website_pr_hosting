@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Governance | seL4</title>
+    <meta name="author" content="CSIRO's Data61" />
+    <link href="https://sel4.systems/Foundation/Board/home.pml" rel=canonical />
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/sel4.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../images/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../images/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="../images/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="../images/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../images/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="../images/icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="../images/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="../images/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../images/icons/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/images/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/images/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/images/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/images/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/images/icons/mstile-310x310.png" />
+    <link rel="shortcut icon" href="../images/icons/favicon.ico" />
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-117737473-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+
+
+
+
+
+<!-- Production template -->
+  </head>
+  <body>
+
+
+<div class="container">
+  <div class="header" id="site-header" role="navigation" >
+    <ul class="nav-pills nav pull-right" id="site-navigation">
+      
+
+
+<!-- /Foundation/Board/ -->
+<li>
+
+<a href='../index.html'>Home</a></li>
+<!-- /Foundation/Board/ - /About/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../About/index.html">What is seL4? <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../About/index.html">What is seL4?</a></li>
+<li class=""><a href="http://localhost/About/Performance/">Performance</a></li>
+<li class=""><a href="../About/seL4-whitepaper.pdf">Whitepaper</a></li></ul></li>
+<!-- /Foundation/Board/ - /Foundation/ -->
+<li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="index.html">seL4 Foundation <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="About.html">About the seL4 Foundation</a></li>
+<li class=""><a href="Governance/index.html">Governance</a></li>
+<li class="active"><a href="Board.html">Governing Board</a></li>
+<!-- /Foundation/Board/ - /Foundation/TSC/ -->
+<li class=""><a href="TSC/index.html">TSC</a></li>
+<!-- /Foundation/Board/ - /Foundation/Membership/ -->
+<li class=""><a href="Membership.html">Membership</a></li>
+<li class=""><a href="Join.html">Join the Foundation now!</a></li>
+<li class=""><a href="Support/index.html">Support Us</a></li>
+<li class=""><a href="Trademark/index.html">Trademark</a></li>
+<li class=""><a href="Contact.html">Contact the seL4 Foundation</a></li>
+<!-- /Foundation/Board/ - /Foundation/Services/ -->
+<li class=""><a href="Services/index.html">Services</a></li></ul></li>
+<li class=""><a href="../contact.html">Stay in Touch</a></li>
+<!-- /Foundation/Board/ - /Contribute/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../Contribute.html">Contribute <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../Contribute.html">Contribute</a></li>
+<li class=""><a href="https://github.com/seL4">GitHub</a></li></ul></li>
+<li class=""><a href="../Use.html">Use</a></li>
+<li class=""><a href="../Learn.html">Learn</a></li>
+<!-- /Foundation/Board/ - /Info/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../Info/index.html">More Info <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../Info/index.html">More Info</a></li>
+<li class=""><a href="https://docs.sel4.systems/projects/sel4/frequently-asked-questions.html">FAQ</a></li>
+<li class=""><a href="https://docs.sel4.systems/projects/roadmap.html">Roadmap</a></li>
+<li class=""><a href="https://ts.data61.csiro.au/">Research</a></li></ul></li>
+         </ul>
+        <!-- END: Menu -->
+    </div>
+</div>
+<div class="container"> <!-- container -->
+  <div class="row"> <!-- Breadcrumbs -->
+<!-- seL4 Foundation, /Foundation/ -->
+<!-- Governing Board, /Foundation/Board/ -->
+<!-- Home, /Foundation/Board/home.pml -->
+<ol class="breadcrumb">
+<li class=""><a href="../index.html">Home</a>
+<li class="">
+<a href="index.html">seL4 Foundation</a></li>
+<li class="">
+<a href="Board.html">Governing Board</a></li></ol>
+    </div> <!-- Breadcrumbs -->
+
+    <a href='../index.html'><img style="width:20%; padding-top:5px; vertical-align:top;float:right; margin:10px;"
+                     src='../images/sel4-foundation-logo.svg' alt='seL4 foundation logo' />
+    </a>
+
+        <!--<title>Governance</title>-->
+<!--
+    Copyright 2020 seL4 Project a Series of LF Projects, LLC.
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h1>Governing Board</h1>
+<div>
+  <p>
+    The Governing Board of the <a title="seL4 Foundation"
+				  href="About.html">seL4 Foundation</a> consists of representatives
+    appointed by Premium Members, a representative elected by General
+    Members, and the Chair of the Technical Steering Committee.
+  </p>
+  <p>
+    The Governing Board meetings are normally held in private,
+    i.e. attended by Governing Board Representatives only, although
+    the Governing Board may invite others to participate. However, the
+    Governing Board meeting minutes, budgets etc. are <a title="seL4
+    Board public documents"
+    href="https://drive.google.com/open?id=1zAEOipcY_KMDxgEGtO6SyD2g9Ve2NOoP">publicly
+    accessible</a>.
+  </p>
+</div>
+
+<h2>The present Governing Board</h2>
+
+<p>
+  Until a sufficient number of members are signed up, the Foundation
+  has an interim Governing Board appointed by
+  <a title="Trustworthy Systems"
+  href="https://trustworthy.systems/">Trustworthy Systems</a> (TS).
+</p>
+
+<h3>Chair</h3>
+<div class="governing-container">
+  <div class="governing-item-pic">
+    <a href="Board/TS-Gernot.jpg"><img src="Board/TS-Gernot-s.jpg" alt="Gernot Heiser" width="80" /></a>
+  </div>
+  <div class="governing-item-heading">
+    <strong>
+      <a class="list_link" href="https://trustworthy.systems/people/?cn=Gernot+Heiser">Gernot Heiser</a></strong>
+    <span class="person_title_col"><em>Technology
+    Evangelist, <a title="TS"
+    href="http://ts.data61.csiro.au/">Trustworthy Systems</a>, CSIRO's
+    Data61</em></span>
+  </div>
+  <div class="governing-item-text">
+    <p>
+      Gernot is the Founder of TS. He is also Scientia Professor and
+      John Lions Chair of Operating Systems
+      at <a href="https://unsw.edu.au/">UNSW Sydney</a>, where he has
+      been teaching operating systems and leading research on L4
+      microkernels for more than 25 years. Besides that, his focus is on
+      transferring TS technology to the real world. He was the founder
+      and CTO of Open Kernel Labs and is presently serving as Chief
+      Scientist (Software)
+      at <a href="https://www.hensoldt-cyber.com/">HENSOLDT
+	Cyber</a>. Gernot holds a PhD from ETH Zurich and is a Fellow of
+      the <a href="https://acm.org/">ACM</a>,
+      the <a href="https://ieee.org/">IEEE</a> and
+      the <a href="https://atse.org.au/">Australian Academy of Technology
+	and Engineering</a> (ATSE).
+    </p>
+  </div>
+</div>
+
+<h3>Treasurer</h3>
+<div class="governing-container">
+  <div class="governing-item-pic">
+    <a href="Board/Ghost-Dan.jpg"><img src="Board/Ghost-Dan-s.jpg" alt="Dan Potts" width="80" /></a>
+  </div>
+  <div class="governing-item-heading">
+    <strong><a href="https://www.linkedin.com/in/daniel-potts-725142/"
+    class='list_link'>Dan Potts</a></strong>
+    <span class="person_title_col"><em>Engineering Director, <a href="https://gh.st/">Ghost
+    Locomotion</a></em></span>
+  </div>
+  <div class="governing-item-text">
+    <p>
+      Dan leads software engineering at Ghost Locomotion Inc., a
+      California-based company which is converting cars to drive
+      themselves, using seL4 to keep them safe. He formerly served as
+      CEO of Cog Systems and before that as VP Engineering of Open
+      Kernel Labs. He holds a PhD
+      from <a href="https://unsw.edu.au/">UNSW Sydney</a>.</p>
+  </div>
+</div>
+
+<h3>Representatives</h3>
+
+<div class="governing-container">
+  <div class="governing-item-pic">
+    <a href="Board/TS-June.jpg"><img src="Board/TS-June-s.jpg" alt="June Andronick" width="80" /></a>
+  </div>
+  <div class="governing-item-heading">
+    <strong>
+      <a class="list_link"
+	 href="https://trustworthy.systems/people/?cn=June+Andronick">June
+	Andronick</a>
+    </strong>
+    <span class="person_title_col">
+      <em>Leader, <a title="TS"
+      href="http://ts.data61.csiro.au/">Trustworthy Systems</a>,
+      CSIRO's Data61</em>
+    </span>
+  </div>
+  <div class="governing-item-text">
+    <p>
+      June leads the TS group and was a core contributor to seL4's
+      verification story, as well as verification work on the eChronos
+      RTOS. She holds a PhD
+      from <a href="https://www.universite-paris-saclay.fr/en">Paris-Saclay
+      University</a>. In 2011 she was recognised by MIT Tech Review as
+      a <a href="http://www2.technologyreview.com/tr35/profile.aspx?trid=1114">Top
+	Innovator under 35</a>.
+    </p>
+  </div>
+</div>
+
+<div class="governing-container">
+  <div class="governing-item-pic">
+    <a href="Board/HC-Sascha.jpg"><img src="Board/HC-Sascha-s.jpg" alt="Sascha Kegrei&szlig;" width="80" /></a>
+  </div>
+  <div class="governing-item-heading">
+    <strong><a href="https://www.linkedin.com/in/sascha-kegreiß-7b9883b5/" class='list_link'>Sascha Kegrei&szlig;</a></strong> <span class="person_title_col"><em>CTO, <a href="https://www.hensoldt-cyber.com/">HENSOLDT Cyber</a></em></span>
+  </div>
+  <div class="governing-item-text">
+    <p>
+      Sascha leads product design and development as well as business
+      development at HENSOLDT Cyber GmbH, a Munich-based company which
+      develops embedded IT products that meet the highest security
+      requirements, combining an operating system based on verified seL4
+      with a RISC-V processor that is protected from supply-chain
+      attacks.
+    </p>
+  </div>
+</div>
+
+<div class="governing-container">
+  <div class="governing-item-pic">
+    <a href="Board/TS-Gerwin.jpg"><img src="Board/TS-Gerwin-s.jpg" alt="Gerwin
+    Klein" width="80" /></a>
+  </div>
+  <div class="governing-item-heading">
+    <strong><a class="list_link"
+    href="https://trustworthy.systems/people/?cn=Gerwin+Klein">Gerwin
+    Klein</a></strong> <span class="person_title_col"><em>Chief
+    Scientist, <a title="TS"
+    href="http://ts.data61.csiro.au/">Trustworthy Systems</a>, CSIRO's
+    Data61</em></span>
+  </div>
+  <div class="governing-item-text">
+    <p>
+      Gerwin leads research at TS, and is the team's formal
+      verification guru. He spends much of his time deep in the proofs
+      about seL4 and contributes to other verification research in
+      TS. He holds a PhD from <a href="https://www.tum.de/">TU
+      Munich</a> and led the original seL4 verification, which won the
+      MIT-TR10 award for the top 10 emerging technologies in 2011, as
+      well as the <a href="https://www.sigops.org/awards/hof/">SIGOPS
+      Hall-of-Fame award</a> in 2019.</p>
+  </div>
+</div>
+
+<div class="governing-container">
+  <div class="governing-item-pic">
+    <a href="Board/Galois-John.jpg"><img src="Board/Galois-John-s.jpg" alt="John
+    Launchbury" width="80" /></a>
+  </div>
+  <div class="governing-item-heading">
+    <strong><a class="list_link"
+    href="https://en.wikipedia.org/wiki/John_Launchbury">John
+    Launchbury</a></strong> <span class="person_title_col"><em>Chief
+    Scientist, <a href="https://galois.com/">Galois</a></em></span>
+  </div>
+  <div class="governing-item-text">
+    <p>
+      John is Founder and Chief Scientist at Oregon-based Galois, Inc,
+      a company employing functional programming and formal
+      verification techniques to produce cyber-hardened products. He
+      is also founder and CTO
+      of <a href="https://tangramflex.com/">Tangram Flex</a>, a
+      Dayton-based company developing tools for cyber-retrofitting
+      security-critical systems. From 2014&ndash;17 he was Program
+      Manager and then Director of the Information Innovation Office
+      (I2O) at <a href="https://www.darpa.mil/">DARPA</a>. He holds a PhD
+      from <a href="https://www.gla.ac.uk/">Glasgow</a> and is a
+      Fellow of the <a href="https://acm.org/">ACM</a>.</p>
+  </div>
+</div>
+
+<h2>Board Committees</h2>
+
+<h3>Compliance Committee</h3>
+
+<p>The compliance committee proposes rules and licensing conditions for the seL4 trademark, and develops certification schemes. These will undergo a consultation period with members before approval by the Board.</p>
+
+<p>Its present members are:</p>
+<ul>
+  <li>Gerwin Klein</li>
+  <li>Daniel Potts</li>
+</ul>
+
+<h3>Outreach Committee</h3>
+
+<p>The Outreach Committee is in charge of expanding the membership. It develops material for supporting membership recruitment. Members of the committee will work closely with existing members to make best use of their networks for strategic recruitment of members.</p>
+
+<p>Its present members are:</p>
+<ul>
+  <li>Gernot Heiser</li>
+  <li> John Launchbury</li>
+  <li>Daniel Potts</li>
+</ul>
+
+	<div class="divider"></div>
+</div><!-- container -->
+
+<footer class="page-footer small pt-3" id="footer" > <!-- footer -->
+  <hr class="bottom-ruler">
+  <div  class="footer-copyright text-center py-3">
+    Copyright &copy; 2020  seL4 Project a Series of LF Projects, LLC.<br/>
+      seL4 is a trademark of LF Projects, LLC.<br/>
+      For trademark usage guidelines, privacy and cookie policies,
+      and other applicable policies, as well as terms and conditions
+      governing this web site, please see
+      <a href="http://www.lfprojects.org/">www.lfprojects.org</a>
+      and the <a href="Trademark/index.html">trademark guidelines</a>.
+  </div>
+
+</footer> <!-- footer -->
+<!-- wrapper -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
