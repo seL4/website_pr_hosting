@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>seL4 | Foundation/Services/dornerworks.pml</title>
+    <title>DornerWorks | seL4</title>
     <meta name="author" content="CSIRO's Data61" />
     <link href="https://sel4.systems/Foundation/Services/dornerworks.pml" rel=canonical />
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -121,7 +121,7 @@ Dornerworks</li></ol>
                      src='../../images/sel4-foundation-logo.svg' alt='seL4 foundation logo' />
     </a>
 
-        <!--title "DornerWorks"-->
+        <!--<title>DornerWorks</title>-->
 <!--
     Copyright 2020 seL4 Project a Series of LF Projects, LLC.
     SPDX-License-Identifier: CC-BY-SA-4.0
