@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>seL4 | Foundation/Services/dornerworks.pml</title>
+    <title>DornerWorks | seL4</title>
     <meta name="author" content="CSIRO's Data61" />
     <link href="https://sel4.systems/Foundation/Services/dornerworks.pml" rel=canonical />
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -83,8 +83,7 @@
 <li class=""><a href="../Support/index.html">Support Us</a></li>
 <li class=""><a href="../Trademark/index.html">Trademark</a></li>
 <li class=""><a href="../Contact.html">Contact the seL4 Foundation</a></li>
-<!-- /Foundation/Services/ - /Foundation/Services/ -->
-<li class=""><a href="index.html">Services</a></li></ul></li>
+<li class="active"><a href="index.html">Services</a></li></ul></li>
 <li class=""><a href="../../contact.html">Stay in Touch</a></li>
 <!-- /Foundation/Services/ - /Contribute/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../Contribute.html">Contribute <span class="caret"></span></a>
@@ -121,7 +120,7 @@ Dornerworks</li></ol>
                      src='../../images/sel4-foundation-logo.svg' alt='seL4 foundation logo' />
     </a>
 
-        <!--title "DornerWorks"-->
+        <!--<title>DornerWorks</title>-->
 <!--
     Copyright 2020 seL4 Project a Series of LF Projects, LLC.
     SPDX-License-Identifier: CC-BY-SA-4.0
@@ -144,7 +143,7 @@ A <a href="home.pml.html">Trusted Service Provider</a> for seL4-based systems
       <td>
 
          DornerWorks helps product makers turn their ideas into
-         realitywith FPGA, hardware, and embedded software engineering
+         reality with FPGA, hardware, and embedded software engineering
          expertise. We accelerate your product development and lower
          risk for adopting advanced technologies. One of our
          specialties is seL4 microkernel-based
@@ -175,7 +174,10 @@ A <a href="home.pml.html">Trusted Service Provider</a> for seL4-based systems
   </ul>
 </li>
 <li>
-  Guest OS and hardware portingVirtualization and hypervisor distributions
+  Guest OS and hardware porting
+</li>
+<li>
+  Virtualization and hypervisor distributions
 </li>
 <li>
   FPGA platforms
