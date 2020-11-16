@@ -80,10 +80,10 @@
 <!-- /Foundation/Services/ - /Foundation/Membership/ -->
 <li class=""><a href="../Membership.html">Membership</a></li>
 <li class=""><a href="../Join.html">Join the Foundation now!</a></li>
+<li class="active"><a href="index.html">Services, Training and Products</a></li>
 <li class=""><a href="../Support/index.html">Support Us</a></li>
 <li class=""><a href="../Trademark/index.html">Trademark</a></li>
-<li class=""><a href="../Contact.html">Contact the seL4 Foundation</a></li>
-<li class="active"><a href="index.html">Services</a></li></ul></li>
+<li class=""><a href="../Contact.html">Contact the seL4 Foundation</a></li></ul></li>
 <li class=""><a href="../../contact.html">Stay in Touch</a></li>
 <!-- /Foundation/Services/ - /Contribute/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../Contribute.html">Contribute <span class="caret"></span></a>
@@ -104,14 +104,14 @@
 <div class="container"> <!-- container -->
   <div class="row"> <!-- Breadcrumbs -->
 <!-- seL4 Foundation, /Foundation/ -->
-<!-- Services, /Foundation/Services/ -->
+<!-- Services, Training and Products, /Foundation/Services/ -->
 <!-- Home, /Foundation/Services/home.pml -->
 <ol class="breadcrumb">
 <li class=""><a href="../../index.html">Home</a>
 <li class="">
 <a href="../index.html">seL4 Foundation</a></li>
 <li class="">
-<a href="index.html">Services</a></li></ol>
+<a href="index.html">Services, Training and Products</a></li></ol>
     </div> <!-- Breadcrumbs -->
 
     <a href='../../index.html'><img style="width:20%; padding-top:5px; vertical-align:top;float:right; margin:10px;"
@@ -239,29 +239,38 @@
 
   <h2>Training</h2>
   <p style="margin-left: 20px">
-  No training has been endorsed or certified at this stage.<br>
-  <span class=emph>Consider adding yours!</span> <br>
-  See process  <a href="endorsement.pml.html">here</a>.
-  </p>
-  <!--
-  <table>
-    <tr>
-      <td>
-	<a href="https://acme.com">
-	  <img src="http://clipart-library.com/images/ki85ybA7T.jpg" style="width: 200px" alt="SailOS">
-	</a>
-      </td>
-      <td>
-	<strong>SnailOS</strong><br/> Is a highly secure OS based on
-	cutting-edge time-dilation technology developed and marketed
-	by <a href="https://acme.com">SlugCorp</a>. It supports
-	embedded systems using Arm and RISC-V processors.<br/>
-	<span class=emph>SnailOS is provisionally endorsed on Arm
-	A59-based Rubik's Cubes.</span>
-      </td>
-    </tr>
-  </table>
-  -->
+  <ul>
+  <li> <strong>AOS</strong>
+    <ul>
+    <li>
+     AOS is UNSW’s Advanced Operating Systems course, given since
+     1997, and now based on seL4 and with recorded lectures.
+    </li>
+    <li>
+     <span class=emph>AOS has received <em>interim endorsement</em> as
+     an seL4 training.</span>
+    </li>
+    <li>
+
+    The lecture slides, and links to lecture recordings on YouTube are
+    available at <a
+    href="https://www.cse.unsw.edu.au/~cs9242/20/lectures.shtml">https://www.cse.unsw.edu.au/~cs9242/20/lectures.shtml</a>.
+    </li>
+    <li>
+
+    The project specifications for the hands-on component are at <a
+    href="https://www.cse.unsw.edu.au/~cs9242/20/project/index.shtml">https://www.cse.unsw.edu.au/~cs9242/20/project/index.shtml</a>
+
+    </li>
+    <li>
+
+    The source code for the project is on GitHub: <a
+    href="https://github.com/SEL4PROJ/AOS-manifest">https://github.com/SEL4PROJ/AOS-manifest</a>
+
+   </li>
+    </ul>
+  </li>
+  </ul>
 
   <h2>Products</h2>
   <p style="margin-left: 20px">
@@ -269,25 +278,6 @@
   <span class=emph>Consider adding yours!</span> <br>
   See process  <a href="endorsement.pml.html">here</a>.
   </p>
- <!--
-  <table>
-    <tr>
-      <td>
-	<a href="https://acme.com">
-	  <img src="http://clipart-library.com/images/ki85ybA7T.jpg" style="width: 200px" alt="SailOS">
-	</a>
-      </td>
-      <td>
-	<strong>SnailOS</strong><br/> Is a highly secure OS based on
-	cutting-edge time-dilation technology developed and marketed
-	by <a href="https://acme.com">SlugCorp</a>. It supports
-	embedded systems using Arm and RISC-V processors.<br/>
-	<span class=emph>SnailOS is provisionally endorsed on Arm
-	A59-based Rubik's Cubes.</span>
-      </td>
-    </tr>
-  </table>
--->
 
 
 
