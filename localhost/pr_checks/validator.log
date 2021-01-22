@@ -1,0 +1,7 @@
+<html><body><p>
+ERROR:html5validator.validator:Error: End tag for  "body" seen, but there were unclosed elements.
+ERROR:html5validator.validator:From line 219, column 1; to line 219, column 7 in resource file:/news.pml.html
+ERROR:html5validator.validator:Error: Unclosed element "div".
+ERROR:html5validator.validator:From line 102, column 1; to line 102, column 23 in resource file:/news.pml.html
+ERROR:html5validator.validator:Document checking completed.
+</p></body></html>
