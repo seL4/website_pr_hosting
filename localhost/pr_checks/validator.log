@@ -1,0 +1,11 @@
+<html><body><p>
+ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
+ERROR:html5validator.validator:From line 185, column 1; to line 185, column 4 in resource file:/news.pml.html
+ERROR:html5validator.validator:Error: The "center" element is obsolete. Use CSS instead.
+ERROR:html5validator.validator:From line 187, column 1; to line 187, column 8 in resource file:/news.pml.html
+ERROR:html5validator.validator:Error: CSS: "align": Property "align" doesn't exist.
+ERROR:html5validator.validator:From line 190, column 4; to line 192, column 26 in resource file:/news.pml.html
+ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
+ERROR:html5validator.validator:From line 205, column 1; to line 205, column 4 in resource file:/news.pml.html
+ERROR:html5validator.validator:Document checking completed.
+</p></body></html>
