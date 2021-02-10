@@ -1,5 +1,2 @@
 <html><body><p>
-ERROR:html5validator.validator:Error: No "p" element in scope but a "p" end tag seen.
-ERROR:html5validator.validator:From line 185, column 1; to line 185, column 4 in resource file:/news.pml.html
-ERROR:html5validator.validator:Document checking completed.
 </p></body></html>
