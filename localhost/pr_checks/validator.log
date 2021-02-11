@@ -1,0 +1,15 @@
+<html><body><p>
+ERROR:html5validator.validator:Error: No space between attributes.
+ERROR:html5validator.validator:From line 216, column 9; to line 216, column 32 in resource file:/Foundation/Join.html
+ERROR:html5validator.validator:Error: Saw """ when expecting an attribute name. Probable cause: "=" missing immediately before.
+ERROR:html5validator.validator:From line 216, column 9; to line 216, column 32 in resource file:/Foundation/Join.html
+ERROR:html5validator.validator:Error: Attribute """ not allowed on element "div" at this point.
+ERROR:html5validator.validator:From line 216, column 9; to line 216, column 33 in resource file:/Foundation/Join.html
+ERROR:html5validator.validator:Error: No space between attributes.
+ERROR:html5validator.validator:From line 216, column 9; to line 216, column 32 in resource file:/Foundation/Join/index.html
+ERROR:html5validator.validator:Error: Saw """ when expecting an attribute name. Probable cause: "=" missing immediately before.
+ERROR:html5validator.validator:From line 216, column 9; to line 216, column 32 in resource file:/Foundation/Join/index.html
+ERROR:html5validator.validator:Error: Attribute """ not allowed on element "div" at this point.
+ERROR:html5validator.validator:From line 216, column 9; to line 216, column 33 in resource file:/Foundation/Join/index.html
+ERROR:html5validator.validator:Document checking completed.
+</p></body></html>
