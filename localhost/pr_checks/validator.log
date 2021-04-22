@@ -1,0 +1,11 @@
+<html><body><p>
+ERROR:html5validator.validator:Error: Element "strong" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+ERROR:html5validator.validator:From line 148, column 9; to line 148, column 16 in resource file:/home.pml.html
+ERROR:html5validator.validator:Error: No "li" element in scope but a "li" end tag seen.
+ERROR:html5validator.validator:From line 150, column 7; to line 150, column 11 in resource file:/home.pml.html
+ERROR:html5validator.validator:Error: Element "strong" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+ERROR:html5validator.validator:From line 148, column 9; to line 148, column 16 in resource file:/index.html
+ERROR:html5validator.validator:Error: No "li" element in scope but a "li" end tag seen.
+ERROR:html5validator.validator:From line 150, column 7; to line 150, column 11 in resource file:/index.html
+ERROR:html5validator.validator:Document checking completed.
+</p></body></html>
