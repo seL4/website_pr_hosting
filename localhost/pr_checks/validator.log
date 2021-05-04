@@ -1,15 +1,2 @@
 <html><body><p>
-Error: Saw """ when expecting an attribute name. Probable cause: "=" missing immediately before.
-From line 164, column 4; to line 164, column 7 in resource file:/news.pml.html
-Error: A slash was not immediately followed by ">".
-From line 164, column 4; to line 164, column 15 in resource file:/news.pml.html
-Error: A slash was not immediately followed by ">".
-From line 164, column 4; to line 164, column 16 in resource file:/news.pml.html
-Error: Quote """ in attribute name. Probable cause: Matching quote missing somewhere earlier.
-From line 164, column 4; to line 164, column 25 in resource file:/news.pml.html
-Error: Attribute ""https:" not allowed on element "a" at this point.
-From line 164, column 4; to line 164, column 26 in resource file:/news.pml.html
-Error: Attribute "riscv.org"" not allowed on element "a" at this point.
-From line 164, column 4; to line 164, column 26 in resource file:/news.pml.html
-Document checking completed.
 </p></body></html>
