@@ -1,0 +1,25 @@
+<html><body><p>
+Error: A slash was not immediately followed by ">".
+From line 164, column 4; to line 164, column 14 in resource file:/news.pml.html
+Error: A slash was not immediately followed by ">".
+From line 164, column 4; to line 164, column 15 in resource file:/news.pml.html
+Error: Quote """ in attribute name. Probable cause: Matching quote missing somewhere earlier.
+From line 164, column 4; to line 164, column 24 in resource file:/news.pml.html
+Error: Attribute "https:" not allowed on element "a" at this point.
+From line 164, column 4; to line 164, column 25 in resource file:/news.pml.html
+Error: Attribute "riscv.org"" not allowed on element "a" at this point.
+From line 164, column 4; to line 164, column 25 in resource file:/news.pml.html
+Error: No space between attributes.
+From line 168, column 24; to line 168, column 34 in resource file:/news.pml.html
+Error: A slash was not immediately followed by ">".
+From line 168, column 24; to line 168, column 41 in resource file:/news.pml.html
+Error: A slash was not immediately followed by ">".
+From line 168, column 24; to line 168, column 42 in resource file:/news.pml.html
+Error: Quote """ in attribute name. Probable cause: Matching quote missing somewhere earlier.
+From line 168, column 24; to line 168, column 60 in resource file:/news.pml.html
+Error: Attribute "https:" not allowed on element "a" at this point.
+From line 168, column 24; to line 168, column 61 in resource file:/news.pml.html
+Error: Attribute "hensoldt-cyber.com"" not allowed on element "a" at this point.
+From line 168, column 24; to line 168, column 61 in resource file:/news.pml.html
+Document checking completed.
+</p></body></html>
