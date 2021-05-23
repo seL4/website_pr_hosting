@@ -1,5 +1,7 @@
 <html><body><p>
-Error: Stray end tag "div".
-From line 241, column 1; to line 241, column 6 in resource file:/Foundation/Support/index.html
+Error: End tag for  "body" seen, but there were unclosed elements.
+From line 254, column 1; to line 254, column 7 in resource file:/Foundation/Support/index.html
+Error: Unclosed element "div".
+From line 106, column 1; to line 106, column 23 in resource file:/Foundation/Support/index.html
 Document checking completed.
 </p></body></html>
