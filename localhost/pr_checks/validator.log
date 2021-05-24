@@ -1,0 +1,63 @@
+<html><body><p>
+Error: End tag "li" seen, but there were open elements.
+From line 144, column 7; to line 144, column 11 in resource file:/home.pml.html
+Error: Unclosed element "strong".
+From line 142, column 9; to line 142, column 16 in resource file:/home.pml.html
+Error: Element "strong" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+From line 144, column 12; to line 145, column 6 in resource file:/home.pml.html
+Error: End tag "ul" seen, but there were open elements.
+From line 156, column 5; to line 156, column 9 in resource file:/home.pml.html
+Error: End tag "div" seen, but there were open elements.
+From line 157, column 3; to line 157, column 8 in resource file:/home.pml.html
+Error: End tag "div" seen, but there were open elements.
+From line 158, column 1; to line 158, column 6 in resource file:/home.pml.html
+Error: End tag "div" seen, but there were open elements.
+From line 159, column 1; to line 159, column 6 in resource file:/home.pml.html
+Error: End tag "a" violates nesting rules.
+From line 160, column 1; to line 160, column 4 in resource file:/home.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 162, column 1; to line 162, column 27 in resource file:/home.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 380, column 2; to line 380, column 22 in resource file:/home.pml.html
+Error: End tag "div" seen, but there were open elements.
+From line 381, column 1; to line 381, column 6 in resource file:/home.pml.html
+Error: Element "footer" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 383, column 1; to line 383, column 52 in resource file:/home.pml.html
+Error: End tag for  "body" seen, but there were unclosed elements.
+From line 399, column 1; to line 399, column 7 in resource file:/home.pml.html
+Error: End tag "li" seen, but there were open elements.
+From line 144, column 7; to line 144, column 11 in resource file:/index.html
+Error: Unclosed element "strong".
+From line 142, column 9; to line 142, column 16 in resource file:/index.html
+Error: Element "strong" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+From line 144, column 12; to line 145, column 6 in resource file:/index.html
+Error: End tag "ul" seen, but there were open elements.
+From line 156, column 5; to line 156, column 9 in resource file:/index.html
+Error: End tag "div" seen, but there were open elements.
+From line 157, column 3; to line 157, column 8 in resource file:/index.html
+Error: End tag "div" seen, but there were open elements.
+From line 158, column 1; to line 158, column 6 in resource file:/index.html
+Error: End tag "div" seen, but there were open elements.
+From line 159, column 1; to line 159, column 6 in resource file:/index.html
+Error: End tag "a" violates nesting rules.
+From line 160, column 1; to line 160, column 4 in resource file:/index.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 162, column 1; to line 162, column 27 in resource file:/index.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 380, column 2; to line 380, column 22 in resource file:/index.html
+Error: End tag "div" seen, but there were open elements.
+From line 381, column 1; to line 381, column 6 in resource file:/index.html
+Error: Element "footer" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 383, column 1; to line 383, column 52 in resource file:/index.html
+Error: End tag for  "body" seen, but there were unclosed elements.
+From line 399, column 1; to line 399, column 7 in resource file:/index.html
+Error: End tag "br".
+From line 199, column 29; to line 199, column 33 in resource file:/news.pml.html
+Error: End tag "br".
+From line 202, column 82; to line 202, column 86 in resource file:/news.pml.html
+Error: End tag "br".
+From line 204, column 199; to line 204, column 203 in resource file:/news.pml.html
+Error: End tag "br".
+From line 222, column 60; to line 222, column 64 in resource file:/news.pml.html
+Document checking completed.
+</p></body></html>
