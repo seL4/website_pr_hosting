@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cog | seL4</title>
+    <meta name="author" content="CSIRO's Data61" />
+    
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/sel4.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../images/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../../images/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../../images/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../../images/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="../../images/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="../../images/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../../images/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="../../images/icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="../../images/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="../../images/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../../images/icons/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/images/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/images/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/images/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/images/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/images/icons/mstile-310x310.png" />
+    <link rel="shortcut icon" href="../../images/icons/favicon.ico" />
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-117737473-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+
+
+
+
+
+<!-- Production template -->
+  </head>
+  <body>
+
+
+<div class="container">
+  <div class="header" id="site-header" role="navigation" >
+    <ul class="nav-pills nav pull-right" id="site-navigation">
+      
+
+
+<!-- /Foundation/Services/ -->
+<li>
+
+<a href='../../index.html'>Home</a></li>
+<!-- /Foundation/Services/ - /About/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../About/index.html">What is seL4? <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../../About/index.html">What is seL4?</a></li>
+<li class=""><a href="http://localhost/About/Performance/">Performance</a></li>
+<li class=""><a href="../../About/seL4-whitepaper.pdf">Whitepaper</a></li></ul></li>
+<!-- /Foundation/Services/ - /Foundation/ -->
+<li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="../index.html">seL4 Foundation <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../About.html">About the seL4 Foundation</a></li>
+<li class=""><a href="../Governance/index.html">Governance</a></li>
+<!-- /Foundation/Services/ - /Foundation/Board/ -->
+<li class=""><a href="../Board.html">Governing Board</a></li>
+<!-- /Foundation/Services/ - /Foundation/TSC/ -->
+<li class=""><a href="../TSC/index.html">TSC</a></li>
+<!-- /Foundation/Services/ - /Foundation/Membership/ -->
+<li class=""><a href="../Membership.html">Membership</a></li>
+<li class=""><a href="../Join.html">Join the Foundation now!</a></li>
+<li class="active"><a href="../Services.html">Services, Training and Products</a></li>
+<li class=""><a href="../Support.html">Support Us</a></li>
+<li class=""><a href="../Trademark/index.html">Trademark</a></li>
+<li class=""><a href="../Jobs.html">Jobs in the seL4 ecosystem</a></li>
+<li class=""><a href="../Contact.html">Contact the seL4 Foundation</a></li></ul></li>
+<li class=""><a href="../../contact.html">Stay in Touch</a></li>
+<!-- /Foundation/Services/ - /Contribute/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../Contribute.html">Contribute <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../../Contribute.html">Contribute</a></li>
+<li class=""><a href="https://github.com/seL4">GitHub</a></li></ul></li>
+<li class=""><a href="../../Use.html">Use</a></li>
+<li class=""><a href="../../Learn.html">Learn</a></li>
+<!-- /Foundation/Services/ - /Info/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../Info/index.html">More Info <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../../Info/index.html">More Info</a></li>
+<li class=""><a href="https://docs.sel4.systems/projects/sel4/frequently-asked-questions.html">FAQ</a></li>
+<li class=""><a href="https://docs.sel4.systems/projects/roadmap.html">Roadmap</a></li>
+<li class=""><a href="https://ts.data61.csiro.au/">Research</a></li></ul></li>
+         </ul>
+        <!-- END: Menu -->
+    </div>
+</div>
+<div class="container"> <!-- container -->
+  <div class="row"> <!-- Breadcrumbs -->
+<!-- seL4 Foundation, /Foundation/ -->
+<!-- Services, Training and Products, /Foundation/Services/ -->
+<!-- Hc, /Foundation/Services/hc.pml -->
+<ol class="breadcrumb">
+<li class=""><a href="../../index.html">Home</a>
+<li class="">
+<a href="../index.html">seL4 Foundation</a></li>
+<li class="">
+<a href="../Services.html">Services, Training and Products</a></li>
+<li class="active">
+Hc</li></ol>
+    </div> <!-- Breadcrumbs -->
+
+    <a href='../../index.html'><img style="width:20%; padding-top:5px; vertical-align:top;float:right; margin:10px;"
+                     src='../../images/sel4-foundation-logo.svg' alt='seL4 foundation logo' />
+    </a>
+
+        <!--<title>Cog</title>-->
+<!--
+    Copyright 2020 seL4 Project a Series of LF Projects, LLC.
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h1>
+  HENSOLDT Cyber GmbH
+</h1>
+<h3>
+A <a href="home.pml.html">Trusted Service Provider</a> for seL4-based systems
+</h3>
+<div>
+
+
+  <table style="margin-left: 20px">
+      <tr>
+      <td style="padding:15px">
+        <a href="http://hensoldt-cyber.com/">
+          <img src="../Membership/LOGOS/HENSOLDT_Cyber.svg" style="width: 200px" alt="HENSOLDT Cyber">
+	</a>
+      </td>
+      <td>
+
+      In the development of high assurance systems with military grade
+      security, HENSOLDT Cyber works intensively with the seL4
+      microkernel. As we aim to increase the usability of seL4
+      technologies, we develop user-friendly components bundled in the
+      seL4 operating system TRENTOS, providing an easy-to-use basis
+      for the development of embedded systems.  We support our
+      customers by guiding them with our seL4 experience and improving
+      their development time by advising them on the correct
+      application of the seL4 technologies.<br>
+
+	<span class=emph>HENSOLDT Cyber GmbH has received <em>interim endorsement</em> as a Trusted
+	Service Provider for seL4-based systems.</span>
+	<ul>
+	  <li> <a href="http://hensoldt-cyber.com/">Home page</a></li>
+	</ul>
+      </td>
+    </tr>
+  </table>
+
+
+
+<h2> HENSOLDT Cyber GmbH Services</h2>
+
+<ul>
+  <li>
+  seL4 microkernel:
+    <ul>
+    <li>
+    HW selection, configuration, integration, customization
+    </li>
+    <li>
+    Virtualization of Legacy OS
+    </li>
+    </ul>
+  </li>
+  <li>
+  Userland components:
+    <ul>
+    <li>
+    (consultancy for) userland component development
+    </li>
+    <li>
+    (consultancy for) driver porting / development
+    </li>
+    </ul>
+  </li>
+  <li>
+  Security Consultancy:
+    <ul>
+    <li>
+    Create a systems view from IT Security perspective
+    </li>
+    <li>
+    Identify possible threats
+    </li>
+    <li>
+    Identify means to address identified threats
+    </li>
+    <li>
+    Support you in setting up Aviation development standards (e.g. RTCA-DO 335)
+    </li>
+    <li>
+    Support you in creating high assurance systems based on seL4
+    </li>
+    <li>
+    HW / SW Codesign
+      <ul>
+      <li>
+      Support of HW (Crypto) accelerators
+      </li>
+      <li>
+      ASIC (esp. RISC-V processors) design
+      </li>
+      </ul>
+    </li>
+    </ul>
+  </li>
+</ul>
+
+<h2> Industries</h2>
+
+<ul>
+  <li>Defense </li>
+  <li>Aerospace </li>
+  <li>Industrial </li>
+</ul>
+
+</div>
+
+	<div class="divider"></div>
+</div><!-- container -->
+
+<footer class="page-footer small pt-3" id="footer" > <!-- footer -->
+  <hr class="bottom-ruler">
+  <div  class="footer-copyright text-center py-3">
+    Copyright &copy; 2020  seL4 Project a Series of LF Projects, LLC.<br/>
+      seL4 is a trademark of LF Projects, LLC.<br/>
+      For trademark usage guidelines, privacy and cookie policies,
+      and other applicable policies, as well as terms and conditions
+      governing this web site, please see
+      <a href="http://www.lfprojects.org/">www.lfprojects.org</a>
+      and the <a href="../Trademark/index.html">trademark guidelines</a>.
+  </div>
+
+</footer> <!-- footer -->
+<!-- wrapper -->
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>
