@@ -1,0 +1,11 @@
+<html><body><p>
+Error: End tag for  "body" seen, but there were unclosed elements.
+From line 302, column 1; to line 302, column 7 in resource file:/Foundation/Membership.html
+Error: Unclosed element "div".
+From line 106, column 1; to line 106, column 23 in resource file:/Foundation/Membership.html
+Error: End tag for  "body" seen, but there were unclosed elements.
+From line 302, column 1; to line 302, column 7 in resource file:/Foundation/Membership/index.html
+Error: Unclosed element "div".
+From line 106, column 1; to line 106, column 23 in resource file:/Foundation/Membership/index.html
+Document checking completed.
+</p></body></html>
