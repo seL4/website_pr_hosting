@@ -1,0 +1,13 @@
+<html><body><p>
+Error: Stray end tag "strong".
+From line 148, column 45; to line 148, column 53 in resource file:/home.pml.html
+Error: Stray end tag "strong".
+From line 148, column 45; to line 148, column 53 in resource file:/index.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 196, column 2; to line 196, column 5 in resource file:/news.pml.html
+Error: Bad value "mailto:↩      qiyan.wang@nio.io" for attribute "href" on element "a": Illegal character in scheme data: line break is not allowed.
+From line 274, column 19; to line 275, column 25 in resource file:/Foundation/Jobs.html
+Error: Bad value "mailto:↩      qiyan.wang@nio.io" for attribute "href" on element "a": Illegal character in scheme data: line break is not allowed.
+From line 274, column 19; to line 275, column 25 in resource file:/Foundation/Jobs/index.html
+Document checking completed.
+</p></body></html>
