@@ -3,7 +3,5 @@ Error: Stray end tag "strong".
 From line 148, column 45; to line 148, column 53 in resource file:/home.pml.html
 Error: Stray end tag "strong".
 From line 148, column 45; to line 148, column 53 in resource file:/index.html
-Error: No "p" element in scope but a "p" end tag seen.
-From line 196, column 2; to line 196, column 5 in resource file:/news.pml.html
 Document checking completed.
 </p></body></html>
