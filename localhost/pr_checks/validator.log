@@ -1,0 +1,7 @@
+<html><body><p>
+Error: Bad value "https://nio..com/" for attribute "href" on element "a": Invalid host: A non-final domain name label (or the whole domain name) is empty..
+From line 271, column 184; to line 271, column 211 in resource file:/Foundation/Board.html
+Error: Bad value "https://nio..com/" for attribute "href" on element "a": Invalid host: A non-final domain name label (or the whole domain name) is empty..
+From line 271, column 184; to line 271, column 211 in resource file:/Foundation/Board/index.html
+Document checking completed.
+</p></body></html>
