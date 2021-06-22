@@ -1,11 +1,2 @@
 <html><body><p>
-Error: Element "strong" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-From line 147, column 9; to line 147, column 16 in resource file:/home.pml.html
-Error: No "li" element in scope but a "li" end tag seen.
-From line 150, column 7; to line 150, column 11 in resource file:/home.pml.html
-Error: Element "strong" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-From line 147, column 9; to line 147, column 16 in resource file:/index.html
-Error: No "li" element in scope but a "li" end tag seen.
-From line 150, column 7; to line 150, column 11 in resource file:/index.html
-Document checking completed.
 </p></body></html>
