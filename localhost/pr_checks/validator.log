@@ -1,10 +1,6 @@
 <html><body><p>
-Error: Element "container" not allowed as child of element "div" in this context. (Suppressing further errors from this subtree.)
-From line 129, column 1; to line 129, column 34 in resource file:/Foundation/Membership.html
 Error: Forbidden code point U+0007.
 At line 163, column 13 in resource file:/Foundation/Membership.html
-Error: Element "container" not allowed as child of element "div" in this context. (Suppressing further errors from this subtree.)
-From line 129, column 1; to line 129, column 34 in resource file:/Foundation/Membership/index.html
 Error: Forbidden code point U+0007.
 At line 163, column 13 in resource file:/Foundation/Membership/index.html
 Document checking completed.
