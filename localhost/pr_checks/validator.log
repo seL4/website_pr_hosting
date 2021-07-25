@@ -1,2 +1,5 @@
 <html><body><p>
+Error: Stray end tag "a".
+From line 207, column 51; to line 207, column 54 in resource file:/news.pml.html
+Document checking completed.
 </p></body></html>
