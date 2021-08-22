@@ -155,65 +155,73 @@ News</li></ol>
 <!----------------------------------------------------------->
 
 <div class="news-item">
-  28 July 2021: Proof that seL4 enforces integrity established for RISC-V
+  18 August 2021: Lotus Cars joins the seL4 Foundation
 </div>
 <div>
  <p>
-   <img src="Foundation/Membership/LOGOS/RISC-V.svg"
-   style="width: 20%;  padding-left:10px;  float:right"
-	alt="RISC-V logo">
 
-   The assurance story for <a href="https://sel4.systems">seL4</a>
-   on <a href="https://riscv.org">RISC-V</a> keeps building. We first
-   formally proved <em>functional
-   correctness</em>: <a href="https://microkerneldude.wordpress.com/2020/06/09/sel4-is-verified-on-risc-v/">that
-   the seL4 C code on RISC-V platforms behaves exactly as its
-   specification says</a>. We then established <em>binary
-   correctness</em>: <a href="https://microkerneldude.wordpress.com/2021/05/05/sel4-on-risc-v-verified-to-binary-code/">that
-   the machine code running on the processor behaves exactly as the C
-   code, and by extension, as the specification says</a>. We now have
-   established the crucial <strong>integrity</strong> property for
-   seL4 on RISC-V: that the specification, and by extension the kernel
-   binary, prevents an application running on top from modifying data
-   without authorisation. In seL4 speak: seL4 provably enforces
-   capability-based access control.
+   <img src="Foundation/Membership/LOGOS/LotusCarsTechnology.svg"
+        style="width: 15%;  padding-left:10px;  float:right"
+        alt="Lotus Cars logo">
+
+   The seL4 Foundation
+   welcomes <a href="https://www.lotuscars.com/">Lotus Cars</a>.
  </p>
 
  <p>
-   &ldquo;The integrity property is crucial for security: it is key to
-   enforce the <strong>isolation</strong> of components running on top
-   of the kernel&rdquo;, says Gerwin Klein, seL4 verification expert
-   and chair of the seL4 Foundation technical steering
-   committee. &ldquo;This is what allows critical components, like the
-   network controller that has access to software-controlled brakes in
-   a modern car, to securely run alongside untrusted software, like
-   the entertainment system. With integrity proved, you know that an
-   attack on or from a vulnerable untrusted part of the system cannot
-   compromise the critical parts.&rdquo;
- </p>
-
-   <img src="images/arc-logo.svg"
-   style="width: 20%;  padding-left:10px;  float:right"
-	alt="ARC logo">
-
- <p>
-   Integrity had been proved in the original seL4 verification on the
-   Arm32 architecture. It is now also established for RISC-V
-   architecture, making it the only 64-bit architecture that has an OS
-   with such a comprehensive verification and security story. We thank
-   <a href="https://trustworthy.systems/people/?cn=Ryan+Barry">Ryan
-   Barry</a> of Trustworthy Systems, main author of these proofs! We
-   also gratefully acknowledge funding from the
-   <a href="https://arc.gov.au">Australian Reseach Council</a> through grant
-   DP190103743 which has enabled this work.
+   Lotus is a leader in the Global Premium Sport Car market. We stand
+   out as a brand dedicated to pure driving experience. Committed to
+   advancing technology with precision and passion, Lotus continues to
+   spearhead research into areas such as autonomous driving,
+   connectivity, intelligence, electrification. Emira, Evija, Evora
+   are representative models that in recent years drive Lotus’
+   world-wide reputation. Going forward, Lotus’ approach will be based
+   on the principle of “EAS-IP” (Electrify, Amplify, Simplify,
+   Intensify and Personify), a globally R&amp;D strategy, and
+   excellent autonomous driving solutions to create a novel,
+   technology-based driving experience for future global users.
  </p>
 
  <p>
-   See <a href="https://microkerneldude.wordpress.com/2021/08/04/sel4-integrity-enforcement-proved-for-risc-v/">Gernot's
-   blog</a> for more details.
-   <a href="https://github.com/seL4/l4v/tree/master/proof/access-control">The
-   proof is available on GitHub.</a>
+   In joining the seL4 Foundation, Lotus is committed to the
+   development and deployment of the seL4 microkernel in the field of
+   autonomous driving, advance Lotus' automotive operating system to
+   meet the overall functional safety goals of the system, and realize
+   the launch of safe and reliable autonomous driving products.
  </p>
+</div>
+
+<!----------------------------------------------------------->
+
+<div class="news-item">
+  13 August 2021: seL4 protects world's most secure drone from DEFCON hackers
+</div>
+<div>
+ <p>
+
+   <img src="images/smaccmcopter-defcon.jpg"
+   style="width: 50%;  padding-left:10px;  float:right"
+   alt="SMACCMcopter at DEF CON">
+
+   On 6 August <a href="https://www.darpa.mil">DARPA</a> brought the
+   &ldquo;SMACCMcopter&rdquo;
+   to <a href="https://aerospacevillage.org/category/defcon/">DEF&nbsp;CON</a>
+   and invited the assembled hacker elite to attack it. The
+   SMACCMcopter was the <em>research vehicle</em> of the Air Team at
+   DARPA's <a href="https://www.darpa.mil/program/high-assurance-cyber-military-systems">HACMS</a>
+   program. The Trustworthy Systems
+   team <a href="https://trustworthy.systems/projects/TS/SMACCM/">worked
+   with project partners</a> to deploy seL4 and leverage formal
+   methods to protect the drone from cyber attacks.
+ </p>
+
+ <p>
+   The result? Predictably, sel4's verified security enforcement
+   <a href="https://twitter.com/raymondrichards/status/1424230000144826372">defeated
+   the hackers</a>
+   comprehensively. As <a href="https://twitter.com/DARPA/status/1424752441900339200">DARPA
+     said:</a> &ldquo;Formal methods FTW!&rdquo;
+   </p>
 </div>
 
 <!----------------------------------------------------------->
@@ -273,6 +281,70 @@ News</li></ol>
  <p>
  A virtual toast to you all, and a big thank-you to
    all for your continued support!
+ </p>
+</div>
+
+<!----------------------------------------------------------->
+
+<div class="news-item">
+  28 July 2021: Proof that seL4 enforces integrity established for RISC-V
+</div>
+<div>
+ <p>
+   <img src="Foundation/Membership/LOGOS/RISC-V.svg"
+   style="width: 20%;  padding-left:10px;  float:right"
+	alt="RISC-V logo">
+
+   The assurance story for <a href="https://sel4.systems">seL4</a>
+   on <a href="https://riscv.org">RISC-V</a> keeps building. We first
+   formally proved <em>functional
+   correctness</em>: <a href="https://microkerneldude.wordpress.com/2020/06/09/sel4-is-verified-on-risc-v/">that
+   the seL4 C code on RISC-V platforms behaves exactly as its
+   specification says</a>. We then established <em>binary
+   correctness</em>: <a href="https://microkerneldude.wordpress.com/2021/05/05/sel4-on-risc-v-verified-to-binary-code/">that
+   the machine code running on the processor behaves exactly as the C
+   code, and by extension, as the specification says</a>. We now have
+   established the crucial <strong>integrity</strong> property for
+   seL4 on RISC-V: that the specification, and by extension the kernel
+   binary, prevents an application running on top from modifying data
+   without authorisation. In seL4 speak: seL4 provably enforces
+   capability-based access control.
+ </p>
+
+ <p>
+   &ldquo;The integrity property is crucial for security: it is key to
+   enforce the <strong>isolation</strong> of components running on top
+   of the kernel&rdquo;, says Gerwin Klein, seL4 verification expert
+   and chair of the seL4 Foundation technical steering
+   committee. &ldquo;This is what allows critical components, like the
+   network controller that has access to software-controlled brakes in
+   a modern car, to securely run alongside untrusted software, like
+   the entertainment system. With integrity proved, you know that an
+   attack on or from a vulnerable untrusted part of the system cannot
+   compromise the critical parts.&rdquo;
+ </p>
+
+   <img src="images/arc-logo.svg"
+   style="width: 20%;  padding-left:10px;  float:right"
+	alt="ARC logo">
+
+ <p>
+   Integrity had been proved in the original seL4 verification on the
+   Arm32 architecture. It is now also established for RISC-V
+   architecture, making it the only 64-bit architecture that has an OS
+   with such a comprehensive verification and security story. We thank
+   <a href="https://trustworthy.systems/people/?cn=Ryan+Barry">Ryan
+   Barry</a> of Trustworthy Systems, main author of these proofs! We
+   also gratefully acknowledge funding from the
+   <a href="https://arc.gov.au">Australian Reseach Council</a> through grant
+   DP190103743 which has enabled this work.
+ </p>
+
+ <p>
+   See <a href="https://microkerneldude.wordpress.com/2021/08/04/sel4-integrity-enforcement-proved-for-risc-v/">Gernot's
+   blog</a> for more details.
+   <a href="https://github.com/seL4/l4v/tree/master/proof/access-control">The
+   proof is available on GitHub.</a>
  </p>
 </div>
 
@@ -422,7 +494,7 @@ News</li></ol>
 <!----------------------------------------------------------->
 
 <div class="news-item">
-  29 July 2021: Jump Trading joins the seL4 Foundation
+  29 June 2021: Jump Trading joins the seL4 Foundation
 </div>
 <div>
  <p>
