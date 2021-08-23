@@ -1,2 +1,15 @@
 <html><body><p>
+Error: End tag "td" seen, but there were open elements.
+From line 375, column 7; to line 375, column 11 in resource file:/Foundation/Services.html
+Error: Unclosed element "a".
+From line 373, column 13; to line 373, column 75 in resource file:/Foundation/Services.html
+Error: End tag "td" seen, but there were open elements.
+From line 375, column 7; to line 375, column 11 in resource file:/Foundation/Services/home.pml.html
+Error: Unclosed element "a".
+From line 373, column 13; to line 373, column 75 in resource file:/Foundation/Services/home.pml.html
+Error: End tag "td" seen, but there were open elements.
+From line 375, column 7; to line 375, column 11 in resource file:/Foundation/Services/index.html
+Error: Unclosed element "a".
+From line 373, column 13; to line 373, column 75 in resource file:/Foundation/Services/index.html
+Document checking completed.
 </p></body></html>
