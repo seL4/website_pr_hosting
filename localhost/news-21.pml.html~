@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>News about seL4 and the seL4 Foundation | seL4</title>
     <meta name="author" content="CSIRO's Data61" />
-    
+    <link href="https://sel4.systems/news-21.pml" rel=canonical />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/sel4.css" rel="stylesheet">
 
@@ -103,11 +103,11 @@
 </div>
 <div class="container"> <!-- container -->
   <div class="row"> <!-- Breadcrumbs -->
-<!-- News, /news.pml -->
+<!-- News-21, /news-21.pml -->
 <ol class="breadcrumb">
 <li class=""><a href="index.html">Home</a>
 <li class="active">
-News</li></ol>
+News-21</li></ol>
     </div> <!-- Breadcrumbs -->
 
     <a href='index.html'><img style="width:20%; margin-top:20px; vertical-align:top;float:right; margin:10px;"

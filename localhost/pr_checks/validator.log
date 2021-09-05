@@ -1,6 +1,6 @@
 <html><body><p>
 Error: End tag "p" seen, but there were open elements.
-From line 130, column 59; to line 130, column 62 in resource file:/news-20.pml.html
+From line 130, column 71; to line 130, column 74 in resource file:/news-20.pml.html
 Error: Unclosed element "strong".
 From line 130, column 4; to line 130, column 11 in resource file:/news-20.pml.html
 Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
