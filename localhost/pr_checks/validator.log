@@ -1,2 +1,53 @@
 <html><body><p>
+Error: End tag "p" seen, but there were open elements.
+From line 130, column 59; to line 130, column 62 in resource file:/news-20.pml.html
+Error: Unclosed element "strong".
+From line 130, column 4; to line 130, column 11 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 133, column 1; to line 133, column 23 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 136, column 1; to line 136, column 5 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 153, column 1; to line 153, column 23 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 156, column 1; to line 156, column 5 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 187, column 1; to line 187, column 23 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 190, column 1; to line 190, column 5 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 209, column 1; to line 209, column 23 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 212, column 1; to line 212, column 5 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 238, column 1; to line 238, column 23 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 241, column 1; to line 241, column 5 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 275, column 1; to line 275, column 23 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 278, column 1; to line 278, column 5 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 310, column 1; to line 310, column 23 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 313, column 1; to line 313, column 5 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 339, column 1; to line 339, column 23 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 342, column 1; to line 342, column 5 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 374, column 1; to line 374, column 23 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 378, column 1; to line 378, column 5 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 420, column 1; to line 420, column 25 in resource file:/news-20.pml.html
+Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 423, column 2; to line 423, column 22 in resource file:/news-20.pml.html
+Error: End tag "div" seen, but there were open elements.
+From line 424, column 1; to line 424, column 6 in resource file:/news-20.pml.html
+Error: Element "footer" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
+From line 426, column 1; to line 426, column 52 in resource file:/news-20.pml.html
+Error: End tag for  "body" seen, but there were unclosed elements.
+From line 442, column 1; to line 442, column 7 in resource file:/news-20.pml.html
+Document checking completed.
 </p></body></html>
