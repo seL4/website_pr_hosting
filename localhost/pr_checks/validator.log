@@ -1,0 +1,21 @@
+<html><body><p>
+Error: Start tag "a" seen but an element of the same type was already open.
+From line 138, column 38; to line 138, column 40 in resource file:/news/index.html
+Error: Start tag "a" seen but an element of the same type was already open.
+From line 138, column 42; to line 138, column 62 in resource file:/news/index.html
+Error: Start tag "a" seen but an element of the same type was already open.
+From line 138, column 67; to line 138, column 69 in resource file:/news/index.html
+Error: End tag "div" seen, but there were open elements.
+From line 139, column 2; to line 139, column 7 in resource file:/news/index.html
+Error: Unclosed element "a".
+From line 138, column 67; to line 138, column 69 in resource file:/news/index.html
+Error: End tag "div" seen, but there were open elements.
+From line 140, column 1; to line 140, column 6 in resource file:/news/index.html
+Error: Start tag "a" seen but an element of the same type was already open.
+From line 173, column 4; to line 173, column 37 in resource file:/news/index.html
+Error: End tag "a" violates nesting rules.
+From line 173, column 4; to line 173, column 37 in resource file:/news/index.html
+Fatal Error: Cannot recover after last error. Any further errors will be ignored.
+From line 173, column 4; to line 173, column 37 in resource file:/news/index.html
+Document checking completed.
+</p></body></html>
