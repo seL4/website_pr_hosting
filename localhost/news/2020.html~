@@ -124,13 +124,20 @@
     Copyright 2020 seL4 Project a Series of LF Projects, LLC.
     SPDX-License-Identifier: CC-BY-SA-4.0
 -->
-<h1>
-  News about
+<div class="row">
+ <div class="col">
+ <h1>
+  2020's News about
   <a href="../index.html">seL4</a>
   and the
   <a href="../Foundation.html">seL4 Foundation</a>
-</h1>
+  </h1>
+ </div>
+ <div class="col">
  
+Other News:  <a href="2020.html">2020</a> <a href="index.html">2021</a> 
+ </div>
+</div>
 
 <!----------------------------------------------------------->
 
