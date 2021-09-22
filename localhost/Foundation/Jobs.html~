@@ -222,12 +222,12 @@ explicit description of how the job will be linked to seL4.
       HENSOLDT Holding Germany GmbH, founding member in the seL4 Foundation and
       also member of the RISC-V foundation. The mission is establishing a
       paradigm shift to cyber security, we advocate <b>secure IT instead of IT
-      security<b>. We combine the know-how of more than one hundred years of
+      security</b>. We combine the know-how of more than one hundred years of
       experience in high-performance technology in the fields of defense and
       aerospace. We build systems that are secure from the ground up, combining
       innovative physical protection with mathematical proofs of software
       correctness to achieve true trustworthiness. We offer “<b>Security Made in
-      Germany<b>”.<br>
+      Germany</b>”.<br>
       Optimized for use in industrial, aerospace and defense applications, our
       customers can expect high quality military-grade security, safety
       critical, user-friendly and flexible solutions. Our products have been
@@ -253,7 +253,7 @@ explicit description of how the job will be linked to seL4.
     </p>
   </li>
   <li>
-    <b>Position details and link to seL4 </b>:
+    <b>Position details and link to seL4</b>:
     <p>
       In order to fulfill our mission we are expanding our teams in Engineering
       (junior/senior level) and Research (PhD candidate and post-doc).<br>
