@@ -1,15 +1,7 @@
 <html><body><p>
 Error: No "p" element in scope but a "p" end tag seen.
-From line 268, column 5; to line 268, column 8 in resource file:/Foundation/Jobs.html
-Error: End tag for  "body" seen, but there were unclosed elements.
-From line 449, column 1; to line 449, column 7 in resource file:/Foundation/Jobs.html
-Error: Unclosed element "div".
-From line 107, column 1; to line 107, column 23 in resource file:/Foundation/Jobs.html
+From line 269, column 5; to line 269, column 8 in resource file:/Foundation/Jobs.html
 Error: No "p" element in scope but a "p" end tag seen.
-From line 268, column 5; to line 268, column 8 in resource file:/Foundation/Jobs/index.html
-Error: End tag for  "body" seen, but there were unclosed elements.
-From line 449, column 1; to line 449, column 7 in resource file:/Foundation/Jobs/index.html
-Error: Unclosed element "div".
-From line 107, column 1; to line 107, column 23 in resource file:/Foundation/Jobs/index.html
+From line 269, column 5; to line 269, column 8 in resource file:/Foundation/Jobs/index.html
 Document checking completed.
 </p></body></html>
