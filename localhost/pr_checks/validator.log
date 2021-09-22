@@ -1,7 +1,2 @@
 <html><body><p>
-Error: No "p" element in scope but a "p" end tag seen.
-From line 269, column 5; to line 269, column 8 in resource file:/Foundation/Jobs.html
-Error: No "p" element in scope but a "p" end tag seen.
-From line 269, column 5; to line 269, column 8 in resource file:/Foundation/Jobs/index.html
-Document checking completed.
 </p></body></html>

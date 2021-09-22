@@ -227,8 +227,8 @@ explicit description of how the job will be linked to seL4.
       experience in high-performance technology in the fields of defense and
       aerospace. We build systems that are secure from the ground up, combining
       innovative physical protection with mathematical proofs of software
-      correctness to achieve true trustworthiness. We offer “<b>Security Made in
-      Germany</b>”.<br>
+      correctness to achieve true trustworthiness. We offer <i><b>"Security Made
+      in Germany"</b></i>.<br>
       Optimized for use in industrial, aerospace and defense applications, our
       customers can expect high quality military-grade security, safety
       critical, user-friendly and flexible solutions. Our products have been
@@ -259,14 +259,14 @@ explicit description of how the job will be linked to seL4.
       In order to fulfill our mission we are expanding our teams in Engineering
       (junior/senior level) and Research (PhD candidate and post-doc).<br>
       We are looking for the following profiles:
-      <ul>
-        <li>Formal Verification Researcher and Engineers</li>
-        <li>Software Developers and Architects</li>
-        <li>Cryptography Experts (Developers and Researchers)</li>
-        <li>Hardware Developer and Architects</li>
-        <li>Project Manager Systems/Certification</li>
-      </ul>
     </p>
+    <ul>
+      <li>Formal Verification Researcher and Engineers</li>
+      <li>Software Developers and Architects</li>
+      <li>Cryptography Experts (Developers and Researchers)</li>
+      <li>Hardware Developer and Architects</li>
+      <li>Project Manager Systems/Certification</li>
+    </ul>
   </li>
   <li>
     <b>How to apply</b>:
