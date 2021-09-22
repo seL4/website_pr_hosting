@@ -1,2 +1,7 @@
 <html><body><p>
+Error: Element "p" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+From line 272, column 3; to line 272, column 5 in resource file:/Foundation/Jobs.html
+Error: Element "p" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+From line 272, column 3; to line 272, column 5 in resource file:/Foundation/Jobs/index.html
+Document checking completed.
 </p></body></html>
