@@ -1,0 +1,83 @@
+<html><body><p>
+Error: End tag "p" seen, but there were open elements.
+From line 253, column 5; to line 253, column 8 in resource file:/Foundation/Jobs.html
+Error: Unclosed element "b".
+From line 230, column 14; to line 230, column 16 in resource file:/Foundation/Jobs.html
+Error: Unclosed element "b".
+From line 229, column 62; to line 229, column 64 in resource file:/Foundation/Jobs.html
+Error: Unclosed element "b".
+From line 225, column 15; to line 225, column 17 in resource file:/Foundation/Jobs.html
+Error: Unclosed element "b".
+From line 224, column 53; to line 224, column 55 in resource file:/Foundation/Jobs.html
+Error: End tag "li" seen, but there were open elements.
+From line 254, column 3; to line 254, column 7 in resource file:/Foundation/Jobs.html
+Error: Element "b" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+From line 254, column 8; to line 255, column 2 in resource file:/Foundation/Jobs.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 268, column 5; to line 268, column 8 in resource file:/Foundation/Jobs.html
+Error: End tag "ul" seen, but there were open elements.
+From line 279, column 3; to line 279, column 7 in resource file:/Foundation/Jobs.html
+Error: End tag "div" seen, but there were open elements.
+From line 280, column 1; to line 280, column 6 in resource file:/Foundation/Jobs.html
+Error: Element "div" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 284, column 1; to line 284, column 23 in resource file:/Foundation/Jobs.html
+Error: Element "div" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 287, column 1; to line 287, column 5 in resource file:/Foundation/Jobs.html
+Error: Element "div" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 345, column 1; to line 345, column 23 in resource file:/Foundation/Jobs.html
+Error: Element "div" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 348, column 1; to line 348, column 5 in resource file:/Foundation/Jobs.html
+Error: Element "div" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 427, column 1; to line 427, column 25 in resource file:/Foundation/Jobs.html
+Error: Element "div" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 430, column 2; to line 430, column 22 in resource file:/Foundation/Jobs.html
+Error: End tag "div" seen, but there were open elements.
+From line 431, column 1; to line 431, column 6 in resource file:/Foundation/Jobs.html
+Error: Element "footer" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 433, column 1; to line 433, column 52 in resource file:/Foundation/Jobs.html
+Error: End tag for  "body" seen, but there were unclosed elements.
+From line 449, column 1; to line 449, column 7 in resource file:/Foundation/Jobs.html
+Error: Unclosed element "div".
+From line 107, column 1; to line 107, column 23 in resource file:/Foundation/Jobs.html
+Error: End tag "p" seen, but there were open elements.
+From line 253, column 5; to line 253, column 8 in resource file:/Foundation/Jobs/index.html
+Error: Unclosed element "b".
+From line 230, column 14; to line 230, column 16 in resource file:/Foundation/Jobs/index.html
+Error: Unclosed element "b".
+From line 229, column 62; to line 229, column 64 in resource file:/Foundation/Jobs/index.html
+Error: Unclosed element "b".
+From line 225, column 15; to line 225, column 17 in resource file:/Foundation/Jobs/index.html
+Error: Unclosed element "b".
+From line 224, column 53; to line 224, column 55 in resource file:/Foundation/Jobs/index.html
+Error: End tag "li" seen, but there were open elements.
+From line 254, column 3; to line 254, column 7 in resource file:/Foundation/Jobs/index.html
+Error: Element "b" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+From line 254, column 8; to line 255, column 2 in resource file:/Foundation/Jobs/index.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 268, column 5; to line 268, column 8 in resource file:/Foundation/Jobs/index.html
+Error: End tag "ul" seen, but there were open elements.
+From line 279, column 3; to line 279, column 7 in resource file:/Foundation/Jobs/index.html
+Error: End tag "div" seen, but there were open elements.
+From line 280, column 1; to line 280, column 6 in resource file:/Foundation/Jobs/index.html
+Error: Element "div" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 284, column 1; to line 284, column 23 in resource file:/Foundation/Jobs/index.html
+Error: Element "div" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 287, column 1; to line 287, column 5 in resource file:/Foundation/Jobs/index.html
+Error: Element "div" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 345, column 1; to line 345, column 23 in resource file:/Foundation/Jobs/index.html
+Error: Element "div" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 348, column 1; to line 348, column 5 in resource file:/Foundation/Jobs/index.html
+Error: Element "div" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 427, column 1; to line 427, column 25 in resource file:/Foundation/Jobs/index.html
+Error: Element "div" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 430, column 2; to line 430, column 22 in resource file:/Foundation/Jobs/index.html
+Error: End tag "div" seen, but there were open elements.
+From line 431, column 1; to line 431, column 6 in resource file:/Foundation/Jobs/index.html
+Error: Element "footer" not allowed as child of element "b" in this context. (Suppressing further errors from this subtree.)
+From line 433, column 1; to line 433, column 52 in resource file:/Foundation/Jobs/index.html
+Error: End tag for  "body" seen, but there were unclosed elements.
+From line 449, column 1; to line 449, column 7 in resource file:/Foundation/Jobs/index.html
+Error: Unclosed element "div".
+From line 107, column 1; to line 107, column 23 in resource file:/Foundation/Jobs/index.html
+Document checking completed.
+</p></body></html>
