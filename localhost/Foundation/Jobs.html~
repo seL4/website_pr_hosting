@@ -220,44 +220,48 @@ explicit description of how the job will be linked to seL4.
     <b>Company description and position in seL4 ecosystem</b>:
     <p>
       HENSOLDT Cyber is a joint venture between Secure Elements GmbH and
-      HENSOLDT Holding Germany GmbH, founding member in the seL4 Foundation and
-      also member of the RISC-V foundation. The mission is establishing a
-      paradigm shift to cyber security, we advocate <b>secure IT instead of IT
-      security</b>. We combine the know-how of more than one hundred years of
-      experience in high-performance technology in the fields of defense and
-      aerospace. We build systems that are secure from the ground up, combining
-      innovative physical protection with mathematical proofs of software
-      correctness to achieve true trustworthiness. We offer <i><b>"Security Made
-      in Germany"</b></i>.<br>
+      HENSOLDT Holding Germany GmbH. We are a founding member in the seL4
+      Foundation and also member of the RISC-V foundation. Our mission is
+      establishing a paradigm shift to cyber security, we advocate <b>secure IT
+      instead of IT security</b>. We combine the know-how of more than one
+      hundred years of experience in high-performance technology in the fields
+      of defense and aerospace. We build systems that are secure from the ground
+      up, combining innovative physical protection with mathematical proofs of
+      software correctness to achieve true trustworthiness. We offer
+      <b>"<i>Security Made in Germany</i>"</b>.
+      <br>
       Optimized for use in industrial, aerospace and defense applications, our
       customers can expect high quality military-grade security, safety
       critical, user-friendly and flexible solutions. Our products have been
       designed to ensure the integrity of embedded systems at the core: the
-      operating system and the processor.<br>
+      operating system and the processor.
+      <br>
       The operating system TRENTOS is a revolution in cyber security based on
-      the seL4 microkernel, the only microkernel that offers end-to-end proof of
-      implementation correctness and security enforcement. HENSOLDT Cyber
-      developed this highly secure operating system for IoT devices and cyber
-      physical systems. seL4 provides strict isolation of components, with
-      communication restricted to explicitly enabled channels, ensuring clarity
-      of information flows. Mathematical proofs of implementation correctness of
-      seL4 as well as critical components guarantee system integrity under all
-      operating conditions.<br>
+      the seL4 microkernel and CAmkES. We developed this highly secure operating
+      system for IoT devices and cyber physical systems. seL4 provides strict
+      isolation of components, with communication restricted to explicitly
+      enabled channels, ensuring clarity of information flows. Mathematical
+      proofs of implementation correctness of seL4 as well as critical
+      components guarantee system integrity under all operating conditions.
+      <br>
       Our MiG-V is a RISC-V based general purpose processor targeting
-      high-security use cases. The core’s logic encryption prevents the
-      insertion of hardware trojans. Running seL4 from ROM prevents any kernel
-      modifications to achieve ensures highest security levels. The combination
-      of MiG-V and TRENTOS gives HENSOLDT Cyber full control of the design and
-      production chain. The MiG-V SoC can be used together with the formally
-      verified seL4 microkernel hosted in the chip’s internal ROM to create a
-      ultra-secure solution.
+      high-security use cases. The core's logic encryption prevents the
+      insertion of hardware trojans durch production. Running seL4 from ROM
+      prevents any kernel modifications to achieve ensures highest security
+      levels.
+      <br>
+      The combination of MiG-V and TRENTOS gives HENSOLDT Cyber full control of
+      the design and production chain. The MiG-V SoC can be used together with
+      the formally verified seL4 microkernel hosted in the chip's internal ROM
+      to create a ultra-secure solution.
     </p>
   </li>
   <li>
     <b>Position details and link to seL4</b>:
     <p>
       In order to fulfill our mission we are expanding our teams in Engineering
-      (junior/senior level) and Research (PhD candidate and post-doc).<br>
+      (junior/senior level) and Research (PhD candidate and post-doc).
+      <br>
       We are looking for the following profiles:
     </p>
     <ul>
@@ -267,12 +271,10 @@ explicit description of how the job will be linked to seL4.
       <li>Hardware Developer and Architects</li>
       <li>Project Manager Systems/Certification</li>
     </ul>
+    <p>
+      <!-- need a paragraph here for stylistic reasons, even if empty -->
+    </p>
   </li>
-
-  <p>
-      <!-- need a paragraph for stylistic reasons, even if empty -->
-  </p>
-
   <li>
     <b>How to apply</b>:
     <p>
