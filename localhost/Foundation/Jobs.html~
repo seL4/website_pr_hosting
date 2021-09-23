@@ -259,8 +259,8 @@ explicit description of how the job will be linked to seL4.
   <li>
     <b>Position details and link to seL4</b>:
     <p>
-      In order to fulfill our mission we are expanding our teams in Engineering
-      (junior/senior level) and Research (PhD candidate and post-doc).
+      In order to fulfill our mission, we are expanding our teams in Engineering
+      (junior/senior level) and Research (PhD program and post-doc).
       <br>
       We are looking for the following profiles:
     </p>
@@ -289,13 +289,13 @@ explicit description of how the job will be linked to seL4.
           <li>System/Software Certification Specialist (Industry, Automative, Aviation)</li>
         </ul>
       </li>
-      <li>Hardware Developer and Architects
+      <li>Hardware Developers and Architects
         <ul>
           <li>RISC-V core optimization and Extensions</li>
           <li>System optimization</li>
           <li>Security hardening against side channels</li>
           <li>Accelerators and Peripherals support</li>
-          <li>Virtualization</li>
+          <li>Virtualisation</li>
           <li>MultiCore</li>
         </ul>
       </li>
