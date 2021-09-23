@@ -212,10 +212,8 @@ explicit description of how the job will be linked to seL4.
 <div>
  <p>
    <img src="Membership/LOGOS/HENSOLDT_Cyber.svg"
-   style="width:28%; float: right; margin: 0.5em 1em 0.5em 1em; 
-          border: 1px solid #000000; box-shadow: 10px 10px 5px #cccccc; 
-          border-radius: 20px;"
-   alt="HENSOLDT Cyber">
+        alt="HENSOLDT Cyber"
+        style="width:28%; float: right; margin: 0.5em 1em 0.5em 1em; border: 1px solid #000000; box-shadow: 10px 10px 5px #cccccc; border-radius: 20px;">
  </p>
   <ul>
   <li>
