@@ -267,10 +267,9 @@ explicit description of how the job will be linked to seL4.
     <ul>
       <li><b>Formal Verification Researchers and Engineers</b>
         <ul>
-          <li>Formal Verification Researcher and Engineers</li>
           <li>Theorem proving</li>
           <li>Functional programming</li>
-          <li>Preferably Isabelle/AutoCorres/HOL/COQ</li>
+          <li>Preferably experience in Isabelle/HOL</li>
           <li>Bridging verification and industry programming languages</li>
           <li>System modelling</li>
         </ul>
