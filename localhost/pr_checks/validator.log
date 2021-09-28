@@ -1,15 +1,2 @@
 <html><body><p>
-Error: Start tag "a" seen but an element of the same type was already open.
-From line 144, column 29; to line 144, column 59 in resource file:/index.html
-Error: End tag "a" violates nesting rules.
-From line 144, column 29; to line 144, column 59 in resource file:/index.html
-Fatal Error: Cannot recover after last error. Any further errors will be ignored.
-From line 144, column 29; to line 144, column 59 in resource file:/index.html
-Error: Start tag "a" seen but an element of the same type was already open.
-From line 144, column 29; to line 144, column 59 in resource file:/home.pml.html
-Error: End tag "a" violates nesting rules.
-From line 144, column 29; to line 144, column 59 in resource file:/home.pml.html
-Fatal Error: Cannot recover after last error. Any further errors will be ignored.
-From line 144, column 29; to line 144, column 59 in resource file:/home.pml.html
-Document checking completed.
 </p></body></html>
