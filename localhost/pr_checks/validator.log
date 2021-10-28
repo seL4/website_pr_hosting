@@ -1,2 +1,9 @@
 <html><body><p>
+Error: No "p" element in scope but a "p" end tag seen.
+From line 191, column 1; to line 191, column 4 in resource file:/contact.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 191, column 1; to line 191, column 4 in resource file:/contact/home.pml.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 191, column 1; to line 191, column 4 in resource file:/contact/index.html
+Document checking completed.
 </p></body></html>
