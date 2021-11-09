@@ -68,7 +68,7 @@
 <!-- /About/ - /About/ -->
 <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="index.html">What is seL4? <span class="caret"></span></a>
 <ul class="dropdown-menu"><li class="active"><a href="index.html">What is seL4?</a></li>
-<li class=""><a href="http://localhost/About/Performance/">Performance</a></li>
+<li class=""><a href="Performance/index.html">Performance</a></li>
 <li class=""><a href="seL4-whitepaper.pdf">Whitepaper</a></li></ul></li>
 <!-- /About/ - /Foundation/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../Foundation.html">seL4 Foundation <span class="caret"></span></a>
@@ -143,7 +143,7 @@
   seL4 is a high-assurance, high-performance operating system
   microkernel. It is unique because of its comprehensive formal
   verification, without compromising <a href=
-  "http://localhost/About/Performance/">performance</a>. It is meant to be used as a
+  "Performance/index.html">performance</a>. It is meant to be used as a
   trustworthy foundation for building safety- and security-critical
   systems. It is available as open source on <a href=
   "https://github.com/seL4/">GitHub</a> and supported by the
