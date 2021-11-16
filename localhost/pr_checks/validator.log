@@ -1,0 +1,15 @@
+<html><body><p>
+Error: Self-closing syntax ("/>") used on a non-void HTML element. Ignoring the slash and treating as a start tag.
+From line 723, column 3; to line 723, column 22 in resource file:/news/index.html
+Error: End tag "div" seen, but there were open elements.
+From line 725, column 1; to line 725, column 6 in resource file:/news/index.html
+Error: Unclosed element "a".
+From line 723, column 3; to line 723, column 22 in resource file:/news/index.html
+Error: Start tag "a" seen but an element of the same type was already open.
+From line 729, column 4; to line 729, column 32 in resource file:/news/index.html
+Error: End tag "a" violates nesting rules.
+From line 729, column 4; to line 729, column 32 in resource file:/news/index.html
+Fatal Error: Cannot recover after last error. Any further errors will be ignored.
+From line 729, column 4; to line 729, column 32 in resource file:/news/index.html
+Document checking completed.
+</p></body></html>
