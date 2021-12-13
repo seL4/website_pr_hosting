@@ -1,7 +1,2 @@
 <html><body><p>
-Error: Start tag "a" seen but an element of the same type was already open.
-From line 784, column 5; to line 784, column 27 in resource file:/news/index.html
-Error: Stray end tag "a".
-From line 785, column 3; to line 785, column 6 in resource file:/news/index.html
-Document checking completed.
 </p></body></html>
