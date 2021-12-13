@@ -750,7 +750,7 @@ Older News:  <a href="2020.html">2020</a> <a href="index.html">2021</a>
 <!----------------------------------------------------------->
 
 <div class="news-item">
-  <a id="member-jump">29 June 2021: Jump Trading joins the seL4 Foundation
+  <a id="member-jump">29 June 2021: Jump Trading joins the seL4 Foundation</a>
 </div>
 <div>
  <p>
@@ -781,7 +781,7 @@ Older News:  <a href="2020.html">2020</a> <a href="index.html">2021</a>
 
 <div class="news-item">
   <a name="horizon-20210623">
-    23 Jun 2021: Horizon Robotics joins the seL4 Foundation</a>
+    <a id="member-horizon">23 Jun 2021: Horizon Robotics joins the seL4 Foundation</a>
   </a>
 </div>
 <div>
