@@ -1,0 +1,13 @@
+<html><body><p>
+Error: No "p" element in scope but a "p" end tag seen.
+From line 191, column 2; to line 191, column 5 in resource file:/Foundation/Summit/index.html
+Error: End tag "li" seen, but there were open elements.
+From line 196, column 102; to line 196, column 106 in resource file:/Foundation/Summit/index.html
+Error: Unclosed element "a".
+From line 196, column 9; to line 196, column 60 in resource file:/Foundation/Summit/index.html
+Error: No "a" element in scope but a "a" end tag seen.
+From line 196, column 107; to line 196, column 110 in resource file:/Foundation/Summit/index.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 198, column 3; to line 198, column 6 in resource file:/Foundation/Summit/index.html
+Document checking completed.
+</p></body></html>
