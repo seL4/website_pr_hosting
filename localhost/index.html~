@@ -80,11 +80,11 @@
 <li class=""><a href="Foundation/Membership.html">Membership</a></li>
 <li class=""><a href="Foundation/Join.html">Join the Foundation now!</a></li>
 <li class=""><a href="Foundation/Services.html">Services, Training and Products</a></li>
+<li class=""><a href="Foundation/Summit/index.html">seL4 Summit</a></li>
 <li class=""><a href="Foundation/Support.html">Support Us</a></li>
 <li class=""><a href="Foundation/Trademark/index.html">Trademark</a></li>
 <li class=""><a href="Foundation/Jobs.html">Jobs in the seL4 ecosystem</a></li>
-<li class=""><a href="Foundation/Contact.html">Contact the seL4 Foundation</a></li>
-<li class=""><a href="Foundation/Summit/index.html">Summit</a></li></ul></li>
+<li class=""><a href="Foundation/Contact.html">Contact the seL4 Foundation</a></li></ul></li>
 <li class=""><a href="contact.html">Stay in Touch</a></li>
 <!-- / - /Contribute/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="Contribute.html">Contribute <span class="caret"></span></a>
@@ -140,6 +140,11 @@
 
   <div class="news-column news-content">
     <ul>
+    <li>
+        <strong>
+	  28 Jan 2022: Kry10 receives interim endorsement as a Trusted Service Provider
+        </strong>
+      </li>
       <li>
         <strong>
 	  16 Dec 2021: Technology Innovation Institute joins the seL4 Foundation
@@ -148,11 +153,6 @@
       <li>
         <strong>
 	  2 Dec 2021: Proof that seL4 enforces confidentiality established for RISC-V
-        </strong>
-      </li>
-      <li>
-        <strong>
-	  14 Oct 2021: Proofcraft receives interim endorsement as a Trusted Service Provider
         </strong>
       </li>
       <li style="margin-top:0.2em;list-style-type:none">
