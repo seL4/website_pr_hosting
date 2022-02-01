@@ -1,13 +1,13 @@
 <html><body><p>
-Error: End tag "p" seen, but there were open elements.
-From line 139, column 3; to line 139, column 6 in resource file:/Foundation/Summit/index.html
-Error: Unclosed element "strong".
-From line 138, column 4; to line 138, column 11 in resource file:/Foundation/Summit/index.html
-Error: Element "p" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-From line 140, column 3; to line 140, column 5 in resource file:/Foundation/Summit/index.html
-Error: End tag "strong" violates nesting rules.
-From line 140, column 146; to line 140, column 154 in resource file:/Foundation/Summit/index.html
-Fatal Error: Cannot recover after last error. Any further errors will be ignored.
-From line 140, column 146; to line 140, column 154 in resource file:/Foundation/Summit/index.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 194, column 2; to line 194, column 5 in resource file:/Foundation/Summit/index.html
+Error: End tag "li" seen, but there were open elements.
+From line 199, column 102; to line 199, column 106 in resource file:/Foundation/Summit/index.html
+Error: Unclosed element "a".
+From line 199, column 9; to line 199, column 60 in resource file:/Foundation/Summit/index.html
+Error: No "a" element in scope but a "a" end tag seen.
+From line 199, column 107; to line 199, column 110 in resource file:/Foundation/Summit/index.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 201, column 3; to line 201, column 6 in resource file:/Foundation/Summit/index.html
 Document checking completed.
 </p></body></html>
