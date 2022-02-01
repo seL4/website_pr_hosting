@@ -1,9 +1,2 @@
 <html><body><p>
-Error: End tag "li" seen, but there were open elements.
-From line 200, column 102; to line 200, column 106 in resource file:/Foundation/Summit/index.html
-Error: Unclosed element "a".
-From line 200, column 9; to line 200, column 60 in resource file:/Foundation/Summit/index.html
-Error: No "a" element in scope but a "a" end tag seen.
-From line 200, column 107; to line 200, column 110 in resource file:/Foundation/Summit/index.html
-Document checking completed.
 </p></body></html>
