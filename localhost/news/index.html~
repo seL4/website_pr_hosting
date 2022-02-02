@@ -82,6 +82,7 @@
 <li class=""><a href="../Foundation/Membership.html">Membership</a></li>
 <li class=""><a href="../Foundation/Join.html">Join the Foundation now!</a></li>
 <li class=""><a href="../Foundation/Services.html">Services, Training and Products</a></li>
+<li class=""><a href="../Foundation/Summit/index.html">seL4 Summit</a></li>
 <li class=""><a href="../Foundation/Support.html">Support Us</a></li>
 <li class=""><a href="../Foundation/Trademark/index.html">Trademark</a></li>
 <li class=""><a href="../Foundation/Jobs.html">Jobs in the seL4 ecosystem</a></li>
@@ -161,8 +162,82 @@ Older News:  <a href="2020.html">2020</a> <a href="2021.html">2021</a> <a href="
  </p>
 </div>
 -->
+
 <!----------------------------------------------------------->
-<div class="news-item" id="member-tii">
+<div class="news-item" id="member-ncsc">
+  2 February 2022: NCSC joins the seL4 Foundation
+</div>
+<div>
+
+  <p>
+    <a href="https://www.ncsc.gov.uk/">
+      <img src="../Foundation/Membership/LOGOS/NCSC.png"
+	   style="width: 20%;  padding-left:10px;  float:right"
+	   alt="NCSC" />
+    </a>
+
+    The seL4 Foundation is pleased to welcome the UK’s <a href="https://www.ncsc.gov.uk">National Cyber Security Centre (NCSC)</a>.
+    </p>
+    <p>
+
+    The NCSC, the UK’s technical authority on cyber security, uses the seL4
+    Microkernel to enforce separation in a number of high-assurance
+    situations. The government organisation is actively exploring research
+    opportunities to further develop its seL4 use cases.  NCSC Technical
+    Director Dr Ian Levy said: "We’re pleased to join the seL4 Foundation. seL4
+    is some of the most highly assured software and its development plays an
+    important role in the next generation of high-assurance devices. We support
+    the long-term stability of the seL4 microkernel ecosystem and are looking at
+    opportunities to develop our use cases for it."
+  </p>
+
+</div>
+<div class="news-finish">
+</div>
+
+<!----------------------------------------------------------->
+<div class="news-item" id="summit-bid-host">
+  1 February 2022: Call for bids to host the seL4 Summit 2022!
+</div>
+<div>
+
+  <p>
+    <a href="../Foundation/Summit/index.html">
+      <img src="../images/seL4.svg"
+	   style="width: 20%;  padding-left:10px;  float:right"
+	   alt="seL4 summit" />
+    </a>
+
+  The seL4 Foundation will be organising the fourth edition of the seL4 Summit,
+  in October 2022.
+  </p>
+  <p>
+  A Program Committee will be in charge of the technical side (more on that
+  soon) and an Hosting Team will be in charge of organising the event.
+  </p>
+  <p>
+  <strong> We are now calling for bids to be the Host team for the seL4 Summit 2022!
+  </strong>
+  </p>
+  <p>
+  <strong>
+
+  Bids should be sent to <a title="summit@sel4.systems"
+  href="mailto:summit@sel4.systems">summit@sel4.systems</a> before 22 February
+  2022.
+  </strong>
+  <p>
+  <p>
+  More information <a href="../Foundation/Summit/index.html">here</a>.
+  </p>
+
+</div>
+<div class="news-finish">
+</div>
+
+
+<!----------------------------------------------------------->
+<div class="news-item" id="kry10-endorsement">
   28 January 2022: Kry10 receives interim endorsement as a Trusted Service Provider
 </div>
 <div>
