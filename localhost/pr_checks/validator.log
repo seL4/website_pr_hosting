@@ -60,11 +60,11 @@ From line 1484, column 79; to line 1484, column 175 in resource file:/news/2021.
 Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
 From line 1485, column 51; to line 1485, column 166 in resource file:/news/2021.html
 Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 334, column 48; to line 334, column 163 in resource file:/news/index.html
+From line 330, column 48; to line 330, column 163 in resource file:/news/index.html
 Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 335, column 79; to line 335, column 175 in resource file:/news/index.html
+From line 331, column 79; to line 331, column 175 in resource file:/news/index.html
 Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 336, column 51; to line 336, column 166 in resource file:/news/index.html
+From line 332, column 51; to line 332, column 166 in resource file:/news/index.html
 Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
 From line 439, column 48; to line 439, column 163 in resource file:/news/2020.html
 Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
