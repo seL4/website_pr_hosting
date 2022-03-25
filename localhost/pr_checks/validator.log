@@ -770,27 +770,27 @@ From line 430, column 5; to line 430, column 21 in resource file:/Foundation/Boa
 Error: Unclosed element "div".
 From line 429, column 3; to line 429, column 25 in resource file:/Foundation/Board/index.html
 Error: Bad character "<" after "<". Probable cause: Unescaped "<". Try escaping it as "&lt;".
-From line 171, column 1; to line 171, column 2 in resource file:/Foundation/Board/Minutes/index.html
+From line 175, column 1; to line 175, column 2 in resource file:/Foundation/Board/Minutes/index.html
 Error: Bad character "<" after "<". Probable cause: Unescaped "<". Try escaping it as "&lt;".
-At line 171, column 3 in resource file:/Foundation/Board/Minutes/index.html
+At line 175, column 3 in resource file:/Foundation/Board/Minutes/index.html
 Error: Bad character "<" after "<". Probable cause: Unescaped "<". Try escaping it as "&lt;".
-At line 171, column 4 in resource file:/Foundation/Board/Minutes/index.html
+At line 175, column 4 in resource file:/Foundation/Board/Minutes/index.html
 Error: Bad character "<" after "<". Probable cause: Unescaped "<". Try escaping it as "&lt;".
-At line 171, column 5 in resource file:/Foundation/Board/Minutes/index.html
+At line 175, column 5 in resource file:/Foundation/Board/Minutes/index.html
 Error: Bad character "<" after "<". Probable cause: Unescaped "<". Try escaping it as "&lt;".
-At line 171, column 6 in resource file:/Foundation/Board/Minutes/index.html
+At line 175, column 6 in resource file:/Foundation/Board/Minutes/index.html
 Error: Bad character "<" after "<". Probable cause: Unescaped "<". Try escaping it as "&lt;".
-At line 171, column 7 in resource file:/Foundation/Board/Minutes/index.html
+At line 175, column 7 in resource file:/Foundation/Board/Minutes/index.html
 Error: Bad character " " after "<". Probable cause: Unescaped "<". Try escaping it as "&lt;".
-At line 171, column 8 in resource file:/Foundation/Board/Minutes/index.html
+At line 175, column 8 in resource file:/Foundation/Board/Minutes/index.html
 Error: End tag "footer" seen, but there were open elements.
-From line 210, column 1; to line 210, column 9 in resource file:/Foundation/Board/Minutes/index.html
+From line 214, column 1; to line 214, column 9 in resource file:/Foundation/Board/Minutes/index.html
 Error: Unclosed element "div".
-From line 183, column 7; to line 183, column 39 in resource file:/Foundation/Board/Minutes/index.html
+From line 187, column 7; to line 187, column 39 in resource file:/Foundation/Board/Minutes/index.html
 Error: Unclosed element "div".
-From line 173, column 5; to line 173, column 21 in resource file:/Foundation/Board/Minutes/index.html
+From line 177, column 5; to line 177, column 21 in resource file:/Foundation/Board/Minutes/index.html
 Error: Unclosed element "div".
-From line 172, column 3; to line 172, column 25 in resource file:/Foundation/Board/Minutes/index.html
+From line 176, column 3; to line 176, column 25 in resource file:/Foundation/Board/Minutes/index.html
 Error: Bad character "<" after "<". Probable cause: Unescaped "<". Try escaping it as "&lt;".
 From line 152, column 1; to line 152, column 2 in resource file:/Foundation/Contact/index.html
 Error: Bad character "<" after "<". Probable cause: Unescaped "<". Try escaping it as "&lt;".
