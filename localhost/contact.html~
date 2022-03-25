@@ -166,14 +166,6 @@ The next sessions are:
 </p>
 <ul>
   <li>
-    Tue, Mar 8, 9pm (UTC), Topics: (open)
-    <ul>
-      <li>Sydney: Wed, Mar 9, 8am</li>
-      <li>Central Europe: Tue, Mar 8, 10pm</li>
-      <li>US Pacific Time: Tue, Mar 8, 1pm</li>
-    </ul>
-  </li>
-  <li>
     Tue, Mar 22, 9pm (UTC), Topics: (open)
     <ul>
       <li>Sydney: Wed, Mar 23, 8am</li>
@@ -182,7 +174,20 @@ The next sessions are:
     </ul>
   </li>
   <li>
-    Tue, Apr 5, Time TBC, Topics: (open)
+    Wed, Apr 6, 7am (UTC), Topics: (open)
+    <ul>
+      <li>Sydney: Wed, Apr 6, 5pm</li>
+      <li>Central Europe: Wed, Apr 6, 9am</li>
+      <li>US Pacific Time: Wed, Apr 6, 12 midnight</li>
+    </ul>
+  </li>
+  <li>
+    Tue, Apr 19, 10pm (UTC), Topics: (open)
+    <ul>
+      <li>Sydney: Wed, Apr 20, 8am</li>
+      <li>Central Europe: Wed, Apr 20, 12 midnight</li>
+      <li>US Pacific Time: Tue, Apr 19, 3pm</li>
+    </ul>
   </li>
 </ul>
 <p>
@@ -220,6 +225,23 @@ Github
 </div><!-- container -->
 
 <footer class="page-footer small pt-3" id="footer" > <!-- footer -->
+<<<<<<< HEAD
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6">
+        Copyright &copy; 2022 seL4 Project a Series of LF Projects, LLC.<br/>
+        seL4 is a trademark of LF Projects, LLC.<br/>
+        For trademark usage guidelines, privacy and cookie policies,
+        and other applicable policies, as well as terms and conditions
+        governing this web site, please see
+        <a href="http://www.lfprojects.org/">www.lfprojects.org</a>
+        and the <a href="Foundation/Trademark/index.html">trademark guidelines</a>.
+      </div>
+      <div class="col-xs-6 text-right">
+        <a href="https://twitter.com/sel4foundation"><img style="height:36px; padding-right:5px; padding-top:2px; padding-bottom:2px;" src="images/icons/twitter.svg" alt="twitter icon"></a>
+        <a href="https://www.youtube.com/channel/UCIqVY1XFPOPIZ1z2A9TrmMA/featured"><img style="height:36px; padding-top:2px; padding-bottom:2px;" src="images/icons/youtube.svg" alt="youtube icon"></a>
+        <a href="https://www.linkedin.com/company/sel4"><img style="height:100%; padding-left:5px; padding-top:2px; padding-bottom:2px;" src="images/icons/linkedin.svg" alt="linkedin icon"></a>
+=======
   <!--<hr class="bottom-ruler">-->
   <!--<div  class="footer-copyright text-left py-3">-->
     <div class="container">
@@ -237,6 +259,7 @@ Github
         <a href="https://twitter.com/sel4foundation"><img style="height:100%; padding-right:5px; padding-top:2px; padding-bottom:2px;" src="images/icons/twitter.png" alt="twitter icon"></a>
         <a href="https://www.youtube.com/channel/UCIqVY1XFPOPIZ1z2A9TrmMA/featured"><img style="height:100%; padding-top:2px; padding-bottom:2px;" src="images/icons/youtube.png" alt="youtube icon"></a>
         <a href="https://www.linkedin.com/company/sel4"><img style="height:100%; padding-left:5px; padding-top:2px; padding-bottom:2px;" src="images/icons/linkedin.png" alt="linkedin icon"></a>
+>>>>>>> bd25f148676232e3599d207e573de02e8404dbed
       </div>
     </div>
   </div>
