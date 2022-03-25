@@ -122,7 +122,7 @@
                      src='../images/sel4-foundation-logo.svg' alt='seL4 foundation logo' />
     </a>
 
-        <!--<title>Governance</title>-->
+<!--<title>Governance</title>-->
 <!--
     Copyright 2020 seL4 Project a Series of LF Projects, LLC.
     SPDX-License-Identifier: CC-BY-SA-4.0
@@ -421,7 +421,7 @@ presence and other media liaison.</p>
   <li>Gernot Heiser</li>
 </ul>
 
-	<div class="divider"></div>
+<div class="divider"></div>
 </div><!-- container -->
 
 <footer class="page-footer small pt-3" id="footer" > <!-- footer -->
@@ -439,7 +439,7 @@ presence and other media liaison.</p>
       <div class="col-xs-6 text-right">
         <a href="https://twitter.com/sel4foundation"><img style="height:36px; padding-right:5px; padding-top:2px; padding-bottom:2px;" src="../images/icons/twitter.svg" alt="twitter icon"></a>
         <a href="https://www.youtube.com/channel/UCIqVY1XFPOPIZ1z2A9TrmMA/featured"><img style="height:36px; padding-top:2px; padding-bottom:2px;" src="../images/icons/youtube.svg" alt="youtube icon"></a>
-        <a href="https://www.linkedin.com/company/sel4"><img style="height:100%; padding-left:5px; padding-top:2px; padding-bottom:2px;" src="../images/icons/linkedin.svg" alt="linkedin icon"></a>
+        <a href="https://www.linkedin.com/company/sel4"><img style="height:36px; padding-left:5px; padding-top:2px; padding-bottom:2px;" src="../images/icons/linkedin.svg" alt="linkedin icon"></a>
       </div>
     </div>
   </div>

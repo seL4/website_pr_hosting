@@ -118,7 +118,7 @@
     <a href='../index.html'><img style="width:20%; margin-top:20px; vertical-align:top;float:right; margin:10px;"
                      src='../images/logo-text-white.svg' alt='seL4' /></a>
 
-        <!--<title>Retrofit</title>
+<!--<title>Retrofit</title>
 Copyright 2020 seL4 Project a Series of LF Projects, LLC.
      SPDX-License-Identifier: CC-BY-SA-4.0
 -->
@@ -209,7 +209,7 @@ Copyright 2020 seL4 Project a Series of LF Projects, LLC.
 <p>
 After this you should have a much more robust system that can take advantage of seL4's proved properties to provide significantly better resilience to cyber attack.</p>
 
-	<div class="divider"></div>
+<div class="divider"></div>
 </div><!-- container -->
 
 <footer class="page-footer small pt-3" id="footer" > <!-- footer -->
@@ -227,7 +227,7 @@ After this you should have a much more robust system that can take advantage of 
       <div class="col-xs-6 text-right">
         <a href="https://twitter.com/sel4foundation"><img style="height:36px; padding-right:5px; padding-top:2px; padding-bottom:2px;" src="../images/icons/twitter.svg" alt="twitter icon"></a>
         <a href="https://www.youtube.com/channel/UCIqVY1XFPOPIZ1z2A9TrmMA/featured"><img style="height:36px; padding-top:2px; padding-bottom:2px;" src="../images/icons/youtube.svg" alt="youtube icon"></a>
-        <a href="https://www.linkedin.com/company/sel4"><img style="height:100%; padding-left:5px; padding-top:2px; padding-bottom:2px;" src="../images/icons/linkedin.svg" alt="linkedin icon"></a>
+        <a href="https://www.linkedin.com/company/sel4"><img style="height:36px; padding-left:5px; padding-top:2px; padding-bottom:2px;" src="../images/icons/linkedin.svg" alt="linkedin icon"></a>
       </div>
     </div>
   </div>
