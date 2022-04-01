@@ -53,6 +53,8 @@
 <!-- Production template -->
   </head>
   <body>
+  <div id="page-container"><!--to put footer at bottom of page-->
+    <div id="content-wrap"><!--to put footer at bottom of page-->
 
 
 <div class="container">
@@ -252,5 +254,7 @@ After this you should have a much more robust system that can take advantage of 
 <!-- wrapper -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+</div><!--content-wrap-->
+</div><!--page-container-->
 </body>
 </html>
