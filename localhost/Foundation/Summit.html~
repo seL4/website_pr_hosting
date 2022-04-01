@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Summit | seL4</title>
+    <meta name="author" content="CSIRO's Data61" />
+    <link href="https://sel4.systems/Foundation/Summit/home.pml" rel=canonical />
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/sel4.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../images/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../images/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="../images/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="../images/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../images/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="../images/icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="../images/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="../images/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../images/icons/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/images/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/images/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/images/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/images/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/images/icons/mstile-310x310.png" />
+    <link rel="shortcut icon" href="../images/icons/favicon.ico" />
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-117737473-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+
+
+
+
+
+<!-- Production template -->
+  </head>
+  <body>
+
+
+<div class="container">
+  <div class="header" id="site-header" role="navigation" >
+    <ul class="nav-pills nav pull-right" id="site-navigation">
+      
+
+
+<!-- /Foundation/Summit/ -->
+<li>
+
+<a href='../index.html'>Home</a></li>
+<!-- /Foundation/Summit/ - /About/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../About.html">What is seL4? <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../About.html">What is seL4?</a></li>
+<li class=""><a href="http://localhost/About/Performance/">Performance</a></li>
+<li class=""><a href="../About/seL4-whitepaper.pdf">Whitepaper</a></li></ul></li>
+<!-- /Foundation/Summit/ - /Foundation/ -->
+<li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="../Foundation.html">seL4 Foundation <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../Foundation.html">About the seL4 Foundation</a></li>
+<li class=""><a href="Governance/index.html">Governance</a></li>
+<!-- /Foundation/Summit/ - /Foundation/Board/ -->
+<li class=""><a href="Board.html">Governing Board</a></li>
+<!-- /Foundation/Summit/ - /Foundation/TSC/ -->
+<li class=""><a href="TSC/index.html">TSC</a></li>
+<!-- /Foundation/Summit/ - /Foundation/Membership/ -->
+<li class=""><a href="Membership.html">Membership</a></li>
+<li class=""><a href="Join.html">Join the Foundation now!</a></li>
+<li class=""><a href="Services.html">Services, Training and Products</a></li>
+<li class="active"><a href="Summit.html">seL4 Summit</a></li>
+<li class=""><a href="Support.html">Support Us</a></li>
+<li class=""><a href="Trademark/index.html">Trademark</a></li>
+<li class=""><a href="Jobs.html">Jobs in the seL4 ecosystem</a></li>
+<li class=""><a href="Contact.html">Contact the seL4 Foundation</a></li></ul></li>
+<li class=""><a href="../contact.html">Stay in Touch</a></li>
+<!-- /Foundation/Summit/ - /Contribute/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../Contribute.html">Contribute <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../Contribute.html">Contribute</a></li>
+<li class=""><a href="https://github.com/seL4">GitHub</a></li></ul></li>
+<li class=""><a href="../Use.html">Use</a></li>
+<li class=""><a href="../Learn.html">Learn</a></li>
+<!-- /Foundation/Summit/ - /Info/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../Info/index.html">More Info <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../Info/index.html">More Info</a></li>
+<li class=""><a href="https://docs.sel4.systems/projects/sel4/frequently-asked-questions.html">FAQ</a></li>
+<li class=""><a href="https://docs.sel4.systems/projects/roadmap.html">Roadmap</a></li>
+<li class=""><a href="../About/more-research.pml.html">Research</a></li></ul></li>
+<li class=""><a href="../news/index.html">News</a></li>
+         </ul>
+        <!-- END: Menu -->
+    </div>
+</div>
+<div class="container"> <!-- container -->
+  <div class="row"> <!-- Breadcrumbs -->
+<!-- seL4 Foundation, /Foundation/ -->
+<!-- seL4 Summit, /Foundation/Summit/ -->
+<!-- Home, /Foundation/Summit/home.pml -->
+<ol class="breadcrumb">
+<li class=""><a href="../index.html">Home</a>
+<li class="">
+<a href="../Foundation.html">seL4 Foundation</a></li>
+<li class="">
+<a href="Summit.html">seL4 Summit</a></li></ol>
+    </div> <!-- Breadcrumbs -->
+
+  <a href='../index.html'><img style="width:20%; padding-top:5px; vertical-align:top;float:right; margin:10px;"
+                     src='../images/sel4-summit-logo.svg' alt='seL4 summit logo' /></a>
+
+        <!--<title>Summit</title>-->
+<!--
+    Copyright 2022 seL4 Project a Series of LF Projects, LLC.
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h1>
+  seL4 Summit 2022
+</h1>
+
+
+<div class="highlight">
+
+  <h3>
+   Latest News
+  </h3>
+  <ul>
+  <li> 30 Mar 2022: <a href="Summit/cfp.html">Call For Presentation</a>! </li>
+  <li> 16 Mar 2022:  Meet the summit 2022 PC members! </li>
+  <li> 1 Feb 2022: Call for bids to host the seL4 Summit 2022!</li>
+  </ul>
+</div>
+
+
+<div>
+  <h3>
+  About
+  </h3>
+  <p>
+   The seL4 Summit 2022 is be the fourth edition of the international summit on
+   the <a href="../About.html">seL4 microkernel</a>, the world's most highly
+   assured OS kernel.
+  </p>
+  <p>
+   The first three seL4 Summits were organised by the <a
+   href="https://trustedcomputingcoe.org/summits/">Trusted Computed Center of
+   Excellence</a>, and were hosted in the US.
+  </p>
+  <p>
+
+   The seL4 Summit 2022 is the first to be organised by the <a href="../Foundation.html">seL4
+   Foundation</a>, established in 2020.
+
+  </p>
+
+
+  <h3>
+   Location
+  </h3>
+  <p>
+
+  We are aiming for <strong>Europe, likely Germany</strong>. Exact location to be confirmed soon.
+
+  </p>
+
+
+  <h3>
+   Important Dates:
+  </h3>
+  <ul>
+  <li> Abstracts due: 9th of May 2022</li>
+  <li> Notification of decisions: 30th of May 2022 </li>
+  <li> Summit: aiming for week of 10th of October 2022 (TBC) </li>
+  </ul>
+
+  <h3>
+   Call for Presentations
+  </h3>
+
+
+  <div class="highlight">
+  <p>
+
+  Check the <a href="Summit/cfp.html">CFP</a>.  To propose a talk, send an abstract of
+  <strong>one page or less</strong> <strong>by Monday 9th of May 2022</strong>
+  to <a title="summit@sel4.systems"
+  href="mailto:summit@sel4.systems">summit@sel4.systems</a>.
+
+  </p>
+  </div>
+
+  <h3>
+   Principles
+  </h3>
+
+  <p>
+
+  An open <strong>call for presentation</strong> invites submissions of short
+  abstracts about cool work on seL4.
+
+  </p>
+
+  <p>
+
+  The <strong>Program Committee</strong> is in charge of the technical content
+  (reviewing submission, selecting invited speakers, defining the program).
+
+  </p>
+
+  <p>
+
+  The <strong>Hosting Team</strong> is in charge of organising the event (venue,
+  finances, catering, local arrangements).  The Hosting Team is aimed to be
+  selected through an open bid process by the seL4 Foundation board. The call
+  for bids ideally occurs 2 months before the previous summit, in order for the
+  bids for year N+1 to be presented at the summit in year N.
+
+  </p>
+
+  <p>
+
+  The <strong>location</strong> is aimed to be on a different continent each
+  year, as far as possible, with a hybrid in-person/online event.
+  </p>
+
+
+  <h3>
+   Program Committee
+  </h3>
+
+
+<div class="people_grid">
+
+  <div class="person">
+    <div class="person_pic">
+      <a href="https://proofcraft.systems/#june"><img src="Board/TS-June-s.jpg" alt="June Andronick" width="80" /></a>
+    </div>
+    <div class="person_title">
+      <strong><a class="list_link" href="https://proofcraft.systems/#june">June Andronick<br /> (co-chair)</a></strong>
+    </div>
+  </div>
+
+  <div class="person">
+    <div class="person_pic">
+      <a href="http://loonwerks.com/people/darren-cofer.html"><img src="../images/summit/darren.jpg" alt="Darren Cofer" width="80" /></a>
+    </div>
+    <div class="person_title">
+      <strong><a class="list_link" href="http://loonwerks.com/people/darren-cofer.html">Darren Cofer <br /> (co-chair)</a></strong>
+    </div>
+  </div>
+
+  <div class="person">
+    <div class="person_pic">
+      <a href="https://www.linkedin.com/in/annamlyons/"><img src="../images/tsc/anna.png" alt="Anna Lyons" width="80" /></a>
+    </div>
+    <div class="person_title">
+      <strong><a class="list_link" href="https://www.linkedin.com/in/annamlyons/">Anna Lyons</a></strong>
+    </div>
+  </div>
+
+  <div class="person">
+    <div class="person_pic">
+      <a href="https://www.linkedin.com/in/axelheider"><img src="../images/summit/axel.png" alt="Axel Heider" width="80" /></a>
+    </div>
+    <div class="person_title">
+      <strong><a class="list_link" href="https://www.linkedin.com/in/axelheider">Axel Heider</a></strong>
+    </div>
+  </div>
+
+  <div class="person">
+    <div class="person_pic">
+      <a href="https://trustworthy.systems/people/?cn=Gernot+Heiser"><img src="Board/TS-Gernot-s.jpg" alt="Gernot Heiser" width="80"/></a>
+    </div>
+    <div class="person_title">
+      <strong><a class="list_link" href="https://trustworthy.systems/people/?cn=Gernot+Heiser">Gernot Heiser</a></strong>
+    </div>
+  </div>
+
+  <div class="person">
+    <div class="person_pic">
+      <a href="https://trustworthy.systems/people/?cn=Ihor+Kuz"><img src="../images/tsc/ihor.jpg" alt="Ihor Kuz" width="80" /></a>
+    </div>
+    <div class="person_title">
+      <strong><a class="list_link" href="https://trustworthy.systems/people/?cn=Ihor+Kuz">Ihor Kuz</a></strong>
+    </div>
+  </div>
+
+  <div class="person">
+    <div class="person_pic">
+      <a href="https://en.wikipedia.org/wiki/John_Launchbury"><img src="../images/summit/john.jpg" alt="John Launchbury" width="80"/></a>
+    </div>
+    <div class="person_title">
+      <strong><a class="list_link" href="https://en.wikipedia.org/wiki/John_Launchbury">John Launchbury</a></strong>
+    </div>
+  </div>
+
+  <div class="person">
+    <div class="person_pic">
+      <a href="https://www.linkedin.com/in/kent-mcleod-1703a757"><img src="../images/tsc/kent.jpg" alt="Kent Mcleod" width="80" /></a>
+    </div>
+    <div class="person_title">
+      <strong><a class="list_link" href="https://www.linkedin.com/in/kent-mcleod-1703a757">Kent Mcleod</a></strong>
+    </div>
+  </div>
+
+  <div class="person">
+    <div class="person_pic">
+      <a href="https://nickspinale.com"><img src="../images/summit/nick.jpg" alt="Nick Spinale" width="80"/></a>
+    </div>
+    <div class="person_title">
+      <strong><a class="list_link" href="https://nickspinale.com">Nick Spinale</a></strong>
+    </div>
+  </div>
+
+  <div class="person">
+    <div class="person_pic">
+      <a href="https://perry.alexander.name"><img src="../images/summit/perry.jpg" alt="Perry Alexander" width="80"/></a>
+    </div>
+    <div class="person_title">
+      <strong><a class="list_link" href="https://perry.alexander.name">Perry Alexander</a></strong>
+    </div>
+  </div>
+
+  <div class="person">
+    <div class="person_pic">
+      <a href="https://www.linkedin.com/in/robbie-vanvossen-gr/"><img src="../images/summit/robbie.png" alt="Robbie VanVossen" width="80"/></a>
+    </div>
+    <div class="person_title">
+      <strong><a class="list_link" href="https://www.linkedin.com/in/robbie-vanvossen-gr/">Robbie VanVossen</a></strong>
+    </div>
+  </div>
+
+  <div class="person">
+    <div class="person_pic">
+      <a href="https://www.adventiumlabs.com/team-member/todd-carpenter"><img src="../images/summit/todd.jpg" alt="Todd Carpenter" width="80"/></a>
+    </div>
+    <div class="person_title">
+      <strong><a class="list_link" href="https://www.adventiumlabs.com/team-member/todd-carpenter">Todd Carpenter</a></strong>
+    </div>
+  </div>
+</div>
+
+
+<!--
+
+<div class="homepage_grid">
+  <div class="homepage_item">
+    <a class="divLink" href="about"></a>
+    <div class="hp_pic">
+      <img src="/images/sel4-summit-about-band.svg" style="width:200px;" alt="seL4 summit" />
+    </div>
+    <div>
+      Learn more about the annual seL4 Summit.
+    </div>
+  </div>
+
+  <div class="homepage_item">
+    <a class="divLink" href="pc"></a>
+    <div class="hp_pic">
+      <img src="/images/sel4-summit-pc-band.svg" style="width:200px;" alt="seL4 Foundation" />
+    </div>
+    <div>
+      About our program committee.
+    </div>
+  </div>
+</div>
+-->
+
+  <h3>
+   Contact
+  </h3>
+  <p>
+   If you have questions, please do not hesitate to contact the seL4 Foundation summit team at: <a title="summit@sel4.systems"   href="mailto:summit@sel4.systems">summit@sel4.systems</a>.
+  </p>
+
+</div>
+	<div class="divider"></div>
+</div><!-- container -->
+
+<footer class="page-footer small pt-3" id="footer" > <!-- footer -->
+  <hr class="bottom-ruler">
+  <div class="footer-social-media-links-right">
+    <a href="https://twitter.com/sel4foundation"><img style="height:100%; padding-right:5px; padding-top:2px; padding-bottom:2px;" src="../images/icons/twitter.png" alt="twitter icon"></a>
+    <a href="https://www.youtube.com/channel/UCIqVY1XFPOPIZ1z2A9TrmMA/featured"><img style="height:100%; padding-top:2px; padding-bottom:2px;" src="../images/icons/youtube.png" alt="youtube icon"></a>
+    <a href="https://www.linkedin.com/company/sel4"><img style="height:100%; padding-left:5px; padding-top:2px; padding-bottom:2px;" src="../images/icons/linkedin.png" alt="linkedin icon"></a>
+  </div>
+  <div  class="footer-copyright text-center py-3">
+    Copyright &copy; 2022  seL4 Project a Series of LF Projects, LLC.<br/>
+      seL4 is a trademark of LF Projects, LLC.<br/>
+      For trademark usage guidelines, privacy and cookie policies,
+      and other applicable policies, as well as terms and conditions
+      governing this web site, please see
+      <a href="http://www.lfprojects.org/">www.lfprojects.org</a>
+      and the <a href="Trademark/index.html">trademark guidelines</a>.
+  </div>
+
+</footer> <!-- footer -->
+<!-- wrapper -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
