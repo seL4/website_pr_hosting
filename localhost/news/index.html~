@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>News about seL4 and the seL4 Foundation | seL4</title>
+    <meta name="author" content="CSIRO's Data61" />
+    <link href="https://sel4.systems/news/2022.pml" rel=canonical />
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/sel4.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../images/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../images/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="../images/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="../images/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../images/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="../images/icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="../images/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="../images/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../images/icons/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/images/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/images/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/images/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/images/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/images/icons/mstile-310x310.png" />
+    <link rel="shortcut icon" href="../images/icons/favicon.ico" />
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-117737473-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+
+
+
+
+
+<!-- Production template -->
+  </head>
+  <body>
+  <div id="page-container"><!--to put footer at bottom of page-->
+  <div id="content-wrap"><!--to put footer at bottom of page-->
+
+
+<div class="container">
+  <div class="header" id="site-header" role="navigation" >
+    <ul class="nav-pills nav pull-right" id="site-navigation">
+      
+
+
+<!-- /news/ -->
+<li>
+
+<a href='../index.html'>Home</a></li>
+<!-- /news/ - /About/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../About.html">What is seL4? <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../About.html">What is seL4?</a></li>
+<li class=""><a href="http://localhost/About/Performance/">Performance</a></li>
+<li class=""><a href="../About/seL4-whitepaper.pdf">Whitepaper</a></li></ul></li>
+<!-- /news/ - /Foundation/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../Foundation.html">seL4 Foundation <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../Foundation.html">About the seL4 Foundation</a></li>
+<li class=""><a href="../Foundation/Governance/index.html">Governance</a></li>
+<!-- /news/ - /Foundation/Board/ -->
+<li class=""><a href="../Foundation/Board.html">Governing Board</a></li>
+<!-- /news/ - /Foundation/TSC/ -->
+<li class=""><a href="../Foundation/TSC/index.html">TSC</a></li>
+<!-- /news/ - /Foundation/Membership/ -->
+<li class=""><a href="../Foundation/Membership.html">Membership</a></li>
+<li class=""><a href="../Foundation/Join.html">Join the Foundation now!</a></li>
+<li class=""><a href="../Foundation/Services.html">Services, Training and Products</a></li>
+<li class=""><a href="../Foundation/Summit.html">seL4 Summit</a></li>
+<li class=""><a href="../Foundation/Support.html">Support Us</a></li>
+<li class=""><a href="../Foundation/Trademark/index.html">Trademark</a></li>
+<li class=""><a href="../Foundation/Jobs.html">Jobs in the seL4 ecosystem</a></li>
+<li class=""><a href="../Foundation/Contact.html">Contact the seL4 Foundation</a></li></ul></li>
+<li class=""><a href="../contact.html">Stay in Touch</a></li>
+<!-- /news/ - /Contribute/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../Contribute.html">Contribute <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../Contribute.html">Contribute</a></li>
+<li class=""><a href="https://github.com/seL4">GitHub</a></li></ul></li>
+<li class=""><a href="../Use.html">Use</a></li>
+<li class=""><a href="../Learn.html">Learn</a></li>
+<!-- /news/ - /Info/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../Info/index.html">More Info <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../Info/index.html">More Info</a></li>
+<li class=""><a href="https://docs.sel4.systems/projects/sel4/frequently-asked-questions.html">FAQ</a></li>
+<li class=""><a href="https://docs.sel4.systems/projects/roadmap.html">Roadmap</a></li>
+<li class=""><a href="../About/more-research.pml.html">Research</a></li></ul></li>
+<li class="active"><a href="index.html">News</a></li>
+         </ul>
+        <!-- END: Menu -->
+    </div>
+</div>
+<div class="container"> <!-- container -->
+  <div class="row"> <!-- Breadcrumbs -->
+<!-- News, /news/ -->
+<!-- 2022, /news/2022.pml -->
+<ol class="breadcrumb">
+<li class=""><a href="../index.html">Home</a>
+<li class="">
+<a href="index.html">News</a></li>
+<li class="active">
+2022</li></ol>
+    </div> <!-- Breadcrumbs -->
+
+    <a href='../index.html'><img style="width:20%; margin-top:20px; vertical-align:top;float:right; margin:10px;"
+                     src='../images/logo-text-white.svg' alt='seL4' /></a>
+
+<!--<title>News about seL4 and the seL4 Foundation</title>-->
+<!--
+    Copyright 2022 seL4 Project a Series of LF Projects, LLC.
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<div class="row">
+ <div class="col">
+  <h1>
+    News about
+    <a href="../index.html">seL4</a>
+    and the
+    <a href="../Foundation.html">seL4 Foundation</a>
+  </h1>
+ </div>
+ <div class="col">
+ 
+Older News:  <a href="2020.html">2020</a> <a href="2021.html">2021</a> <a href="index.html">2022</a> 
+ </div>
+</div>
+
+<!--
+<div class="news-item" id="brief-unique-anchor-name">
+  29 Jan 2021: Raytheon joins the seL4 Foundation
+</div>
+<div>
+ <p>
+
+   <a href="https://www.rtx.com/">
+     <img src="/Foundation/Membership/LOGOS/raytheontechnologies.svg"
+	  style="width: 20%;  padding-left:10px;  float:right"
+	  alt="Raytheon logo"/>
+   </a>
+
+    blah blah blah blah blah blah blah blah blah blah blah blah blah
+    blah blah blah blah blah blah blah blah blah blah blah blah blah
+    blah blah blah blah blah blah blah blah blah blah blah blah blah
+    blah blah blah blah blah blah blah blah blah blah blah blah blah
+    blah blah blah blah blah blah blah blah blah blah blah blah blah
+    blah blah blah blah blah blah blah
+ </p>
+</div>
+-->
+
+
+<!----------------------------------------------------------->
+<div class="news-item" id="agm-2022">
+  6 April 2022: Our second annual AGM to be held 6 April 2022
+</div>
+<div>
+    <a href="../Foundation/Summit.html">
+      <img src="../images/sel4-foundation-logo.svg"
+	   style="width: 20%;  padding-left:10px;  float:right"
+	   alt="seL4 Foundation"/>
+    </a>
+  <p>
+    Our second Annual General Meeting (AGM) 6 April 2022. As our membership now is truly global, covering New Zealand, Australia, China, the Middle East, Central and Western Europe, the US East, Central and West coasts, there is no time that is not in the middle of the night for some members. Hence we will hold the AGM in two sessions:
+    <ul>
+      <li>2022-04-06 07:00–08:30 UTC</li>
+      <li>2022-04-06 23:00 – 2022-04-07 00:30 UTC</li>
+  </p>
+</div>
+<div class="news-finish">
+</div>
+
+<!----------------------------------------------------------->
+<div class="news-item" id="summit-cfp">
+  30 March 2022: The Call for Presentations for the seL4 summit 2022 is out!
+</div>
+<div>
+
+
+    <a href="../Foundation/Summit.html">
+      <img src="../images/sel4-summit-logo.svg"
+	   style="width: 20%;  padding-left:10px;  float:right"
+	   alt="seL4 Summit 2022" />
+    </a>
+
+<div class="highlight" >
+
+  <h3>
+  We are <a href="../Foundation/Summit/cfp.html">calling for proposals to present</a> at the <a
+  href="../Foundation/Summit.html">seL4 Summit 2022</a>.
+  </h3>
+  <p>Share your seL4 work </p>
+  <p>Share your seL4 experience </p>
+  <p>Share your seL4 thoughts </p>
+  <p>Share your seL4 questions </p>
+</div>
+
+
+  <p>
+
+  Check the full <a href="../Foundation/Summit/cfp.html">Call For Presentations</a>.  To propose a talk,
+  send an abstract of <strong>one page or less</strong> <strong>by Monday 9th of
+  May 2022</strong> to <a title="summit@sel4.systems"
+  href="mailto:summit@sel4.systems">summit@sel4.systems</a>.  </p>
+
+
+</div>
+<div class="news-finish">
+</div>
+
+
+<!----------------------------------------------------------->
+<div class="news-item" id="summit-pc">
+  18 March 2022: Meet the Program Committee of the seL4 summit 2022!
+</div>
+<div>
+
+
+    <a href="../Foundation/Summit.html">
+      <img src="../images/sel4-summit-logo.svg"
+	   style="width: 20%;  padding-left:10px;  float:right"
+	   alt="seL4 Summit 2022" />
+    </a>
+
+  <p>
+
+    The seL4 Foundation is excited to have gathered a top notch team of
+    people to serve as <a href="../Foundation/Summit.html">PC members for the seL4
+    summit 2022</a>. They come from across the the seL4 ecosystem: users,
+    contributors, committers, experts, advocates, researchers, and engineers.
+
+  </p>
+  <p>
+
+    <strong>Stay tuned for the Call for Presentation soon!</strong>
+
+  </p>
+  <p style="text-align: center;">
+
+    <a href="../Foundation/Summit.html">
+      <img src="../images/summit/pc22.png"
+	   style="width: 60%;  padding-left:10px; "
+	   alt="PC for seL4 Summit 2022" />
+    </a>
+
+  </p>
+
+
+</div>
+<div class="news-finish">
+</div>
+
+<!----------------------------------------------------------->
+<div class="news-item" id="board-member-olivier">
+  14 March 2022: Olivier Engelkes is Hensoldt Cyber's new representative on the seL4 Board
+</div>
+<div>
+
+    <a href="https://de.linkedin.com/in/olivier-engelkes-6393b1a">
+      <img src="../Foundation/Board/HC-Olivier.jpg"
+	   style="width: 20%;  padding-left:10px;  float:right"
+	   alt="Olivier Engelkes" />
+    </a>
+
+
+  <p>
+    The seL4 Foundation is pleased to welcome <a href="https://de.linkedin.com/in/olivier-engelkes-6393b1a">Olivier Engelkes</a> as Hensoldt Cyber's new representative on the <a href="../Foundation/Board.html">seL4 Foundation Board</a>.
+    </p>
+    <p>
+  </p>
+  <p>
+      Olivier is  Head of Engineering at HENSOLDT Cyber GmbH, <a href="../Foundation/Membership.html">premium member</a> of the seL4 Foundation and Munich-based company which develops embedded IT products that meet the highest security requirements, combining an operating system based on verified seL4 with a RISC-V processor that is protected from supply-chain attacks. Olivier replaces Sascha Kegrei&szlig; as HENSOLDT Cyber's representative on the
+      <a href="../Foundation/Board.html">seL4 Foundation Board</a>.
+  </p>
+
+</div>
+<div class="news-finish">
+</div>
+
+<!----------------------------------------------------------->
+<div class="news-item" id="member-ncsc">
+  2 February 2022: NCSC joins the seL4 Foundation
+</div>
+<div>
+
+  <p>
+    <a href="https://www.ncsc.gov.uk/">
+      <img src="../Foundation/Membership/LOGOS/NCSC.png"
+	   style="width: 20%;  padding-left:10px;  float:right"
+	   alt="NCSC" />
+    </a>
+
+    The seL4 Foundation is pleased to welcome the UK’s <a href="https://www.ncsc.gov.uk">National Cyber Security Centre (NCSC)</a>.
+    </p>
+    <p>
+
+    The NCSC, the UK’s technical authority on cyber security, uses the seL4
+    Microkernel to enforce separation in a number of high-assurance
+    situations. The government organisation is actively exploring research
+    opportunities to further develop its seL4 use cases.  NCSC Technical
+    Director Dr Ian Levy said: "We’re pleased to join the seL4 Foundation. seL4
+    is some of the most highly assured software and its development plays an
+    important role in the next generation of high-assurance devices. We support
+    the long-term stability of the seL4 microkernel ecosystem and are looking at
+    opportunities to develop our use cases for it."
+  </p>
+
+</div>
+<div class="news-finish">
+</div>
+
+<!----------------------------------------------------------->
+<div class="news-item" id="summit-bid-host">
+  1 February 2022: Call for bids to host the seL4 Summit 2022!
+</div>
+<div>
+
+  <p>
+    <a href="../Foundation/Summit.html">
+      <img src="../images/seL4.svg"
+	   style="width: 20%;  padding-left:10px;  float:right"
+	   alt="seL4 summit" />
+    </a>
+
+  The seL4 Foundation will be organising the fourth edition of the seL4 Summit,
+  in October 2022.
+  </p>
+  <p>
+  A Program Committee will be in charge of the technical side (more on that
+  soon) and an Hosting Team will be in charge of organising the event.
+  </p>
+  <p>
+  <strong> We are now calling for bids to be the Host team for the seL4 Summit 2022!
+  </strong>
+  </p>
+  <p>
+  <strong>
+
+  Bids should be sent to <a title="summit@sel4.systems"
+  href="mailto:summit@sel4.systems">summit@sel4.systems</a> before 22 February
+  2022.
+  </strong>
+  <p>
+  <p>
+  More information <a href="../Foundation/Summit.html">here</a>.
+  </p>
+
+</div>
+<div class="news-finish">
+</div>
+
+
+<!----------------------------------------------------------->
+<div class="news-item" id="kry10-endorsement">
+  28 January 2022: Kry10 receives interim endorsement as a Trusted Service Provider
+</div>
+<div>
+  <p>
+    <a href="https://kry10.com">
+      <img src="../Foundation/Membership/LOGOS/Kry10.svg"
+	   style="width: 20%;  padding-left:10px;  float:right"
+	   alt="Kry10 logo" />
+    </a>
+    The seL4 Foundation has awarded Interim Endorsement to Kry10 as a Trusted Service Provider. More on our <a href="../Foundation/Services.html">Services, Training and Products</a> page.
+  </p>
+</div>
+<div class="news-finish">
+</div>
+
+<div class="divider"></div>
+</div><!-- container -->
+
+<footer class="page-footer small pt-3" id="footer"> <!-- footer -->
+  <div class="container">
+    <!-- for mobile screens -->
+    <div class="text-center visible-xs">
+    <a href="https://twitter.com/sel4foundation"><img style="height:36px; padding-right:5px; padding-top:2px; padding-bottom:2px;" src="../images/icons/twitter.svg" alt="twitter icon"></a>
+      <a href="https://www.youtube.com/channel/UCIqVY1XFPOPIZ1z2A9TrmMA/featured"><img style="height:36px; padding-top:2px; padding-bottom:2px;" src="../images/icons/youtube.svg" alt="youtube icon"></a>
+      <a href="https://www.linkedin.com/company/sel4"><img style="height:36px; padding-left:5px; padding-top:2px; padding-bottom:2px;" src="../images/icons/linkedin.svg" alt="linkedin icon"></a>
+      <br>
+      <br>
+    Copyright &copy; 2022 seL4 Project a Series of LF Projects, LLC.<br/>
+      seL4 is a trademark of LF Projects, LLC.<br/>
+      For trademark usage guidelines, privacy and cookie policies,
+      and other applicable policies, as well as terms and conditions
+      governing this web site, please see
+      <a href="http://www.lfprojects.org/">www.lfprojects.org</a>
+      and the <a href="../Foundation/Trademark/index.html">trademark guidelines</a>.
+    </div>
+    <div class="row">
+      <!-- for screens larger than mobiles -->
+      <div class="col-xs-6 hidden-xs">
+        Copyright &copy; 2022 seL4 Project a Series of LF Projects, LLC.<br/>
+        seL4 is a trademark of LF Projects, LLC.<br/>
+        For trademark usage guidelines, privacy and cookie policies,
+        and other applicable policies, as well as terms and conditions
+        governing this web site, please see
+        <a href="http://www.lfprojects.org/">www.lfprojects.org</a>
+        and the <a href="../Foundation/Trademark/index.html">trademark guidelines</a>.
+      </div>
+      <div class="col-xs-6 text-right hidden-xs">
+        <a href="https://twitter.com/sel4foundation"><img style="height:36px; padding-right:5px; padding-top:2px; padding-bottom:2px;" src="../images/icons/twitter.svg" alt="twitter icon"></a>
+        <a href="https://www.youtube.com/channel/UCIqVY1XFPOPIZ1z2A9TrmMA/featured"><img style="height:36px; padding-top:2px; padding-bottom:2px;" src="../images/icons/youtube.svg" alt="youtube icon"></a>
+        <a href="https://www.linkedin.com/company/sel4"><img style="height:36px; padding-left:5px; padding-top:2px; padding-bottom:2px;" src="../images/icons/linkedin.svg" alt="linkedin icon"></a>
+      </div>
+    </div>
+  </div>
+
+</footer> <!-- footer -->
+<!-- wrapper -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</div><!--content-wrap-->
+</div><!--page-container-->
+</body>
+</html>
