@@ -361,7 +361,7 @@ We solicit proposals on any seL4-related topic, in particular in the areas of:
 </div>
 <div class="divider"></div>
 </div><!-- container -->
-
+</div><!--content-wrap-->
 <footer class="page-footer small pt-3" id="footer"> <!-- footer -->
   <div class="container">
     <!-- for mobile screens -->
@@ -402,7 +402,6 @@ We solicit proposals on any seL4-related topic, in particular in the areas of:
 <!-- wrapper -->
 <script src="../../js/jquery.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
-</div><!--content-wrap-->
 </div><!--page-container-->
 </body>
 </html>
