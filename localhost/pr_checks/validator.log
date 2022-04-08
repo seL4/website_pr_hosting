@@ -1,0 +1,7 @@
+<html><body><p>
+Error: Attribute "alt" not allowed on element "a" at this point.
+From line 180, column 147; to line 180, column 210 in resource file:/news/index.html
+Error: Attribute "alt" not allowed on element "a" at this point.
+From line 181, column 43; to line 181, column 108 in resource file:/news/index.html
+Document checking completed.
+</p></body></html>
