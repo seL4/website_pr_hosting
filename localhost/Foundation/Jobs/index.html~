@@ -440,7 +440,7 @@ explicit description of how the job will be linked to seL4.
 
 <div class="divider"></div>
 </div><!-- container -->
-
+</div><!--content-wrap-->
 <footer class="page-footer small pt-3" id="footer"> <!-- footer -->
   <div class="container">
     <!-- for mobile screens -->
@@ -481,7 +481,6 @@ explicit description of how the job will be linked to seL4.
 <!-- wrapper -->
 <script src="../../js/jquery.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
-</div><!--content-wrap-->
 </div><!--page-container-->
 </body>
 </html>
