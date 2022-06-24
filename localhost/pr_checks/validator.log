@@ -1,0 +1,21 @@
+<html><body><p>
+Error: No "p" element in scope but a "p" end tag seen.
+From line 204, column 3; to line 204, column 6 in resource file:/Foundation/Summit.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 204, column 3; to line 204, column 6 in resource file:/Foundation/Summit/index.html
+Error: Element "emph" not allowed as child of element "td" in this context. (Suppressing further errors from this subtree.)
+From line 165, column 32; to line 165, column 37 in resource file:/Foundation/Summit/program.pml.html
+Error: End tag "td" seen, but there were open elements.
+From line 177, column 80; to line 177, column 84 in resource file:/Foundation/Summit/program.pml.html
+Error: Unclosed element "strong".
+From line 177, column 33; to line 177, column 40 in resource file:/Foundation/Summit/program.pml.html
+Error: End tag "td" seen, but there were open elements.
+From line 184, column 72; to line 184, column 76 in resource file:/Foundation/Summit/program.pml.html
+Error: Unclosed element "strong".
+From line 184, column 33; to line 184, column 40 in resource file:/Foundation/Summit/program.pml.html
+Error: End tag "td" seen, but there were open elements.
+From line 191, column 111; to line 191, column 115 in resource file:/Foundation/Summit/program.pml.html
+Error: Unclosed element "strong".
+From line 191, column 43; to line 191, column 50 in resource file:/Foundation/Summit/program.pml.html
+Document checking completed.
+</p></body></html>
