@@ -1,2 +1,5 @@
 <html><body><p>
+Error: Duplicate ID "cfp-reminder".
+From line 232, column 1; to line 232, column 41 in resource file:/news/index.html
+Document checking completed.
 </p></body></html>
