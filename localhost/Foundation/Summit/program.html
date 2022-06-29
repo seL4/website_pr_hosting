@@ -6,9 +6,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Summit | seL4</title>
+    <title>Summit program | seL4</title>
     <meta name="author" content="CSIRO's Data61" />
-    <link href="https://sel4.systems/Foundation/Summit/home.pml" rel=canonical />
+    
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
     <link href="../../css/sel4.css" rel="stylesheet">
 
@@ -111,19 +111,21 @@
   <div class="row"> <!-- Breadcrumbs -->
 <!-- seL4 Foundation, /Foundation/ -->
 <!-- seL4 Summit, /Foundation/Summit/ -->
-<!-- Home, /Foundation/Summit/home.pml -->
+<!-- Program, /Foundation/Summit/program.pml -->
 <ol class="breadcrumb">
 <li class=""><a href="../../index.html">Home</a>
 <li class="">
 <a href="../../Foundation.html">seL4 Foundation</a></li>
 <li class="">
-<a href="../Summit.html">seL4 Summit</a></li></ol>
+<a href="../Summit.html">seL4 Summit</a></li>
+<li class="active">
+Program</li></ol>
     </div> <!-- Breadcrumbs -->
 
   <a href='../../index.html'><img style="width:20%; padding-top:5px; vertical-align:top;float:right; margin:10px;"
                      src='../../images/sel4-summit-logo.svg' alt='seL4 summit logo' /></a>
 
-<!--<title>Summit</title>-->
+<!--<title>Summit program</title>-->
 <!--
     Copyright 2022 seL4 Project a Series of LF Projects, LLC.
     SPDX-License-Identifier: CC-BY-SA-4.0
@@ -132,298 +134,102 @@
   seL4 Summit 2022
 </h1>
 <h4>
-Munich, Germany (hybrid), 10-13 Oct 2022
+Munich, Germany (hybrid), 10-12 Oct 2022
 </h4>
 
 
-<div class="highlight">
+<h3>
+   Preliminary Program
+</h3>
 
-  <h3>
-   Latest News
-  </h3>
-</div>
+All times are local time in Munich, Germany (UTC+2).
 
- <div>
-  <ul>
-  <li> <div class="highlight">
-    30 Jun 2022: The <a href="program.pml.html">Program</a> is now available!
-  </div> </li>
-  <li>
-    29 Apr 2022: Location & date confirmed: Munich, Germany (hybrid), 10-13 Oct 2022
-  </li>
-  <li>
-    30 Mar 2022:  <a href="cfp.html">Call For Presentation</a>, deadline 9th of May 2022
-  </li>
-  <li> 16 Mar 2022:  Meet the summit 2022 PC members! </li>
-  <li> 1 Feb 2022: Call for bids to host the seL4 Summit 2022!</li>
-  </ul>
-</div>
+<table id="summit-talks">
+  <tr>
+    <th colspan="3">Day 1&emsp;10 October 2022</th>
+  </tr>
+  <tr><td>9:00 - 9:10</td> <td>Announcements</td>  <td><em>Welcome</em></td></tr>
+  <tr><td>9:10 - 10:00</td><td>Keynote</td> <td><strong>seL4 research update</strong><br>Gernot Heiser, UNSW</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>10:15 - 10:45</td><td>Talk</td><td><strong>seL4 verification roadmap</strong><br>Rafal Kolanski, Gerwin Klein & June Andronick, Proofcraft</td></tr>
+  <tr><td>10:45 - 11:15</td><td>Talk</td><td><strong>Explaining the seL4 integrity theorems</strong><br>Matthew Brecknell, Kry10</td></tr>
+  <tr><td>11:15 - 11:45</td><td>Discussion</td><td><strong>AMA (Ask Me Anything)</strong> with the Foundation TSC</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>12:45 - 13:15</td><td>Talk</td><td><strong> The seL4 Core
+  Platform (seL4CP)</strong><br>TBD, UNSW</td></tr>
+  <tr><td>13:15 - 13:45</td><td>Talk</td><td><strong>The seL4 Device
+  Driver Framework (sDDF)</strong><br>Lucy Parker, UNSW</td></tr>
+  <tr><td>13:45 - 14:30</td><td>Talk & Discussion</td><td><strong>Multiprocessing on seL4 with verified kernels</strong><br>Kent McLeod, Kry10</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>15:00 - 15:30</td><td>Talk</td><td><strong>Using QEMU to extend seL4 VirtIO support</strong><br>Hannu Lyytinen & Markku Ahvenjärvi, TII</td></tr>
+  <tr><td>15:30 - 16:00</td><td>Talk</td><td><strong>QEMU as prototyping platform for seL4 systems</strong><br>Axel Heider, Hensoldt Cyber</td></tr>
+  <tr><td>16:00 - 16:30</td><td>Talk</td><td><strong>Porting U-Boot drivers to seL4</strong><br>Mark Jenkinson & Stephen Williams, Capgemini</td></tr>
+  <tr><td>16:30 - 17:00</td><td>Talk</td><td><strong>fence.t: Hardware support for preventing microarchitectural timing channels</strong><br>Nils Wistoff, ETH</td></tr>
+  <tr>
+    <th colspan="3">Day 2&emsp;11 October 2022</th>
+  </tr>
+  <tr><td>9:00 - 9:50</td><td>Keynote</td><td><strong>Kry10 Secure Platform</strong><br>Boyd Multerer, Kry10</td></tr>
+  <tr><td>9:50 - 10:00</td><td>Announcements</td><td><em>Foundation announcements</em></td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>10:15 - 10:45</td><td>Talk</td><td><strong>seL4 and BEAM: a match made in Erlang</strong><br>Ihor Kuz, Kry10</td></tr>
+  <tr><td>10:45 - 11:15</td><td>Talk</td><td>TBD<!-- strong>Security
+  framework for mixed-critical use-cases</strong><br>Jorge Pereira --></td></tr>
+  <tr><td>11:15 - 11:45</td><td>Talk & Discussion</td><td><strong>Rust support in seL4 userspace: Present and future</strong><br>Nick Spinale</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>12:45 - 13:15</td><td>Talk</td><td><strong>Trustworthy board management controllers</strong><br>Daniel Schwyn & Ben Fiedler, ETH</td></tr>
+  <tr><td>13:15 - 13:45</td><td>Talk</td><td><strong>Early experiences proving the correctness of a network stack implementation</strong><br>Alain Kägi et al, Lewis & Clark College</td></tr>
+  <tr><td>13:45 - 14:15</td><td>Talk</td><td><strong>CASE overview: Cyber Assured Systems Engineering</strong><br>Darren Cofer, Collins Aerospace</td></tr>
+  <tr><td>14:15 - 14:45</td><td>Talk</td><td><strong>A Verified architecture for trustworthy remote attestation</strong><br>Grant Jurgensen, The University of Kansas</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>15:15 - 15:30</td><td>Experience report</td><td><strong>FerrOS, unikernel on Rust</strong><br>Nathan Aschbacher, Auxon</td></tr>
+  <tr><td>15:30 - 15:45</td><td>Experience report</td><td><strong>Safety-critical voice communication system (MCS, SMP, VM)</strong><br>Indan Zupanic, MEP</td></tr>
+  <tr><td>15:45 - 16:00</td><td>Experience report</td><td><strong>Make seL4 an ASIL-D certified system</strong><br>Yuning Liang, Xcalibyte</td></tr>
+  <tr><td>16:00 - 16:15</td><td>Teaser</td><td><strong>VM Composer</strong><br>Robbie VanVossen, DornerWorks</td></tr>
+  <tr><td>16:15 - 17:00</td><td>Panel & Discussion</td><td><strong>Funding agencies: priorities and vision</strong></td></tr>
+  <tr>
+    <th colspan="3">Day 3&emsp;12 October 2022</th>
+  </tr>
+  <tr><td>9:00 - 9:45</td><td>Plenary</td><td><strong>Overview: seL4 principles, abstractions and use</strong><br>Gernot Heiser, seL4 Foundation</td></tr>
+  <tr><td>9:45 - 10:00</td><td>Plenary</td><td><strong>Overview: what's verified, what's not, and what does it mean?</strong><br>June Andronick, seL4 Foundation</td></tr>
+  <tr><td>10:00 - 10:45</td><td>Plenary</td><td><strong>Overview: seL4 GitHub tests</strong><br>Gerwin Klein, seL4 Foundation</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>11:00 - 11:15</td><td>Announcements</td><td><em>Discussion teaser and suggestions for Birds of a Feather</em></td></tr>
+  <tr><td rowspan="2">11:15 - 12:00</td>
+      <td>Room 1:<br> Talk & Discussion</td><td><strong>seL4 mainlining: Experiences, challenges, and solutions</strong><br>Robbie VanVossen & Chris Guikema, DornerWorks</td></tr>
+  <tr><td>Room 2:<br> BoF</td><td><strong>Birds of a Feather on a topic to be suggested</strong></td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td rowspan="2">12:45 - 13:30</td>
+      <td>Room 1:<br> Talk & Discussion</td><td><strong>seL4 microkernel for virtualization use-cases “The importance of a standard VMM”</strong><br>Everton de Matos, TII+Cog</td></tr>
+  <tr><td>Room 2:<br>BoF</td><td><strong>Birds of a Feather on a topic to be suggested</strong></td></tr>
+  <tr><td rowspan="2">13:30 - 14:15</td>
+      <td>Room 1:<br> Talk & Discussion</td><td><strong>Improving embedded DevOps with seL4 VMM</strong><br>Robbie VanVossen, DornerWorks"</td></tr>
+  <tr><td>Room 2:<br> BoF</td><td><strong>Birds of a Feather on a topic to be suggested</strong></td></tr>
+  <tr><td rowspan="2">14:15 - 15:00</td>
+      <td>Room 1:<br> Talk & Discussion</td><td><strong>Experience teaching seL4</strong><br>Hensoldt Cyber</td></tr>
+  <tr><td>Room 2:<br> BoF</td><td><strong>Birds of a Feather on a topic to be suggested</strong></td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>15:15 - 16:00</td><td>Plenary</td><td><strong>BoFs report back</strong></td></tr>
+  <tr><td>16:00 - 16:15</td><td>Announcements</td><td><em>Bootcamp overview</em></td></tr>
+  <tr><td>16:15 - 16:30</td><td>Plenary</td><td><strong>seL4 summit and TCCOE - An Overview</strong><br>Jason Li & Ray Richards</td></tr>
+  <tr><td>16:30 - 16:45</td><td>Plenary</td><td><strong>seL4 Foundation: overview, update and vision</strong><br> June Andronick, seL4 Foundation</td></tr>
+  <tr><td>16:45 - 17:00</td><td>Announcements</td><td><em>Concluding remarks</em></td></tr>
+ <tr>
+    <th colspan="3">Day 4 (Bootcamp)&emsp;13 October 2022</th>
+  </tr>
+  <tr><td>9:00 - 10:00</td><td>Bootcamp</td><td><strong>seL4 from zero to hello-world</strong></td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>10:15 - 10:45</td><td>Bootcamp</td><td><strong>CAMkES</strong><br>Sebastian Eckl, Hensoldt Cyber</td></tr>
+  <tr><td>10:45 - 12:00</td><td>Bootcamp</td><td><strong>TRENTOS</strong><br>Sebastian Eckl, Hensoldt Cyber</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>12:45 - 14:30</td><td>Bootcamp</td><td><strong>The seL4 Core
+  Platform (seL4CP)</strong><br>TBD, UNSW</td></tr>
+  <tr><td>14:30 - 15:15</td><td>Bootcamp</td><td><strong>VM Composer: The easy button for virtualized seL4-based systems</strong><br> Chris Guikema & Robbie VanVossen, DornerWorks</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>15:30 - 16:45</td><td>Bootcamp</td><td><strong>BriefCASE Tutorial</strong><br>Darren Cofer, Isaac Amundson (Collins Aerospace)</td></tr>
+  <tr><td>16:45 - 17:00</td><td>Plenary</td><td><em>Concluding remarks</em></td></tr>
+</table>
+<div><br></div>
 
-
-<div>
-  <h3>
-  About
-  </h3>
-  <p>
-   The seL4 Summit 2022 is the fourth edition of the international summit on
-   the <a href="../../About.html">seL4 microkernel</a>, the world's most highly
-   assured OS kernel.
-  </p>
-  <p>
-   The first three seL4 Summits were organised by the <a
-   href="https://trustedcomputingcoe.org/summits/">Trusted Computing Center of
-   Excellence</a>, and were hosted in the US.
-  </p>
-  <p>
-
-   The seL4 Summit 2022 is the first to be organised by the <a href="../../Foundation.html">seL4
-   Foundation</a>, established in 2020.
-
-  </p>
-
-
-  <h3>
-    Program
-  </h3>
-
-  <div class="highlight">
-  <p>
-    The seL4 summit <a href="program.pml.html">Program</a> is now available!
-  </p>
-  </div>
-  <div>
-  <p>
-
-    We have an amazing line-up of cool seL4 work, with a combination of
-    technical research and development, experience reports of seL4 in the field,
-    technical discussions and Birds-of-a-feather sessions, as well as a whole
-    day of seL4 bootcamp with tutorials and training.
-
-  </p>
-  </div>
-
-  <h3>
-   Location
-  </h3>
-  <p>
-
-  The seL4 summit 2022 will be in <strong>Munich, Germany</strong>. It will be a
-  hybrid in-person/online event.
-  </p>
-
-
-<!--
-  <h3>
-   Important Dates:
-  </h3>
-  <ul>
-  <li> Abstracts due: 9th of May 2022</li>
-  <li> Notification of decisions: 30th of May 2022 </li>
-  <li> Summit: 10-13 October 2022  </li>
-  </ul>
--->
-<!--
-  <h3>
-   Call for Presentations
-  </h3>
-
-  <p>
-
-  Check the <a href="./cfp">CFP</a>.  To propose a talk, send an abstract of
-  <strong>one page or less</strong> <strong>by Monday 9th of May 2022</strong>
-  to <a title="summit@sel4.systems"
-  href="mailto:summit@sel4.systems">summit@sel4.systems</a>.  If you would like
-  to propose a talk to be delivered remotely, please notify it in the
-  submission.
-
-  </p>
--->
-
-  <h3>
-   Principles
-  </h3>
-
-  <p>
-
-  An open <strong>call for presentation</strong> invites submissions of short
-  abstracts about cool work on seL4.
-
-  </p>
-
-  <p>
-
-  The <strong>Program Committee</strong> is in charge of the technical content
-  (reviewing submission, selecting invited speakers, defining the program).
-
-  </p>
-
-  <p>
-
-  The <strong>Hosting Team</strong> is in charge of organising the event (venue,
-  finances, catering, local arrangements).  <!--The Hosting Team is aimed to be
-  selected through an open bid process by the seL4 Foundation board. The call
-  for bids ideally occurs 2 months before the previous summit, in order for the
-  bids for year N+1 to be presented at the summit in year N.-->
-
-  </p>
-
-  <p>
-
-  The <strong>location</strong> is aimed to be on a different continent each
-  year, as far as possible, with a hybrid in-person/online event.
-  </p>
-
-
-  <h3>
-   Program Committee
-  </h3>
-
-
-<div class="people_grid">
-
-  <div class="person">
-    <div class="person_pic">
-      <a href="https://proofcraft.systems/#june"><img src="../Board/TS-June-s.jpg" alt="June Andronick" width="80" /></a>
-    </div>
-    <div class="person_title">
-      <strong><a class="list_link" href="https://proofcraft.systems/#june">June Andronick<br /> (co-chair)</a></strong>
-    </div>
-  </div>
-
-  <div class="person">
-    <div class="person_pic">
-      <a href="http://loonwerks.com/people/darren-cofer.html"><img src="../../images/summit/darren.jpg" alt="Darren Cofer" width="80" /></a>
-    </div>
-    <div class="person_title">
-      <strong><a class="list_link" href="http://loonwerks.com/people/darren-cofer.html">Darren Cofer <br /> (co-chair)</a></strong>
-    </div>
-  </div>
-
-  <div class="person">
-    <div class="person_pic">
-      <a href="https://www.linkedin.com/in/annamlyons/"><img src="../../images/tsc/anna.png" alt="Anna Lyons" width="80" /></a>
-    </div>
-    <div class="person_title">
-      <strong><a class="list_link" href="https://www.linkedin.com/in/annamlyons/">Anna Lyons</a></strong>
-    </div>
-  </div>
-
-  <div class="person">
-    <div class="person_pic">
-      <a href="https://www.linkedin.com/in/axelheider"><img src="../../images/summit/axel.png" alt="Axel Heider" width="80" /></a>
-    </div>
-    <div class="person_title">
-      <strong><a class="list_link" href="https://www.linkedin.com/in/axelheider">Axel Heider</a></strong>
-    </div>
-  </div>
-
-  <div class="person">
-    <div class="person_pic">
-      <a href="https://trustworthy.systems/people/?cn=Gernot+Heiser"><img src="../Board/TS-Gernot-s.jpg" alt="Gernot Heiser" width="80"/></a>
-    </div>
-    <div class="person_title">
-      <strong><a class="list_link" href="https://trustworthy.systems/people/?cn=Gernot+Heiser">Gernot Heiser</a></strong>
-    </div>
-  </div>
-
-  <div class="person">
-    <div class="person_pic">
-      <a href="https://trustworthy.systems/people/?cn=Ihor+Kuz"><img src="../../images/tsc/ihor.jpg" alt="Ihor Kuz" width="80" /></a>
-    </div>
-    <div class="person_title">
-      <strong><a class="list_link" href="https://trustworthy.systems/people/?cn=Ihor+Kuz">Ihor Kuz</a></strong>
-    </div>
-  </div>
-
-  <div class="person">
-    <div class="person_pic">
-      <a href="https://en.wikipedia.org/wiki/John_Launchbury"><img src="../../images/summit/john.jpg" alt="John Launchbury" width="80"/></a>
-    </div>
-    <div class="person_title">
-      <strong><a class="list_link" href="https://en.wikipedia.org/wiki/John_Launchbury">John Launchbury</a></strong>
-    </div>
-  </div>
-
-  <div class="person">
-    <div class="person_pic">
-      <a href="https://www.linkedin.com/in/kent-mcleod-1703a757"><img src="../../images/tsc/kent.jpg" alt="Kent Mcleod" width="80" /></a>
-    </div>
-    <div class="person_title">
-      <strong><a class="list_link" href="https://www.linkedin.com/in/kent-mcleod-1703a757">Kent Mcleod</a></strong>
-    </div>
-  </div>
-
-  <div class="person">
-    <div class="person_pic">
-      <a href="https://nickspinale.com"><img src="../../images/summit/nick.jpg" alt="Nick Spinale" width="80"/></a>
-    </div>
-    <div class="person_title">
-      <strong><a class="list_link" href="https://nickspinale.com">Nick Spinale</a></strong>
-    </div>
-  </div>
-
-  <div class="person">
-    <div class="person_pic">
-      <a href="https://perry.alexander.name"><img src="../../images/summit/perry.jpg" alt="Perry Alexander" width="80"/></a>
-    </div>
-    <div class="person_title">
-      <strong><a class="list_link" href="https://perry.alexander.name">Perry Alexander</a></strong>
-    </div>
-  </div>
-
-  <div class="person">
-    <div class="person_pic">
-      <a href="https://www.linkedin.com/in/robbie-vanvossen-gr/"><img src="../../images/summit/robbie.png" alt="Robbie VanVossen" width="80"/></a>
-    </div>
-    <div class="person_title">
-      <strong><a class="list_link" href="https://www.linkedin.com/in/robbie-vanvossen-gr/">Robbie VanVossen</a></strong>
-    </div>
-  </div>
-
-  <div class="person">
-    <div class="person_pic">
-      <a href="https://www.adventiumlabs.com/team-member/todd-carpenter"><img src="../../images/summit/todd.jpg" alt="Todd Carpenter" width="80"/></a>
-    </div>
-    <div class="person_title">
-      <strong><a class="list_link" href="https://www.adventiumlabs.com/team-member/todd-carpenter">Todd Carpenter</a></strong>
-    </div>
-  </div>
-</div>
-
-
-<!--
-
-<div class="homepage_grid">
-  <div class="homepage_item">
-    <a class="divLink" href="about"></a>
-    <div class="hp_pic">
-      <img src="/images/sel4-summit-about-band.svg" style="width:200px;" alt="seL4 summit" />
-    </div>
-    <div>
-      Learn more about the annual seL4 Summit.
-    </div>
-  </div>
-
-  <div class="homepage_item">
-    <a class="divLink" href="pc"></a>
-    <div class="hp_pic">
-      <img src="/images/sel4-summit-pc-band.svg" style="width:200px;" alt="seL4 Foundation" />
-    </div>
-    <div>
-      About our program committee.
-    </div>
-  </div>
-</div>
--->
-
-  <h3>
-   Contact
-  </h3>
-  <p>
-   If you have questions, please do not hesitate to contact the seL4 Foundation summit team at: <a title="summit@sel4.systems"   href="mailto:summit@sel4.systems">summit@sel4.systems</a>.
-  </p>
-
-</div>
 <div class="divider"></div>
 </div><!-- container -->
 </div><!--content-wrap-->
