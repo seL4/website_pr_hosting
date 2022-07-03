@@ -148,7 +148,7 @@
 </ul>
 
 <p style="text-align:center;">
-<iframe src="https://calendar.google.com/calendar/embed?wkst=1&bgcolor=%23ffffff&mode=AGENDA&src=NXNybzFhaGtodDNsb2NuaGRxMnFmbDhndGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23000000" frameborder="0" scrolling="no" height="300em" width="60%"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?wkst=1&bgcolor=%23ffffff&mode=AGENDA&src=NXNybzFhaGtodDNsb2NuaGRxMnFmbDhndGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" style="height:40ex; width:60%; border:0;"></iframe>
 </p>
 
 <h2>Development</h2>

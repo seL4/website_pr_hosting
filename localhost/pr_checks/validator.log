@@ -1,27 +1,2 @@
 <html><body><p>
-Error: Bad value "300em" for attribute "height" on element "iframe": Expected a digit but saw "e" instead.
-From line 151, column 1; to line 151, column 247 in resource file:/contact.html
-Error: Bad value "60%" for attribute "width" on element "iframe": Expected a digit but saw "%" instead.
-From line 151, column 1; to line 151, column 247 in resource file:/contact.html
-Error: The "frameborder" attribute on the "iframe" element is obsolete. Use CSS instead.
-From line 151, column 1; to line 151, column 247 in resource file:/contact.html
-Error: The "scrolling" attribute on the "iframe" element is obsolete. Use CSS instead.
-From line 151, column 1; to line 151, column 247 in resource file:/contact.html
-Error: Bad value "300em" for attribute "height" on element "iframe": Expected a digit but saw "e" instead.
-From line 151, column 1; to line 151, column 247 in resource file:/contact/home.pml.html
-Error: Bad value "60%" for attribute "width" on element "iframe": Expected a digit but saw "%" instead.
-From line 151, column 1; to line 151, column 247 in resource file:/contact/home.pml.html
-Error: The "frameborder" attribute on the "iframe" element is obsolete. Use CSS instead.
-From line 151, column 1; to line 151, column 247 in resource file:/contact/home.pml.html
-Error: The "scrolling" attribute on the "iframe" element is obsolete. Use CSS instead.
-From line 151, column 1; to line 151, column 247 in resource file:/contact/home.pml.html
-Error: Bad value "300em" for attribute "height" on element "iframe": Expected a digit but saw "e" instead.
-From line 151, column 1; to line 151, column 247 in resource file:/contact/index.html
-Error: Bad value "60%" for attribute "width" on element "iframe": Expected a digit but saw "%" instead.
-From line 151, column 1; to line 151, column 247 in resource file:/contact/index.html
-Error: The "frameborder" attribute on the "iframe" element is obsolete. Use CSS instead.
-From line 151, column 1; to line 151, column 247 in resource file:/contact/index.html
-Error: The "scrolling" attribute on the "iframe" element is obsolete. Use CSS instead.
-From line 151, column 1; to line 151, column 247 in resource file:/contact/index.html
-Document checking completed.
 </p></body></html>
