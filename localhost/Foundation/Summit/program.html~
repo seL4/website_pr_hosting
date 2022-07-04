@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Summit program | seL4</title>
+    <meta name="author" content="CSIRO's Data61" />
+    <link href="https://sel4.systems/Foundation/Summit/program.pml" rel=canonical />
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/sel4.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../images/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../../images/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../../images/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../../images/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="../../images/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="../../images/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../../images/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="../../images/icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="../../images/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="../../images/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../../images/icons/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/images/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/images/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/images/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/images/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/images/icons/mstile-310x310.png" />
+    <link rel="shortcut icon" href="../../images/icons/favicon.ico" />
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-117737473-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+
+
+
+
+
+<!-- Production template -->
+  </head>
+  <body>
+  <div id="page-container"><!--to put footer at bottom of page-->
+  <div id="content-wrap"><!--to put footer at bottom of page-->
+
+
+<div class="container">
+  <div class="header" id="site-header" role="navigation" >
+    <ul class="nav-pills nav pull-right" id="site-navigation">
+      
+
+
+<!-- /Foundation/Summit/ -->
+<li>
+
+<a href='../../index.html'>Home</a></li>
+<!-- /Foundation/Summit/ - /About/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../About.html">What is seL4? <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../../About.html">What is seL4?</a></li>
+<li class=""><a href="http://localhost/About/Performance/">Performance</a></li>
+<li class=""><a href="../../About/seL4-whitepaper.pdf">Whitepaper</a></li></ul></li>
+<!-- /Foundation/Summit/ - /Foundation/ -->
+<li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="../../Foundation.html">seL4 Foundation <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../../Foundation.html">About the seL4 Foundation</a></li>
+<li class=""><a href="../Governance/index.html">Governance</a></li>
+<!-- /Foundation/Summit/ - /Foundation/Board/ -->
+<li class=""><a href="../Board.html">Governing Board</a></li>
+<!-- /Foundation/Summit/ - /Foundation/TSC/ -->
+<li class=""><a href="../TSC/index.html">TSC</a></li>
+<!-- /Foundation/Summit/ - /Foundation/Membership/ -->
+<li class=""><a href="../Membership.html">Membership</a></li>
+<li class=""><a href="../Join.html">Join the Foundation now!</a></li>
+<li class=""><a href="../Services.html">Services, Training and Products</a></li>
+<li class="active"><a href="../Summit.html">seL4 Summit</a></li>
+<li class=""><a href="../Support.html">Support Us</a></li>
+<li class=""><a href="../Trademark/index.html">Trademark</a></li>
+<li class=""><a href="../Jobs.html">Jobs in the seL4 ecosystem</a></li>
+<li class=""><a href="../Contact.html">Contact the seL4 Foundation</a></li></ul></li>
+<li class=""><a href="../../contact.html">Stay in Touch</a></li>
+<!-- /Foundation/Summit/ - /Contribute/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../Contribute.html">Contribute <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../../Contribute.html">Contribute</a></li>
+<li class=""><a href="https://github.com/seL4">GitHub</a></li></ul></li>
+<li class=""><a href="../../Use.html">Use</a></li>
+<li class=""><a href="../../Learn.html">Learn</a></li>
+<!-- /Foundation/Summit/ - /Info/ -->
+<li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../Info/index.html">More Info <span class="caret"></span></a>
+<ul class="dropdown-menu"><li class=""><a href="../../Info/index.html">More Info</a></li>
+<li class=""><a href="https://docs.sel4.systems/projects/sel4/frequently-asked-questions.html">FAQ</a></li>
+<li class=""><a href="https://docs.sel4.systems/projects/roadmap.html">Roadmap</a></li>
+<li class=""><a href="../../About/more-research.pml.html">Research</a></li></ul></li>
+<li class=""><a href="../../news/index.html">News</a></li>
+         </ul>
+        <!-- END: Menu -->
+    </div>
+</div>
+<div class="container"> <!-- container -->
+  <div class="row"> <!-- Breadcrumbs -->
+<!-- seL4 Foundation, /Foundation/ -->
+<!-- seL4 Summit, /Foundation/Summit/ -->
+<!-- Program, /Foundation/Summit/program.pml -->
+<ol class="breadcrumb">
+<li class=""><a href="../../index.html">Home</a>
+<li class="">
+<a href="../../Foundation.html">seL4 Foundation</a></li>
+<li class="">
+<a href="../Summit.html">seL4 Summit</a></li>
+<li class="active">
+Program</li></ol>
+    </div> <!-- Breadcrumbs -->
+
+  <a href='../../index.html'><img style="width:20%; padding-top:5px; vertical-align:top;float:right; margin:10px;"
+                     src='../../images/sel4-summit-logo.svg' alt='seL4 summit logo' /></a>
+
+<!--<title>Summit program</title>-->
+<!--
+    Copyright 2022 seL4 Project a Series of LF Projects, LLC.
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h1>
+  seL4 Summit 2022
+</h1>
+<h4>
+Munich, Germany (hybrid), 10-12 Oct 2022
+</h4>
+
+
+<h3>
+   Preliminary Program
+</h3>
+
+All times are local time in Munich, Germany (UTC+2).
+
+<table id="summit-talks">
+  <tr>
+    <th colspan="3">Day 1&emsp;10 October 2022</th>
+  </tr>
+  <tr><td>9:00 - 9:10</td> <td>Announcements</td>  <td><em>Welcome</em></td></tr>
+  <tr><td>9:10 - 10:00</td><td>Keynote</td> <td><strong>seL4 research update</strong><br>Gernot Heiser, UNSW</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>10:15 - 10:45</td><td>Talk</td><td><strong>seL4 verification roadmap</strong><br>Rafal Kolanski, Gerwin Klein & June Andronick, Proofcraft</td></tr>
+  <tr><td>10:45 - 11:15</td><td>Talk</td><td><strong>Explaining the seL4 integrity theorems</strong><br>Matthew Brecknell, Kry10</td></tr>
+  <tr><td>11:15 - 11:45</td><td>Discussion</td><td><strong>AMA (Ask Me Anything)</strong> with the Foundation TSC</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>12:45 - 13:15</td><td>Talk</td><td><strong> The seL4 Core
+  Platform (seL4CP)</strong><br>TBD, UNSW</td></tr>
+  <tr><td>13:15 - 13:45</td><td>Talk</td><td><strong>The seL4 Device
+  Driver Framework (sDDF)</strong><br>Lucy Parker, UNSW</td></tr>
+  <tr><td>13:45 - 14:30</td><td>Talk & Discussion</td><td><strong>Multiprocessing on seL4 with verified kernels</strong><br>Kent McLeod, Kry10</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>15:00 - 15:30</td><td>Talk</td><td><strong>Using QEMU to extend seL4 VirtIO support</strong><br>Hannu Lyytinen & Markku Ahvenjärvi, TII</td></tr>
+  <tr><td>15:30 - 16:00</td><td>Talk</td><td><strong>QEMU as prototyping platform for seL4 systems</strong><br>Axel Heider, Hensoldt Cyber</td></tr>
+  <tr><td>16:00 - 16:30</td><td>Talk</td><td><strong>Porting U-Boot drivers to seL4</strong><br>Mark Jenkinson & Stephen Williams, Capgemini</td></tr>
+  <tr><td>16:30 - 17:00</td><td>Talk</td><td><strong>fence.t: Hardware support for preventing microarchitectural timing channels</strong><br>Nils Wistoff, ETH</td></tr>
+  <tr>
+    <th colspan="3">Day 2&emsp;11 October 2022</th>
+  </tr>
+  <tr><td>9:00 - 9:50</td><td>Keynote</td><td><strong>Kry10 Secure Platform</strong><br>Boyd Multerer, Kry10</td></tr>
+  <tr><td>9:50 - 10:00</td><td>Announcements</td><td><em>Foundation announcements</em></td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>10:15 - 10:45</td><td>Talk</td><td><strong>seL4 and BEAM: a match made in Erlang</strong><br>Ihor Kuz, Kry10</td></tr>
+  <tr><td>10:45 - 11:15</td><td>Talk</td><td>TBD<!-- strong>Security
+  framework for mixed-critical use-cases</strong><br>Jorge Pereira --></td></tr>
+  <tr><td>11:15 - 11:45</td><td>Talk & Discussion</td><td><strong>Rust support in seL4 userspace: Present and future</strong><br>Nick Spinale</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>12:45 - 13:15</td><td>Talk</td><td><strong>Trustworthy board management controllers</strong><br>Daniel Schwyn & Ben Fiedler, ETH</td></tr>
+  <tr><td>13:15 - 13:45</td><td>Talk</td><td><strong>Early experiences proving the correctness of a network stack implementation</strong><br>Alain Kägi et al, Lewis & Clark College</td></tr>
+  <tr><td>13:45 - 14:15</td><td>Talk</td><td><strong>CASE overview: Cyber Assured Systems Engineering</strong><br>Darren Cofer, Collins Aerospace</td></tr>
+  <tr><td>14:15 - 14:45</td><td>Talk</td><td><strong>A Verified architecture for trustworthy remote attestation</strong><br>Grant Jurgensen, The University of Kansas</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>15:15 - 15:30</td><td>Experience report</td><td><strong>FerrOS: Rust-y unikernels on seL4 w/ compile-time assurances</strong><br>Zack Pierce, Auxon</td></tr>
+  <tr><td>15:30 - 15:45</td><td>Experience report</td><td><strong>Safety-critical voice communication system (MCS, SMP, VM)</strong><br>Indan Zupancic, MEP</td></tr>
+  <tr><td>15:45 - 16:00</td><td>Experience report</td><td><strong>Make seL4 an ASIL-D certified system</strong><br>Yuning Liang, Xcalibyte</td></tr>
+  <tr><td>16:00 - 16:15</td><td>Teaser</td><td><strong>VM Composer</strong><br>Robbie VanVossen, DornerWorks</td></tr>
+  <tr><td>16:15 - 17:00</td><td>Panel & Discussion</td><td><strong>Funding agencies: priorities and vision</strong></td></tr>
+  <tr>
+    <th colspan="3">Day 3&emsp;12 October 2022</th>
+  </tr>
+  <tr><td>9:00 - 9:45</td><td>Plenary</td><td><strong>Overview: seL4 principles, abstractions and use</strong><br>Gernot Heiser, seL4 Foundation</td></tr>
+  <tr><td>9:45 - 10:00</td><td>Plenary</td><td><strong>Overview: what's verified, what's not, and what does it mean?</strong><br>June Andronick, seL4 Foundation</td></tr>
+  <tr><td>10:00 - 10:45</td><td>Plenary</td><td><strong>Overview: seL4 GitHub tests</strong><br>Gerwin Klein, seL4 Foundation</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>11:00 - 11:15</td><td>Announcements</td><td><em>Discussion teaser and suggestions for Birds of a Feather</em></td></tr>
+  <tr><td rowspan="2">11:15 - 12:00</td>
+      <td>Room 1:<br> Talk & Discussion</td><td><strong>seL4 mainlining: Experiences, challenges, and solutions</strong><br>Robbie VanVossen & Chris Guikema, DornerWorks</td></tr>
+  <tr><td>Room 2:<br> BoF</td><td><strong>Birds of a Feather on a topic to be suggested</strong></td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td rowspan="2">12:45 - 13:30</td>
+      <td>Room 1:<br> Talk & Discussion</td><td><strong>seL4 microkernel for virtualization use-cases “The importance of a standard VMM”</strong><br>Everton de Matos, TII+Cog</td></tr>
+  <tr><td>Room 2:<br>BoF</td><td><strong>Birds of a Feather on a topic to be suggested</strong></td></tr>
+  <tr><td rowspan="2">13:30 - 14:15</td>
+      <td>Room 1:<br> Talk & Discussion</td><td><strong>Improving embedded DevOps with seL4 VMM</strong><br>Robbie VanVossen, DornerWorks"</td></tr>
+  <tr><td>Room 2:<br> BoF</td><td><strong>Birds of a Feather on a topic to be suggested</strong></td></tr>
+  <tr><td rowspan="2">14:15 - 15:00</td>
+      <td>Room 1:<br> Talk & Discussion</td><td><strong>Experience teaching seL4</strong><br>Hensoldt Cyber</td></tr>
+  <tr><td>Room 2:<br> BoF</td><td><strong>Birds of a Feather on a topic to be suggested</strong></td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>15:15 - 16:00</td><td>Plenary</td><td><strong>BoFs report back</strong></td></tr>
+  <tr><td>16:00 - 16:15</td><td>Announcements</td><td><em>Bootcamp overview</em></td></tr>
+  <tr><td>16:15 - 16:30</td><td>Plenary</td><td><strong>seL4 summit and TCCOE - An Overview</strong><br>Jason Li & Ray Richards</td></tr>
+  <tr><td>16:30 - 16:45</td><td>Plenary</td><td><strong>seL4 Foundation: overview, update and vision</strong><br> June Andronick, seL4 Foundation</td></tr>
+  <tr><td>16:45 - 17:00</td><td>Announcements</td><td><em>Concluding remarks</em></td></tr>
+ <tr>
+    <th colspan="3">Day 4 (Bootcamp)&emsp;13 October 2022</th>
+  </tr>
+  <tr><td>9:00 - 10:00</td><td>Bootcamp</td><td><strong>seL4 from zero to hello-world</strong></td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>10:15 - 10:45</td><td>Bootcamp</td><td><strong>CAMkES</strong><br>Sebastian Eckl, Hensoldt Cyber</td></tr>
+  <tr><td>10:45 - 12:00</td><td>Bootcamp</td><td><strong>TRENTOS</strong><br>Sebastian Eckl, Hensoldt Cyber</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>12:45 - 14:30</td><td>Bootcamp</td><td><strong>The seL4 Core
+  Platform (seL4CP)</strong><br>TBD, UNSW</td></tr>
+  <tr><td>14:30 - 15:15</td><td>Bootcamp</td><td><strong>VM Composer: The easy button for virtualized seL4-based systems</strong><br> Chris Guikema & Robbie VanVossen, DornerWorks</td></tr>
+  <tr><td class="break" colspan="3">Break</td></tr>
+  <tr><td>15:30 - 16:45</td><td>Bootcamp</td><td><strong>BriefCASE Tutorial</strong><br>Darren Cofer, Isaac Amundson (Collins Aerospace)</td></tr>
+  <tr><td>16:45 - 17:00</td><td>Plenary</td><td><em>Concluding remarks</em></td></tr>
+</table>
+<div><br></div>
+
+<div class="divider"></div>
+</div><!-- container -->
+</div><!--content-wrap-->
+<footer class="page-footer small pt-3" id="footer"> <!-- footer -->
+  <div class="container">
+    <!-- for mobile screens -->
+    <div class="text-center visible-xs">
+    <a href="https://twitter.com/sel4foundation"><img style="height:36px; padding-right:5px; padding-top:2px; padding-bottom:2px;" src="../../images/icons/twitter.svg" alt="twitter icon"></a>
+      <a href="https://www.youtube.com/channel/UCIqVY1XFPOPIZ1z2A9TrmMA/featured"><img style="height:36px; padding-top:2px; padding-bottom:2px;" src="../../images/icons/youtube.svg" alt="youtube icon"></a>
+      <a href="https://www.linkedin.com/company/sel4"><img style="height:36px; padding-left:5px; padding-top:2px; padding-bottom:2px;" src="../../images/icons/linkedin.svg" alt="linkedin icon"></a>
+      <br>
+      <br>
+    Copyright &copy; 2022 seL4 Project a Series of LF Projects, LLC.<br/>
+      seL4 is a trademark of LF Projects, LLC.<br/>
+      For trademark usage guidelines, privacy and cookie policies,
+      and other applicable policies, as well as terms and conditions
+      governing this web site, please see
+      <a href="http://www.lfprojects.org/">www.lfprojects.org</a>
+      and the <a href="../Trademark/index.html">trademark guidelines</a>.
+    </div>
+    <div class="row">
+      <!-- for screens larger than mobiles -->
+      <div class="col-xs-6 hidden-xs">
+        Copyright &copy; 2022 seL4 Project a Series of LF Projects, LLC.<br/>
+        seL4 is a trademark of LF Projects, LLC.<br/>
+        For trademark usage guidelines, privacy and cookie policies,
+        and other applicable policies, as well as terms and conditions
+        governing this web site, please see
+        <a href="http://www.lfprojects.org/">www.lfprojects.org</a>
+        and the <a href="../Trademark/index.html">trademark guidelines</a>.
+      </div>
+      <div class="col-xs-6 text-right hidden-xs">
+        <a href="https://twitter.com/sel4foundation"><img style="height:36px; padding-right:5px; padding-top:2px; padding-bottom:2px;" src="../../images/icons/twitter.svg" alt="twitter icon"></a>
+        <a href="https://www.youtube.com/channel/UCIqVY1XFPOPIZ1z2A9TrmMA/featured"><img style="height:36px; padding-top:2px; padding-bottom:2px;" src="../../images/icons/youtube.svg" alt="youtube icon"></a>
+        <a href="https://www.linkedin.com/company/sel4"><img style="height:36px; padding-left:5px; padding-top:2px; padding-bottom:2px;" src="../../images/icons/linkedin.svg" alt="linkedin icon"></a>
+      </div>
+    </div>
+  </div>
+
+</footer> <!-- footer -->
+<!-- wrapper -->
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+</div><!--page-container-->
+</body>
+</html>
