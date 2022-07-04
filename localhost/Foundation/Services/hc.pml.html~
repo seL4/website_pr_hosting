@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Cog | seL4</title>
+    <title>HENSOLDT Cyber | seL4</title>
     <meta name="author" content="CSIRO's Data61" />
     <link href="https://sel4.systems/Foundation/Services/hc.pml" rel=canonical />
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -83,12 +83,12 @@
 <!-- /Foundation/Services/ - /Foundation/Membership/ -->
 <li class=""><a href="../Membership.html">Membership</a></li>
 <li class=""><a href="../Join.html">Join the Foundation now!</a></li>
+<li class="active"><a href="../Services.html">Endorsed Service Providers</a></li>
 <li class=""><a href="../Summit.html">seL4 Summit</a></li>
 <li class=""><a href="../Support.html">Support Us</a></li>
 <li class=""><a href="../Trademark/index.html">Trademark</a></li>
 <li class=""><a href="../Jobs.html">Jobs in the seL4 ecosystem</a></li>
-<li class=""><a href="../Contact.html">Contact the seL4 Foundation</a></li>
-<li class="active"><a href="../Services.html">Services</a></li></ul></li>
+<li class=""><a href="../Contact.html">Contact the seL4 Foundation</a></li></ul></li>
 <li class=""><a href="../../contact.html">Stay in Touch</a></li>
 <!-- /Foundation/Services/ - /Contribute/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../Contribute.html">Contribute <span class="caret"></span></a>
@@ -110,14 +110,14 @@
 <div class="container"> <!-- container -->
   <div class="row"> <!-- Breadcrumbs -->
 <!-- seL4 Foundation, /Foundation/ -->
-<!-- Services, /Foundation/Services/ -->
+<!-- Endorsed Service Providers, /Foundation/Services/ -->
 <!-- Hc, /Foundation/Services/hc.pml -->
 <ol class="breadcrumb">
 <li class=""><a href="../../index.html">Home</a>
 <li class="">
 <a href="../../Foundation.html">seL4 Foundation</a></li>
 <li class="">
-<a href="../Services.html">Services</a></li>
+<a href="../Services.html">Endorsed Service Providers</a></li>
 <li class="active">
 Hc</li></ol>
     </div> <!-- Breadcrumbs -->
@@ -126,7 +126,7 @@ Hc</li></ol>
                      src='../../images/sel4-foundation-logo.svg' alt='seL4 foundation logo' />
     </a>
 
-<!--<title>Cog</title>-->
+<!--<title>HENSOLDT Cyber</title>-->
 <!--
     Copyright 2020 seL4 Project a Series of LF Projects, LLC.
     SPDX-License-Identifier: CC-BY-SA-4.0
@@ -140,8 +140,8 @@ An Endorsed Service Provider for seL4-based systems
 <div>
 
 
-  <table style="margin-left: 20px">
-      <tr>
+<table style="margin-left: 20px">
+    <tr>
       <td style="padding:15px">
         <a href="http://hensoldt-cyber.com/">
           <img src="../Membership/LOGOS/HENSOLDT_Cyber.svg" style="width: 200px" alt="HENSOLDT Cyber">
@@ -169,10 +169,10 @@ An Endorsed Service Provider for seL4-based systems
       <li>verification: user-level OS</li>
       <li>verification: applications</li>
     </ul>
-    Additionally, the seL4 Foundation assessed and endorsed HENSOLDT Cyber GmbH's TRENTOS training and product.
-      </td>
-    </tr>
-  </table>
+    Additionally, the seL4 Foundation previously assessed and endorsed HENSOLDT Cyber GmbH's TRENTOS training and product.
+    </td>
+  </tr>
+</table>
 
 
 

@@ -83,12 +83,12 @@
 <!-- /contact/ - /Foundation/Membership/ -->
 <li class=""><a href="Foundation/Membership.html">Membership</a></li>
 <li class=""><a href="Foundation/Join.html">Join the Foundation now!</a></li>
+<li class=""><a href="Foundation/Services.html">Endorsed Service Providers</a></li>
 <li class=""><a href="Foundation/Summit.html">seL4 Summit</a></li>
 <li class=""><a href="Foundation/Support.html">Support Us</a></li>
 <li class=""><a href="Foundation/Trademark/index.html">Trademark</a></li>
 <li class=""><a href="Foundation/Jobs.html">Jobs in the seL4 ecosystem</a></li>
-<li class=""><a href="Foundation/Contact.html">Contact the seL4 Foundation</a></li>
-<li class=""><a href="Foundation/Services.html">Services</a></li></ul></li>
+<li class=""><a href="Foundation/Contact.html">Contact the seL4 Foundation</a></li></ul></li>
 <li class="active"><a href="contact.html">Stay in Touch</a></li>
 <!-- /contact/ - /Contribute/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="Contribute.html">Contribute <span class="caret"></span></a>
@@ -143,6 +143,7 @@
 <li>Twitter: <a href="https://twitter.com/seL4Foundation/">@seL4Foundation</a></li>
 <li>YouTube: <a href="https://www.youtube.com/channel/UCIqVY1XFPOPIZ1z2A9TrmMA">The seL4 Microkernel</a></li>
 <li><a href="https://microkerneldude.wordpress.com/category/sel4/">Blog</a></li>
+<li><a href="https://calendar.google.com/calendar/u/0?cid=NXNybzFhaGtodDNsb2NuaGRxMnFmbDhndGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Google calendar feed</a> for seL4 Foundation events and dates</li>
 </ul>
 
 <h2>Development</h2>
@@ -164,19 +165,20 @@ agenda, anybody can join for technical discussions about seL4, related
 repositories and projects, or general questions and answers. Members from the
 technical steering committee (TSC) will try to be there, but these are not
 TSC meetings where formal decisions are made.<br>
-The next sessions are:
+A <a href="https://calendar.google.com/calendar/u/0?cid=NXNybzFhaGtodDNsb2NuaGRxMnFmbDhndGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">calendar
+feed</a> is available. The next sessions are:
 </p>
 <ul>
   <li>
-    Tue, Jun 14, 10pm (UTC), Topics: (open)
+    Tue, Jul 12, 10pm (UTC), Topics: (open)
     <ul>
-      <li>Sydney: Wed, Jun 15, 8am</li>
-      <li>Central Europe: Wed, Jun 15, midnight</li>
-      <li>US Pacific Time: Tue, Jun 14, 3pm</li>
+      <li>Sydney: Wed, Jul 13, 8am</li>
+      <li>Central Europe: Wed, Jul 13, midnight</li>
+      <li>US Pacific Time: Tue, Jul 12, 3pm</li>
     </ul>
   </li>
   <li>
-    Wed, Jun 29, 7am (UTC), Topics: (open)
+    Wed, Jul 26, 7am (UTC), Topics: (open)
     <ul>
       <li>Sydney: Wed, Jun 29, 5pm</li>
       <li>Central Europe: Wed, Jun 29, 9am</li>
@@ -184,11 +186,11 @@ The next sessions are:
     </ul>
   </li>
   <li>
-    Tue, Jul 12, 10pm (UTC), Topics: (open)
+    Tue, Aug 10, 10pm (UTC), Topics: (open)
     <ul>
-      <li>Sydney: Wed, Jul 13, 8am</li>
-      <li>Central Europe: Wed, Jul 13, midnight</li>
-      <li>US Pacific Time: Tue, Jul 12, 3pm</li>
+      <li>Sydney: Wed, Jun 15, 8am</li>
+      <li>Central Europe: Wed, Jun 15, midnight</li>
+      <li>US Pacific Time: Tue, Jun 14, 3pm</li>
     </ul>
   </li>
 </ul>
