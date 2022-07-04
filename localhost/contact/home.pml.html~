@@ -147,9 +147,14 @@
 </li>
 </ul>
 
-<p style="text-align:center;">
-<iframe src="https://calendar.google.com/calendar/embed?wkst=1&bgcolor=%23ffffff&mode=AGENDA&src=NXNybzFhaGtodDNsb2NuaGRxMnFmbDhndGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" style="height:40ex; width:60%; border:0;"></iframe>
-</p>
+<p id="calendar-container" style="text-align:center; padding:2ex 0 2ex 0;"></p>
+
+<!-- use js to display calendar in client-local time zone -->
+<script type="text/javascript">
+const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone
+const html = `<iframe src="https://calendar.google.com/calendar/embed?wkst=1&showTitle=0&showCalendars=0&ctz=${timezone}&showPrint=0&showTz=1&bgcolor=%23ffffff&mode=AGENDA&src=NXNybzFhaGtodDNsb2NuaGRxMnFmbDhndGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" style="height:40ex; width:60%; border:0;"></iframe>`
+document.getElementById('calendar-container').innerHTML = html;
+</script>
 
 <h2>Development</h2>
 
