@@ -1,44 +1,4 @@
 <html><body><p>
-Error: Element "div" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-From line 147, column 5; to line 147, column 27 in resource file:/Foundation/Summit.html
-Error: Element "div" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-From line 147, column 5; to line 147, column 27 in resource file:/Foundation/Summit/index.html
-Error: Start tag "a" seen but an element of the same type was already open.
-From line 149, column 145; to line 149, column 147 in resource file:/Foundation/Summit/location.pml.html
-Error: End tag "p" seen, but there were open elements.
-From line 150, column 5; to line 150, column 8 in resource file:/Foundation/Summit/location.pml.html
-Error: Unclosed element "a".
-From line 149, column 145; to line 149, column 147 in resource file:/Foundation/Summit/location.pml.html
-Error: End tag "div" seen, but there were open elements.
-From line 151, column 1; to line 151, column 6 in resource file:/Foundation/Summit/location.pml.html
-Error: End tag "div" seen, but there were open elements.
-From line 154, column 1; to line 154, column 6 in resource file:/Foundation/Summit/location.pml.html
-Error: End tag "div" seen, but there were open elements.
-From line 155, column 1; to line 155, column 6 in resource file:/Foundation/Summit/location.pml.html
-Error: Start tag "a" seen but an element of the same type was already open.
-From line 160, column 5; to line 160, column 49 in resource file:/Foundation/Summit/location.pml.html
-Error: End tag "a" violates nesting rules.
-From line 160, column 5; to line 160, column 49 in resource file:/Foundation/Summit/location.pml.html
-Fatal Error: Cannot recover after last error. Any further errors will be ignored.
-From line 160, column 5; to line 160, column 49 in resource file:/Foundation/Summit/location.pml.html
-Error: Start tag "a" seen but an element of the same type was already open.
-From line 149, column 142; to line 149, column 144 in resource file:/Foundation/Summit/registration.pml.html
-Error: End tag "p" seen, but there were open elements.
-From line 150, column 5; to line 150, column 8 in resource file:/Foundation/Summit/registration.pml.html
-Error: Unclosed element "a".
-From line 149, column 142; to line 149, column 144 in resource file:/Foundation/Summit/registration.pml.html
-Error: End tag "div" seen, but there were open elements.
-From line 151, column 1; to line 151, column 6 in resource file:/Foundation/Summit/registration.pml.html
-Error: End tag "div" seen, but there were open elements.
-From line 154, column 1; to line 154, column 6 in resource file:/Foundation/Summit/registration.pml.html
-Error: End tag "div" seen, but there were open elements.
-From line 155, column 1; to line 155, column 6 in resource file:/Foundation/Summit/registration.pml.html
-Error: Start tag "a" seen but an element of the same type was already open.
-From line 160, column 5; to line 160, column 49 in resource file:/Foundation/Summit/registration.pml.html
-Error: End tag "a" violates nesting rules.
-From line 160, column 5; to line 160, column 49 in resource file:/Foundation/Summit/registration.pml.html
-Fatal Error: Cannot recover after last error. Any further errors will be ignored.
-From line 160, column 5; to line 160, column 49 in resource file:/Foundation/Summit/registration.pml.html
 Error: Duplicate ID "program-online".
 From line 185, column 1; to line 185, column 43 in resource file:/news/index.html
 Document checking completed.
