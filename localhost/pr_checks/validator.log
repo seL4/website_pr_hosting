@@ -1,13 +1,2 @@
 <html><body><p>
-Error: Saw "<" when expecting an attribute name. Probable cause: Missing ">" immediately before.
-From line 192, column 3; to line 193, column 3 in resource file:/news/index.html
-Error: Attribute "<p" not allowed on element "div" at this point.
-From line 192, column 3; to line 193, column 23 in resource file:/news/index.html
-Error: No "p" element in scope but a "p" end tag seen.
-From line 195, column 3; to line 195, column 6 in resource file:/news/index.html
-Error: End tag for  "body" seen, but there were unclosed elements.
-From line 600, column 1; to line 600, column 7 in resource file:/news/index.html
-Error: Unclosed element "div".
-From line 56, column 3; to line 56, column 27 in resource file:/news/index.html
-Document checking completed.
 </p></body></html>
