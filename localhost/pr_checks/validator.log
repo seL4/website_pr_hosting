@@ -1,5 +1,2 @@
 <html><body><p>
-Error: Bad value "https:google.com" for attribute "href" on element "a": Expected a slash ("/").
-From line 175, column 5; to line 175, column 31 in resource file:/news/index.html
-Document checking completed.
 </p></body></html>
