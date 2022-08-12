@@ -1,0 +1,11 @@
+<html><body><p>
+Error: No "p" element in scope but a "p" end tag seen.
+From line 224, column 3; to line 224, column 6 in resource file:/Foundation/Summit.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 224, column 3; to line 224, column 6 in resource file:/Foundation/Summit/index.html
+Error: End tag "a" violates nesting rules.
+From line 205, column 39; to line 205, column 42 in resource file:/news/index.html
+Fatal Error: Cannot recover after last error. Any further errors will be ignored.
+From line 205, column 39; to line 205, column 42 in resource file:/news/index.html
+Document checking completed.
+</p></body></html>
