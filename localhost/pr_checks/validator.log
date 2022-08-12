@@ -1,7 +1,5 @@
 <html><body><p>
-Error: End tag "a" violates nesting rules.
-From line 205, column 39; to line 205, column 42 in resource file:/news/index.html
-Fatal Error: Cannot recover after last error. Any further errors will be ignored.
-From line 205, column 39; to line 205, column 42 in resource file:/news/index.html
+Error: Duplicate ID "program-online".
+From line 235, column 1; to line 235, column 43 in resource file:/news/index.html
 Document checking completed.
 </p></body></html>
