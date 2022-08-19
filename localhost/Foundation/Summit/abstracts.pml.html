@@ -143,7 +143,12 @@ Munich, Germany (hybrid), 10-13 Oct 2022
 <h3>
    Abstracts
 </h3>
-<div class="summit-abstract" id="seL4-research"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="seL4-research"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     State of seL4-related research
 </h4>
 <p class="summit-abstract-type">
@@ -164,7 +169,12 @@ I will provide an overview of the seL4-related research activities of the Trustw
 <p>
 I will also attempt to provide some context for various pull requests against the kernel originating from TS.
 </p></div>
-<div class="summit-abstract" id="seL4-verification-roadmap"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="seL4-verification-roadmap"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     The seL4 Verification Roadmap
 </h4>
 <p class="summit-abstract-type">
@@ -188,7 +198,12 @@ I will also attempt to provide some context for various pull requests against th
 <p>
     The verification matrix of architectures, properties, configurations and seL4 features is ever evolving. AArch32 still has the most complete proof stack, but RISC-V is catching up. Intel x64 and AArch32 with hypervisor extensions have verified functional correctness. The current roadmap includes completion of the seL4 MCS configuration (support for mixed-criticality systems), functional correctness of seL4 on AArch64, and progress on multicore seL4 verification.
 </p></div>
-<div class="summit-abstract" id="explaining-integrity-theorems"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="explaining-integrity-theorems"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Explaining the seL4 integrity theorems
 </h4>
 <p class="summit-abstract-type">
@@ -209,7 +224,12 @@ I will also attempt to provide some context for various pull requests against th
 <p>
     Both theorems are subject to some well-formedness assumptions about the policy. These assumptions are important for system designers who want the benefit of the theorems, because they act as constraints on their system designs. So we'll examine these conditions in detail, and consider what they mean for static systems such as those produced by the CAmkES tool and the capDL loader. We'll also look at more dynamic systems, where we'll see that with careful design, the theorems can still provide some benefit.
 </p></div>
-<div class="summit-abstract" id="seL4CP"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="seL4CP"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     The seL4 Core Platform (seL4CP)
 </h4>
 <p class="summit-abstract-type">
@@ -235,7 +255,12 @@ a) Verification: this has itself two thrusts:
     Both categories are work in progress, with prototypes of partial functionality available at time of writing, significant progress is expected by the time of the Summit.
 </p>
 </div>
-<div class="summit-abstract" id="sDDF"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="sDDF"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     The seL4 Device Driver Framework (sDDF)
 </h4>
 <p class="summit-abstract-type">
@@ -247,7 +272,12 @@ a) Verification: this has itself two thrusts:
 <p>
     Here we present a framework for high-performance I/O on seL4 that enables formal reasoning, eventual verification and demonstrates performance competitive with Linux in a networking focused system. Unlike monolithic kernels, the seL4 microkernel prescribes device drivers to run as user level programs. This has the advantage that a driver’s special privileges are reduced to just the ability to access the control registers of the device it drives, thus significantly reducing the system’s trusted computing base. However, the extra context switches involved in such a system can degrade performance. The seL4 Device Driver Framework (sDDF) aims to provide interfaces and protocols for writing and porting device drivers to run as seL4 user-level programs. It assumes a simple and general device model, and presents an asynchronous transport layer as a means of communication to other components in the system. It currently supports network devices to run at near wire speed.
 </p></div>
-<div class="summit-abstract" id="Multiprocessing-verified-kernels"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="Multiprocessing-verified-kernels"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Multiprocessing on seL4 with verified kernels
 </h4>
 <p class="summit-abstract-type">
@@ -259,7 +289,12 @@ a) Verification: this has itself two thrusts:
 <p>
         Verified multicore seL4 seem too far away? Think again, this talk presents a simple multikernel approach to achieve this goal that is attainable using the verified unicore kernel we already have. While this solution does not provide all the benefits of a single system image it allows us to build static systems on a verified seL4 using multiple cores today. This talk will detail how to construct such a system, the work involved and examples of how it can be used.
 </p></div>
-<div class="summit-abstract" id="QEMU-extend-VirtIO"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="QEMU-extend-VirtIO"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Using QEMU to extend seL4 VirtIO support
 </h4>
 <p class="summit-abstract-type">
@@ -271,7 +306,12 @@ a) Verification: this has itself two thrusts:
 <p>
     The traits of seL4 makes it an appealing hypervisor platform. Today hypervisors are increasingly used to build complex security- and safety critical systems. Good and stable abstractions are required to build upon, and that in turn needs a vivid community of developers and maintainers. Having access to stable and high quality drivers can help building such a community, and is one step towards having seL4 on par feature-wise with the other hypervisors. At TII we explored if QEMU could be used as a VirtIO backend for seL4. The QEMU would bring the tried and tested VirtIO backend, and already thriving ecosystem to work with. Having VirtIO backend running in a Linux VMs user space has its benefits, but also comes with an overhead cost. This talk walks through our journey with having a QEMU within a Linux VM on top of seL4 to provide paravirtualized devices to the other VMs. We share how we went about getting the QEMU working with seL4 along with the benchmarks, the learnings and the pain points. We share where we are at the moment, and our plans for the future.
 </p></div>
-<div class="summit-abstract" id="QEMU-prototyping-platform"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="QEMU-prototyping-platform"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     QEMU as prototyping platform for seL4 systems
 </h4>
 <p class="summit-abstract-type">
@@ -283,7 +323,12 @@ a) Verification: this has itself two thrusts:
 <p>
     The talk gives an overview about what works more or less out of the box for ARM and RISC-V and what advances configuration and debug options can be used. Then we will look at the limitations of the various emulated machines and some pitfalls. Finally we will explain some of the modifications we have done to the QEMU sources, so it provides some otherwise missing features.
 </p></div>
-<div class="summit-abstract" id="Porting-U-Boot"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="Porting-U-Boot"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Porting U-Boot drivers to seL4
 </h4>
 <p class="summit-abstract-type">
@@ -301,7 +346,12 @@ a) Verification: this has itself two thrusts:
 <p>
     This approach is not optimised for performance or verifiability and is unlikely to be used for drivers where this is paramount. However, our approach is intended to be complementary to such use cases, with significantly less handcrafting of bespoke drivers, helping to lower the bar for entry into seL4 development.
 </p></div>
-<div class="summit-abstract" id="fence-t"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="fence-t"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     fence.t: hardware support for preventing microarchitectural timing channels
 </h4>
 <p class="summit-abstract-type">
@@ -316,7 +366,12 @@ a) Verification: this has itself two thrusts:
 <p>
     In this talk, we present fence.t, a novel RISC-V instruction that clears the processor's microarchitectural state and thus any timing dependence on execution history. We show how this instruction was implemented in an open-source RISC-V core and integrated into an experimental version of seL4 with time protection. Furthermore, we will address the challenges of fence.t and its future roadmap.
 </p></div>
-<div class="summit-abstract" id="Kry10-Secure-Platform"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="Kry10-Secure-Platform"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Kry10 Secure Platform: Trust but Isolate
 </h4>
 <p class="summit-abstract-type">
@@ -337,7 +392,12 @@ a) Verification: this has itself two thrusts:
 <p>
     In this presentation we will introduce the Kry10 Secure Platform with its Trust but Isolate philosophy, and then show how the Kry10 Operating System implements this philosophy to achieve a secure and robust platform for industrial connected devices.
 </p></div>
-<div class="summit-abstract" id="seL4-BEAM"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="seL4-BEAM"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     seL4 and BEAM: a match made in Erlang
 </h4>
 <p class="summit-abstract-type">
@@ -356,7 +416,12 @@ a) Verification: this has itself two thrusts:
     In this presentation we will demonstrate what can be achieved by combining seL4 and the BEAM. We will also describe our experience with building BEAM-based systems on seL4, including porting the BEAM to run on seL4, integrating the BEAM with seL4 inter-process communication mechanisms and other C-based components, and creating a powerful Elixir-based development environment for seL4 systems.
 </p></div>
 
-<!--<div class="summit-abstract" id="Rust-support"><h4 class="summit-abstract-title">
+<!--<div class="summit-abstract" id="Rust-support"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Rust support in seL4 userspace: Present and future
 </h4>
 <p class="summit-abstract-type">
@@ -366,24 +431,33 @@ a) Verification: this has itself two thrusts:
     Nick Spinale
 </p></div>-->
 
-<div class="summit-abstract" id="Trustworthy-board-management"><div class="summit-abstract">
-    <h4 class="summit-abstract-title">
-        Trustworthy board management controllers
-    </h4>
-    <p class="summit-abstract-type">
-        Talk
-    </p>
-    <p class="summit-abstract-presenter">
-        Daniel Schwyn & Ben Fiedler, ETH
-    </p>
-    <p>
-        Most modern computing platforms are so complex that they need a separate embedded system to manage them. These systems are referred to as (Base-)Board Management Controllers or BMCs. BMCs handle power and clock distribution and sequencing, firmware for other components on the board, and usually offer remote management capabilities (e.g. console access and firmware updates). This makes them the root of trust in such systems.
-    </p>
-    <p>
-        Although BMCs have absolute power over modern computing platforms they are not engineered in the rigorous way that warrants the implicit trust that we put in them. In our talk we will present ongoing work on declarative power and clock management and our broader vision of a trustworthy BMC software stack with, at its heart, seL4 as a separation kernel. Not only will a trustworthy BMC stack improve safety and security of modern computing platforms but, with the right tools for generating code from declarative models, it has the potential to shorten bringup times for new platforms.
-    </p>
-</div></div>
-<div class="summit-abstract" id="Network-stack-implementation"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="Trustworthy-board-management"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
+    Trustworthy board management controllers
+</h4>
+<p class="summit-abstract-type">
+    Talk
+</p>
+<p class="summit-abstract-presenter">
+    Daniel Schwyn & Ben Fiedler, ETH
+</p>
+<p>
+    Most modern computing platforms are so complex that they need a separate embedded system to manage them. These systems are referred to as (Base-)Board Management Controllers or BMCs. BMCs handle power and clock distribution and sequencing, firmware for other components on the board, and usually offer remote management capabilities (e.g. console access and firmware updates). This makes them the root of trust in such systems.
+</p>
+<p>
+    Although BMCs have absolute power over modern computing platforms they are not engineered in the rigorous way that warrants the implicit trust that we put in them. In our talk we will present ongoing work on declarative power and clock management and our broader vision of a trustworthy BMC software stack with, at its heart, seL4 as a separation kernel. Not only will a trustworthy BMC stack improve safety and security of modern computing platforms but, with the right tools for generating code from declarative models, it has the potential to shorten bringup times for new platforms.
+</p>
+</div>
+<div class="summit-abstract" id="Network-stack-implementation"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Early experiences proving the correctness of a network stack implementation
 </h4>
 <p class="summit-abstract-type">
@@ -395,7 +469,12 @@ a) Verification: this has itself two thrusts:
 <p>
     We are investigating the question of whether the field of software verification has matured enough to allow a small group of researchers at two undergraduate institutions to prove correctness properties of network protocols implemented in operating system distributions, in general, and IoT devices, in particular. As a proof of concept, we are designing a networked temperature sensor, to monitor incubators, built on top of the seL4 microkernel and seL4® core platform. In this talk, we will share our early experience building and proving some properties about such a system. In particular, we will describe our efforts developing our own UDP networking stack, testing IPv6-based protocols, proving properties about reassembly of network fragments, and finding possible inconsistencies in specifications published by the Internet Engineering Task Force.
 </p></div>
-<div class="summit-abstract" id="CASE-overview"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="CASE-overview"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     CASE Overview: Cyber Assured Systems Engineering
 </h4>
 <p class="summit-abstract-type">
@@ -407,7 +486,12 @@ a) Verification: this has itself two thrusts:
 <p>
     Formal methods tools that provide mathematical proof of system properties have improved dramatically in their power and capabilities. As part of DARPA's Cyber Assured Systems Engineering (CASE) program, our team has developed a model-based systems engineering environment called BriefCASE that integrates formal methods at all levels of system design, including the ability to build systems targeting seL4. We will present an overview of the CASE project and the capabilities of the BriefCASE tools. We will also describe an application of the BriefCASE tools and workflow to the mission computing system in a military helicopter.
 </p></div>
-<div class="summit-abstract" id="Verified-architecture"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="Verified-architecture"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     A Verified Achitecture for Trustworthy Remote Attestation
 </h4>
 <p class="summit-abstract-type">
@@ -423,7 +507,12 @@ a) Verification: this has itself two thrusts:
     This architecture defines a layered system consisting of seL4 and a Linux virtual machine contained therein. Existing Linux systems may easily be run within the virtual machine, and augmented by coordinated attestation components running both at the Linux and seL4 level. We argue that this layered design offers both the flexibility to accommodate existing systems as wells as rigorous and trustworthy attestation capabilities.
 </p></div>
 
-<!--<div class="summit-abstract" id="FerrOS"><h4 class="summit-abstract-title">
+<!--<div class="summit-abstract" id="FerrOS"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     FerrOS: Rust-y unikernels on seL4 w/ compile-time assurances
 </h4>
 <p class="summit-abstract-type">
@@ -435,7 +524,12 @@ a) Verification: this has itself two thrusts:
 <p>
 </p></div>-->
 
-<!--<div class="summit-abstract" id="Safety-critical-voice"><h4 class="summit-abstract-title">
+<!--<div class="summit-abstract" id="Safety-critical-voice"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Safety-critical voice communication system (MCS, SMP, VM)
 </h4>
 <p class="summit-abstract-type">
@@ -447,7 +541,12 @@ a) Verification: this has itself two thrusts:
 <p>
 </p></div>-->
 
-<div class="summit-abstract" id="ASIL-D"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="ASIL-D"><!--<title>Summit abstract</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Make seL4 an ASIL-D Certified System
 </h4>
 <p class="summit-abstract-type">
@@ -465,7 +564,12 @@ a) Verification: this has itself two thrusts:
 <p>
     Second, Code Coverage has been an important metric to measure the code quality in automotive industry. Although seL4 is a formally proven, Code Coverage is still important for two reasons. One is Code Coverage can work orthogonally with formal proof to assure the code quality. The other is Code Coverage rate is key metric in many certifications. We’d like to share our work regarding measure seL4 kernel code coverage. We will present the measuring results and ways we have tried to improve code coverage rate.
 </p></div>
-<div class="summit-abstract" id="VM-Composer"><div class="summit-abstract">
+<div class="summit-abstract" id="VM-Composer"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<div class="summit-abstract">
     <h4 class="summit-abstract-title">
         VM Composer
     </h4>
@@ -480,7 +584,12 @@ a) Verification: this has itself two thrusts:
     </p>
 </div></div>
 
-<!--<div class="summit-abstract" id=""><h4 class="summit-abstract-title">
+<!--<div class="summit-abstract" id=""><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Funding agencies: priorities and vision
 </h4>
 <p class="summit-abstract-type">
@@ -490,7 +599,12 @@ a) Verification: this has itself two thrusts:
     DARPA, CygerAgentur, NCSC, ...
 </p></div>-->
 
-<!--<div class="summit-abstract" id="seL4-principles-abstractions"><h4 class="summit-abstract-title">
+<!--<div class="summit-abstract" id="seL4-principles-abstractions"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Overview: seL4 principles, abstractions and use
 </h4>
 <p class="summit-abstract-type">
@@ -500,7 +614,12 @@ a) Verification: this has itself two thrusts:
     Gernot Heiser, seL4 Foundation
 </p></div>-->
 
-<div class="summit-abstract" id="Whats-verified"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="Whats-verified"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Overview: what's verified, what's not, and what does it mean?
 </h4>
 <p class="summit-abstract-type">
@@ -519,7 +638,12 @@ a) Verification: this has itself two thrusts:
     In this talk we will give a brief overview of what seL4 verification claims can be made and what they mean, and which claims should not be made.
 </p>
 </div>
-<div class="summit-abstract" id="GitHub-tests"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="GitHub-tests"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     The seL4 GitHub test suite
 </h4>
 <p class="summit-abstract-type">
@@ -537,7 +661,12 @@ a) Verification: this has itself two thrusts:
 <p>
     The centre of this collection is the seL4 kernel repository itself. Its test suite includes running the formal verification of the kernel, as well as static compilation checks for all supported hardware platforms, simulation runs for all architectures, automated tests on hardware for most of the supported platforms, running benchmarks, documentation builds, etc. Both, formal verification and runtime tests are necessary – formal verification is good at showing the absence of bad behaviours, tests are good at showing the presence of good behaviours. They are also useful for validating assumptions of the formal verification. Test runs leave behind log files and build artefacts such as compiled kernel binaries or sel4tests binaries that can be simulated or run on hardware. Successful test runs automatically record the constellation of repositories that were involved in that successful run, so developers can easily trace and access known working combinations. The talk will also give an overview on how you can contribute tests, how you can help to improve the CI infrastructure, and how you can run most of these tests locally yourself.
 </p></div>
-<div class="summit-abstract" id="seL4-mainlining"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="seL4-mainlining"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     seL4 mainlining: Experiences, challenges, and solutions
 </h4>
 <p class="summit-abstract-type">
@@ -549,7 +678,12 @@ a) Verification: this has itself two thrusts:
 <p>
     The lifeblood of open-source projects are the contributors, developers, and maintainers that work to keep the projects up to date, add new features, and squash bugs. However, there can be quite a few roadblocks that prevent or slow down upstreaming of code. This will be an account of the seL4 mainlining experiences of DornerWorks. This talk will encompass our successes, difficulties, possible improvements, and some open questions. This will be a short talk with a lot of time for open discussion. The goal is to spark a conversation that will lead to even greater collaboration than is seen today.
 </p></div>
-<div class="summit-abstract" id="Standard-VMM"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="Standard-VMM"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     seL4 microkernel for virtualization use-cases “The importance of a standard VMM”
 </h4>
 <p class="summit-abstract-type">
@@ -565,8 +699,13 @@ a) Verification: this has itself two thrusts:
 <p>
     This talk proposes to establish a driving philosophy to design a baseline VMM rather than prescribe a specific system architecture. We intend to discuss the possible missing features of the existing seL4 VMM concerning standardization, more so than a prescription for the right way to do it. Indeed, this will entail recommending high-level architecture patterns but cannot lock an adopter into specific implementations. Each adopting integrator will inevitably start from the new standard and refine the implementation for their use case. The effort here is to close the gap between the current VMM baseline and the point of necessary deviation.
 </p></div>
-<div class="summit-abstract" id="Improving-embedded-DevOps"><h4 class="summit-abstract-title">
-        Improving embedded DevOps with seL4 VMM
+<div class="summit-abstract" id="Improving-embedded-DevOps"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
+    Improving embedded DevOps with seL4 VMM
 </h4>
 <p class="summit-abstract-type">
 
@@ -577,7 +716,12 @@ a) Verification: this has itself two thrusts:
 <p>
     While seL4 is an amazing technology, it is difficult to develop and build applications from scratch. Even when using virtualization, the development process for OS applications is a long loop of write, build, deploy, test, fix, build, deploy, test, etc. One way to improve on this is to borrow from the server world and support containers in VMs running on seL4. This improves embedded DevOps by allowing developers to test various container applications together on their host target, thereby reducing the number of required deployments. We will be discussing what work we have already done in this space as well as some thoughts on where to take it in the future. This will be a short talk followed by open discussion to explore issues and interests.
 </p></div>
-<div class="summit-abstract" id="Experience-teaching-seL4"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="Experience-teaching-seL4"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     Experience teaching seL4
 </h4>
 <p class="summit-abstract-type">
@@ -590,7 +734,12 @@ a) Verification: this has itself two thrusts:
     Since the winter term 2020, the practical course "seL4 & TRENTOS" offers students at the TUM an introduction into the fundamental aspects of TRENTOS, a novel secure embedded operating system developed by HENSOLDT Cyber, which is built on top of the seL4 microkernel and the CAmkES framework. The course starts with a respective theory phase, in which students get to know the basic building blocks of both kernel and user space. Afterwards, the course participants work within teams on an individual practical project. They hereby apply a TRENTOS-based setup, running on top of the the Raspberry Pi platform, to a selected real-world use case (e.g. originating from the domains automotive or industrial automation). Besides providing a general course overview, this talk shall therefore demonstrate respective course results and serve as a starting point for follow-up discussions.
 </p></div>
 
-<!--div class="summit-abstract" id="TCCOE"><h4 class="summit-abstract-title">
+<!--div class="summit-abstract" id="TCCOE"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     seL4 Summit and TCCOE - an overview
 </h4>
 <p class="summit-abstract-type">
@@ -600,7 +749,12 @@ a) Verification: this has itself two thrusts:
     Jason Li & Ray Richards
 </p></div>-->
 
-<div class="summit-abstract" id="seL4-Foundation"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="seL4-Foundation"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     seL4 Foundation: overview, update and vision
 </h4>
 <p class="summit-abstract-type">
@@ -615,7 +769,12 @@ a) Verification: this has itself two thrusts:
 <p>
     In this talk I will give an brief update on the Foundation's successes in increased contributions, increased support, and increased membership, as well as the vision to keep supporting a thriving seL4 ecosystem.
 </p></div>
-<div class="summit-abstract" id="CAmkES"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="CAmkES"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     CAmkES
 </h4>
 <p class="summit-abstract-type">
@@ -627,7 +786,12 @@ a) Verification: this has itself two thrusts:
 <p>
     CAmkES (Component Architecture for microkernel-based Embedded Systems) is a software development and runtime framework that shall ease systems development by providing an abstraction layer on top of the seL4 microkernel. As part of this workshop, participants shall therefore get to know the general CAmkES architecture as well as its basic building blocks. Finally, the execution of a corresponding CAmkES-based application on top of seL4 will be demonstrated.
 </p></div>
-<div class="summit-abstract" id="TRENTOS"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="TRENTOS"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     TRENTOS
 </h4>
 <p class="summit-abstract-type">
@@ -640,7 +804,12 @@ a) Verification: this has itself two thrusts:
     With TRENTOS, HENSOLDT Cyber develops a novel secure embedded OS on top of the proven seL4 ecosystem. The CAmkES framework is hereby utilized for providing the respective abstraction layer on top of seL4, which allows for constructing respective OS components and services (e.g. for storage or networking support) within TRENTOS. As part of this workshop, participants shall therefore get to know the general TRENTOS architecture, its basic building blocks as well as the standard TRENTOS operating system components. Finally, with the help of the TRENTOS SDK, a small TRENTOS application will be developed and the corresponding build and deployment process will be demonstrated.
 </p></div>
 
-<!--<div class="summit-abstract" id="seL4CP-bootcamp"><h4 class="summit-abstract-title">
+<!--<div class="summit-abstract" id="seL4CP-bootcamp"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     The seL4 Core Platform (seL4CP)
 </h4>
 <p class="summit-abstract-type">
@@ -650,7 +819,12 @@ a) Verification: this has itself two thrusts:
     Ivan Velickovic & Peter Chubb, UNSW
 </p></div>-->
 
-<div class="summit-abstract" id="VM-Composer-bootcamp"><h4 class="summit-abstract-title">
+<div class="summit-abstract" id="VM-Composer-bootcamp"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
     VM Composer: the easy button for virtualized seL4-based systems
 </h4>
 <p class="summit-abstract-type">
@@ -662,7 +836,12 @@ a) Verification: this has itself two thrusts:
 <p>
     A secure kernel is more and more attractive these days and seL4 is one of the strongest microkernels around. However, the seL4 ecosystem is still maturing and may not be a drop-in replacement for practical applications in real-world systems. With the strictest security needs, it is probably best to use just the microkernel with user-space applications. However, there are many stacks, libraries, and drivers lacking to meet the needs of most systems. Virtualization and the user-space VMM provide an answer to this. For developers new to the seL4 ecosystem, it is difficult to configure the software to meet system requirements. The traditional approach is to start with a known working configuration and tweak it until it fits the specific application. The latest approach is to use DornerWorks’ VM Composer, a graphical, drag-and-drop interface which allows one to easily configure their seL4-based, virtualized systems without needing to modify any CMake, CAmkES, python, or C files. This training session will provide step-by-step instructions to configure an example virtualized system using an evaluation version of the tool. It will show basic and advanced configuration options. It will also create some invalid configurations to show the validation that the tool performs.
 </p></div>
-<div class="summit-abstract" id="BriefCASE-tutorial"><div class="summit-abstract">
+<div class="summit-abstract" id="BriefCASE-tutorial"><!--<title>Summit abstracts</title>-->
+<!--
+    Copyright 2022, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<div class="summit-abstract">
     <h4 class="summit-abstract-title">
         BriefCASE Tutorial
     </h4>
