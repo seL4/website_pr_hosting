@@ -1,23 +1,2 @@
 <html><body><p>
-Error: End tag "td" seen, but there were open elements.
-From line 194, column 58; to line 194, column 62 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 192, column 9; to line 192, column 73 in resource file:/Foundation/Summit/program.pml.html
-Error: Stray end tag "strong".
-From line 277, column 140; to line 277, column 148 in resource file:/Foundation/Summit/program.pml.html
-Error: Stray end tag "td".
-From line 445, column 64; to line 446, column 9 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "p" seen, but there were open elements.
-From line 783, column 1; to line 783, column 4 in resource file:/Foundation/Summit/abstracts.pml.html
-Error: Unclosed element "span".
-From line 782, column 49; to line 782, column 90 in resource file:/Foundation/Summit/abstracts.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 194, column 58; to line 194, column 62 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 192, column 9; to line 192, column 73 in resource file:/Foundation/Summit/program.html
-Error: Stray end tag "strong".
-From line 277, column 140; to line 277, column 148 in resource file:/Foundation/Summit/program.html
-Error: Stray end tag "td".
-From line 445, column 64; to line 446, column 9 in resource file:/Foundation/Summit/program.html
-Document checking completed.
 </p></body></html>
