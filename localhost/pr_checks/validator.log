@@ -1,2 +1,23 @@
 <html><body><p>
+Error: No space between attributes.
+From line 619, column 4; to line 619, column 14 in resource file:/news/2021.html
+Error: A slash was not immediately followed by ">".
+From line 619, column 4; to line 619, column 21 in resource file:/news/2021.html
+Error: A slash was not immediately followed by ">".
+From line 619, column 4; to line 619, column 22 in resource file:/news/2021.html
+Error: A slash was not immediately followed by ">".
+From line 619, column 4; to line 619, column 42 in resource file:/news/2021.html
+Error: A slash was not immediately followed by ">".
+From line 619, column 4; to line 619, column 49 in resource file:/news/2021.html
+Error: """ in an unquoted attribute value. Probable causes: Attributes running together or a URL query string in an unquoted attribute value.
+From line 619, column 4; to line 619, column 61 in resource file:/news/2021.html
+Error: Attribute "https:" not allowed on element "a" at this point.
+From line 619, column 4; to line 619, column 62 in resource file:/news/2021.html
+Error: Attribute "trustworthy.systems" not allowed on element "a" at this point.
+From line 619, column 4; to line 619, column 62 in resource file:/news/2021.html
+Error: Attribute "people" not allowed on element "a" at this point.
+From line 619, column 4; to line 619, column 62 in resource file:/news/2021.html
+Error: Attribute "?alumni" not allowed on element "a" at this point.
+From line 619, column 4; to line 619, column 62 in resource file:/news/2021.html
+Document checking completed.
 </p></body></html>
