@@ -1,9 +1,2 @@
 <html><body><p>
-Error: No "p" element in scope but a "p" end tag seen.
-From line 628, column 1; to line 628, column 4 in resource file:/Foundation/Summit/abstracts2022.html
-Error: Stray end tag "td".
-From line 477, column 64; to line 478, column 9 in resource file:/Foundation/Summit/program.pml.html
-Error: Stray end tag "td".
-From line 477, column 64; to line 478, column 9 in resource file:/Foundation/Summit/program.html
-Document checking completed.
 </p></body></html>
