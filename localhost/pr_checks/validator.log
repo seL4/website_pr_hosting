@@ -1,29 +1,2 @@
 <html><body><p>
-Error: End tag for  "body" seen, but there were unclosed elements.
-From line 965, column 1; to line 965, column 7 in resource file:/Foundation/Summit/abstracts2022.html
-Error: Unclosed element "div".
-From line 554, column 1; to line 554, column 53 in resource file:/Foundation/Summit/abstracts2022.html
-Error: Unclosed element "div".
-From line 111, column 1; to line 111, column 23 in resource file:/Foundation/Summit/abstracts2022.html
-Error: Unclosed element "div".
-From line 57, column 3; to line 57, column 25 in resource file:/Foundation/Summit/abstracts2022.html
-Error: Unclosed element "div".
-From line 56, column 3; to line 56, column 27 in resource file:/Foundation/Summit/abstracts2022.html
-Error: End tag "td" seen, but there were open elements.
-From line 360, column 222; to line 360, column 226 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "div".
-From line 359, column 5; to line 359, column 38 in resource file:/Foundation/Summit/program.pml.html
-Error: Stray end tag "div".
-From line 360, column 227; to line 361, column 10 in resource file:/Foundation/Summit/program.pml.html
-Error: Stray end tag "div".
-From line 360, column 227; to line 361, column 10 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 360, column 222; to line 360, column 226 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "div".
-From line 359, column 5; to line 359, column 38 in resource file:/Foundation/Summit/program.html
-Error: Stray end tag "div".
-From line 360, column 227; to line 361, column 10 in resource file:/Foundation/Summit/program.html
-Error: Stray end tag "div".
-From line 360, column 227; to line 361, column 10 in resource file:/Foundation/Summit/program.html
-Document checking completed.
 </p></body></html>
