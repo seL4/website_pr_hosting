@@ -1,120 +1,84 @@
 <html><body><p>
 Error: Bad value "slides/d1_02_State of seL4-related research_Gernot Heiser.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 169, column 182; to line 169, column 269 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 169, column 270; to line 169, column 310 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 169, column 315; to line 169, column 353 in resource file:/Foundation/Summit/abstracts2022.html
+From line 169, column 333; to line 169, column 371 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d1_03_seL4 verification roadmap_Proofcraft.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 198, column 182; to line 198, column 253 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 198, column 254; to line 198, column 294 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 198, column 299; to line 198, column 353 in resource file:/Foundation/Summit/abstracts2022.html
+From line 198, column 317; to line 198, column 371 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d1_04_Explaining the seL4 integrity theorems_Matt Brecknell.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 224, column 182; to line 224, column 282 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 224, column 283; to line 224, column 323 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 224, column 328; to line 224, column 386 in resource file:/Foundation/Summit/abstracts2022.html
+From line 224, column 346; to line 224, column 404 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d1_05_The seL4 Core Platform (seL4CP)_Zoltan Kocsis.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 255, column 178; to line 255, column 270 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 255, column 271; to line 255, column 311 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 255, column 316; to line 255, column 351 in resource file:/Foundation/Summit/abstracts2022.html
+From line 255, column 334; to line 255, column 369 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d1_06_The seL4 Device Driver Framework (sDDF)_Lucy Parker.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 272, column 183; to line 272, column 285 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 272, column 286; to line 272, column 326 in resource file:/Foundation/Summit/abstracts2022.html
+From line 272, column 182; to line 272, column 284 in resource file:/Foundation/Summit/abstracts2022.html
 Error: No space between attributes.
-From line 272, column 331; to line 272, column 401 in resource file:/Foundation/Summit/abstracts2022.html
+From line 272, column 348; to line 272, column 418 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Quote """ in attribute name. Probable cause: Matching quote missing somewhere earlier.
-From line 272, column 331; to line 272, column 419 in resource file:/Foundation/Summit/abstracts2022.html
+From line 272, column 348; to line 272, column 436 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 272, column 331; to line 272, column 420 in resource file:/Foundation/Summit/abstracts2022.html
+From line 272, column 348; to line 272, column 437 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "program.pml.html#p-sDDF this talk in the program</a><a href=" for attribute "href" on element "a": Illegal character in fragment: space is not allowed.
-From line 272, column 331; to line 272, column 420 in resource file:/Foundation/Summit/abstracts2022.html
+From line 272, column 348; to line 272, column 437 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Attribute "program.pml#p-sddf"" not allowed on element "a" at this point.
-From line 272, column 331; to line 272, column 420 in resource file:/Foundation/Summit/abstracts2022.html
+From line 272, column 348; to line 272, column 437 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d1_07_Multiprocessing on seL4 with verified kernels_Kent Mcleod.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 289, column 167; to line 289, column 275 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 289, column 276; to line 289, column 316 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 289, column 321; to line 289, column 382 in resource file:/Foundation/Summit/abstracts2022.html
+From line 289, column 339; to line 289, column 400 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d1_08_Using QEMU to extend seL4 VirtIO support_Hannu Lyytinen.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 306, column 182; to line 306, column 292 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 306, column 293; to line 306, column 333 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 306, column 338; to line 306, column 385 in resource file:/Foundation/Summit/abstracts2022.html
+From line 306, column 356; to line 306, column 403 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d1_09_QEMU as prototyping platform for seL4 systems_Axel Heider.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 323, column 182; to line 323, column 294 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 323, column 295; to line 323, column 335 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 323, column 340; to line 323, column 394 in resource file:/Foundation/Summit/abstracts2022.html
+From line 323, column 358; to line 323, column 412 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d1_10_Porting U-Boot drivers to seL4_Mark Jenkinson & Stephen Williams.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 346, column 182; to line 346, column 309 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 346, column 310; to line 346, column 350 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 346, column 355; to line 346, column 398 in resource file:/Foundation/Summit/abstracts2022.html
+From line 346, column 373; to line 346, column 416 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d1_11_fence.t hardware support for preventing microarchitectural timing channels_Nils Wistoff.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 366, column 182; to line 366, column 328 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 366, column 329; to line 366, column 369 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 366, column 374; to line 366, column 410 in resource file:/Foundation/Summit/abstracts2022.html
+From line 366, column 392; to line 366, column 428 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d2_01_Kry10 Secure Platform_Boyd Multerer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 392, column 182; to line 392, column 256 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 392, column 257; to line 392, column 297 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 392, column 302; to line 392, column 352 in resource file:/Foundation/Summit/abstracts2022.html
+From line 392, column 320; to line 392, column 370 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d2_03_seL4 and BEAM a match made in Erlang_Ihor.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 415, column 167; to line 415, column 263 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 415, column 264; to line 415, column 304 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 415, column 309; to line 415, column 347 in resource file:/Foundation/Summit/abstracts2022.html
+From line 415, column 327; to line 415, column 365 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d2_04_Trustworthy board management controllers_Daniel Schwyn, Ben Fiedler.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 436, column 178; to line 436, column 296 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 436, column 297; to line 436, column 337 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 436, column 342; to line 436, column 399 in resource file:/Foundation/Summit/abstracts2022.html
+From line 436, column 360; to line 436, column 417 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d2_05_Rust support in seL4 userspace present and future_Nick Spinale.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 452, column 182; to line 452, column 303 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 452, column 304; to line 452, column 344 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 452, column 349; to line 452, column 390 in resource file:/Foundation/Summit/abstracts2022.html
+From line 452, column 367; to line 452, column 408 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d2_06_Early experiences proving the correctness of a network stack implementation_Alain Kägi.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 470, column 5; to line 470, column 158 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 470, column 159; to line 470, column 199 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 470, column 204; to line 470, column 261 in resource file:/Foundation/Summit/abstracts2022.html
+From line 470, column 222; to line 470, column 279 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d2_07_CASE overview Cyber Assured Systems Engineering_Darren Cofer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 487, column 167; to line 487, column 278 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 487, column 279; to line 487, column 319 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 487, column 324; to line 487, column 366 in resource file:/Foundation/Summit/abstracts2022.html
+From line 487, column 342; to line 487, column 384 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d2_08_A verified architecture for trustworthy remote attestation_Grant Jurgenson.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 508, column 5; to line 508, column 134 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 508, column 135; to line 508, column 175 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 508, column 180; to line 508, column 230 in resource file:/Foundation/Summit/abstracts2022.html
+From line 508, column 198; to line 508, column 248 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d2_09_FerrOS Rust-y unikernels on seL4 w compile-time assurances_Zack Pierce.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 525, column 188; to line 525, column 317 in resource file:/Foundation/Summit/abstracts2022.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 525, column 318; to line 525, column 358 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 525, column 363; to line 525, column 398 in resource file:/Foundation/Summit/abstracts2022.html
+From line 525, column 381; to line 525, column 416 in resource file:/Foundation/Summit/abstracts2022.html
 Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
 From line 591, column 68; to line 591, column 108 in resource file:/Foundation/Summit/abstracts2022.html
 Error: End tag "p" seen, but there were open elements.
@@ -129,502 +93,374 @@ Fatal Error: Cannot recover after last error. Any further errors will be ignored
 From line 606, column 5; to line 606, column 39 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d1_01_Welcome_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 160, column 9; to line 160, column 62 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 160, column 63; to line 160, column 103 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 160, column 104; to line 160, column 108 in resource file:/Foundation/Summit/program.html
+From line 160, column 122; to line 160, column 126 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 160, column 9; to line 160, column 62 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d1_02_State of seL4-related research_Gernot Heiser.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 170, column 9; to line 170, column 96 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 170, column 97; to line 170, column 137 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 170, column 138; to line 170, column 142 in resource file:/Foundation/Summit/program.html
+From line 170, column 156; to line 170, column 160 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 170, column 9; to line 170, column 96 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d1_03_seL4 verification roadmap_Proofcraft.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 182, column 9; to line 182, column 80 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 182, column 81; to line 182, column 121 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 182, column 122; to line 182, column 126 in resource file:/Foundation/Summit/program.html
+From line 182, column 140; to line 182, column 144 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 182, column 9; to line 182, column 80 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d1_04_Explaining the seL4 integrity theorems_Matt Brecknell.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 190, column 9; to line 190, column 109 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 190, column 110; to line 190, column 150 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 190, column 151; to line 190, column 155 in resource file:/Foundation/Summit/program.html
+From line 190, column 169; to line 190, column 173 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 190, column 9; to line 190, column 109 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d1_05_The seL4 Core Platform (seL4CP)_Zoltan Kocsis.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 211, column 9; to line 211, column 101 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 211, column 102; to line 211, column 142 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 211, column 143; to line 211, column 147 in resource file:/Foundation/Summit/program.html
+From line 211, column 161; to line 211, column 165 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 211, column 9; to line 211, column 101 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d1_06_The seL4 Device Driver Framework (sDDF)_Lucy Parker.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 219, column 9; to line 219, column 111 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 219, column 112; to line 219, column 152 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 219, column 153; to line 219, column 157 in resource file:/Foundation/Summit/program.html
+From line 219, column 171; to line 219, column 175 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 219, column 9; to line 219, column 111 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d1_07_Multiprocessing on seL4 with verified kernels_Kent Mcleod.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 227, column 9; to line 227, column 117 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 227, column 118; to line 227, column 158 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 227, column 159; to line 227, column 163 in resource file:/Foundation/Summit/program.html
+From line 227, column 177; to line 227, column 181 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 227, column 9; to line 227, column 117 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d1_08_Using QEMU to extend seL4 VirtIO support_Hannu Lyytinen.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 239, column 9; to line 239, column 119 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 239, column 120; to line 239, column 160 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 239, column 161; to line 239, column 165 in resource file:/Foundation/Summit/program.html
+From line 239, column 179; to line 239, column 183 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 239, column 9; to line 239, column 119 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d1_09_QEMU as prototyping platform for seL4 systems_Axel Heider.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 247, column 9; to line 247, column 121 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 247, column 122; to line 247, column 162 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 247, column 163; to line 247, column 167 in resource file:/Foundation/Summit/program.html
+From line 247, column 181; to line 247, column 185 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 247, column 9; to line 247, column 121 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d1_10_Porting U-Boot drivers to seL4_Mark Jenkinson & Stephen Williams.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 255, column 9; to line 255, column 136 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 255, column 137; to line 255, column 177 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 255, column 178; to line 255, column 182 in resource file:/Foundation/Summit/program.html
+From line 255, column 196; to line 255, column 200 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 255, column 9; to line 255, column 136 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d1_11_fence.t hardware support for preventing microarchitectural timing channels_Nils Wistoff.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 263, column 9; to line 263, column 155 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 263, column 156; to line 263, column 196 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 263, column 197; to line 263, column 201 in resource file:/Foundation/Summit/program.html
+From line 263, column 215; to line 263, column 219 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 263, column 9; to line 263, column 155 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d2_01_Kry10 Secure Platform_Boyd Multerer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 281, column 9; to line 281, column 83 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 281, column 84; to line 281, column 124 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 281, column 125; to line 281, column 129 in resource file:/Foundation/Summit/program.html
+From line 281, column 143; to line 281, column 147 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 281, column 9; to line 281, column 83 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d2_02_Foundation announcements.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 289, column 9; to line 289, column 64 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 289, column 65; to line 289, column 105 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 289, column 106; to line 289, column 110 in resource file:/Foundation/Summit/program.html
+From line 289, column 124; to line 289, column 128 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 289, column 9; to line 289, column 64 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d2_03_seL4 and BEAM a match made in Erlang_Ihor.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 301, column 9; to line 301, column 105 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 301, column 106; to line 301, column 146 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 301, column 147; to line 301, column 151 in resource file:/Foundation/Summit/program.html
+From line 301, column 165; to line 301, column 169 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 301, column 9; to line 301, column 105 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d2_04_Trustworthy board management controllers_Daniel Schwyn, Ben Fiedler.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 310, column 9; to line 310, column 127 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 310, column 128; to line 310, column 168 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 310, column 169; to line 310, column 173 in resource file:/Foundation/Summit/program.html
+From line 310, column 187; to line 310, column 191 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 310, column 9; to line 310, column 127 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d2_05_Rust support in seL4 userspace present and future_Nick Spinale.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 318, column 9; to line 318, column 130 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 318, column 131; to line 318, column 171 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 318, column 172; to line 318, column 176 in resource file:/Foundation/Summit/program.html
+From line 318, column 190; to line 318, column 194 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 318, column 9; to line 318, column 130 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d2_06_Early experiences proving the correctness of a network stack implementation_Alain Kägi.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 330, column 9; to line 330, column 162 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 330, column 163; to line 330, column 203 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 330, column 204; to line 330, column 208 in resource file:/Foundation/Summit/program.html
+From line 330, column 222; to line 330, column 226 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 330, column 9; to line 330, column 162 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d2_07_CASE overview Cyber Assured Systems Engineering_Darren Cofer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 338, column 9; to line 338, column 120 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 338, column 121; to line 338, column 161 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 338, column 162; to line 338, column 166 in resource file:/Foundation/Summit/program.html
+From line 338, column 180; to line 338, column 184 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 338, column 9; to line 338, column 120 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d2_08_A verified architecture for trustworthy remote attestation_Grant Jurgenson.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 346, column 9; to line 346, column 138 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 346, column 139; to line 346, column 179 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 346, column 180; to line 346, column 184 in resource file:/Foundation/Summit/program.html
+From line 346, column 198; to line 346, column 202 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 346, column 9; to line 346, column 138 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d2_09_FerrOS Rust-y unikernels on seL4 w compile-time assurances_Zack Pierce.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 358, column 9; to line 358, column 138 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 358, column 139; to line 358, column 179 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 358, column 180; to line 358, column 184 in resource file:/Foundation/Summit/program.html
+From line 358, column 198; to line 358, column 202 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 358, column 9; to line 358, column 138 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d2_11_seL4 Summit and TCCOE - an overview_Renato Levy.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 378, column 9; to line 378, column 111 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 378, column 112; to line 378, column 152 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 378, column 153; to line 378, column 157 in resource file:/Foundation/Summit/program.html
+From line 378, column 171; to line 378, column 175 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 378, column 9; to line 378, column 111 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 396, column 70; to line 396, column 110 in resource file:/Foundation/Summit/program.html
 Error: Start tag "a" seen but an element of the same type was already open.
 From line 398, column 7; to line 398, column 70 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 398, column 75; to line 398, column 115 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
 From line 400, column 5; to line 400, column 9 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 398, column 7; to line 398, column 70 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d3_01_Overview seL4 principles, abstractions and use_Gernot Heiser.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 415, column 9; to line 415, column 120 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 415, column 121; to line 415, column 161 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 415, column 162; to line 415, column 166 in resource file:/Foundation/Summit/program.html
+From line 415, column 180; to line 415, column 184 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 415, column 9; to line 415, column 120 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d3_02_Overview what's verified, what's not, and what does it mean_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 424, column 9; to line 424, column 150 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 424, column 151; to line 424, column 191 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 424, column 192; to line 424, column 196 in resource file:/Foundation/Summit/program.html
+From line 424, column 210; to line 424, column 214 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 424, column 9; to line 424, column 150 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d3_03_The seL4 GitHub test suite_Gerwin Klein.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 432, column 9; to line 432, column 95 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 432, column 96; to line 432, column 136 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 432, column 137; to line 432, column 141 in resource file:/Foundation/Summit/program.html
+From line 432, column 155; to line 432, column 159 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 432, column 9; to line 432, column 95 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d3_04_seL4 mainlining experiences, challenges, and solutions_Robbie.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 452, column 9; to line 452, column 117 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 452, column 118; to line 452, column 158 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 452, column 159; to line 452, column 163 in resource file:/Foundation/Summit/program.html
+From line 452, column 177; to line 452, column 181 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 452, column 9; to line 452, column 117 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d3_05_seL4 microkernel for virtualization use-cases "The importance of a standard VMM".pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 469, column 9; to line 469, column 156 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 469, column 157; to line 469, column 197 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 469, column 198; to line 469, column 202 in resource file:/Foundation/Summit/program.html
+From line 469, column 216; to line 469, column 220 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 469, column 9; to line 469, column 156 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d3_06_Improving embedded DevOps with seL4 VMM.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 483, column 9; to line 483, column 95 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 483, column 96; to line 483, column 136 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 483, column 137; to line 483, column 141 in resource file:/Foundation/Summit/program.html
+From line 483, column 155; to line 483, column 159 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 483, column 9; to line 483, column 95 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d3_07_Experience teaching seL4.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 497, column 9; to line 497, column 68 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 497, column 69; to line 497, column 109 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 497, column 110; to line 497, column 114 in resource file:/Foundation/Summit/program.html
+From line 497, column 128; to line 497, column 132 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 497, column 9; to line 497, column 68 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d3_08_DornerWorks' VM Composer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 532, column 9; to line 532, column 68 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 532, column 69; to line 532, column 109 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 532, column 110; to line 532, column 114 in resource file:/Foundation/Summit/program.html
+From line 532, column 128; to line 532, column 132 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 532, column 9; to line 532, column 68 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d3_09_seL4 Foundation overview, update and vision.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 541, column 9; to line 541, column 99 in resource file:/Foundation/Summit/program.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 541, column 100; to line 541, column 140 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 541, column 141; to line 541, column 145 in resource file:/Foundation/Summit/program.html
+From line 541, column 159; to line 541, column 163 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 541, column 9; to line 541, column 99 in resource file:/Foundation/Summit/program.html
 Error: Bad value "slides/d1_01_Welcome_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 160, column 9; to line 160, column 62 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 160, column 63; to line 160, column 103 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 160, column 104; to line 160, column 108 in resource file:/Foundation/Summit/program.pml.html
+From line 160, column 122; to line 160, column 126 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 160, column 9; to line 160, column 62 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d1_02_State of seL4-related research_Gernot Heiser.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 170, column 9; to line 170, column 96 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 170, column 97; to line 170, column 137 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 170, column 138; to line 170, column 142 in resource file:/Foundation/Summit/program.pml.html
+From line 170, column 156; to line 170, column 160 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 170, column 9; to line 170, column 96 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d1_03_seL4 verification roadmap_Proofcraft.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 182, column 9; to line 182, column 80 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 182, column 81; to line 182, column 121 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 182, column 122; to line 182, column 126 in resource file:/Foundation/Summit/program.pml.html
+From line 182, column 140; to line 182, column 144 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 182, column 9; to line 182, column 80 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d1_04_Explaining the seL4 integrity theorems_Matt Brecknell.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 190, column 9; to line 190, column 109 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 190, column 110; to line 190, column 150 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 190, column 151; to line 190, column 155 in resource file:/Foundation/Summit/program.pml.html
+From line 190, column 169; to line 190, column 173 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 190, column 9; to line 190, column 109 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d1_05_The seL4 Core Platform (seL4CP)_Zoltan Kocsis.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 211, column 9; to line 211, column 101 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 211, column 102; to line 211, column 142 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 211, column 143; to line 211, column 147 in resource file:/Foundation/Summit/program.pml.html
+From line 211, column 161; to line 211, column 165 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 211, column 9; to line 211, column 101 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d1_06_The seL4 Device Driver Framework (sDDF)_Lucy Parker.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 219, column 9; to line 219, column 111 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 219, column 112; to line 219, column 152 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 219, column 153; to line 219, column 157 in resource file:/Foundation/Summit/program.pml.html
+From line 219, column 171; to line 219, column 175 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 219, column 9; to line 219, column 111 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d1_07_Multiprocessing on seL4 with verified kernels_Kent Mcleod.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 227, column 9; to line 227, column 117 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 227, column 118; to line 227, column 158 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 227, column 159; to line 227, column 163 in resource file:/Foundation/Summit/program.pml.html
+From line 227, column 177; to line 227, column 181 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 227, column 9; to line 227, column 117 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d1_08_Using QEMU to extend seL4 VirtIO support_Hannu Lyytinen.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 239, column 9; to line 239, column 119 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 239, column 120; to line 239, column 160 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 239, column 161; to line 239, column 165 in resource file:/Foundation/Summit/program.pml.html
+From line 239, column 179; to line 239, column 183 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 239, column 9; to line 239, column 119 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d1_09_QEMU as prototyping platform for seL4 systems_Axel Heider.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 247, column 9; to line 247, column 121 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 247, column 122; to line 247, column 162 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 247, column 163; to line 247, column 167 in resource file:/Foundation/Summit/program.pml.html
+From line 247, column 181; to line 247, column 185 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 247, column 9; to line 247, column 121 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d1_10_Porting U-Boot drivers to seL4_Mark Jenkinson & Stephen Williams.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 255, column 9; to line 255, column 136 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 255, column 137; to line 255, column 177 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 255, column 178; to line 255, column 182 in resource file:/Foundation/Summit/program.pml.html
+From line 255, column 196; to line 255, column 200 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 255, column 9; to line 255, column 136 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d1_11_fence.t hardware support for preventing microarchitectural timing channels_Nils Wistoff.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 263, column 9; to line 263, column 155 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 263, column 156; to line 263, column 196 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 263, column 197; to line 263, column 201 in resource file:/Foundation/Summit/program.pml.html
+From line 263, column 215; to line 263, column 219 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 263, column 9; to line 263, column 155 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d2_01_Kry10 Secure Platform_Boyd Multerer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 281, column 9; to line 281, column 83 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 281, column 84; to line 281, column 124 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 281, column 125; to line 281, column 129 in resource file:/Foundation/Summit/program.pml.html
+From line 281, column 143; to line 281, column 147 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 281, column 9; to line 281, column 83 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d2_02_Foundation announcements.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 289, column 9; to line 289, column 64 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 289, column 65; to line 289, column 105 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 289, column 106; to line 289, column 110 in resource file:/Foundation/Summit/program.pml.html
+From line 289, column 124; to line 289, column 128 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 289, column 9; to line 289, column 64 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d2_03_seL4 and BEAM a match made in Erlang_Ihor.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 301, column 9; to line 301, column 105 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 301, column 106; to line 301, column 146 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 301, column 147; to line 301, column 151 in resource file:/Foundation/Summit/program.pml.html
+From line 301, column 165; to line 301, column 169 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 301, column 9; to line 301, column 105 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d2_04_Trustworthy board management controllers_Daniel Schwyn, Ben Fiedler.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 310, column 9; to line 310, column 127 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 310, column 128; to line 310, column 168 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 310, column 169; to line 310, column 173 in resource file:/Foundation/Summit/program.pml.html
+From line 310, column 187; to line 310, column 191 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 310, column 9; to line 310, column 127 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d2_05_Rust support in seL4 userspace present and future_Nick Spinale.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 318, column 9; to line 318, column 130 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 318, column 131; to line 318, column 171 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 318, column 172; to line 318, column 176 in resource file:/Foundation/Summit/program.pml.html
+From line 318, column 190; to line 318, column 194 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 318, column 9; to line 318, column 130 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d2_06_Early experiences proving the correctness of a network stack implementation_Alain Kägi.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 330, column 9; to line 330, column 162 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 330, column 163; to line 330, column 203 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 330, column 204; to line 330, column 208 in resource file:/Foundation/Summit/program.pml.html
+From line 330, column 222; to line 330, column 226 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 330, column 9; to line 330, column 162 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d2_07_CASE overview Cyber Assured Systems Engineering_Darren Cofer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 338, column 9; to line 338, column 120 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 338, column 121; to line 338, column 161 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 338, column 162; to line 338, column 166 in resource file:/Foundation/Summit/program.pml.html
+From line 338, column 180; to line 338, column 184 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 338, column 9; to line 338, column 120 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d2_08_A verified architecture for trustworthy remote attestation_Grant Jurgenson.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 346, column 9; to line 346, column 138 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 346, column 139; to line 346, column 179 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 346, column 180; to line 346, column 184 in resource file:/Foundation/Summit/program.pml.html
+From line 346, column 198; to line 346, column 202 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 346, column 9; to line 346, column 138 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d2_09_FerrOS Rust-y unikernels on seL4 w compile-time assurances_Zack Pierce.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 358, column 9; to line 358, column 138 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 358, column 139; to line 358, column 179 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 358, column 180; to line 358, column 184 in resource file:/Foundation/Summit/program.pml.html
+From line 358, column 198; to line 358, column 202 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 358, column 9; to line 358, column 138 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d2_11_seL4 Summit and TCCOE - an overview_Renato Levy.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 378, column 9; to line 378, column 111 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 378, column 112; to line 378, column 152 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 378, column 153; to line 378, column 157 in resource file:/Foundation/Summit/program.pml.html
+From line 378, column 171; to line 378, column 175 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 378, column 9; to line 378, column 111 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 396, column 70; to line 396, column 110 in resource file:/Foundation/Summit/program.pml.html
 Error: Start tag "a" seen but an element of the same type was already open.
 From line 398, column 7; to line 398, column 70 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 398, column 75; to line 398, column 115 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
 From line 400, column 5; to line 400, column 9 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 398, column 7; to line 398, column 70 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d3_01_Overview seL4 principles, abstractions and use_Gernot Heiser.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 415, column 9; to line 415, column 120 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 415, column 121; to line 415, column 161 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 415, column 162; to line 415, column 166 in resource file:/Foundation/Summit/program.pml.html
+From line 415, column 180; to line 415, column 184 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 415, column 9; to line 415, column 120 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d3_02_Overview what's verified, what's not, and what does it mean_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 424, column 9; to line 424, column 150 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 424, column 151; to line 424, column 191 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 424, column 192; to line 424, column 196 in resource file:/Foundation/Summit/program.pml.html
+From line 424, column 210; to line 424, column 214 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 424, column 9; to line 424, column 150 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d3_03_The seL4 GitHub test suite_Gerwin Klein.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 432, column 9; to line 432, column 95 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 432, column 96; to line 432, column 136 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 432, column 137; to line 432, column 141 in resource file:/Foundation/Summit/program.pml.html
+From line 432, column 155; to line 432, column 159 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 432, column 9; to line 432, column 95 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d3_04_seL4 mainlining experiences, challenges, and solutions_Robbie.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 452, column 9; to line 452, column 117 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 452, column 118; to line 452, column 158 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 452, column 159; to line 452, column 163 in resource file:/Foundation/Summit/program.pml.html
+From line 452, column 177; to line 452, column 181 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 452, column 9; to line 452, column 117 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d3_05_seL4 microkernel for virtualization use-cases "The importance of a standard VMM".pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 469, column 9; to line 469, column 156 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 469, column 157; to line 469, column 197 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 469, column 198; to line 469, column 202 in resource file:/Foundation/Summit/program.pml.html
+From line 469, column 216; to line 469, column 220 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 469, column 9; to line 469, column 156 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d3_06_Improving embedded DevOps with seL4 VMM.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 483, column 9; to line 483, column 95 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 483, column 96; to line 483, column 136 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 483, column 137; to line 483, column 141 in resource file:/Foundation/Summit/program.pml.html
+From line 483, column 155; to line 483, column 159 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 483, column 9; to line 483, column 95 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d3_07_Experience teaching seL4.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 497, column 9; to line 497, column 68 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 497, column 69; to line 497, column 109 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 497, column 110; to line 497, column 114 in resource file:/Foundation/Summit/program.pml.html
+From line 497, column 128; to line 497, column 132 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 497, column 9; to line 497, column 68 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d3_08_DornerWorks' VM Composer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 532, column 9; to line 532, column 68 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 532, column 69; to line 532, column 109 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 532, column 110; to line 532, column 114 in resource file:/Foundation/Summit/program.pml.html
+From line 532, column 128; to line 532, column 132 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 532, column 9; to line 532, column 68 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "slides/d3_09_seL4 Foundation overview, update and vision.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 541, column 9; to line 541, column 99 in resource file:/Foundation/Summit/program.pml.html
-Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 541, column 100; to line 541, column 140 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 541, column 141; to line 541, column 145 in resource file:/Foundation/Summit/program.pml.html
+From line 541, column 159; to line 541, column 163 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 541, column 9; to line 541, column 99 in resource file:/Foundation/Summit/program.pml.html
 Document checking completed.

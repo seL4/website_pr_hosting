@@ -166,7 +166,7 @@ I will provide an overview of the seL4-related research activities of the Trustw
 </ul>
 <p>
 I will also attempt to provide some context for various pull requests against the kernel originating from TS.
-</p><a href="https://www.youtube.com/watch?v=C3nOjXhyPfk" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_02_State&#32;of&#32;seL4-related&#32;research_Gernot&#32;Heiser.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.html#p-seL4-research">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=C3nOjXhyPfk" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_02_State&#32;of&#32;seL4-related&#32;research_Gernot&#32;Heiser.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.html#p-seL4-research">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-seL4-verification-roadmap"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -195,7 +195,7 @@ I will also attempt to provide some context for various pull requests against th
 </ul>
 <p>
     The verification matrix of architectures, properties, configurations and seL4 features is ever evolving. AArch32 still has the most complete proof stack, but RISC-V is catching up. Intel x64 and AArch32 with hypervisor extensions have verified functional correctness. The current roadmap includes completion of the seL4 MCS configuration (support for mixed-criticality systems), functional correctness of seL4 on AArch64, and progress on multicore seL4 verification.
-</p><a href="https://www.youtube.com/watch?v=lvmjXO1jTec" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_03_seL4&#32;verification&#32;roadmap_Proofcraft.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-seL4-verification-roadmap">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=lvmjXO1jTec" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_03_seL4&#32;verification&#32;roadmap_Proofcraft.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-seL4-verification-roadmap">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-explaining-integrity-theorems"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -221,7 +221,7 @@ I will also attempt to provide some context for various pull requests against th
 </p>
 <p>
     Both theorems are subject to some well-formedness assumptions about the policy. These assumptions are important for system designers who want the benefit of the theorems, because they act as constraints on their system designs. So we'll examine these conditions in detail, and consider what they mean for static systems such as those produced by the CAmkES tool and the capDL loader. We'll also look at more dynamic systems, where we'll see that with careful design, the theorems can still provide some benefit.
-</p><a href="https://www.youtube.com/watch?v=fyF9w_CsCEU" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_04_Explaining&#32;the&#32;seL4&#32;integrity&#32;theorems_Matt&#32;Brecknell.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-explaining-integrity-theorems">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=fyF9w_CsCEU" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_04_Explaining&#32;the&#32;seL4&#32;integrity&#32;theorems_Matt&#32;Brecknell.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-explaining-integrity-theorems">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-seL4CP"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -252,7 +252,7 @@ a) Verification: this has itself two thrusts:
 <p>
     Both categories are work in progress, with prototypes of partial functionality available at time of writing, significant progress is expected by the time of the Summit.
 </p>
-<a href="https://www.youtube.com/watch?v=kRI4VQRSB_w" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_05_The&#32;seL4&#32;Core&#32;Platform&#32;(seL4CP)_Zoltan&#32;Kocsis.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-seL4CP">See this talk in the program</a></div>
+<a href="https://www.youtube.com/watch?v=kRI4VQRSB_w" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_05_The&#32;seL4&#32;Core&#32;Platform&#32;(seL4CP)_Zoltan&#32;Kocsis.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-seL4CP">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-sDDF"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -269,7 +269,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
     Here we present a framework for high-performance I/O on seL4 that enables formal reasoning, eventual verification and demonstrates performance competitive with Linux in a networking focused system. Unlike monolithic kernels, the seL4 microkernel prescribes device drivers to run as user level programs. This has the advantage that a driver’s special privileges are reduced to just the ability to access the control registers of the device it drives, thus significantly reducing the system’s trusted computing base. However, the extra context switches involved in such a system can degrade performance. The seL4 Device Driver Framework (sDDF) aims to provide interfaces and protocols for writing and porting device drivers to run as seL4 user-level programs. It assumes a simple and general device model, and presents an asynchronous transport layer as a means of communication to other components in the system. It currently supports network devices to run at near wire speed.
-</p> <a href="https://www.youtube.com/watch?v=INBEKSkAiTA" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_06_The&#32;seL4&#32;Device&#32;Driver&#32;Framework&#32;(sDDF)_Lucy&#32;Parker.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-sDDF this talk in the program</a><a href="program.pml#p-sDDF">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=INBEKSkAiTA" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_06_The&#32;seL4&#32;Device&#32;Driver&#32;Framework&#32;(sDDF)_Lucy&#32;Parker.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-sDDF this talk in the program</a><a href="program.pml#p-sDDF">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-Multiprocessing-verified-kernels"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -286,7 +286,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
         Verified multicore seL4 seem too far away? Think again, this talk presents a simple multikernel approach to achieve this goal that is attainable using the verified unicore kernel we already have. While this solution does not provide all the benefits of a single system image it allows us to build static systems on a verified seL4 using multiple cores today. This talk will detail how to construct such a system, the work involved and examples of how it can be used.
-</p><a href="https://youtu.be/ooIPe4wRMKk" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_07_Multiprocessing&#32;on&#32;seL4&#32;with&#32;verified&#32;kernels_Kent&#32;Mcleod.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-Multiprocessing-verified-kernels">See this talk in the program</a></div>
+</p><a href="https://youtu.be/ooIPe4wRMKk" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_07_Multiprocessing&#32;on&#32;seL4&#32;with&#32;verified&#32;kernels_Kent&#32;Mcleod.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-Multiprocessing-verified-kernels">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-QEMU-extend-VirtIO"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -303,7 +303,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
     The traits of seL4 makes it an appealing hypervisor platform. Today hypervisors are increasingly used to build complex security- and safety critical systems. Good and stable abstractions are required to build upon, and that in turn needs a vivid community of developers and maintainers. Having access to stable and high quality drivers can help building such a community, and is one step towards having seL4 on par feature-wise with the other hypervisors. At TII we explored if QEMU could be used as a VirtIO backend for seL4. The QEMU would bring the tried and tested VirtIO backend, and already thriving ecosystem to work with. Having VirtIO backend running in a Linux VMs user space has its benefits, but also comes with an overhead cost. This talk walks through our journey with having a QEMU within a Linux VM on top of seL4 to provide paravirtualized devices to the other VMs. We share how we went about getting the QEMU working with seL4 along with the benchmarks, the learnings and the pain points. We share where we are at the moment, and our plans for the future.
-</p><a href="https://www.youtube.com/watch?v=qjtY2O1ViGs" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_08_Using&#32;QEMU&#32;to&#32;extend&#32;seL4&#32;VirtIO&#32;support_Hannu&#32;Lyytinen.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-QEMU-extend-VirtIO">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=qjtY2O1ViGs" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_08_Using&#32;QEMU&#32;to&#32;extend&#32;seL4&#32;VirtIO&#32;support_Hannu&#32;Lyytinen.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-QEMU-extend-VirtIO">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-QEMU-prototyping-platform"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -320,7 +320,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
     The talk gives an overview about what works more or less out of the box for ARM and RISC-V and what advances configuration and debug options can be used. Then we will look at the limitations of the various emulated machines and some pitfalls. Finally we will explain some of the modifications we have done to the QEMU sources, so it provides some otherwise missing features.
-</p><a href="https://www.youtube.com/watch?v=R-HNQK1uA7c" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_09_QEMU&#32;as&#32;prototyping&#32;platform&#32;for&#32;seL4&#32;systems_Axel&#32;Heider.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-QEMU-prototyping-platform">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=R-HNQK1uA7c" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_09_QEMU&#32;as&#32;prototyping&#32;platform&#32;for&#32;seL4&#32;systems_Axel&#32;Heider.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-QEMU-prototyping-platform">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-Porting-U-Boot"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -343,7 +343,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
     This approach is not optimised for performance or verifiability and is unlikely to be used for drivers where this is paramount. However, our approach is intended to be complementary to such use cases, with significantly less handcrafting of bespoke drivers, helping to lower the bar for entry into seL4 development.
-</p><a href="https://www.youtube.com/watch?v=FfdrOKder_U" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_10_Porting&#32;U-Boot&#32;drivers&#32;to&#32;seL4_Mark&#32;Jenkinson&#32;&amp;&#32;Stephen&#32;Williams.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-Porting-U-Boot">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=FfdrOKder_U" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_10_Porting&#32;U-Boot&#32;drivers&#32;to&#32;seL4_Mark&#32;Jenkinson&#32;&amp;&#32;Stephen&#32;Williams.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-Porting-U-Boot">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-fence-t"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -363,7 +363,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
     In this talk, we present fence.t, a novel RISC-V instruction that clears the processor's microarchitectural state and thus any timing dependence on execution history. We show how this instruction was implemented in an open-source RISC-V core and integrated into an experimental version of seL4 with time protection. Furthermore, we will address the challenges of fence.t and its future roadmap.
-</p><a href="https://www.youtube.com/watch?v=tLcum9YksJM" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_11_fence.t&#32;hardware&#32;support&#32;for&#32;preventing&#32;microarchitectural&#32;timing&#32;channels_Nils&#32;Wistoff.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-fence-t">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=tLcum9YksJM" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_11_fence.t&#32;hardware&#32;support&#32;for&#32;preventing&#32;microarchitectural&#32;timing&#32;channels_Nils&#32;Wistoff.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-fence-t">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-Kry10-Secure-Platform"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -389,7 +389,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
     In this presentation we will introduce the Kry10 Secure Platform with its Trust but Isolate philosophy, and then show how the Kry10 Operating System implements this philosophy to achieve a secure and robust platform for industrial connected devices.
-</p><a href="https://www.youtube.com/watch?v=YG5BaoB24eA" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_01_Kry10&#32;Secure&#32;Platform_Boyd&#32;Multerer.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-Kry10-Secure-Platform">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=YG5BaoB24eA" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_01_Kry10&#32;Secure&#32;Platform_Boyd&#32;Multerer.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-Kry10-Secure-Platform">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-seL4-BEAM"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -412,7 +412,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
     In this presentation we will demonstrate what can be achieved by combining seL4 and the BEAM. We will also describe our experience with building BEAM-based systems on seL4, including porting the BEAM to run on seL4, integrating the BEAM with seL4 inter-process communication mechanisms and other C-based components, and creating a powerful Elixir-based development environment for seL4 systems.
-</p><a href="https://youtu.be/owmvgUwBlJ0" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_03_seL4&#32;and&#32;BEAM&#32;a&#32;match&#32;made&#32;in&#32;Erlang_Ihor.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-seL4-BEAM">See this talk in the program</a></div>
+</p><a href="https://youtu.be/owmvgUwBlJ0" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_03_seL4&#32;and&#32;BEAM&#32;a&#32;match&#32;made&#32;in&#32;Erlang_Ihor.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-seL4-BEAM">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-Trustworthy-board-management"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -433,7 +433,7 @@ a) Verification: this has itself two thrusts:
 <p>
     Although BMCs have absolute power over modern computing platforms they are not engineered in the rigorous way that warrants the implicit trust that we put in them. In our talk we will present ongoing work on declarative power and clock management and our broader vision of a trustworthy BMC software stack with, at its heart, seL4 as a separation kernel. Not only will a trustworthy BMC stack improve safety and security of modern computing platforms but, with the right tools for generating code from declarative models, it has the potential to shorten bringup times for new platforms.
 </p>
-<a href="https://www.youtube.com/watch?v=mCYxdn4bWw4" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_04_Trustworthy&#32;board&#32;management&#32;controllers_Daniel&#32;Schwyn,&#32;Ben&#32;Fiedler.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-Trustworthy-board-management">See this talk in the program</a></div>
+<a href="https://www.youtube.com/watch?v=mCYxdn4bWw4" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_04_Trustworthy&#32;board&#32;management&#32;controllers_Daniel&#32;Schwyn,&#32;Ben&#32;Fiedler.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-Trustworthy-board-management">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-Rust-support"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -449,7 +449,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
     The Rust programming language and ecosystem offer memory safety and developer productivity even at lower levels of the software stack. There are numerous efforts within the seL4 community towards laying groundwork for an accessible development story for Rust in the seL4 userspace. This talk explores the technical considerations related to Rust in the seL4 userspace, surveys the accomplishments and directions of these efforts, and then calls for the participation of interested parties in the ongoing design and implementation of Rust support in the upstream seL4 software ecosystem.
-</p><a href="https://www.youtube.com/watch?v=FXB4hGZUilU" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_05_Rust&#32;support&#32;in&#32;seL4&#32;userspace&#32;present&#32;and&#32;future_Nick&#32;Spinale.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-Rust-support">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=FXB4hGZUilU" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_05_Rust&#32;support&#32;in&#32;seL4&#32;userspace&#32;present&#32;and&#32;future_Nick&#32;Spinale.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-Rust-support">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-Network-stack-implementation"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -467,7 +467,7 @@ a) Verification: this has itself two thrusts:
 <p>
     We are investigating the question of whether the field of software verification has matured enough to allow a small group of researchers at two undergraduate institutions to prove correctness properties of network protocols implemented in operating system distributions, in general, and IoT devices, in particular. As a proof of concept, we are designing a networked temperature sensor, to monitor incubators, built on top of the seL4 microkernel and seL4® core platform. In this talk, we will share our early experience building and proving some properties about such a system. In particular, we will describe our efforts developing our own UDP networking stack, testing IPv6-based protocols, proving properties about reassembly of network fragments, and finding possible inconsistencies in specifications published by the Internet Engineering Task Force.
 </p><!--a href="https://youtu.be/linRvpquOrg" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a-->
-    <a href="slides/d2_06_Early&#32;experiences&#32;proving&#32;the&#32;correctness&#32;of&#32;a&#32;network&#32;stack&#32;implementation_Alain&#32;Kägi.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-Network-stack-implementation">See this talk in the program</a></div>
+    <a href="slides/d2_06_Early&#32;experiences&#32;proving&#32;the&#32;correctness&#32;of&#32;a&#32;network&#32;stack&#32;implementation_Alain&#32;Kägi.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-Network-stack-implementation">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-CASE-overview"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -484,7 +484,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
     Formal methods tools that provide mathematical proof of system properties have improved dramatically in their power and capabilities. As part of DARPA's Cyber Assured Systems Engineering (CASE) program, our team has developed a model-based systems engineering environment called BriefCASE that integrates formal methods at all levels of system design, including the ability to build systems targeting seL4. We will present an overview of the CASE project and the capabilities of the BriefCASE tools. We will also describe an application of the BriefCASE tools and workflow to the mission computing system in a military helicopter.
-</p><a href="https://youtu.be/SY9GHV_5agM" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_07_CASE&#32;overview&#32;Cyber&#32;Assured&#32;Systems&#32;Engineering_Darren&#32;Cofer.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-CASE-overview">See this talk in the program</a></div>
+</p><a href="https://youtu.be/SY9GHV_5agM" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_07_CASE&#32;overview&#32;Cyber&#32;Assured&#32;Systems&#32;Engineering_Darren&#32;Cofer.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-CASE-overview">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-Verified-architecture"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -505,7 +505,7 @@ a) Verification: this has itself two thrusts:
 <p>
     This architecture defines a layered system consisting of seL4 and a Linux virtual machine contained therein. Existing Linux systems may easily be run within the virtual machine, and augmented by coordinated attestation components running both at the Linux and seL4 level. We argue that this layered design offers both the flexibility to accommodate existing systems as wells as rigorous and trustworthy attestation capabilities.
 </p><!--a href="" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a-->
-    <a href="slides/d2_08_A&#32;verified&#32;architecture&#32;for&#32;trustworthy&#32;remote&#32;attestation_Grant&#32;Jurgenson.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-Verified-architecture">See this talk in the program</a></div>
+    <a href="slides/d2_08_A&#32;verified&#32;architecture&#32;for&#32;trustworthy&#32;remote&#32;attestation_Grant&#32;Jurgenson.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-Verified-architecture">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-FerrOS"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -522,7 +522,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
     Even though seL4 promises that our resources are isolated, how can we know those resources are enough to fuel our applications? FerrOS is an approach to answering that question by using Rust's type system to layer resource management abstractions on top of seL4 primitives. This talk covers the productivity advantages of teaching a compiler to check that the right kinds of capabilities are in the right places, the tradeoffs between rigid and fluid modes of development, and the branching future paths for Rust with seL4.
-</p><a href="https://www.youtube.com/watch?v=osepBlSQjY8&t=4s" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_09_FerrOS&#32;Rust-y&#32;unikernels&#32;on&#32;seL4&#32;w&#32;compile-time&#32;assurances_Zack&#32;Pierce.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-FerrOS">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=osepBlSQjY8&t=4s" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_09_FerrOS&#32;Rust-y&#32;unikernels&#32;on&#32;seL4&#32;w&#32;compile-time&#32;assurances_Zack&#32;Pierce.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-FerrOS">See this talk in the program</a></div>
 
 <!--Safety-critical-voice.-->
 
@@ -548,7 +548,7 @@ a) Verification: this has itself two thrusts:
 <p>
     Second, Code Coverage has been an important metric to measure the code quality in automotive industry. Although seL4 is a formally proven, Code Coverage is still important for two reasons. One is Code Coverage can work orthogonally with formal proof to assure the code quality. The other is Code Coverage rate is key metric in many certifications. We’d like to share our work regarding measure seL4 kernel code coverage. We will present the measuring results and ways we have tried to improve code coverage rate.
 </p><!--a href="https://youtu.be/x69C4SVRbKo" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a-->
-    <!--a href="slides/"><img src="../../images/icons/slides.gif"><span class="highlight">no slides</span-->
+    <!--a href="slides/"><img src="../../images/icons/slides.gif" alt="slides icon"><span class="highlight">no slides</span-->
 <a href="program.pml.html#p-ASIL-D">See this talk in the program</a></div>
 
 <!--TCCOE-->
@@ -672,7 +672,7 @@ responsible for carrying out advanced research that is driving end-to-end securi
 </p>
 <p>
     Gernot will start the day by providing background on seL4 and its philosophy. Specifically he will talk about the principles that drive seL4’s design and abstractions. Given the low-level nature of seL4’s abstractions and mechanisms, and the deliberate policy-freedom, it is not always clear what constitutes “proper use”. Gernot will highlight some of the do’s and don’ts that developers should keep in mind to produce good designs. He will link this back to earlier presentations on user-level frameworks and how they support proper use.
-</p></div><a href="https://www.youtube.com/watch?v=xszOcZnR_lg" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_01_Overview&#32;seL4&#32;principles,&#32;abstractions&#32;and&#32;use_Gernot&#32;Heiser.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-seL4-principles-abstractions">See this talk in the program</a>
+</p></div><a href="https://www.youtube.com/watch?v=xszOcZnR_lg" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_01_Overview&#32;seL4&#32;principles,&#32;abstractions&#32;and&#32;use_Gernot&#32;Heiser.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-seL4-principles-abstractions">See this talk in the program</a>
 <div class="summit-abstract" id="a-Whats-verified"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -696,7 +696,7 @@ responsible for carrying out advanced research that is driving end-to-end securi
 <p>
     In this talk we will give a brief overview of what seL4 verification claims can be made and what they mean, and which claims should not be made.
 </p>
-<a href="https://www.youtube.com/watch?v=zUpq3c0_b_s" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_02_Overview&#32;what's&#32;verified,&#32;what's&#32;not,&#32;and&#32;what&#32;does&#32;it&#32;mean_June&#32;Andronick.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-Whats-verified">See this talk in the program</a></div>
+<a href="https://www.youtube.com/watch?v=zUpq3c0_b_s" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_02_Overview&#32;what's&#32;verified,&#32;what's&#32;not,&#32;and&#32;what&#32;does&#32;it&#32;mean_June&#32;Andronick.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-Whats-verified">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-GitHub-tests"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -719,7 +719,7 @@ responsible for carrying out advanced research that is driving end-to-end securi
 </p>
 <p>
     The centre of this collection is the seL4 kernel repository itself. Its test suite includes running the formal verification of the kernel, as well as static compilation checks for all supported hardware platforms, simulation runs for all architectures, automated tests on hardware for most of the supported platforms, running benchmarks, documentation builds, etc. Both, formal verification and runtime tests are necessary – formal verification is good at showing the absence of bad behaviours, tests are good at showing the presence of good behaviours. They are also useful for validating assumptions of the formal verification. Test runs leave behind log files and build artefacts such as compiled kernel binaries or sel4tests binaries that can be simulated or run on hardware. Successful test runs automatically record the constellation of repositories that were involved in that successful run, so developers can easily trace and access known working combinations. The talk will also give an overview on how you can contribute tests, how you can help to improve the CI infrastructure, and how you can run most of these tests locally yourself.
-</p><a href="https://www.youtube.com/watch?v=5LlXQUjefTc" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_03_The&#32;seL4&#32;GitHub&#32;test&#32;suite_Gerwin&#32;Klein.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-GitHub-tests">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=5LlXQUjefTc" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_03_The&#32;seL4&#32;GitHub&#32;test&#32;suite_Gerwin&#32;Klein.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-GitHub-tests">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-seL4-mainlining"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -736,7 +736,7 @@ responsible for carrying out advanced research that is driving end-to-end securi
 </p>
 <p>
     The lifeblood of open-source projects are the contributors, developers, and maintainers that work to keep the projects up to date, add new features, and squash bugs. However, there can be quite a few roadblocks that prevent or slow down upstreaming of code. This will be an account of the seL4 mainlining experiences of DornerWorks. This talk will encompass our successes, difficulties, possible improvements, and some open questions. This will be a short talk with a lot of time for open discussion. The goal is to spark a conversation that will lead to even greater collaboration than is seen today.
-</p><a href="https://www.youtube.com/watch?v=OBrSov78KcY" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_04_seL4&#32;mainlining&#32;experiences,&#32;challenges,&#32;and&#32;solutions_Robbie.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-seL4-mainlining">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=OBrSov78KcY" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_04_seL4&#32;mainlining&#32;experiences,&#32;challenges,&#32;and&#32;solutions_Robbie.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-seL4-mainlining">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-Standard-VMM"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -757,7 +757,7 @@ responsible for carrying out advanced research that is driving end-to-end securi
 </p>
 <p>
     This talk proposes to establish a driving philosophy to design a baseline VMM rather than prescribe a specific system architecture. We intend to discuss the possible missing features of the existing seL4 VMM concerning standardization, more so than a prescription for the right way to do it. Indeed, this will entail recommending high-level architecture patterns but cannot lock an adopter into specific implementations. Each adopting integrator will inevitably start from the new standard and refine the implementation for their use case. The effort here is to close the gap between the current VMM baseline and the point of necessary deviation.
-</p><a href="https://www.youtube.com/watch?v=j0mcjByf6PM" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_05_seL4&#32;microkernel&#32;for&#32;virtualization&#32;use-cases&#32;“The&#32;importance&#32;of&#32;a&#32;standard&#32;VMM”.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-Standard-VMM">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=j0mcjByf6PM" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_05_seL4&#32;microkernel&#32;for&#32;virtualization&#32;use-cases&#32;“The&#32;importance&#32;of&#32;a&#32;standard&#32;VMM”.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-Standard-VMM">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-Improving-embedded-DevOps"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -774,7 +774,7 @@ responsible for carrying out advanced research that is driving end-to-end securi
 </p>
 <p>
     While seL4 is an amazing technology, it is difficult to develop and build applications from scratch. Even when using virtualization, the development process for OS applications is a long loop of write, build, deploy, test, fix, build, deploy, test, etc. One way to improve on this is to borrow from the server world and support containers in VMs running on seL4. This improves embedded DevOps by allowing developers to test various container applications together on their host target, thereby reducing the number of required deployments. We will be discussing what work we have already done in this space as well as some thoughts on where to take it in the future. This will be a short talk followed by open discussion to explore issues and interests.
-</p><a href="https://www.youtube.com/watch?v=rocLV9xl2MQ" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_06_Improving&#32;embedded&#32;DevOps&#32;with&#32;seL4&#32;VMM.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-Improving-embedded-DevOps">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=rocLV9xl2MQ" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_06_Improving&#32;embedded&#32;DevOps&#32;with&#32;seL4&#32;VMM.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-Improving-embedded-DevOps">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-Experience-teaching-seL4"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -792,7 +792,7 @@ responsible for carrying out advanced research that is driving end-to-end securi
 <p>
     Since the winter term 2020, the practical course "seL4 & TRENTOS" offers students at the TUM an introduction into the fundamental aspects of TRENTOS, a novel secure embedded operating system developed by HENSOLDT Cyber, which is built on top of the seL4 microkernel and the CAmkES framework. The course starts with a respective theory phase, in which students get to know the basic building blocks of both kernel and user space. Afterwards, the course participants work within teams on an individual practical project. They hereby apply a TRENTOS-based setup, running on top of the the Raspberry Pi platform, to a selected real-world use case (e.g. originating from the domains automotive or industrial automation). Besides providing a general course overview, this talk shall therefore demonstrate respective course results and serve as a starting point for follow-up discussions.
 </p><!--a href="https://youtu.be/5xl7e0J9_3A" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a-->
-    <a href="slides/d3_07_Experience&#32;teaching&#32;seL4.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-Experience-teaching-seL4">See this talk in the program</a></div>
+    <a href="slides/d3_07_Experience&#32;teaching&#32;seL4.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-Experience-teaching-seL4">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-VM-Composer"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -810,7 +810,7 @@ responsible for carrying out advanced research that is driving end-to-end securi
 <p>
     A secure kernel is more and more attractive these days and seL4 is one of the strongest microkernels around. However, the seL4 ecosystem is still maturing and may not be a drop-in replacement for practical applications in real-world systems. With the strictest security needs, it is probably best to use just the microkernel with user-space applications. However, there are many stacks, libraries, and drivers lacking to meet the needs of most systems. Virtualization and the user-space VMM provide an answer to this. For developers new to the seL4 ecosystem, it is difficult to configure the software to meet system requirements. The traditional approach is to start with a known working configuration and tweak it until it fits the specific application. The latest approach is to use DornerWorks’ VM Composer, a graphical, drag-and-drop interface which allows one to easily configure their seL4-based, virtualized systems without needing to modify any CMake, CAmkES, python, or C files. This short, teaser talk will introduce the features and platforms that are supported in VM Composer.
 </p>
-<a href="https://www.youtube.com/watch?v=r6b1ehTQCHI&t=1s" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_08_DornerWorks’&#32;VM&#32;Composer.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-VM-Composer">See this talk in the program</a></div>
+<a href="https://www.youtube.com/watch?v=r6b1ehTQCHI&t=1s" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_08_DornerWorks’&#32;VM&#32;Composer.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-VM-Composer">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-seL4-Foundation"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -830,7 +830,7 @@ responsible for carrying out advanced research that is driving end-to-end securi
 </p>
 <p>
     In this talk I will give an brief update on the Foundation's successes in increased contributions, increased support, and increased membership, as well as the vision to keep supporting a thriving seL4 ecosystem.
-</p><a href="https://www.youtube.com/watch?v=ABqQqgf6ez8" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_09_seL4&#32;Foundation&#32;overview,&#32;update&#32;and&#32;vision.pdf"><img src="../../images/icons/slides.gif"><br><a href="program.pml.html#p-seL4-Foundation">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=ABqQqgf6ez8" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_09_seL4&#32;Foundation&#32;overview,&#32;update&#32;and&#32;vision.pdf"><img src="../../images/icons/slides.gif" alt="slides icon"><br><a href="program.pml.html#p-seL4-Foundation">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-zero-hello-world"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
