@@ -64,33 +64,33 @@ From line 452, column 182; to line 452, column 303 in resource file:/Foundation/
 Error: Start tag "a" seen but an element of the same type was already open.
 From line 452, column 367; to line 452, column 408 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d2_06_Early experiences proving the correctness of a network stack implementation_Alain Kägi.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 470, column 5; to line 470, column 158 in resource file:/Foundation/Summit/abstracts2022.html
+From line 469, column 167; to line 469, column 320 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 470, column 222; to line 470, column 279 in resource file:/Foundation/Summit/abstracts2022.html
+From line 469, column 384; to line 469, column 441 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d2_07_CASE overview Cyber Assured Systems Engineering_Darren Cofer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 487, column 167; to line 487, column 278 in resource file:/Foundation/Summit/abstracts2022.html
+From line 486, column 167; to line 486, column 278 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 487, column 342; to line 487, column 384 in resource file:/Foundation/Summit/abstracts2022.html
+From line 486, column 342; to line 486, column 384 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d2_08_A verified architecture for trustworthy remote attestation_Grant Jurgenson.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 508, column 5; to line 508, column 134 in resource file:/Foundation/Summit/abstracts2022.html
+From line 507, column 5; to line 507, column 134 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 508, column 198; to line 508, column 248 in resource file:/Foundation/Summit/abstracts2022.html
+From line 507, column 198; to line 507, column 248 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d2_09_FerrOS Rust-y unikernels on seL4 w compile-time assurances_Zack Pierce.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 525, column 188; to line 525, column 317 in resource file:/Foundation/Summit/abstracts2022.html
+From line 524, column 188; to line 524, column 317 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 525, column 381; to line 525, column 416 in resource file:/Foundation/Summit/abstracts2022.html
+From line 524, column 381; to line 524, column 416 in resource file:/Foundation/Summit/abstracts2022.html
 Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-From line 591, column 68; to line 591, column 108 in resource file:/Foundation/Summit/abstracts2022.html
+From line 590, column 68; to line 590, column 108 in resource file:/Foundation/Summit/abstracts2022.html
 Error: End tag "p" seen, but there were open elements.
-From line 592, column 1; to line 592, column 4 in resource file:/Foundation/Summit/abstracts2022.html
+From line 591, column 1; to line 591, column 4 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Unclosed element "a".
-From line 591, column 5; to line 591, column 63 in resource file:/Foundation/Summit/abstracts2022.html
+From line 590, column 5; to line 590, column 63 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Start tag "a" seen but an element of the same type was already open.
-From line 606, column 5; to line 606, column 39 in resource file:/Foundation/Summit/abstracts2022.html
+From line 605, column 5; to line 605, column 39 in resource file:/Foundation/Summit/abstracts2022.html
 Error: End tag "a" violates nesting rules.
-From line 606, column 5; to line 606, column 39 in resource file:/Foundation/Summit/abstracts2022.html
+From line 605, column 5; to line 605, column 39 in resource file:/Foundation/Summit/abstracts2022.html
 Fatal Error: Cannot recover after last error. Any further errors will be ignored.
-From line 606, column 5; to line 606, column 39 in resource file:/Foundation/Summit/abstracts2022.html
+From line 605, column 5; to line 605, column 39 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "slides/d1_01_Welcome_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 160, column 9; to line 160, column 62 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
