@@ -13,279 +13,31 @@ Fatal Error: Cannot recover after last error. Any further errors will be ignored
 From line 693, column 5; to line 693, column 39 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "http://localhost/Foundation/Summit/slides/d1_01_Welcome_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 159, column 9; to line 159, column 97 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 159, column 157; to line 159, column 161 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 159, column 9; to line 159, column 97 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 169, column 140; to line 169, column 144 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 169, column 9; to line 169, column 80 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 181, column 132; to line 181, column 136 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 181, column 9; to line 181, column 72 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 189, column 149; to line 189, column 153 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 189, column 9; to line 189, column 89 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 210, column 141; to line 210, column 145 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 210, column 9; to line 210, column 81 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 218, column 147; to line 218, column 151 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 218, column 9; to line 218, column 87 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 226, column 153; to line 226, column 157 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 226, column 9; to line 226, column 93 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 238, column 151; to line 238, column 155 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 238, column 9; to line 238, column 91 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 246, column 153; to line 246, column 157 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 246, column 9; to line 246, column 93 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 254, column 164; to line 254, column 168 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 254, column 9; to line 254, column 104 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 262, column 183; to line 262, column 187 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 262, column 9; to line 262, column 123 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 280, column 131; to line 280, column 135 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 280, column 9; to line 280, column 71 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 288, column 120; to line 288, column 124 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 288, column 9; to line 288, column 60 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 300, column 137; to line 300, column 141 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 300, column 9; to line 300, column 77 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 309, column 163; to line 309, column 167 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 309, column 9; to line 309, column 103 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 317, column 158; to line 317, column 162 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 317, column 9; to line 317, column 98 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 329, column 182; to line 329, column 186 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 329, column 9; to line 329, column 122 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 337, column 156; to line 337, column 160 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 337, column 9; to line 337, column 96 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 345, column 170; to line 345, column 174 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 345, column 9; to line 345, column 110 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 357, column 166; to line 357, column 170 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 357, column 9; to line 357, column 106 in resource file:/Foundation/Summit/program.html
 Error: Stray end tag "a--".
 From line 365, column 157; to line 365, column 162 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
 From line 365, column 157; to line 365, column 167 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 365, column 11; to line 365, column 65 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 366, column 145; to line 366, column 149 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 366, column 9; to line 366, column 85 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 377, column 143; to line 377, column 147 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 377, column 9; to line 377, column 83 in resource file:/Foundation/Summit/program.html
 Error: Start tag "a" seen but an element of the same type was already open.
 From line 397, column 7; to line 397, column 70 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
 From line 399, column 5; to line 399, column 9 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 397, column 7; to line 397, column 70 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 414, column 156; to line 414, column 160 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 414, column 9; to line 414, column 96 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 423, column 170; to line 423, column 174 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 423, column 9; to line 423, column 110 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 431, column 135; to line 431, column 139 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 431, column 9; to line 431, column 75 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 451, column 157; to line 451, column 161 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 451, column 9; to line 451, column 97 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 468, column 176; to line 468, column 180 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 468, column 9; to line 468, column 116 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 482, column 135; to line 482, column 139 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 482, column 9; to line 482, column 75 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 496, column 120; to line 496, column 124 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 496, column 9; to line 496, column 60 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 531, column 120; to line 531, column 124 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 531, column 9; to line 531, column 60 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 540, column 139; to line 540, column 143 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 540, column 9; to line 540, column 79 in resource file:/Foundation/Summit/program.html
 Error: Bad value "http://localhost/Foundation/Summit/slides/d1_01_Welcome_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 159, column 9; to line 159, column 97 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 159, column 157; to line 159, column 161 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 159, column 9; to line 159, column 97 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 169, column 140; to line 169, column 144 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 169, column 9; to line 169, column 80 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 181, column 132; to line 181, column 136 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 181, column 9; to line 181, column 72 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 189, column 149; to line 189, column 153 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 189, column 9; to line 189, column 89 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 210, column 141; to line 210, column 145 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 210, column 9; to line 210, column 81 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 218, column 147; to line 218, column 151 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 218, column 9; to line 218, column 87 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 226, column 153; to line 226, column 157 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 226, column 9; to line 226, column 93 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 238, column 151; to line 238, column 155 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 238, column 9; to line 238, column 91 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 246, column 153; to line 246, column 157 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 246, column 9; to line 246, column 93 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 254, column 164; to line 254, column 168 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 254, column 9; to line 254, column 104 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 262, column 183; to line 262, column 187 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 262, column 9; to line 262, column 123 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 280, column 131; to line 280, column 135 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 280, column 9; to line 280, column 71 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 288, column 120; to line 288, column 124 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 288, column 9; to line 288, column 60 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 300, column 137; to line 300, column 141 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 300, column 9; to line 300, column 77 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 309, column 163; to line 309, column 167 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 309, column 9; to line 309, column 103 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 317, column 158; to line 317, column 162 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 317, column 9; to line 317, column 98 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 329, column 182; to line 329, column 186 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 329, column 9; to line 329, column 122 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 337, column 156; to line 337, column 160 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 337, column 9; to line 337, column 96 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 345, column 170; to line 345, column 174 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 345, column 9; to line 345, column 110 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 357, column 166; to line 357, column 170 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 357, column 9; to line 357, column 106 in resource file:/Foundation/Summit/program.pml.html
 Error: Stray end tag "a--".
 From line 365, column 157; to line 365, column 162 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
 From line 365, column 157; to line 365, column 167 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 365, column 11; to line 365, column 65 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 366, column 145; to line 366, column 149 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 366, column 9; to line 366, column 85 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 377, column 143; to line 377, column 147 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 377, column 9; to line 377, column 83 in resource file:/Foundation/Summit/program.pml.html
 Error: Start tag "a" seen but an element of the same type was already open.
 From line 397, column 7; to line 397, column 70 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
 From line 399, column 5; to line 399, column 9 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 397, column 7; to line 397, column 70 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 414, column 156; to line 414, column 160 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 414, column 9; to line 414, column 96 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 423, column 170; to line 423, column 174 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 423, column 9; to line 423, column 110 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 431, column 135; to line 431, column 139 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 431, column 9; to line 431, column 75 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 451, column 157; to line 451, column 161 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 451, column 9; to line 451, column 97 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 468, column 176; to line 468, column 180 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 468, column 9; to line 468, column 116 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 482, column 135; to line 482, column 139 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 482, column 9; to line 482, column 75 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 496, column 120; to line 496, column 124 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 496, column 9; to line 496, column 60 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 531, column 120; to line 531, column 124 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 531, column 9; to line 531, column 60 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 540, column 139; to line 540, column 143 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 540, column 9; to line 540, column 79 in resource file:/Foundation/Summit/program.pml.html
 Document checking completed.
 </p></body></html>
