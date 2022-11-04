@@ -13,31 +13,7 @@ Fatal Error: Cannot recover after last error. Any further errors will be ignored
 From line 693, column 5; to line 693, column 39 in resource file:/Foundation/Summit/abstracts2022.html
 Error: Bad value "http://localhost/Foundation/Summit/slides/d1_01_Welcome_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 159, column 9; to line 159, column 97 in resource file:/Foundation/Summit/program.html
-Error: Stray end tag "a--".
-From line 365, column 157; to line 365, column 162 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 365, column 157; to line 365, column 167 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 365, column 11; to line 365, column 65 in resource file:/Foundation/Summit/program.html
-Error: Start tag "a" seen but an element of the same type was already open.
-From line 397, column 7; to line 397, column 70 in resource file:/Foundation/Summit/program.html
-Error: End tag "td" seen, but there were open elements.
-From line 399, column 5; to line 399, column 9 in resource file:/Foundation/Summit/program.html
-Error: Unclosed element "a".
-From line 397, column 7; to line 397, column 70 in resource file:/Foundation/Summit/program.html
 Error: Bad value "http://localhost/Foundation/Summit/slides/d1_01_Welcome_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 159, column 9; to line 159, column 97 in resource file:/Foundation/Summit/program.pml.html
-Error: Stray end tag "a--".
-From line 365, column 157; to line 365, column 162 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 365, column 157; to line 365, column 167 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 365, column 11; to line 365, column 65 in resource file:/Foundation/Summit/program.pml.html
-Error: Start tag "a" seen but an element of the same type was already open.
-From line 397, column 7; to line 397, column 70 in resource file:/Foundation/Summit/program.pml.html
-Error: End tag "td" seen, but there were open elements.
-From line 399, column 5; to line 399, column 9 in resource file:/Foundation/Summit/program.pml.html
-Error: Unclosed element "a".
-From line 397, column 7; to line 397, column 70 in resource file:/Foundation/Summit/program.pml.html
 Document checking completed.
 </p></body></html>
