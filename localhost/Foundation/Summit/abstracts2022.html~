@@ -166,7 +166,7 @@ I will provide an overview of the seL4-related research activities of the Trustw
 </ul>
 <p>
 I will also attempt to provide some context for various pull requests against the kernel originating from TS.
-</p><a href="https://www.youtube.com/watch?v=C3nOjXhyPfk" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_02_State&#32;of&#32;seL4-related&#32;research_Gernot&#32;Heiser.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.html#p-seL4-research">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=C3nOjXhyPfk" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_02_State_of_seL4-related_research_Gernot_Heiser.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.html#p-seL4-research">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-seL4-verification-roadmap"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -195,7 +195,7 @@ I will also attempt to provide some context for various pull requests against th
 </ul>
 <p>
     The verification matrix of architectures, properties, configurations and seL4 features is ever evolving. AArch32 still has the most complete proof stack, but RISC-V is catching up. Intel x64 and AArch32 with hypervisor extensions have verified functional correctness. The current roadmap includes completion of the seL4 MCS configuration (support for mixed-criticality systems), functional correctness of seL4 on AArch64, and progress on multicore seL4 verification.
-</p><a href="https://www.youtube.com/watch?v=lvmjXO1jTec" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_03_seL4&#32;verification&#32;roadmap_Proofcraft.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.pml.html#p-seL4-verification-roadmap">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=lvmjXO1jTec" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_03_seL4_verification-roadmap_Proofcraft.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.pml.html#p-seL4-verification-roadmap">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-explaining-integrity-theorems"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -221,7 +221,7 @@ I will also attempt to provide some context for various pull requests against th
 </p>
 <p>
     Both theorems are subject to some well-formedness assumptions about the policy. These assumptions are important for system designers who want the benefit of the theorems, because they act as constraints on their system designs. So we'll examine these conditions in detail, and consider what they mean for static systems such as those produced by the CAmkES tool and the capDL loader. We'll also look at more dynamic systems, where we'll see that with careful design, the theorems can still provide some benefit.
-</p><a href="https://www.youtube.com/watch?v=fyF9w_CsCEU" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_04_Explaining&#32;the&#32;seL4&#32;integrity&#32;theorems_Matt&#32;Brecknell.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.pml.html#p-explaining-integrity-theorems">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=fyF9w_CsCEU" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_04_Explaining_the_seL4_integrity_theorems_Matt_Brecknell.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.pml.html#p-explaining-integrity-theorems">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-seL4CP"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -252,7 +252,7 @@ a) Verification: this has itself two thrusts:
 <p>
     Both categories are work in progress, with prototypes of partial functionality available at time of writing, significant progress is expected by the time of the Summit.
 </p>
-<a href="https://www.youtube.com/watch?v=kRI4VQRSB_w" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_05_The&#32;seL4&#32;Core&#32;Platform&#32;(seL4CP)_Zoltan&#32;Kocsis.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.pml.html#p-seL4CP">See this talk in the program</a></div>
+<a href="https://www.youtube.com/watch?v=kRI4VQRSB_w" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_05_The_seL4_Core_Platform_(seL4CP)_Zoltan&#32;_Kocsis.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.pml.html#p-seL4CP">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-sDDF"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -269,7 +269,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
     Here we present a framework for high-performance I/O on seL4 that enables formal reasoning, eventual verification and demonstrates performance competitive with Linux in a networking focused system. Unlike monolithic kernels, the seL4 microkernel prescribes device drivers to run as user level programs. This has the advantage that a driver’s special privileges are reduced to just the ability to access the control registers of the device it drives, thus significantly reducing the system’s trusted computing base. However, the extra context switches involved in such a system can degrade performance. The seL4 Device Driver Framework (sDDF) aims to provide interfaces and protocols for writing and porting device drivers to run as seL4 user-level programs. It assumes a simple and general device model, and presents an asynchronous transport layer as a means of communication to other components in the system. It currently supports network devices to run at near wire speed.
-</p><a href="https://www.youtube.com/watch?v=INBEKSkAiTA" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_06_The&#32;seL4&#32;Device&#32;Driver&#32;Framework&#32;(sDDF)_Lucy&#32;Parker.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.pml.html#p-sDDF this talk in the program</a><a href="program.pml#p-sDDF">See this talk in the program</a></div>
+</p><a href="https://www.youtube.com/watch?v=INBEKSkAiTA" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d1_06_The_seL4_Device_Driver_Framework_(sDDF)_Lucy_Parker.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.pml.html#p-sDDF">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-Multiprocessing-verified-kernels"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -546,9 +546,7 @@ a) Verification: this has itself two thrusts:
 </p>
 <p>
     Second, Code Coverage has been an important metric to measure the code quality in automotive industry. Although seL4 is a formally proven, Code Coverage is still important for two reasons. One is Code Coverage can work orthogonally with formal proof to assure the code quality. The other is Code Coverage rate is key metric in many certifications. We’d like to share our work regarding measure seL4 kernel code coverage. We will present the measuring results and ways we have tried to improve code coverage rate.
-</p><!--a href="https://youtu.be/x69C4SVRbKo" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a-->
-    <!--a href="slides/"><img src="../../images/icons/slides.svg" alt="slides icon"><span class="highlight">no slides</span-->
-<a href="program.pml.html#p-ASIL-D">See this talk in the program</a></div>
+</p><a href="https://youtu.be/x69C4SVRbKo" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d2_10_Make&#32;seL4&#32;an&#32;ASIL-D&#32;certified&#32;system_Yuning&#32;Liang.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.pml.html#p-ASIL-D">See this talk in the program</a></div>
 
 <!--TCCOE-->
 
@@ -790,8 +788,7 @@ responsible for carrying out advanced research that is driving end-to-end securi
 </p>
 <p>
     Since the winter term 2020, the practical course "seL4 & TRENTOS" offers students at the TUM an introduction into the fundamental aspects of TRENTOS, a novel secure embedded operating system developed by HENSOLDT Cyber, which is built on top of the seL4 microkernel and the CAmkES framework. The course starts with a respective theory phase, in which students get to know the basic building blocks of both kernel and user space. Afterwards, the course participants work within teams on an individual practical project. They hereby apply a TRENTOS-based setup, running on top of the the Raspberry Pi platform, to a selected real-world use case (e.g. originating from the domains automotive or industrial automation). Besides providing a general course overview, this talk shall therefore demonstrate respective course results and serve as a starting point for follow-up discussions.
-</p><!--a href="https://youtu.be/5xl7e0J9_3A" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a-->
-    <a href="slides/d3_07_Experience&#32;teaching&#32;seL4.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.pml.html#p-Experience-teaching-seL4">See this talk in the program</a></div>
+</p><a href="https://youtu.be/5xl7e0J9_3A" target="_blank"><img src="../../images/icons/youtube_nobckgnd.svg" class="youtube_icon" alt="YouTube icon"></a>&nbsp;&nbsp;<a href="slides/d3_07_Experience&#32;teaching&#32;seL4.pdf"><img src="../../images/icons/slides.svg" alt="slides icon"><br><a href="program.pml.html#p-Experience-teaching-seL4">See this talk in the program</a></div>
 <div class="summit-abstract" id="a-VM-Composer"><!--<title>Summit abstracts</title>-->
 <!--
     Copyright 2022, seL4 summit authors (see abstracts)
@@ -952,6 +949,10 @@ As part of DARPA's Cyber Assured Systems Engineering (CASE) program, our team ha
 
 <a href="program.pml.html#p-BriefCASE-tutorial">See this talk in the program</a></div>
 
+<p>
+<strong><br>Acknowledgement: </strong>
+<a href="https://www.flaticon.com/free-icons/explanation" title="explanation icons">Slide icons create by Syahrul Hidayatullah - Flaticon</a>
+</p>
 <div class="divider"></div>
 </div><!-- container -->
 </div><!--content-wrap-->
