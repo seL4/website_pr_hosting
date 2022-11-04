@@ -11,9 +11,5 @@ Error: End tag "a" violates nesting rules.
 From line 693, column 5; to line 693, column 39 in resource file:/Foundation/Summit/abstracts2022.html
 Fatal Error: Cannot recover after last error. Any further errors will be ignored.
 From line 693, column 5; to line 693, column 39 in resource file:/Foundation/Summit/abstracts2022.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d1_01_Welcome_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 159, column 9; to line 159, column 97 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d1_01_Welcome_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 159, column 9; to line 159, column 97 in resource file:/Foundation/Summit/program.pml.html
 Document checking completed.
 </p></body></html>
