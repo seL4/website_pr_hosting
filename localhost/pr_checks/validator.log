@@ -1,8 +1,4 @@
 <html><body><p>
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_05_Rust_support_in_seL4_userspace_present_and_future_Nick Spinale.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 452, column 182; to line 452, column 310 in resource file:/Foundation/Summit/abstracts2022.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_08_A verified architecture for trustworthy remote attestation_Grant Jurgenson.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 507, column 5; to line 507, column 169 in resource file:/Foundation/Summit/abstracts2022.html
 Error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
 From line 588, column 68; to line 588, column 108 in resource file:/Foundation/Summit/abstracts2022.html
 Error: End tag "p" seen, but there were open elements.
@@ -41,12 +37,10 @@ Error: End tag "td" seen, but there were open elements.
 From line 218, column 147; to line 218, column 151 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 218, column 9; to line 218, column 87 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d1_07_Multiprocessing on seL4 with verified kernels_Kent Mcleod.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 226, column 9; to line 226, column 152 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 226, column 212; to line 226, column 216 in resource file:/Foundation/Summit/program.html
+From line 226, column 153; to line 226, column 157 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 226, column 9; to line 226, column 152 in resource file:/Foundation/Summit/program.html
+From line 226, column 9; to line 226, column 93 in resource file:/Foundation/Summit/program.html
 Error: Bad value "http://localhost/Foundation/Summit/slides/d1_08_Using QEMU to extend seL4 VirtIO support_Hannu Lyytinen.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 238, column 9; to line 238, column 154 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
@@ -95,114 +89,82 @@ Error: End tag "td" seen, but there were open elements.
 From line 309, column 222; to line 309, column 226 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 309, column 9; to line 309, column 162 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_05_Rust support in seL4 userspace present and future_Nick Spinale.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 317, column 9; to line 317, column 165 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 317, column 225; to line 317, column 229 in resource file:/Foundation/Summit/program.html
+From line 317, column 158; to line 317, column 162 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 317, column 9; to line 317, column 165 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_06_Early experiences proving the correctness of a network stack implementation_Alain Kägi.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 329, column 9; to line 329, column 197 in resource file:/Foundation/Summit/program.html
+From line 317, column 9; to line 317, column 98 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 329, column 257; to line 329, column 261 in resource file:/Foundation/Summit/program.html
+From line 329, column 182; to line 329, column 186 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 329, column 9; to line 329, column 197 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_07_CASE overview Cyber Assured Systems Engineering_Darren Cofer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 337, column 9; to line 337, column 155 in resource file:/Foundation/Summit/program.html
+From line 329, column 9; to line 329, column 122 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 337, column 215; to line 337, column 219 in resource file:/Foundation/Summit/program.html
+From line 337, column 156; to line 337, column 160 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 337, column 9; to line 337, column 155 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_08_A verified architecture for trustworthy remote attestation_Grant Jurgenson.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 345, column 9; to line 345, column 173 in resource file:/Foundation/Summit/program.html
+From line 337, column 9; to line 337, column 96 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 345, column 233; to line 345, column 237 in resource file:/Foundation/Summit/program.html
+From line 345, column 170; to line 345, column 174 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 345, column 9; to line 345, column 173 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_09_FerrOS Rust-y unikernels on seL4 w compile-time assurances_Zack Pierce.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 357, column 9; to line 357, column 173 in resource file:/Foundation/Summit/program.html
+From line 345, column 9; to line 345, column 110 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 357, column 233; to line 357, column 237 in resource file:/Foundation/Summit/program.html
+From line 357, column 166; to line 357, column 170 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 357, column 9; to line 357, column 173 in resource file:/Foundation/Summit/program.html
+From line 357, column 9; to line 357, column 106 in resource file:/Foundation/Summit/program.html
 Error: Stray end tag "a--".
 From line 365, column 157; to line 365, column 162 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
 From line 365, column 157; to line 365, column 167 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 365, column 11; to line 365, column 65 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_10_Make seL4 an ASIL-D certified system_Yuning Liang.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 366, column 9; to line 366, column 144 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 366, column 204; to line 366, column 208 in resource file:/Foundation/Summit/program.html
+From line 366, column 145; to line 366, column 149 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 366, column 9; to line 366, column 144 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_11_seL4 Summit and TCCOE - an overview_Renato Levy.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 377, column 9; to line 377, column 146 in resource file:/Foundation/Summit/program.html
+From line 366, column 9; to line 366, column 85 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 377, column 206; to line 377, column 210 in resource file:/Foundation/Summit/program.html
+From line 377, column 143; to line 377, column 147 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 377, column 9; to line 377, column 146 in resource file:/Foundation/Summit/program.html
+From line 377, column 9; to line 377, column 83 in resource file:/Foundation/Summit/program.html
 Error: Start tag "a" seen but an element of the same type was already open.
 From line 397, column 7; to line 397, column 70 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
 From line 399, column 5; to line 399, column 9 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
 From line 397, column 7; to line 397, column 70 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_01_Overview seL4 principles, abstractions and use_Gernot Heiser.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 414, column 9; to line 414, column 155 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 414, column 215; to line 414, column 219 in resource file:/Foundation/Summit/program.html
+From line 414, column 156; to line 414, column 160 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 414, column 9; to line 414, column 155 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_02_Overview what's verified, what's not, and what does it mean_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 423, column 9; to line 423, column 185 in resource file:/Foundation/Summit/program.html
+From line 414, column 9; to line 414, column 96 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 423, column 245; to line 423, column 249 in resource file:/Foundation/Summit/program.html
+From line 423, column 170; to line 423, column 174 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 423, column 9; to line 423, column 185 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_03_The seL4 GitHub test suite_Gerwin Klein.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 431, column 9; to line 431, column 130 in resource file:/Foundation/Summit/program.html
+From line 423, column 9; to line 423, column 110 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 431, column 190; to line 431, column 194 in resource file:/Foundation/Summit/program.html
+From line 431, column 135; to line 431, column 139 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 431, column 9; to line 431, column 130 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_04_seL4 mainlining experiences, challenges, and solutions_Robbie.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 451, column 9; to line 451, column 152 in resource file:/Foundation/Summit/program.html
+From line 431, column 9; to line 431, column 75 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 451, column 212; to line 451, column 216 in resource file:/Foundation/Summit/program.html
+From line 451, column 157; to line 451, column 161 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 451, column 9; to line 451, column 152 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_05_seL4 microkernel for virtualization use-cases "The importance of a standard VMM".pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 468, column 9; to line 468, column 191 in resource file:/Foundation/Summit/program.html
+From line 451, column 9; to line 451, column 97 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 468, column 251; to line 468, column 255 in resource file:/Foundation/Summit/program.html
+From line 468, column 176; to line 468, column 180 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 468, column 9; to line 468, column 191 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_06_Improving embedded DevOps with seL4 VMM.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 482, column 9; to line 482, column 130 in resource file:/Foundation/Summit/program.html
+From line 468, column 9; to line 468, column 116 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 482, column 190; to line 482, column 194 in resource file:/Foundation/Summit/program.html
+From line 482, column 135; to line 482, column 139 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 482, column 9; to line 482, column 130 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_07_Experience teaching seL4.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 496, column 9; to line 496, column 103 in resource file:/Foundation/Summit/program.html
+From line 482, column 9; to line 482, column 75 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 496, column 163; to line 496, column 167 in resource file:/Foundation/Summit/program.html
+From line 496, column 120; to line 496, column 124 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 496, column 9; to line 496, column 103 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_08_DornerWorks' VM Composer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 531, column 9; to line 531, column 103 in resource file:/Foundation/Summit/program.html
+From line 496, column 9; to line 496, column 60 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 531, column 163; to line 531, column 167 in resource file:/Foundation/Summit/program.html
+From line 531, column 120; to line 531, column 124 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 531, column 9; to line 531, column 103 in resource file:/Foundation/Summit/program.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_09_seL4 Foundation overview, update and vision.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 540, column 9; to line 540, column 134 in resource file:/Foundation/Summit/program.html
+From line 531, column 9; to line 531, column 60 in resource file:/Foundation/Summit/program.html
 Error: End tag "td" seen, but there were open elements.
-From line 540, column 194; to line 540, column 198 in resource file:/Foundation/Summit/program.html
+From line 540, column 139; to line 540, column 143 in resource file:/Foundation/Summit/program.html
 Error: Unclosed element "a".
-From line 540, column 9; to line 540, column 134 in resource file:/Foundation/Summit/program.html
+From line 540, column 9; to line 540, column 79 in resource file:/Foundation/Summit/program.html
 Error: Bad value "http://localhost/Foundation/Summit/slides/d1_01_Welcome_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 159, column 9; to line 159, column 97 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
@@ -229,12 +191,10 @@ Error: End tag "td" seen, but there were open elements.
 From line 218, column 147; to line 218, column 151 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 218, column 9; to line 218, column 87 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d1_07_Multiprocessing on seL4 with verified kernels_Kent Mcleod.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 226, column 9; to line 226, column 152 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 226, column 212; to line 226, column 216 in resource file:/Foundation/Summit/program.pml.html
+From line 226, column 153; to line 226, column 157 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 226, column 9; to line 226, column 152 in resource file:/Foundation/Summit/program.pml.html
+From line 226, column 9; to line 226, column 93 in resource file:/Foundation/Summit/program.pml.html
 Error: Bad value "http://localhost/Foundation/Summit/slides/d1_08_Using QEMU to extend seL4 VirtIO support_Hannu Lyytinen.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
 From line 238, column 9; to line 238, column 154 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
@@ -283,113 +243,81 @@ Error: End tag "td" seen, but there were open elements.
 From line 309, column 222; to line 309, column 226 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 309, column 9; to line 309, column 162 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_05_Rust support in seL4 userspace present and future_Nick Spinale.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 317, column 9; to line 317, column 165 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 317, column 225; to line 317, column 229 in resource file:/Foundation/Summit/program.pml.html
+From line 317, column 158; to line 317, column 162 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 317, column 9; to line 317, column 165 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_06_Early experiences proving the correctness of a network stack implementation_Alain Kägi.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 329, column 9; to line 329, column 197 in resource file:/Foundation/Summit/program.pml.html
+From line 317, column 9; to line 317, column 98 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 329, column 257; to line 329, column 261 in resource file:/Foundation/Summit/program.pml.html
+From line 329, column 182; to line 329, column 186 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 329, column 9; to line 329, column 197 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_07_CASE overview Cyber Assured Systems Engineering_Darren Cofer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 337, column 9; to line 337, column 155 in resource file:/Foundation/Summit/program.pml.html
+From line 329, column 9; to line 329, column 122 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 337, column 215; to line 337, column 219 in resource file:/Foundation/Summit/program.pml.html
+From line 337, column 156; to line 337, column 160 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 337, column 9; to line 337, column 155 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_08_A verified architecture for trustworthy remote attestation_Grant Jurgenson.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 345, column 9; to line 345, column 173 in resource file:/Foundation/Summit/program.pml.html
+From line 337, column 9; to line 337, column 96 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 345, column 233; to line 345, column 237 in resource file:/Foundation/Summit/program.pml.html
+From line 345, column 170; to line 345, column 174 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 345, column 9; to line 345, column 173 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_09_FerrOS Rust-y unikernels on seL4 w compile-time assurances_Zack Pierce.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 357, column 9; to line 357, column 173 in resource file:/Foundation/Summit/program.pml.html
+From line 345, column 9; to line 345, column 110 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 357, column 233; to line 357, column 237 in resource file:/Foundation/Summit/program.pml.html
+From line 357, column 166; to line 357, column 170 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 357, column 9; to line 357, column 173 in resource file:/Foundation/Summit/program.pml.html
+From line 357, column 9; to line 357, column 106 in resource file:/Foundation/Summit/program.pml.html
 Error: Stray end tag "a--".
 From line 365, column 157; to line 365, column 162 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
 From line 365, column 157; to line 365, column 167 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 365, column 11; to line 365, column 65 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_10_Make seL4 an ASIL-D certified system_Yuning Liang.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 366, column 9; to line 366, column 144 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 366, column 204; to line 366, column 208 in resource file:/Foundation/Summit/program.pml.html
+From line 366, column 145; to line 366, column 149 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 366, column 9; to line 366, column 144 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d2_11_seL4 Summit and TCCOE - an overview_Renato Levy.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 377, column 9; to line 377, column 146 in resource file:/Foundation/Summit/program.pml.html
+From line 366, column 9; to line 366, column 85 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 377, column 206; to line 377, column 210 in resource file:/Foundation/Summit/program.pml.html
+From line 377, column 143; to line 377, column 147 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 377, column 9; to line 377, column 146 in resource file:/Foundation/Summit/program.pml.html
+From line 377, column 9; to line 377, column 83 in resource file:/Foundation/Summit/program.pml.html
 Error: Start tag "a" seen but an element of the same type was already open.
 From line 397, column 7; to line 397, column 70 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
 From line 399, column 5; to line 399, column 9 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
 From line 397, column 7; to line 397, column 70 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_01_Overview seL4 principles, abstractions and use_Gernot Heiser.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 414, column 9; to line 414, column 155 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 414, column 215; to line 414, column 219 in resource file:/Foundation/Summit/program.pml.html
+From line 414, column 156; to line 414, column 160 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 414, column 9; to line 414, column 155 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_02_Overview what's verified, what's not, and what does it mean_June Andronick.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 423, column 9; to line 423, column 185 in resource file:/Foundation/Summit/program.pml.html
+From line 414, column 9; to line 414, column 96 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 423, column 245; to line 423, column 249 in resource file:/Foundation/Summit/program.pml.html
+From line 423, column 170; to line 423, column 174 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 423, column 9; to line 423, column 185 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_03_The seL4 GitHub test suite_Gerwin Klein.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 431, column 9; to line 431, column 130 in resource file:/Foundation/Summit/program.pml.html
+From line 423, column 9; to line 423, column 110 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 431, column 190; to line 431, column 194 in resource file:/Foundation/Summit/program.pml.html
+From line 431, column 135; to line 431, column 139 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 431, column 9; to line 431, column 130 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_04_seL4 mainlining experiences, challenges, and solutions_Robbie.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 451, column 9; to line 451, column 152 in resource file:/Foundation/Summit/program.pml.html
+From line 431, column 9; to line 431, column 75 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 451, column 212; to line 451, column 216 in resource file:/Foundation/Summit/program.pml.html
+From line 451, column 157; to line 451, column 161 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 451, column 9; to line 451, column 152 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_05_seL4 microkernel for virtualization use-cases "The importance of a standard VMM".pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 468, column 9; to line 468, column 191 in resource file:/Foundation/Summit/program.pml.html
+From line 451, column 9; to line 451, column 97 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 468, column 251; to line 468, column 255 in resource file:/Foundation/Summit/program.pml.html
+From line 468, column 176; to line 468, column 180 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 468, column 9; to line 468, column 191 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_06_Improving embedded DevOps with seL4 VMM.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 482, column 9; to line 482, column 130 in resource file:/Foundation/Summit/program.pml.html
+From line 468, column 9; to line 468, column 116 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 482, column 190; to line 482, column 194 in resource file:/Foundation/Summit/program.pml.html
+From line 482, column 135; to line 482, column 139 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 482, column 9; to line 482, column 130 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_07_Experience teaching seL4.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 496, column 9; to line 496, column 103 in resource file:/Foundation/Summit/program.pml.html
+From line 482, column 9; to line 482, column 75 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 496, column 163; to line 496, column 167 in resource file:/Foundation/Summit/program.pml.html
+From line 496, column 120; to line 496, column 124 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 496, column 9; to line 496, column 103 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_08_DornerWorks' VM Composer.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 531, column 9; to line 531, column 103 in resource file:/Foundation/Summit/program.pml.html
+From line 496, column 9; to line 496, column 60 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 531, column 163; to line 531, column 167 in resource file:/Foundation/Summit/program.pml.html
+From line 531, column 120; to line 531, column 124 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 531, column 9; to line 531, column 103 in resource file:/Foundation/Summit/program.pml.html
-Error: Bad value "http://localhost/Foundation/Summit/slides/d3_09_seL4 Foundation overview, update and vision.pdf" for attribute "href" on element "a": Illegal character in path segment: space is not allowed.
-From line 540, column 9; to line 540, column 134 in resource file:/Foundation/Summit/program.pml.html
+From line 531, column 9; to line 531, column 60 in resource file:/Foundation/Summit/program.pml.html
 Error: End tag "td" seen, but there were open elements.
-From line 540, column 194; to line 540, column 198 in resource file:/Foundation/Summit/program.pml.html
+From line 540, column 139; to line 540, column 143 in resource file:/Foundation/Summit/program.pml.html
 Error: Unclosed element "a".
-From line 540, column 9; to line 540, column 134 in resource file:/Foundation/Summit/program.pml.html
+From line 540, column 9; to line 540, column 79 in resource file:/Foundation/Summit/program.pml.html
 Document checking completed.
 </p></body></html>
