@@ -1,2 +1,7 @@
 <html><body><p>
+Error: No "p" element in scope but a "p" end tag seen.
+From line 179, column 3; to line 179, column 6 in resource file:/Foundation/Summit.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 179, column 3; to line 179, column 6 in resource file:/Foundation/Summit/index.html
+Document checking completed.
 </p></body></html>
