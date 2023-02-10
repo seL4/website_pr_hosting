@@ -83,7 +83,7 @@
 <li class=""><a href="Foundation/Join.html">Join the Foundation now!</a></li>
 <li class=""><a href="Foundation/Services.html">Endorsed Service Providers</a></li>
 <!-- / - /Foundation/Summit/ -->
-<li class=""><a href="Foundation/Summit.html">seL4 Summit</a></li>
+<li class=""><a href="Foundation/Summit/index.html">seL4 Summit</a></li>
 <li class=""><a href="Foundation/Support.html">Support Us</a></li>
 <li class=""><a href="Foundation/Trademark/index.html">Trademark</a></li>
 <li class=""><a href="Foundation/Jobs.html">Jobs in the seL4 ecosystem</a></li>
@@ -275,7 +275,7 @@
   </div>
 
   <div class="homepage_item">
-    <a class="divLink" href="Foundation/Summit.html"></a>
+    <a class="divLink" href="Foundation/Summit/index.html"></a>
     <div class="hp_pic">
       <img src="images/sel4-summit-logo.svg" style="width:200px" alt="seL4 Summit" />
     </div>

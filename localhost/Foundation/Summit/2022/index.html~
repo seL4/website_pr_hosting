@@ -85,7 +85,7 @@
 <li class=""><a href="../../Join.html">Join the Foundation now!</a></li>
 <li class=""><a href="../../Services.html">Endorsed Service Providers</a></li>
 <!-- /Foundation/Summit/2022/ - /Foundation/Summit/ -->
-<li class=""><a href="../../Summit.html">seL4 Summit</a></li>
+<li class=""><a href="../index.html">seL4 Summit</a></li>
 <li class=""><a href="../../Support.html">Support Us</a></li>
 <li class=""><a href="../../Trademark/index.html">Trademark</a></li>
 <li class=""><a href="../../Jobs.html">Jobs in the seL4 ecosystem</a></li>
@@ -119,7 +119,7 @@
 <li class="">
 <a href="../../../Foundation.html">seL4 Foundation</a></li>
 <li class="">
-<a href="../../Summit.html">seL4 Summit</a></li>
+<a href="../index.html">seL4 Summit</a></li>
 <li class="">
 <a href="../2022.html">2022</a></li></ol>
     </div> <!-- Breadcrumbs -->
@@ -154,6 +154,7 @@ Munich, Germany (hybrid), 10-13 Oct 2022
     <li><a href="../2022.html#summit-pc">Program Committee</a></li>
     <li><a href="../2022.html#summit-sponsors">Sponsors</a></li>
     <li><a href="../2022.html#summit-contact">Contact</a></li>
+    <li>Other summit editions: <a href="../../Summit.html">2023</a></li>
   </ul>
 </div>
 
