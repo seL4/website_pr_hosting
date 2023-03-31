@@ -83,7 +83,7 @@
 <!-- /Foundation/Services/ - /Foundation/Membership/ -->
 <li class=""><a href="../Membership.html">Membership</a></li>
 <li class=""><a href="../Join.html">Join the Foundation now!</a></li>
-<li class="active"><a href="../Services.html">Endorsed Service Providers</a></li>
+<li class="active"><a href="../Services.html">Commercial Support</a></li>
 <!-- /Foundation/Services/ - /Foundation/Summit/ -->
 <li class=""><a href="../Summit.html">seL4 Summit</a></li>
 <li class=""><a href="../Support.html">Support Us</a></li>
@@ -111,14 +111,14 @@
 <div class="container"> <!-- container -->
   <div class="row"> <!-- Breadcrumbs -->
 <!-- seL4 Foundation, /Foundation/ -->
-<!-- Endorsed Service Providers, /Foundation/Services/ -->
+<!-- Commercial Support, /Foundation/Services/ -->
 <!-- Cog, /Foundation/Services/cog.pml -->
 <ol class="breadcrumb">
 <li class=""><a href="../../index.html">Home</a>
 <li class="">
 <a href="../../Foundation.html">seL4 Foundation</a></li>
 <li class="">
-<a href="../Services.html">Endorsed Service Providers</a></li>
+<a href="../Services.html">Commercial Support</a></li>
 <li class="active">
 Cog</li></ol>
     </div> <!-- Breadcrumbs -->
