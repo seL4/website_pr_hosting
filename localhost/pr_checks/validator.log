@@ -1,2 +1,13 @@
 <html><body><p>
+Error: No "p" element in scope but a "p" end tag seen.
+From line 184, column 3; to line 184, column 6 in resource file:/news/index.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 186, column 3; to line 186, column 6 in resource file:/news/index.html
+Error: End tag for  "body" seen, but there were unclosed elements.
+From line 588, column 1; to line 588, column 7 in resource file:/news/index.html
+Error: Unclosed element "div".
+From line 56, column 3; to line 56, column 27 in resource file:/news/index.html
+Error: No "p" element in scope but a "p" end tag seen.
+From line 201, column 3; to line 201, column 6 in resource file:/Foundation/Summit/2023.html
+Document checking completed.
 </p></body></html>
