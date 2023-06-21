@@ -1,0 +1,11 @@
+<html><body><p>
+Error: End tag for  "body" seen, but there were unclosed elements.
+From line 606, column 1; to line 606, column 7 in resource file:/news/index.html
+Error: Unclosed element "div".
+From line 56, column 3; to line 56, column 27 in resource file:/news/index.html
+Error: End tag for  "body" seen, but there were unclosed elements.
+From line 532, column 1; to line 532, column 7 in resource file:/Foundation/Summit/2023.html
+Error: Unclosed element "div".
+From line 56, column 3; to line 56, column 27 in resource file:/Foundation/Summit/2023.html
+Document checking completed.
+</p></body></html>
