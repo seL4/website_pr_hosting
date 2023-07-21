@@ -110,11 +110,14 @@
 <div class="container"> <!-- container -->
   <div class="row"> <!-- Breadcrumbs -->
 <!-- seL4 Foundation, /Foundation/ -->
+<!-- Summit, /Foundation/Summit/ -->
 <!-- Home, /Foundation/Summit/home.pml -->
 <ol class="breadcrumb">
 <li class=""><a href="../index.html">Home</a>
 <li class="">
-<a href="../Foundation.html">seL4 Foundation</a></li></ol>
+<a href="../Foundation.html">seL4 Foundation</a></li>
+<li class="">
+<a href="Summit.html">Summit</a></li></ol>
     </div> <!-- Breadcrumbs -->
 
   <a href='Summit.html'><img style="width:20%; padding-top:5px; vertical-align:top;float:right; margin:10px;"
