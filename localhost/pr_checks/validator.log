@@ -1,7 +1,2 @@
 <html><body><p>
-Error: Table cell is overlapped by later table cell.
-From line 523, column 27; to line 524, column 41 in resource file:/Foundation/Summit/2023/program.html
-Error: Table cell overlaps an earlier table cell.
-From line 550, column 7; to line 551, column 34 in resource file:/Foundation/Summit/2023/program.html
-Document checking completed.
 </p></body></html>
