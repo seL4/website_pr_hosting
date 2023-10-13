@@ -1,35 +1,7 @@
 <html><body><p>
-Error: Stray end tag "span".
-From line 505, column 59; to line 505, column 65 in resource file:/Foundation/Summit/2023/program.html
 Error: Table cell is overlapped by later table cell.
 From line 523, column 27; to line 524, column 41 in resource file:/Foundation/Summit/2023/program.html
 Error: Table cell overlaps an earlier table cell.
 From line 550, column 7; to line 551, column 34 in resource file:/Foundation/Summit/2023/program.html
-Error: Row 62 of a row group established by a "tbody" element has no cells beginning on it.
-From line 601, column 7; to line 602, column 6 in resource file:/Foundation/Summit/2023/program.html
-Error: Bad element name "span="summit-abstract-affiliation"": Code point "U+003D" is not allowed
-From line 987, column 9; to line 987, column 44 in resource file:/Foundation/Summit/2023/abstracts2023.html
-Error: Stray end tag "span".
-From line 988, column 45; to line 988, column 51 in resource file:/Foundation/Summit/2023/abstracts2023.html
-Error: End tag "p" seen, but there were open elements.
-From line 989, column 1; to line 989, column 4 in resource file:/Foundation/Summit/2023/abstracts2023.html
-Error: Unclosed element "span="summit-abstract-affiliation"".
-From line 987, column 9; to line 987, column 44 in resource file:/Foundation/Summit/2023/abstracts2023.html
-Error: Bad element name "span="summit-abstract-affiliation"": Code point "U+003D" is not allowed
-From line 1000, column 9; to line 1000, column 44 in resource file:/Foundation/Summit/2023/abstracts2023.html
-Error: Stray end tag "span".
-From line 1001, column 52; to line 1001, column 58 in resource file:/Foundation/Summit/2023/abstracts2023.html
-Error: End tag "p" seen, but there were open elements.
-From line 1002, column 1; to line 1002, column 4 in resource file:/Foundation/Summit/2023/abstracts2023.html
-Error: Unclosed element "span="summit-abstract-affiliation"".
-From line 1000, column 9; to line 1000, column 44 in resource file:/Foundation/Summit/2023/abstracts2023.html
-Error: Bad element name "span="summit-abstract-affiliation"": Code point "U+003D" is not allowed
-From line 1007, column 9; to line 1007, column 44 in resource file:/Foundation/Summit/2023/abstracts2023.html
-Error: Stray end tag "span".
-From line 1008, column 26; to line 1008, column 32 in resource file:/Foundation/Summit/2023/abstracts2023.html
-Error: End tag "p" seen, but there were open elements.
-From line 1009, column 1; to line 1009, column 4 in resource file:/Foundation/Summit/2023/abstracts2023.html
-Error: Unclosed element "span="summit-abstract-affiliation"".
-From line 1007, column 9; to line 1007, column 44 in resource file:/Foundation/Summit/2023/abstracts2023.html
 Document checking completed.
 </p></body></html>
