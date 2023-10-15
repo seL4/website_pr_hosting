@@ -84,11 +84,14 @@
 <li class=""><a href="../Membership.html">Membership</a></li>
 <li class=""><a href="../Join.html">Join the Foundation now!</a></li>
 <li class=""><a href="../Services.html">Commercial Support</a></li>
-<li class=""><a href="2023/home.pml.html">seL4 Summit</a></li>
+<li class="active"><a href="../Summit.html">seL4 Summit</a></li>
 <li class=""><a href="../Support.html">Support Us</a></li>
 <li class=""><a href="../Trademark/index.html">Trademark</a></li>
 <li class=""><a href="../Jobs.html">Jobs in the seL4 ecosystem</a></li>
-<li class=""><a href="../Contact.html">Contact the seL4 Foundation</a></li></ul></li>
+<li class=""><a href="../Contact.html">Contact the seL4 Foundation</a></li>
+<li class=""><a href="http://localhost/Foundation/Summit/2023/home.pml&#32;/*redirect&#32;to&#32;specific&#32;year*/">/*seL4 Summit</a></li>
+<!-- /Foundation/Summit/2022/ - /Foundation/Summit/ -->
+<li class=""><a href="../Summit.html">Summit</a></li></ul></li>
 <li class=""><a href="../../contact.html">Stay in Touch</a></li>
 <!-- /Foundation/Summit/2022/ - /Contribute/ -->
 <li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" href="../../Contribute.html">Contribute <span class="caret"></span></a>
@@ -146,15 +149,17 @@ Munich, Germany (hybrid), 10-13 Oct 2022
     <li><a href="2022/cfp.html">Call for Presentations</a></li>
 <!--    <li><a href="#summit-registration">Registration</a></li>
     <li><a href="#summit-mentoring">Mentorship Program</a></li-->
-    <li><a href="2022.html#summit-invited-speakers">Invited Speakers</a></li>
+    <li><a href="2022.html#summit-keynote-speakers">Keynote Speakers</a></li>
     <li><a href="2022.html#summit-panellists">Panellists</a></li>
-    <li><a href="2022/program.html">Program</a></li>
-    <li><a href="2022/abstracts2022.html">Abstracts</a></li>
+    <li><a href="2022.html#summit-program">Program, Abstracts, Slides and Videos</a></li>
     <li><a href="2022.html#summit-pc">Program Committee</a></li>
     <li><a href="2022.html#summit-sponsors">Sponsors</a></li>
     <li><a href="2022.html#summit-contact">Contact</a></li>
-    <li><a href="../Summit.html">All summits</a></li>
   </ul>
+</div>
+
+<div class="summit_div">
+  <a href="../Summit.html">All summits</a>
 </div>
 
 <div class="summit_div">
@@ -253,8 +258,8 @@ Munich, Germany (hybrid), 10-13 Oct 2022
 </div-->
 
 <div class="summit_div">
-  <h3 id="summit-invited-speakers">
-    Invited Speakers
+  <h3 id="summit-keynote-speakers">
+    Keynote Speakers
   </h3>
 </div>
 <div class="speakers_grid">
@@ -267,20 +272,21 @@ Munich, Germany (hybrid), 10-13 Oct 2022
       <br>
       UNSW
     </div>
-    <div class="speaker_talk">
+    <div class="speaker_talk" style="text-align:center">
       <a class="summit-abstract-link" href="2022/abstracts2022.html#a-seL4-research">State of seL4-related research</a>
     </div>
   </div>
   <div class="speaker">
     <div class="speaker_pic">
-      <a href="2022.html"><img src="../../images/summit/boyd.jpg" alt="Boyd Multerer" width="150"></a>
+      <a href="https://www.kry10.com/"><img src="../../images/summit/boyd.jpg" alt="Boyd Multerer" width="150">
+      </a>
     </div>
     <div class="speaker_title" style="text-align:center">
       <strong>Boyd Multerer</strong>
       <br>
       Kry10
     </div>
-    <div class="speaker_talk">
+    <div class="speaker_talk" style="text-align:center">
       <a class="summit-abstract-link" href="2022/abstracts2022.html#a-Kry10-Secure-Platform">Kry10 Secure Platform</a>
     </div>
   </div>
@@ -291,7 +297,7 @@ Munich, Germany (hybrid), 10-13 Oct 2022
     Panellists
   </h3>
   <p>
-    We are very fortunate to welcome four leaders at major funding agencies to participate in a session <a href="2022/abstracts2022.html#a-Funding-agencies"><strong>Funding agencies: priorities and vision</strong></a>. They will each give their views on the priorities and vision of their agency in terms of high-assurance systems.
+    We were very fortunate to welcome four leaders at major funding agencies to participate in a session <a href="2022/abstracts2022.html#a-Funding-agencies"><strong>Funding agencies: priorities and vision</strong></a>. They each gave their views on the priorities and vision of their agency in terms of high-assurance systems.
   </p>
 </div>
 <div class="speakers_grid">
@@ -339,10 +345,10 @@ Munich, Germany (hybrid), 10-13 Oct 2022
 
 <div class="summit_div">
   <h3 id="summit-program">
-    Program
+    Program, Abstracts, Slides and Videos
   </h3>
   <p>
-    We have an amazing <a href="2022/program.pml.html">line-up</a> of cool seL4 work, with a combination of technical research and development, experience reports of seL4 in the field, technical discussions and Birds-of-a-feather sessions, as well as a whole day of seL4 bootcamp with tutorials and training.
+    Videos of the seL4 summit 2022 are available on the <a href="https://www.youtube.com/@seL4" target="_blank">seL4 YouTube channel</a>! Links and slides can be found on the summit <a href="2022/program.html">Program</a> and <a href="2022/abstracts2022.html">Abstracts</a> pages. Thanks to all the speakers for making the seL4 summit 2022 a great success!
   </p>
 </div>
 
@@ -476,7 +482,7 @@ Munich, Germany (hybrid), 10-13 Oct 2022
   <div class="sponsor">
     <div class="sponsor-pic">
       <a href="https://dornerworks.com/">
-        <img src="../Membership/LOGOS/DornerWorks.svg" style="width: 248px"
+        <img src="../Membership/LOGOS/DornerWorks.svg" style="width: 150px"
             alt="DornerWorks logo">
       </a>
     </div>
@@ -488,7 +494,7 @@ Munich, Germany (hybrid), 10-13 Oct 2022
     <div class="sponsor">
     <div class="sponsor-pic">
       <a href="https://horizon.ai/">
-        <img src="../Membership/LOGOS/Horizon_Robotics.svg" style="width: 248px"
+        <img src="../Membership/LOGOS/Horizon_Robotics.svg" style="width: 150px"
             alt="Horizon Robotics logo">
       </a>
     </div>
@@ -501,7 +507,7 @@ Munich, Germany (hybrid), 10-13 Oct 2022
     <div class="sponsor-pic">
     <a href="https://xcalibyte.com">
      <img src="../Membership/LOGOS/xcalibyte.svg"
-	  style="width: 80%;  padding-left:10px;  float:right"
+	  style="width: 150px;  padding-left:10px;  float:right"
 	  alt="Xcalibyte logo">
      </a>
     </div>
