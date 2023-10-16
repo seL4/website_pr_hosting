@@ -1,2 +1,9 @@
 <html><body><p>
+Error: End tag "td" seen, but there were open elements.
+From line 479, column 105; to line 479, column 109 in resource file:/Foundation/Summit/2023/program.html
+Error: Unclosed element "a".
+From line 479, column 9; to line 479, column 42 in resource file:/Foundation/Summit/2023/program.html
+Error: Start tag "a" seen but an element of the same type was already open.
+From line 954, column 5; to line 954, column 38 in resource file:/Foundation/Summit/2023/abstracts2023.html
+Document checking completed.
 </p></body></html>
