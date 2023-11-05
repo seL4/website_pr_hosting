@@ -1,0 +1,25 @@
+<html><body><p>
+Error: No space between attributes.
+From line 185, column 538; to line 194, column 13 in resource file:/news/index.html
+Error: Quote """ in attribute name. Probable cause: Matching quote missing somewhere earlier.
+From line 185, column 538; to line 194, column 24 in resource file:/news/index.html
+Error: Bad value  for attribute "href" on element "a": Illegal character in query: ">" is not allowed.
+From line 185, column 538; to line 194, column 25 in resource file:/news/index.html
+Error: Attribute "news-finish"" not allowed on element "a" at this point.
+From line 185, column 538; to line 194, column 25 in resource file:/news/index.html
+Error: End tag "div" seen, but there were open elements.
+From line 195, column 1; to line 195, column 6 in resource file:/news/index.html
+Error: Unclosed element "a".
+From line 185, column 538; to line 194, column 25 in resource file:/news/index.html
+Error: Bad value  for attribute "href" on element "a": Illegal character in query: ">" is not allowed.
+From line 195, column 7; to line 196, column 1 in resource file:/news/index.html
+Error: Attribute "news-finish"" not allowed on element "a" at this point.
+From line 195, column 7; to line 196, column 1 in resource file:/news/index.html
+Error: Start tag "a" seen but an element of the same type was already open.
+From line 199, column 3; to line 199, column 37 in resource file:/news/index.html
+Error: End tag "a" violates nesting rules.
+From line 199, column 3; to line 199, column 37 in resource file:/news/index.html
+Fatal Error: Cannot recover after last error. Any further errors will be ignored.
+From line 199, column 3; to line 199, column 37 in resource file:/news/index.html
+Document checking completed.
+</p></body></html>
