@@ -1,2 +1,7 @@
 <html><body><p>
+Error: End tag for  "body" seen, but there were unclosed elements.
+From line 930, column 1; to line 930, column 7 in resource file:/news/index.html
+Error: Unclosed element "div".
+From line 56, column 3; to line 56, column 27 in resource file:/news/index.html
+Document checking completed.
 </p></body></html>
