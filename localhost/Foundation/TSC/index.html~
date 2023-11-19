@@ -79,7 +79,7 @@
 <!-- /Foundation/TSC/ - /Foundation/Board/ -->
 <li class=""><a href="../Board.html">Governing Board</a></li>
 <!-- /Foundation/TSC/ - /Foundation/TSC/ -->
-<li class=""><a href="index.html">TSC</a></li>
+<li class=""><a href="../TSC.html">TSC</a></li>
 <!-- /Foundation/TSC/ - /Foundation/Membership/ -->
 <li class=""><a href="../Membership.html">Membership</a></li>
 <li class=""><a href="../Join.html">Join the Foundation now!</a></li>
@@ -119,7 +119,7 @@
 <li class="">
 <a href="../../Foundation.html">seL4 Foundation</a></li>
 <li class="">
-<a href="index.html">TSC</a></li></ol>
+<a href="../TSC.html">TSC</a></li></ol>
     </div> <!-- Breadcrumbs -->
 
     <a href='../../index.html'><img style="width:20%; padding-top:5px; vertical-align:top;float:right; margin:10px;"
