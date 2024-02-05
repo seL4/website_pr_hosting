@@ -1,15 +1,2 @@
 <html><body><p>
-Error: End tag "strong" violates nesting rules.
-From line 336, column 87; to line 336, column 95 in resource file:/Foundation/Summit/2024.html
-Error: No "a" element in scope but a "a" end tag seen.
-From line 336, column 96; to line 336, column 99 in resource file:/Foundation/Summit/2024.html
-Error: End tag "strong" violates nesting rules.
-From line 336, column 87; to line 336, column 95 in resource file:/Foundation/Summit/2024/index.html
-Error: No "a" element in scope but a "a" end tag seen.
-From line 336, column 96; to line 336, column 99 in resource file:/Foundation/Summit/2024/index.html
-Error: End tag "strong" violates nesting rules.
-From line 297, column 87; to line 297, column 95 in resource file:/news/index.html
-Error: No "a" element in scope but a "a" end tag seen.
-From line 297, column 96; to line 297, column 99 in resource file:/news/index.html
-Document checking completed.
 </p></body></html>
