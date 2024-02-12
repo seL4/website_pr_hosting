@@ -1,87 +1,27 @@
 <html><body><p>
-Error: Stray end tag "stong".
-From line 141, column 9; to line 141, column 16 in resource file:/index.html
-Error: End tag "li" seen, but there were open elements.
-From line 142, column 7; to line 142, column 11 in resource file:/index.html
-Error: Unclosed element "strong".
-From line 139, column 9; to line 139, column 16 in resource file:/index.html
-Error: Element "strong" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-From line 142, column 12; to line 143, column 6 in resource file:/index.html
-Error: End tag "ul" seen, but there were open elements.
-From line 156, column 5; to line 156, column 9 in resource file:/index.html
-Error: End tag "div" seen, but there were open elements.
-From line 157, column 3; to line 157, column 8 in resource file:/index.html
-Error: End tag "div" seen, but there were open elements.
-From line 158, column 1; to line 158, column 6 in resource file:/index.html
-Error: End tag "div" seen, but there were open elements.
-From line 159, column 1; to line 159, column 6 in resource file:/index.html
-Error: End tag "a" violates nesting rules.
-From line 160, column 1; to line 160, column 4 in resource file:/index.html
-Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-From line 162, column 1; to line 162, column 27 in resource file:/index.html
-Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-From line 324, column 1; to line 324, column 21 in resource file:/index.html
-Error: End tag "div" seen, but there were open elements.
-From line 325, column 1; to line 325, column 6 in resource file:/index.html
-Error: End tag "div" seen, but there were open elements.
-From line 326, column 1; to line 326, column 6 in resource file:/index.html
-Error: Element "footer" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-From line 327, column 1; to line 327, column 51 in resource file:/index.html
-Error: End tag "div" seen, but there were open elements.
-From line 367, column 1; to line 367, column 6 in resource file:/index.html
 Error: End tag for  "body" seen, but there were unclosed elements.
-From line 368, column 1; to line 368, column 7 in resource file:/index.html
-Error: Stray end tag "stong".
-From line 141, column 9; to line 141, column 16 in resource file:/home.pml.html
-Error: End tag "li" seen, but there were open elements.
-From line 142, column 7; to line 142, column 11 in resource file:/home.pml.html
-Error: Unclosed element "strong".
-From line 139, column 9; to line 139, column 16 in resource file:/home.pml.html
-Error: Element "strong" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-From line 142, column 12; to line 143, column 6 in resource file:/home.pml.html
-Error: End tag "ul" seen, but there were open elements.
-From line 156, column 5; to line 156, column 9 in resource file:/home.pml.html
-Error: End tag "div" seen, but there were open elements.
-From line 157, column 3; to line 157, column 8 in resource file:/home.pml.html
-Error: End tag "div" seen, but there were open elements.
-From line 158, column 1; to line 158, column 6 in resource file:/home.pml.html
-Error: End tag "div" seen, but there were open elements.
-From line 159, column 1; to line 159, column 6 in resource file:/home.pml.html
-Error: End tag "a" violates nesting rules.
-From line 160, column 1; to line 160, column 4 in resource file:/home.pml.html
-Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-From line 162, column 1; to line 162, column 27 in resource file:/home.pml.html
-Error: Element "div" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-From line 324, column 1; to line 324, column 21 in resource file:/home.pml.html
-Error: End tag "div" seen, but there were open elements.
-From line 325, column 1; to line 325, column 6 in resource file:/home.pml.html
-Error: End tag "div" seen, but there were open elements.
-From line 326, column 1; to line 326, column 6 in resource file:/home.pml.html
-Error: Element "footer" not allowed as child of element "strong" in this context. (Suppressing further errors from this subtree.)
-From line 327, column 1; to line 327, column 51 in resource file:/home.pml.html
-Error: End tag "div" seen, but there were open elements.
-From line 367, column 1; to line 367, column 6 in resource file:/home.pml.html
-Error: End tag for  "body" seen, but there were unclosed elements.
-From line 368, column 1; to line 368, column 7 in resource file:/home.pml.html
-Error: End tag "strong" violates nesting rules.
-From line 341, column 87; to line 341, column 95 in resource file:/Foundation/Summit/2024.html
-Error: No "a" element in scope but a "a" end tag seen.
-From line 341, column 96; to line 341, column 99 in resource file:/Foundation/Summit/2024.html
-Error: End tag for  "body" seen, but there were unclosed elements.
-From line 436, column 1; to line 436, column 7 in resource file:/Foundation/Summit/2024.html
+From line 431, column 1; to line 431, column 7 in resource file:/Foundation/Summit/2024.html
 Error: Unclosed element "div".
 From line 47, column 3; to line 47, column 27 in resource file:/Foundation/Summit/2024.html
-Error: End tag "strong" violates nesting rules.
-From line 341, column 87; to line 341, column 95 in resource file:/Foundation/Summit/2024/index.html
-Error: No "a" element in scope but a "a" end tag seen.
-From line 341, column 96; to line 341, column 99 in resource file:/Foundation/Summit/2024/index.html
 Error: End tag for  "body" seen, but there were unclosed elements.
-From line 436, column 1; to line 436, column 7 in resource file:/Foundation/Summit/2024/index.html
+From line 431, column 1; to line 431, column 7 in resource file:/Foundation/Summit/2024/index.html
 Error: Unclosed element "div".
 From line 47, column 3; to line 47, column 27 in resource file:/Foundation/Summit/2024/index.html
+Error: Start tag "a" seen but an element of the same type was already open.
+From line 300, column 89; to line 300, column 91 in resource file:/news/index.html
 Error: End tag "strong" violates nesting rules.
-From line 300, column 89; to line 300, column 97 in resource file:/news/index.html
-Error: No "a" element in scope but a "a" end tag seen.
-From line 300, column 98; to line 300, column 101 in resource file:/news/index.html
+From line 300, column 92; to line 300, column 100 in resource file:/news/index.html
+Error: End tag "div" seen, but there were open elements.
+From line 301, column 7; to line 301, column 12 in resource file:/news/index.html
+Error: Unclosed element "a".
+From line 300, column 89; to line 300, column 91 in resource file:/news/index.html
+Error: End tag "div" seen, but there were open elements.
+From line 302, column 5; to line 302, column 10 in resource file:/news/index.html
+Error: Start tag "a" seen but an element of the same type was already open.
+From line 306, column 9; to line 306, column 55 in resource file:/news/index.html
+Error: End tag "a" violates nesting rules.
+From line 306, column 9; to line 306, column 55 in resource file:/news/index.html
+Fatal Error: Cannot recover after last error. Any further errors will be ignored.
+From line 306, column 9; to line 306, column 55 in resource file:/news/index.html
 Document checking completed.
 </p></body></html>
