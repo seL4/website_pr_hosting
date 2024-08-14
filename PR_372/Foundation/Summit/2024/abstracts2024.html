@@ -301,7 +301,6 @@ with early usable results for the seL4 community.
     Presented by Chris Guikema, <span class="summit-abstract-affiliation">DornerWorks</span>
 </p>
 <p>
-    <mark>Content TBC by author</mark><br>
     Upstream hypervisor support has expanded in recent years to support additional configurations on x86, ARM, and RISC-V. Every upstream example simply runs Linux, which is an excellent use case for highly functional, general purpose computing platforms, however there are other guest Operating Systems that solve different use cases. Running seL4 in Hypervisor mode allows for the untrusted code in Linux to be sandboxed and isolated from trusted components in the system. What if the guest Operating System was fully trusted? Deos is a DO-178C DAL A certified RTOS for Avionics Applications, an area seL4 has struggled to break into. DornerWorks expanded seL4 Hypervisor support to run Deos under the CAmkES VM. This presentation will overview the changes that needed to be made to support a certifiable RTOS guest, how a Hypervisor effects the safety certification considerations of Deos, and the next steps needed to create a certifiable system with seL4.
 </p>
 
@@ -607,7 +606,7 @@ with early usable results for the seL4 community.
     Presented by Yanyan Shen, <span class="summit-abstract-affiliation">NIO</span>
 </p>
 <p>
-    <mark>Content</mark>
+    A formally-verified microkernel is a great start, and an OS needs more than a microkernel. Over the past years, we have been building a vehicle operating system and toolsets based on seL4 from scratch. It is very challenging, especially when dependability is the top priority. In this talk, we would like to share our experiences along the journey, with an emphasis on the following topics: (1) POSIX or not, that is not a question. To leverage the existing code base and 3rd party libraries, a layered approach is adopted: The system has a core system call layer and a POSIX layer based on the core layer. System components use the core layer. Applications and 3rd party libraries use the POSIX interfaces. (2) Tooling is especially important for development efficiency and system usability. System status monitoring and comprehensive logging are critical since we rely on them to analyze issues remotely. Additionally, a building and integration tool is specifically designed to manage the building and releasing process of the OS and applications. (3) Resource management needs more thoughts. Seasoned system developers are surprised by another form of resource leakage: capability slot leakage. Access control to resources that are not managed by the kernel directly through capabilities also deserves some discussion. (4) Product-level maturity is paramount. We wish that the major OS components could be verified, but at least for now, realistically, various levels of testing are used to stabilize and mature the new OS.
 </p>
 
     <br><a href="program#p-bridging-academia">See this talk in the program</a></div>
