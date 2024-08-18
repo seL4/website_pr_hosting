@@ -147,7 +147,7 @@ developed, and the assurance evidence to be produced.
     Talk
 </p>
 <p class="summit-abstract-author">
-    Presented by Gerwin Klein, <span class="summit-abstract-affiliation">Proofcraft</span>
+    Presented by June Andronick, Rafal Kolanski, Gerwin Klein, Corey Lewis, Michael McInerney, <span class="summit-abstract-affiliation">Proofcraft</span>
 </p>
 <p>
     In this talk we will give an overview of Proofcraft's recent milestones, as well as ongoing and future plans for the formal verification of seL4 to support more platforms, architectures, configurations, and features.
@@ -172,7 +172,7 @@ developed, and the assurance evidence to be produced.
     Talk
 </p>
 <p class="summit-abstract-author">
-    Presented by Gerwin Klein, <span class="summit-abstract-affiliation">Proofcraft</span>
+    Presented by Corey Lewis, <span class="summit-abstract-affiliation">Proofcraft</span>
 </p>
 <p>
     In this talk we will present Proofcraft's roadmap for producing a verified static multikernel configuration of seL4, allowing the use of multiple CPU cores with one kernel per core. In this roadmap, we are planning to increase formal assurance incrementally, providing a tractable path to multicore verification
@@ -372,6 +372,28 @@ with early usable results for the seL4 community.
 
     <br><a href="program#p-camkes-to-microkit">See this talk in the program</a></div>
 
+<div class="summit-abstract" id="a-foundation-update"><!--<title>Summit abstract</title>-->
+<!--
+    Copyright 2024, seL4 summit authors (see abstracts)
+    SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<h4 class="summit-abstract-title">
+    seL4 Foundation Update
+</h4>
+<p class="summit-abstract-type">
+    Update
+</p>
+<p class="summit-abstract-author">
+    Presented by June Andronick, <span class="summit-abstract-affiliation">seL4 Foundation</span>
+</p>
+<p>
+    In this talk, June Andronick, CEO of the seL4 Foundation, will give a brief overview of the latest updates and future plans for the seL4 Foundation.
+</p>
+<p>
+    The seL4 Foundation is home to the ecosystem of software, developers and adopters for safety- and security-critical systems based on seL4. It was formed in April 2020 as a neutral and community-based organisation that ensures long-term, independent support for seL4 and its ecosystem, and fosters strong community participation and ownership in the ecosystem. It raises funds for continuing and accelerating development, facilitates interoperability, standardisation and sharing of cost for the benefit of all. Its aim is to ensure that seL4 is not only the world’s best secure operating-system technology, but is readily deployable and supported by a diverse and stable ecosystem of services and products.
+</p>
+    <br><a href="program#p-foundation-update">See this talk in the program</a></div>
+
 <div class="summit-abstract" id="a-first-steps"><!--<title>Summit abstract</title>-->
 <!--
     Copyright 2024, seL4 summit authors (see abstracts)
@@ -413,7 +435,7 @@ with early usable results for the seL4 community.
     Talk
 </p>
 <p class="summit-abstract-author">
-    Presented by Daniel Schwyn, <span class="summit-abstract-affiliation">ETH Zurich</span>
+    Presented by Zikai Liu, <span class="summit-abstract-affiliation">ETH Zurich</span>
 </p>
 <p>
     At the heart of every modern server platform sits an embedded system called theboard management controller (BMC) that is responsible for the low-levelfunctioning of the platform. Despite their critical nature, they are generallynot built as trustworthy systems. We have embarked on a journey tocyber-retrofit BMC firmware with seL4 as the kernel. In this talk, we present anupdate on our efforts -- generate trustworthy hardware/software I2C drivers. I2C is a low-level protocol used by BMCs to communicate with many peripherals(e.g. the power regulators). Unlike memory-mapped devices with one-to-oneinterfaces with the BMC, multiple I2C devices may share the same bus. Quirks ofone device can influence the whole assemblage. Therefore, to produce a correctdriver for I2C (and other bus-based protocols), we need to consider thespecifications of not only the controller but all devices on the bus.
