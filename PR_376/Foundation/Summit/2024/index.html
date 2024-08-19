@@ -105,15 +105,12 @@
   <ul>
     <!--li><a href="#summit-important-dates">Important Dates</a></li-->
     <li><a href="#summit-about">About</a></li>
-    <li><a href="#summit-registration">Register for summit</a></li>
+    <li><a href="#summit-registration">Registration</a></li>
     <li><a href="#summit-location">Location & Venue</a></li>
     <li><a href="#summit-cfp">Submissions and Call for Presentations</a></li>
+    <li><a href="#summit-program">Program & Abstracts</a></li>
     <li><a href="#summit-keynote-speakers">Keynote Speakers</a></li>
-    <!--li><a href="#summit-panellists">Panellists</a></li>
-    <li><a href="#summit-program">Program, Abstracts, Slides and Videos</a></li-->
-    <!--li><a href="#summit-keynote-speakers">Keynote Speakers</a></li>
-    <li><a href="#summit-panellists">Panellists</a></li-->
-    <li><a href="#summit-program">Program</a></li>
+    <!-- li><a href="#summit-panellists">Panellists</a></li>-->
     <li><a class="highlight" href="#summit-training-day">Latest news: Training day @UNSW</a></li>
     <li><a href="#summit-pc">Program Committee</a></li>
     <li><a href="#summit-sponsors">Sponsors</a></li>
@@ -177,7 +174,7 @@
       <li>Reception and dinner</li>
     </ul>
   <p>
-    <strong><a href="https://events.linuxfoundation.org/sel4-summit/">Register here</a></strong>
+    <strong><a href="https://events.linuxfoundation.org/sel4-summit/register/">Register here</a></strong>
   </p>
   <p>
      The early bird cut-off date is 15 September 2024.
@@ -195,9 +192,42 @@
     The seL4 Summit 2024 will be held in Sydney, Australia in 15-17 October 2024 at Holiday Inn Sydney Potts Point.
   </p>
   <p>
-    Further information about location, venue and travel is available on the <a href="https://events.linuxfoundation.org/sel4-summit/">Linux Foundation registration site</a>.
+    Further information about location, venue and travel is available on the <a href="https://events.linuxfoundation.org/sel4-summit/attend/venue-travel/">Linux Foundation registration site</a>.
   </p>
 </div>
+
+<div class="summit_div">
+  <h3 id="summit-cfp">
+    Submissions and Call for Presentations
+  </h3>
+  <p>
+    Share your seL4 work, experience and thoughts at the seL4 summit 2024 in Sydney by submitting a presentation proposal by <s>22 April 2024</s> 29 April 2024. Find all the submission information in the <a href="cfp">Call for Presentations</a>.
+  <h3 id="summit-program">
+    Program & Abstracts
+  </h3>
+  <p>
+    Check out the summit <a href="program">Program</a> and <a href="abstracts2024">Abstracts</a> for our list of speakers and presentations.
+  </p>
+  <p>
+  <p>
+    See the <a href="https://events.linuxfoundation.org/sel4-summit/program/schedule/">Schedule</a> on LF Events.
+  </p>
+</div>
+
+
+<div class="summit_div">
+  <h3 id="summit-program">
+    Program & Abstracts
+  </h3>
+  <p>
+    Check out the summit <a href="program">Program</a> and <a href="abstracts2024">Abstracts</a> for our list of speakers and presentations.
+  </p>
+  <p>
+  <p>
+    See the <a href="https://events.linuxfoundation.org/sel4-summit/program/schedule/">Schedule</a> on LF Events.
+  </p>
+</div>
+
 
 <div class="summit_div">
   <h3 id="summit-keynote-speakers">
@@ -237,15 +267,6 @@
     </div>
 </div>
 
-<div class="summit_div">
-  <h3 id="summit-program">
-    Program
-  </h3>
-  <p>
-    Check out the preliminary summit <a href="program">Program</a> for our list of speakers and presentations. Abstracts to follow. Stay tuned!
-  </p>
-</div>
-
 
 <div class="summit_div">
   <h3 id="summit-training-day">
@@ -257,11 +278,18 @@
   <p>
     <a href="https://www.learningenvironments.unsw.edu.au/physical-spaces/electrical-engineering-bldg/k-g17-g10-electrical-engineering-g10">Room G10 in the Electrical Engineering</a>
   </p>
+  <h4>Register for training</h4>
+  <p>
+    Training day @UNSW is free, but please <span class="highlight"> register <a href="">here <mark>(add link to jotform)</mark></a> by 15 September 2024 </span>so that we can account for numbers.
+  </p>
   <div>
-    <h4 style="padding-top:20px">Using Lions OS (time TBC)</h4>
+    <h4 id="a-lions" style="padding-top:20px">Using Lions OS</h4>
     <p>
       <span class="summit-abstract-presenter">Ivan Velickovic</span>,
       <span class="summit-abstract-affiliation">UNSW Sydney</span>
+    </p>
+    <p>
+      10:00 - 12:30
     </p>
     <p>
       LionsOS is a new Operating Systems developed at Trustworthy Systems aimed at embedded, IoT, and cyberphysical systems. LionsOS is based on the seL4 Microkit and is desgined to formally verifiable, performant, and adaptable to a wide class of use-cases.
@@ -272,12 +300,18 @@
     <p>
       This hands-on tutorial aims to ease people into creating a LionsOS-based system. We will be using the components and tools provided by LionsOS to, step-by-step, transform a minimal boilerplate system to a functional system involving various drivers, virtual machines and other components.
     </p>
+    <p>
+      See the training in the <a href="program#p-lions">program</a>.
+    </p>
   </div>
   <div>
-    <h4 style="padding-top:20px">Rust Support in seL4 Userspace (time TBC)</h4>
+    <h4 id="a-rust" style="padding-top:20px">Rust Support in seL4 Userspace</h4>
     <p>
       <span class="summit-abstract-presenter">Nick Spinale</span>,
       <span class="summit-abstract-affiliation">Colias Group, LLC</span>
+    </p>
+    <p>
+      13:30 - 16:00
     </p>
     <p>
       <a href="https://www.rust-lang.org/">
@@ -290,18 +324,12 @@
     <p>
       The work allows developers to write safer user-level code on top of seL4 without needing full formal verification, with a language that is receiving increasing interest and that aligns extremely well with security and safety critical embedded systems programming. This tutorial       will cover a demo system that uses the device driver framework, asynchronous programming in Rust and library support from the Rust ecosystem to implement a small web server.
     </p>
+    <p>
+      See the training in the <a href="program#p-rust">program</a>.
+    </p>
   </div>
 </div>
 
-
-<div class="summit_div">
-  <h3 id="summit-cfp">
-    Submissions and Call for Presentations
-  </h3>
-  <p>
-    Share your seL4 work, experience and thoughts at the seL4 summit 2024 in Sydney by submitting a presentation proposal by <s>22 April 2024</s> 29 April 2024. Find all the submission information in the <a href="cfp">Call for Presentations</a>.
-  </p>
-</div>
 
 <div class="summit_div">
   <h3 id="summit-pc">
@@ -493,7 +521,7 @@
     <div class="sponsor-info">Bronze sponsor
     </div>
   </div>
-    <div class="sponsor">
+  <div class="sponsor">
     <div class="sponsor-pic">
       <a href="https://unsw.edu.au">
         <img src="../../Membership/LOGOS/UNSW.svg" style="width: 150px"
@@ -502,6 +530,34 @@
     </div>
     <div class="sponsor-name">
       UNSW Sydney
+    </div>
+    <div class="sponsor-info">Bronze sponsor
+  </div>
+  </div>
+</div>
+<div class="sponsors" style="padding-bottom: 20px">
+  <div class="sponsor">
+    <div class="sponsor-pic">
+      <a href="https://www.tii.ae/">
+        <img src="../../Membership/LOGOS/TII.jpg" style="width: 150px"
+            alt="TII logo">
+      </a>
+    </div>
+    <div class="sponsor-name">
+      TII
+    </div>
+    <div class="sponsor-info">Bronze sponsor
+  </div>
+  </div>
+  <div class="sponsor">
+    <div class="sponsor-pic">
+      <a href="https://www.collinsaerospace.com">
+        <img src="../../Membership/LOGOS/Collins_Aerospace_Logo.svg" style="width: 150px"
+            alt="Collins Aerospace logo">
+      </a>
+    </div>
+    <div class="sponsor-name">
+      Collins Aerospace
     </div>
     <div class="sponsor-info">Bronze sponsor
     </div>
