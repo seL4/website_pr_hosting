@@ -10,18 +10,19 @@
   <description>News feed about seL4, the seL4 Foundation, and the seL4 ecosystem.</description>
   <link rel="alternate">https://sel4.github.io/website_pr_hosting/PR_462/news/</link>
   <link rel="self">https://sel4.github.io/website_pr_hosting/PR_462/feed.xml</link>
-  <updated>Wed, 30 Apr 2025 06:32:54 +0000</updated>
+  <updated>Fri, 02 May 2025 00:00:00 +0000</updated>
   <rights>Copyright 2025 seL4 Foundation</rights>
   <entry>
     <title>Welcome Collins, Bronze sponsor of the seL4 Summit 2025</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_462/news/2025.html#summit-collins"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_462/news/2025.html#summit-collins</id>
-    <published>Wed, 30 Apr 2025 06:32:54 +0000</published>
-    <updated>Wed, 30 Apr 2025 06:32:54 +0000</updated>
+    <published>Fri, 02 May 2025 00:00:00 +0000</published>
+    <updated>Fri, 02 May 2025 00:00:00 +0000</updated>
     <content type="html">
       &lt;p&gt;
   The seL4 Foundation thanks &lt;a href=&quot;https://www.collinsaerospace.com&quot;&gt;Collins
-  Aerospace&lt;/a&gt; for becoming a Bronze sponsor of the seL4 Summit 2025.
+  Aerospace&lt;/a&gt; for becoming a sponsor of the seL4 Summit 2025. Collins
+  Aerospace has generously sponsored the seL4 summit every year since 2023.
 &lt;/p&gt;
 &lt;p&gt;
   &lt;a href=&quot;https://www.collinsaerospace.com&quot;&gt;Collins Aerospace&lt;/a&gt;, part of seL4
