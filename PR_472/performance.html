@@ -6,7 +6,7 @@
     <title>Performance | seL4</title>
     <meta name="author" content="seL4 Foundation">
     <link rel="canonical" href="https://sel4.github.io/website_pr_hosting/PR_472/performance.html">
-    <link href="/website_pr_hosting/PR_472/css/sel4.css?v=1747783651" rel="stylesheet">
+    <link href="/website_pr_hosting/PR_472/css/sel4.css?v=1750211439" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -196,19 +196,30 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="drop-icon">
   <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/>
 </svg>
-  </a>
-  <div class="menu-one-col dropmenu">
-    <div class="p-4">
+  </a><div class="absolute -left-14 top-full z-10 mt-4 flex w-screen max-w-max px-4 transition ease-in-out duration-200 dropmenu">
+    <div class="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white dark:bg-darkblue text-sm leading-6 shadow-lg ring-1 ring-gray-900/5 dark:ring-gray-100/20 lg:max-w-3xl">
+      <div class="grid grid-cols-1 gap-x-6 gap-y-1 p-4 lg:grid-cols-2">
 <div class="group menu-item-group">
+          <div class="menu-icon-div"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="menu-icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z"/>
+</svg></div>
+          <div>
+            <a href="/website_pr_hosting/PR_472/Contribute/" class="font-semibold text-dark">
+              Overview
+              <span class="absolute inset-0"></span>
+            </a>
+            <p class="mt-1 text-light">Overview of contribution guidelines and processes</p>
+          </div>
+        </div><div class="group menu-item-group">
           <div class="menu-icon-div"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="menu-icon">
   <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"/>
 </svg></div>
           <div>
-            <a href="/website_pr_hosting/PR_472/Contribute/" class="font-semibold text-dark">
+            <a href="/website_pr_hosting/PR_472/Contribute/guidelines.html" class="font-semibold text-dark">
               Contribution Guidelines
               <span class="absolute inset-0"></span>
             </a>
-            <p class="mt-1 text-light">Overview on how to contribute to seL4</p>
+            <p class="mt-1 text-light">Guidelines on how to contribute to the seL4 ecosystem</p>
           </div>
         </div><div class="group menu-item-group">
           <div class="menu-icon-div"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="menu-icon">
@@ -266,7 +277,7 @@
             <p class="mt-1 text-light">Contributors, Reviewers, Committers, TSC</p>
           </div>
         </div>
-      </div>
+      </div></div>
   </div>
 </div><div class="relative">
   <a class="dropbtn" aria-expanded="false" href="#">
@@ -481,6 +492,8 @@
 </svg>
             </button>
             <div class="mobile-menu hidden"><a href="/website_pr_hosting/PR_472/Contribute/" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-dark hover:bg-gray-50 dark:hover:bg-slate-800"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="inline-icon mr-2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z"/>
+</svg> Overview</a><a href="/website_pr_hosting/PR_472/Contribute/guidelines.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-dark hover:bg-gray-50 dark:hover:bg-slate-800"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="inline-icon mr-2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"/>
 </svg> Contribution Guidelines</a><a href="/website_pr_hosting/PR_472/Contribute/conduct.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-dark hover:bg-gray-50 dark:hover:bg-slate-800"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="inline-icon mr-2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/>
@@ -659,21 +672,21 @@ the format <em>mean (std dev)</em>, both rounded to the nearest integer.</p>
           <td class="data-stddev">(2)</td>
           <td class="data-mean">334</td>
           <td class="data-stddev">(2)</td>
-          <td class="data-mean">853</td>
-          <td class="data-stddev">(16)</td>
+          <td class="data-mean">856</td>
+          <td class="data-stddev">(14)</td>
         </tr>
         <tr>
           <td>x86_64</td>
           <td class="data-table-right">64</td>
           <td>i7-4770/Haswell</td>
           <td class="data-table-right">3.4 GHz</td>
-          <td class="data-mean">1582</td>
-          <td class="data-stddev">(248)</td>
-          <td class="data-mean">582</td>
-          <td class="data-stddev">(13)</td>
-          <td class="data-mean">601</td>
+          <td class="data-mean">1597</td>
+          <td class="data-stddev">(253)</td>
+          <td class="data-mean">593</td>
           <td class="data-stddev">(14)</td>
-          <td class="data-mean">1334</td>
+          <td class="data-mean">593</td>
+          <td class="data-stddev">(14)</td>
+          <td class="data-mean">1332</td>
           <td class="data-stddev">(9)</td>
         </tr>
         <tr>
@@ -681,42 +694,42 @@ the format <em>mean (std dev)</em>, both rounded to the nearest integer.</p>
           <td class="data-table-right">64</td>
           <td>i7-6700/Skylake<sup>*</sup></td>
           <td class="data-table-right">3.4 GHz</td>
-          <td class="data-mean">1489</td>
-          <td class="data-stddev">(191)</td>
-          <td class="data-mean">387</td>
-          <td class="data-stddev">(4)</td>
-          <td class="data-mean">382</td>
-          <td class="data-stddev">(2)</td>
+          <td class="data-mean">1496</td>
+          <td class="data-stddev">(194)</td>
+          <td class="data-mean">386</td>
+          <td class="data-stddev">(3)</td>
+          <td class="data-mean">379</td>
+          <td class="data-stddev">(3)</td>
           <td class="data-mean">767</td>
-          <td class="data-stddev">(6)</td>
+          <td class="data-stddev">(9)</td>
         </tr>
         <tr>
           <td>Armv8a</td>
           <td class="data-table-right">64</td>
           <td>A57/Tx1/Jetson</td>
           <td class="data-table-right">1.9 GHz</td>
-          <td class="data-mean">735</td>
-          <td class="data-stddev">(6)</td>
-          <td class="data-mean">404</td>
+          <td class="data-mean">736</td>
+          <td class="data-stddev">(7)</td>
+          <td class="data-mean">403</td>
           <td class="data-stddev">(6)</td>
           <td class="data-mean">416</td>
           <td class="data-stddev">(0)</td>
-          <td class="data-mean">880</td>
-          <td class="data-stddev">(6)</td>
+          <td class="data-mean">886</td>
+          <td class="data-stddev">(11)</td>
         </tr>
         <tr>
           <td>RV64IMAC</td>
           <td class="data-table-right">64</td>
           <td>U54-MC/SiFive Freedom U540/Hifive</td>
           <td class="data-table-right">1.5 GHz</td>
-          <td class="data-mean">1029</td>
-          <td class="data-stddev">(84)</td>
-          <td class="data-mean">793</td>
-          <td class="data-stddev">(72)</td>
-          <td class="data-mean">829</td>
-          <td class="data-stddev">(64)</td>
-          <td class="data-mean">1514</td>
-          <td class="data-stddev">(63)</td>
+          <td class="data-mean">1006</td>
+          <td class="data-stddev">(33)</td>
+          <td class="data-mean">766</td>
+          <td class="data-stddev">(19)</td>
+          <td class="data-mean">850</td>
+          <td class="data-stddev">(85)</td>
+          <td class="data-mean">1516</td>
+          <td class="data-stddev">(88)</td>
         </tr>
       </tbody>
     </table>
@@ -748,70 +761,70 @@ the format <em>mean (std dev)</em>, both rounded to the nearest integer.</p>
           <td class="data-table-right">32</td>
           <td>A9/i.MX6/Sabre</td>
           <td class="data-table-right">1.0 GHz</td>
-          <td class="data-mean">775</td>
-          <td class="data-stddev">(13)</td>
+          <td class="data-mean">827</td>
+          <td class="data-stddev">(15)</td>
           <td class="data-mean">325</td>
-          <td class="data-stddev">(1)</td>
-          <td class="data-mean">364</td>
           <td class="data-stddev">(2)</td>
-          <td class="data-mean">1146</td>
-          <td class="data-stddev">(11)</td>
+          <td class="data-mean">363</td>
+          <td class="data-stddev">(2)</td>
+          <td class="data-mean">1186</td>
+          <td class="data-stddev">(12)</td>
         </tr>
         <tr>
           <td>x86_64</td>
           <td class="data-table-right">64</td>
           <td>i7-4770/Haswell</td>
           <td class="data-table-right">3.4 GHz</td>
-          <td class="data-mean">1968</td>
-          <td class="data-stddev">(426)</td>
-          <td class="data-mean">595</td>
-          <td class="data-stddev">(18)</td>
-          <td class="data-mean">605</td>
+          <td class="data-mean">2022</td>
+          <td class="data-stddev">(399)</td>
+          <td class="data-mean">594</td>
+          <td class="data-stddev">(14)</td>
+          <td class="data-mean">603</td>
           <td class="data-stddev">(11)</td>
-          <td class="data-mean">1574</td>
-          <td class="data-stddev">(12)</td>
+          <td class="data-mean">1501</td>
+          <td class="data-stddev">(18)</td>
         </tr>
         <tr>
           <td>x86_64</td>
           <td class="data-table-right">64</td>
           <td>i7-6700/Skylake<sup>*</sup></td>
           <td class="data-table-right">3.4 GHz</td>
-          <td class="data-mean">1757</td>
-          <td class="data-stddev">(352)</td>
-          <td class="data-mean">388</td>
-          <td class="data-stddev">(3)</td>
+          <td class="data-mean">1835</td>
+          <td class="data-stddev">(346)</td>
+          <td class="data-mean">380</td>
+          <td class="data-stddev">(2)</td>
           <td class="data-mean">414</td>
           <td class="data-stddev">(7)</td>
-          <td class="data-mean">1053</td>
-          <td class="data-stddev">(12)</td>
+          <td class="data-mean">1058</td>
+          <td class="data-stddev">(10)</td>
         </tr>
         <tr>
           <td>Armv8a</td>
           <td class="data-table-right">64</td>
           <td>A57/Tx1/Jetson</td>
           <td class="data-table-right">1.9 GHz</td>
-          <td class="data-mean">941</td>
-          <td class="data-stddev">(105)</td>
-          <td class="data-mean">413</td>
-          <td class="data-stddev">(0)</td>
-          <td class="data-mean">431</td>
-          <td class="data-stddev">(3)</td>
-          <td class="data-mean">1022</td>
-          <td class="data-stddev">(8)</td>
+          <td class="data-mean">919</td>
+          <td class="data-stddev">(59)</td>
+          <td class="data-mean">415</td>
+          <td class="data-stddev">(6)</td>
+          <td class="data-mean">430</td>
+          <td class="data-stddev">(6)</td>
+          <td class="data-mean">1054</td>
+          <td class="data-stddev">(11)</td>
         </tr>
         <tr>
           <td>RV64IMAC</td>
           <td class="data-table-right">64</td>
           <td>U54-MC/SiFive Freedom U540/Hifive</td>
           <td class="data-table-right">1.5 GHz</td>
-          <td class="data-mean">3370</td>
-          <td class="data-stddev">(120)</td>
-          <td class="data-mean">700</td>
-          <td class="data-stddev">(65)</td>
-          <td class="data-mean">733</td>
-          <td class="data-stddev">(46)</td>
-          <td class="data-mean">4217</td>
-          <td class="data-stddev">(177)</td>
+          <td class="data-mean">3390</td>
+          <td class="data-stddev">(119)</td>
+          <td class="data-mean">704</td>
+          <td class="data-stddev">(85)</td>
+          <td class="data-mean">745</td>
+          <td class="data-stddev">(41)</td>
+          <td class="data-mean">4067</td>
+          <td class="data-stddev">(101)</td>
         </tr>
       </tbody>
     </table>
@@ -941,7 +954,7 @@ docker file repository</a></p>
 
 <div class="theprose mx-auto pb-20">
 <h2>Source Code</h2>
-<p>This page was generated on 2025-05-20 for sel4bench-manifest <a href="https://github.com/seL4/sel4bench-manifest/blob/f7540c0d/default.xml">f7540c0d</a>.</p>
+<p>This page was generated on 2025-06-18 for sel4bench-manifest <a href="https://github.com/seL4/sel4bench-manifest/blob/b1a3142c/default.xml">b1a3142c</a>.</p>
 </div>
 
 
