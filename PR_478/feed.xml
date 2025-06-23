@@ -13,7 +13,7 @@
   <updated>Mon, 23 Jun 2025 00:00:00 +0000</updated>
   <rights>Copyright 2025 seL4 Foundation</rights>
   <entry>
-    <title>The seL4 Summit Program is available</title>
+    <title>The seL4 Summit 2025 Program and Keynotes</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_478/news/2025.html#summit-program-2025"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_478/news/2025.html#summit-program-2025</id>
     <published>Mon, 23 Jun 2025 00:00:00 +0000</published>
@@ -21,10 +21,10 @@
     <content type="html">
       &lt;p&gt;
   Have a look at the &lt;a href=&quot;../Summit/2025/program.html&quot;&gt;program&lt;/a&gt; of the &lt;a
-    href=&quot;../Summit/2025&quot;&gt;seL4 Summit 2025&lt;/a&gt;.
-  We have a great line-up of interesting seL4 work, with a combination of
-  technical research and development, experience reports of seL4 in the field,
-  technical discussions and birds-of-a-feather sessions.
+  href=&quot;../Summit/2025&quot;&gt;seL4 Summit 2025&lt;/a&gt;. We have a great line-up of
+  interesting seL4 work, with a combination of technical research and
+  development, experience reports of seL4 in the field, technical discussions
+  and birds-of-a-feather sessions.
 &lt;/p&gt;
 
 &lt;div class=&quot;w-full md:w-3/4 lg:w-3/4 mt-8 mx-auto aspect-5/2&quot;&gt;
@@ -461,9 +461,59 @@
 &lt;/div&gt;
 
 &lt;p class=&quot;text-center&quot;&gt;
-  Program at a glance. Go to the &lt;a href=&quot;../Summit/2025/program.html&quot;&gt;full program&lt;/a&gt;.&lt;br&gt;&lt;br&gt;
+  Program at a glance. Go to the &lt;a href=&quot;../Summit/2025/program.html&quot;&gt;full
+  program&lt;/a&gt;.
 &lt;/p&gt;
 
+&lt;h3&gt;Keynotes&lt;/h3&gt;
+&lt;p&gt;
+  We are pleased to announce that the two keynotes for the &lt;a
+  href=&quot;../Summit/2025&quot;&gt;seL4 Summit 2025&lt;/a&gt;
+  will be &lt;strong&gt;&lt;a
+  href=&quot;https://www.cs.ksu.edu/about/people/faculty/hatcliff/&quot;&gt;John
+  Hatcliff&lt;/a&gt;&lt;/strong&gt; from
+  &lt;strong&gt;&lt;a href=&quot;https://www.k-state.edu/&quot;&gt;Kansas State
+  University&lt;/a&gt;&lt;/strong&gt; and
+  &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/sebastianjester/&quot;&gt;Sebastian
+  Jester&lt;/a&gt;&lt;/strong&gt; from
+  &lt;strong&gt;&lt;a href=&quot;https://www.cyberagentur.de/&quot;&gt;Cyberagentur&lt;/a&gt;&lt;/strong&gt;. John
+  will talk about &lt;a
+  href=&quot;../Summit/2025/abstracts2025.html#a-model-based&quot;&gt;Model-based Development
+  for seL4 Microkit/Rust with Integrated Formal Methods using HAMR)&lt;/a&gt;
+  and Sebastian about &lt;a
+  href=&quot;../Summit/2025/abstracts2025.html#a-cyberagentur&quot;&gt;Formally verified IT –
+  Germany’s next cybersecurity paradigm&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p class=&quot;pt-6&quot;&gt;
+  &lt;img src=&quot;../images/summit/john-h-square.jpg&quot; class=&quot;float-right rounded-xl
+  w-1/3 ml-6 mt-0&quot; alt=&quot;Photo of John Hatcliff&quot;&gt;
+  &lt;strong&gt;Dr. John Hatcliff&lt;/strong&gt; is a University Distinguished Professor and
+  Lucas-Rathbone Professor of  Engineering at Kansas State University working in
+  the areas of safety-critical systems, software  architectures, and software
+  verification and certification. He leads the Laboratory on Specification,
+  Analysis, and Transformation of Software (SAnToS Lab), whose research has been
+  funded by national  funding agencies and companies including Department of
+  Defense, National Science Foundation,  DARPA, Department of Homeland Security,
+  US Army, NASA, NIH, ARO, Air Force Office of Scientific  Research, SEI,
+  Collins Aerospace, Galois, and Lockheed Martin.
+&lt;/p&gt;
+&lt;p class=&quot;pt-6&quot;&gt;
+  &lt;img src=&quot;../images/summit/cyberagentur-avatar.svg&quot; class=&quot;float-right
+  rounded-xl w-1/3 ml-6 mt-0&quot; alt=&quot;Cyberagentur avatar&quot;&gt;
+  &lt;strong&gt;Sebastian Jester&lt;/strong&gt; is Head of Secure Hardware and Supply Chains
+  at the Agentur für Innovation in der Cybersicherheit (Cyberagentur), which he
+  joined in 2022. He is on leave from Germany’s Federal Ministry of Research,
+  Technology and Space, latterly responsible for microelectronics R&amp;D policy at
+  the national and EU level. He holds a doctorate in astronomy from the
+  University of Heidelberg and a Master of Physics from the University of
+  Oxford. The &lt;a href=&quot;https://www.cyberagentur.de/en/&quot;&gt;Cyberagentur&lt;/a&gt; funds
+  high-risk research and development projects with a high disruptive potential
+  in the field of cybersecurity. The Cyberagentur’s goal is to advance internal
+  and external security and technological sovereignty. It was created in 2020 by
+  the German Federal Government and is funded by the Federal Ministry of Defence
+  and the Federal Ministry of the Interior and Home Affairs. The Cyberagentur is
+  an associate member of the seL4 Foundation.
+&lt;/p&gt;
     </content>
   </entry>
   <rights>Copyright 2025 seL4 Foundation</rights>
