@@ -21,21 +21,20 @@
     <content type="html">
       &lt;p&gt;
   We are excited to announce the launch of the new &lt;a
-  href=&quot;https://docs.sel4.systems/&quot;&gt;seL4 docsite&lt;/a&gt;! The redesigned site
-  provides a new structure and layout, is simple and uncluttered with easier
-  access to information, and is centered around the current main seL4-related
-  technologies.
+  href=&quot;https://docs.sel4.systems/&quot;&gt;seL4 docsite&lt;/a&gt;! This redesigned
+  documentation site for the main seL4-related technologies provides a new
+  structure and layout, improved navigation and access to information.
 &lt;/p&gt;
 
 &lt;p&gt;
-We will continue to make incremental updates to the docsite, as we work on
-releasing the latest documentation about the seL4 technology and associated
-frameworks, languages, components and systems.
+  The docsite content will continue to evolve with incremental updates and
+  maintenance, and we welcome contributions from the community on documentation,
+  tutorials and manuals.
 &lt;/p&gt;
 
 &lt;p&gt;
   We thank &lt;a href=&quot;https://www.ncsc.gov.uk/&quot;&gt;NCSC&lt;/a&gt; for their funding of this
-  project and also the development of the new &lt;a href=&quot;/website_pr_hosting/PR_488/&quot;&gt;seL4 website&lt;/a&gt;.
+  project, which follows their support of the development of the new &lt;a href=&quot;/website_pr_hosting/PR_488/&quot;&gt;seL4 website&lt;/a&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
