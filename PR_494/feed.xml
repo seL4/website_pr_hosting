@@ -121,6 +121,37 @@
   </entry>
   <rights>Copyright 2025 seL4 Foundation</rights>
   <entry>
+    <title>Happy seL4 day!</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_494/news/2025.html#sel4-day"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_494/news/2025.html#sel4-day</id>
+    <published>Tue, 29 Jul 2025 00:00:00 +0000</published>
+    <updated>Tue, 29 Jul 2025 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  On July 29, 2009, the last &quot;sorry&quot; of the seL4 functional correctness proof
+  was eliminated. A &quot;sorry&quot; is an assumed theorem lacking a complete proof. &quot;0
+  sorries&quot; meant there was nothing left to prove: the project was finished. We
+  now celebrate this day every year to mark the seL4 day, when the world&amp;apos;s
+  first formally verified kernel with a machine-checked code-level proof came
+  into existence.
+&lt;/p&gt;
+&lt;p&gt;
+  In July 2014, on the 29th to make the &quot;seL4 day&quot; a double-celebratory day,
+  the seL4 code and proofs became open source, paving the way to the
+  widespread &lt;a href=&quot;/website_pr_hosting/PR_494/use.html&quot;&gt;use&lt;/a&gt;
+  it enjoys today.
+&lt;/p&gt;
+&lt;p class=&quot;mt-8&quot;&gt;
+  A big thank-you to all for your continued support!
+&lt;/p&gt;
+&lt;p&gt;
+  Learn more about the &lt;a href=&quot;/website_pr_hosting/PR_494/About/history.html&quot;&gt;history&lt;/a&gt; of seL4.
+&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2025 seL4 Foundation</rights>
+  <entry>
     <title>The new seL4 docsite is live!</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_494/news/2025.html"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_494/news/2025.html</id>
@@ -637,32 +668,6 @@ infrastructure, products, projects, and people.&lt;/p&gt;
 
 &lt;p&gt;A number of informal social activities will be organised by the seL4 community
 for Tuesday 2 Sep 2025. Stay tuned for more info!&lt;/p&gt;
-
-    </content>
-  </entry>
-  <rights>Copyright 2025 seL4 Foundation</rights>
-  <entry>
-    <title>Call For Presentations for the seL4 Summit 2025</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_494/news/2025.html#summit-2025-cfp"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_494/news/2025.html#summit-2025-cfp</id>
-    <published>Mon, 17 Feb 2025 00:00:00 +0000</published>
-    <updated>Mon, 17 Feb 2025 00:00:00 +0000</updated>
-    <content type="html">
-      &lt;ul&gt;
-  &lt;li&gt;Share your seL4 work&lt;/li&gt;
-  &lt;li&gt;Share your seL4 experience&lt;/li&gt;
-  &lt;li&gt;Share your seL4 thoughts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-  Check the full &lt;a href=&quot;/website_pr_hosting/PR_494/Summit/2025/cfp.html&quot;&gt;Call For
-  Presentations&lt;/a&gt;. To propose a talk, upload an abstract of one page or less
-  by &lt;strong&gt;21 April 2025&lt;/strong&gt; to the
-  &lt;strong&gt;&lt;a href=&quot;https://form.jotform.com/250436091673861&quot;&gt;submission portal&lt;/a&gt;&lt;/strong&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-  Also note the &lt;a href=&quot;/website_pr_hosting/PR_494/Summit/2025/cfp.html#deployment&quot;&gt;open
-  invitation for a 5-minute slot to talk about your seL4 deployment.&lt;/a&gt;
-&lt;/p&gt;
 
     </content>
   </entry>
