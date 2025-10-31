@@ -2521,6 +2521,9 @@
   .h-screen {
     height: 100vh;
   }
+  .min-h-500 {
+    min-height: calc(var(--spacing) * 500);
+  }
   .w-0\.5 {
     width: calc(var(--spacing) * 0.5);
   }
