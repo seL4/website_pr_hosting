@@ -2521,8 +2521,8 @@
   .h-screen {
     height: 100vh;
   }
-  .min-h-500 {
-    min-height: calc(var(--spacing) * 500);
+  .min-h-200 {
+    min-height: calc(var(--spacing) * 200);
   }
   .w-0\.5 {
     width: calc(var(--spacing) * 0.5);
@@ -3794,6 +3794,9 @@
   .text-white {
     color: var(--color-white);
   }
+  .italic {
+    font-style: italic;
+  }
   .a-underline {
     & a {
       text-decoration-line: underline;
@@ -4357,6 +4360,11 @@
   .sm\:pt-80 {
     @media (width >= 40rem) {
       padding-top: calc(var(--spacing) * 80);
+    }
+  }
+  .sm\:pb-4 {
+    @media (width >= 40rem) {
+      padding-bottom: calc(var(--spacing) * 4);
     }
   }
   .sm\:pb-8 {
