@@ -13,19 +13,40 @@
   <updated>Fri, 07 Nov 2025 00:00:00 +0000</updated>
   <rights>Copyright 2025 seL4 Foundation</rights>
   <entry>
-    <title>Meet the co-chairs of the seL4 Summit 2026</title>
+    <title>Next summit will be in Vancouver! Meet its co-chairs</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_528/news/2025.html#summit-co-chairs"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_528/news/2025.html#summit-co-chairs</id>
     <published>Fri, 07 Nov 2025 00:00:00 +0000</published>
     <updated>Fri, 07 Nov 2025 00:00:00 +0000</updated>
     <content type="html">
       &lt;p&gt;
-  We are thrilled to announce our co-chairs, Robbie VanVossen and Lucy Fletcher,
+  We are thrilled to announce our co-chairs, Lucy Fletcher and Robbie VanVossen,
   for the seL4 summit 2026, which will be held in Vancouver, late August - early
   September (dates TBC).
 &lt;/p&gt;
 
 &lt;ul class=&quot;space-y-12 divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3&quot;&gt;
+
+
+  
+
+
+&lt;li class=&quot;flex flex-col gap-10 pb-10 sm:flex-row&quot;&gt;
+  &lt;img class=&quot;ml-0 mr-auto w-52 sm:aspect-4/5 h-52 flex-none rounded-2xl bg-white object-cover&quot;
+       src=&quot;/website_pr_hosting/PR_528/images/summit/lucy-square.jpg&quot; alt=&quot;Lucy Fletcher&quot;&gt;
+  &lt;div class=&quot;max-w-xl flex-auto&quot;&gt;
+    &lt;p class=&quot;text-lg font-semibold leading-8 tracking-tight text-dark&quot;&gt;Lucy Fletcher&lt;/p&gt;
+    &lt;p class=&quot;text-base leading-7 text-light&quot;&gt;&lt;em&gt;Software Engineer, &lt;a href=&quot;https://apple.com&quot;&gt;Apple&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+    &lt;div class=&quot;mt-6 text-base leading-7 text-light&quot;&gt;
+      Lucy Fletcher is a software engineer at Apple based in Sydney, Australia,
+    working on L4 microkernels and the surrounding ecosystems. Before joining
+    Apple, she studied Computer Science at UNSW and worked with the Trustworthy
+    Systems group, where she focused on the design and development of the seL4
+    device driver framework. Lucy is passionate about giving back to the seL4
+    community and supporting its continued growth.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
 
   
 
@@ -49,33 +70,12 @@
 &lt;/li&gt;
 
 
-    
-
-
-&lt;li class=&quot;flex flex-col gap-10 pb-10 sm:flex-row&quot;&gt;
-  &lt;img class=&quot;ml-0 mr-auto w-52 sm:aspect-4/5 h-52 flex-none rounded-2xl bg-white object-cover&quot;
-       src=&quot;/website_pr_hosting/PR_528/images/summit/lucy-square.jpg&quot; alt=&quot;Lucy Fletcher&quot;&gt;
-  &lt;div class=&quot;max-w-xl flex-auto&quot;&gt;
-    &lt;p class=&quot;text-lg font-semibold leading-8 tracking-tight text-dark&quot;&gt;Lucy Fletcher&lt;/p&gt;
-    &lt;p class=&quot;text-base leading-7 text-light&quot;&gt;&lt;em&gt;Software Engineer, &lt;a href=&quot;https://apple.com&quot;&gt;Apple&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-    &lt;div class=&quot;mt-6 text-base leading-7 text-light&quot;&gt;
-      Lucy Fletcher is a software engineer at Apple based in Sydney, Australia,
-      working on L4 microkernels and the surrounding ecosystems. Before joining
-      Apple, she studied Computer Science at UNSW and worked with the Trustworthy
-      Systems group, where she focused on the design and development of the seL4
-      device driver framework. Lucy is passionate about giving back to the seL4
-      community and supporting its continued growth.
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/li&gt;
-
-
 &lt;/ul&gt;
 
 
 &lt;div&gt;
 &lt;p&gt;
-  We look forward to welcoming the community at the seL summit 2026!
+  We look forward to welcoming the community at the seL4 summit 2026!
 &lt;/p&gt;
 &lt;/div&gt;
     </content>
