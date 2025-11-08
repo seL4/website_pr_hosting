@@ -27,18 +27,6 @@ device drivers, and virtual machines in a novel operating system
 for commodity PC hardware and the PinePhone. Sculpt is used as
 day-to-day OS by the Genode developers.&lt;/p&gt;
 
-&lt;h1 id=&quot;usually-unused&quot;&gt;usually unused:&lt;/h1&gt;
-&lt;h1 id=&quot;optional-no-forced-white-background-for-the-image&quot;&gt;optional: no forced white background for the image.&lt;/h1&gt;
-&lt;h1 id=&quot;use-for-images-with-transparent-background-that-work-in-dark-mode&quot;&gt;Use for images with transparent background that work in dark mode.&lt;/h1&gt;
-&lt;h1 id=&quot;dark-true&quot;&gt;dark: true&lt;/h1&gt;
-&lt;h1 id=&quot;optional-image-width-default-w-25&quot;&gt;optional: image width; default: w-2/5&lt;/h1&gt;
-&lt;h1 id=&quot;img_w-w-310&quot;&gt;img_w: “w-3/10”&lt;/h1&gt;
-&lt;h1 id=&quot;optional-css-class-for-the-image-overrides-darkimg_w&quot;&gt;optional: css class for the image; overrides dark/img_w;&lt;/h1&gt;
-&lt;h1 id=&quot;default-bg-white-p-6-smp-8-w-25&quot;&gt;default: “bg-white p-6 sm:p-8 w-2/5”&lt;/h1&gt;
-&lt;h1 id=&quot;img_class-w-310-p-0&quot;&gt;img_class: “w-3/10 p-0”&lt;/h1&gt;
-&lt;h1 id=&quot;optional-id-of-the-link-anchor-only-needed-for-older-items-default-mm-dd&quot;&gt;optional: id of the link anchor; only needed for older items; default: mm-dd&lt;/h1&gt;
-&lt;h1 id=&quot;anchor-big-news&quot;&gt;anchor: big-news&lt;/h1&gt;
-
     </content>
   </entry>
   <rights>Copyright 2025 seL4 Foundation</rights>
