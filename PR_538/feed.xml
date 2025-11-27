@@ -30,7 +30,7 @@ Microkit for building static-architecture systems&lt;/li&gt;
 Component Architecture for microkernel-based Embedded Systems&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/capdl/0.4.0&quot;&gt;capDL 0.4.0&lt;/a&gt;: Tools for
 generating, parsing and loading capability distribution specifications&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/seL4/rust-sel4/releases/tag/3.0.0&quot;&gt;rust-sel4 3.0.0&lt;/a&gt;: Rust
+  &lt;li&gt;&lt;a href=&quot;https://github.com/seL4/rust-sel4/releases/tag/v3.0.0&quot;&gt;rust-sel4 3.0.0&lt;/a&gt;: Rust
 support for seL4 userspace. See the Rust section on the
 &lt;a href=&quot;https://docs.sel4.systems/projects/rust/&quot;&gt;seL4 docsite&lt;/a&gt; for more
 information.&lt;/li&gt;
