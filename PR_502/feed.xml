@@ -10,7 +10,147 @@
   <description>News feed about seL4, the seL4 Foundation, and the seL4 ecosystem.</description>
   <link rel="alternate">https://sel4.github.io/website_pr_hosting/PR_502/news/</link>
   <link rel="self">https://sel4.github.io/website_pr_hosting/PR_502/feed.xml</link>
-  <updated>Wed, 06 Aug 2025 00:00:00 +0000</updated>
+  <updated>Wed, 26 Nov 2025 00:00:00 +0000</updated>
+  <rights>Copyright 2025 seL4 Foundation</rights>
+  <entry>
+    <title>New seL4 release available</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html</id>
+    <published>Wed, 26 Nov 2025 00:00:00 +0000</published>
+    <updated>Wed, 26 Nov 2025 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;We’re pleased to announce the release of&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/sel4/14.0.0&quot;&gt;seL4 14.0.0&lt;/a&gt;: The seL4
+microkernel&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/microkit/2.1.0&quot;&gt;Microkit 2.1.0&lt;/a&gt;: The seL4
+Microkit for building static-architecture systems&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/camkes/camkes-3.11.1&quot;&gt;CAmkES 3.11.1&lt;/a&gt;:
+Component Architecture for microkernel-based Embedded Systems&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/capdl/0.4.0&quot;&gt;capDL 0.4.0&lt;/a&gt;: Tools for
+generating, parsing and loading capability distribution specifications&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/seL4/rust-sel4/releases/tag/v3.0.0&quot;&gt;rust-sel4 3.0.0&lt;/a&gt;: Rust
+support for seL4 userspace. See the Rust section on the
+&lt;a href=&quot;https://docs.sel4.systems/projects/rust/&quot;&gt;seL4 docsite&lt;/a&gt; for more
+information.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;seL4 14.0.0 and the corresponding Rust support come with new features and will
+require updates if you are using the seL4 API directly. Microkit and CAmkES
+abstract those and should not require any update of user code compared to
+Microkit 2.0.1 and CAmkES 3.11.1.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2025 seL4 Foundation</rights>
+  <entry>
+    <title>Genode Sculpt runs on seL4</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html#sculpt"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html#sculpt</id>
+    <published>Sat, 08 Nov 2025 00:00:00 +0000</published>
+    <updated>Sat, 08 Nov 2025 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;Genode Labs have released &lt;a href=&quot;https://genodians.org/alex-ab/2025-11-02-sculpt-multi-kernel&quot;&gt;Sculpt
+OS 25.10&lt;/a&gt; with an (unofficial and experimental) variant running on
+seL4. Sculpt is a general-purpose OS that combines Genode&apos;s
+microkernel architecture, capability-based security, sandboxed
+device drivers, and virtual machines in a novel operating system
+for commodity PC hardware and the PinePhone. Sculpt is used as
+day-to-day OS by the Genode developers.&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2025 seL4 Foundation</rights>
+  <entry>
+    <title>Next summit will be in Vancouver! Meet its co-chairs</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html#summit-co-chairs"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html#summit-co-chairs</id>
+    <published>Fri, 07 Nov 2025 00:00:00 +0000</published>
+    <updated>Fri, 07 Nov 2025 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  We are thrilled to announce our co-chairs, Lucy Fletcher and Robbie VanVossen,
+  for the seL4 summit 2026, which will be held in Vancouver, late August - early
+  September (dates TBC).
+&lt;/p&gt;
+
+&lt;ul class=&quot;space-y-12 divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3&quot;&gt;
+
+
+  
+
+
+&lt;li class=&quot;flex flex-col gap-10 pb-10 sm:flex-row&quot;&gt;
+  &lt;img class=&quot;ml-0 mr-auto w-52 sm:aspect-4/5 h-52 flex-none rounded-2xl bg-white object-cover&quot;
+       src=&quot;/website_pr_hosting/PR_502/images/summit/lucy-square.jpg&quot; alt=&quot;Lucy Fletcher&quot;&gt;
+  &lt;div class=&quot;max-w-xl flex-auto&quot;&gt;
+    &lt;p class=&quot;text-lg font-semibold leading-8 tracking-tight text-dark&quot;&gt;Lucy Fletcher&lt;/p&gt;
+    &lt;p class=&quot;text-base leading-7 text-light&quot;&gt;&lt;em&gt;Software Engineer, &lt;a href=&quot;https://apple.com&quot;&gt;Apple&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+    &lt;div class=&quot;mt-6 text-base leading-7 text-light&quot;&gt;
+      Lucy Fletcher is a software engineer at Apple based in Sydney, Australia,
+    working on L4 microkernels and the surrounding ecosystems. Before joining
+    Apple, she studied Computer Science at UNSW and worked with the Trustworthy
+    Systems group, where she focused on the design and development of the seL4
+    device driver framework. Lucy is passionate about giving back to the seL4
+    community and supporting its continued growth.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+
+  
+
+
+&lt;li class=&quot;flex flex-col gap-10 pb-10 sm:flex-row&quot;&gt;
+  &lt;img class=&quot;ml-0 mr-auto w-52 sm:aspect-4/5 h-52 flex-none rounded-2xl bg-white object-cover&quot;
+       src=&quot;/website_pr_hosting/PR_502/images/summit/robbie.png&quot; alt=&quot;Robbie VanVossen&quot;&gt;
+  &lt;div class=&quot;max-w-xl flex-auto&quot;&gt;
+    &lt;p class=&quot;text-lg font-semibold leading-8 tracking-tight text-dark&quot;&gt;Robbie VanVossen&lt;/p&gt;
+    &lt;p class=&quot;text-base leading-7 text-light&quot;&gt;&lt;em&gt;seL4 Technical Lead, &lt;a href=&quot;https://www.dornerworks.com/&quot;&gt;DornerWorks&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+    &lt;div class=&quot;mt-6 text-base leading-7 text-light&quot;&gt;
+      Robbie VanVossen is an employee of DornerWorks, has 12 years of experience in
+    embedded hypervisors, and 10 years of experience with the seL4 microkernel.
+    His work and leadership led to the development of aarch64 virtualization
+    support across the seL4 ecosystem, both in the microkernel and the user-space
+    libraries. He has also developed multiple projects using the Rust language,
+    including embedded implementations of device drivers and applications. He has
+    strong interests in embedded security, virtualization, seL4, and Rust.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+
+
+&lt;/ul&gt;
+
+
+&lt;div&gt;
+&lt;p&gt;
+  We look forward to welcoming the community at the seL4 summit 2026!
+&lt;/p&gt;
+&lt;/div&gt;
+    </content>
+  </entry>
+  <rights>Copyright 2025 seL4 Foundation</rights>
+  <entry>
+    <title>The videos and slides of the seL4 Summit 2025 are available online</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html#summit-videos"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html#summit-videos</id>
+    <published>Wed, 17 Sep 2025 00:00:00 +0000</published>
+    <updated>Wed, 17 Sep 2025 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  Videos of the &lt;a href=&quot;/website_pr_hosting/PR_502/Summit/2025/&quot;&gt;seL4 Summit
+  2025&lt;/a&gt; are now available on the &lt;a href=&quot;https://www.youtube.com/@seL4&quot;
+  target=&quot;_blank&quot;&gt;seL4 YouTube channel&lt;/a&gt;! Links and slides can be found on the
+  summit &lt;a href=&quot;/website_pr_hosting/PR_502/Summit/2025/program.html&quot;&gt;Program&lt;/a&gt;
+  and &lt;a href=&quot;/website_pr_hosting/PR_502/Summit/2025/abstracts2025.html&quot;&gt;Abstracts&lt;/a&gt; pages. Thanks to all the speakers for making the seL4 Summit
+  2025 a great &lt;a href=&quot;/website_pr_hosting/PR_502/Summit/2025/#gallery&quot;&gt;success!&lt;/a&gt;
+&lt;/p&gt;
+
+    </content>
+  </entry>
   <rights>Copyright 2025 seL4 Foundation</rights>
   <entry>
     <title>Thank you Riverside Research, sponsor of the seL4 Summit 2025 reception</title>
@@ -519,147 +659,6 @@
   the German Federal Government and is funded by the Federal Ministry of Defence
   and the Federal Ministry of the Interior. The Cyberagentur is
   an associate member of the seL4 Foundation.
-&lt;/p&gt;
-
-    </content>
-  </entry>
-  <rights>Copyright 2025 seL4 Foundation</rights>
-  <entry>
-    <title>Thank you Proofcraft, Silver sponsor of the seL4 Summit 2025</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html#sponsor25-proofcraft"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html#sponsor25-proofcraft</id>
-    <published>Wed, 21 May 2025 00:00:00 +0000</published>
-    <updated>Wed, 21 May 2025 00:00:00 +0000</updated>
-    <content type="html">
-      &lt;p&gt;
-  The seL4 Foundation thanks &lt;a href=&quot;https://proofcraft.systems&quot;&gt;Proofcraft&lt;/a&gt;
-  for becoming a Silver sponsor of the &lt;a href=&quot;../Summit/2025&quot;&gt;seL4
-  Summit 2025&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-  Founded by the seL4 verification leaders, &lt;a
-  href=&quot;https://proofcraft.systems&quot;&gt;Proofcraft&lt;/a&gt; offers commercial support
-  and projects in formal verification in general, and involving seL4
-  specifically. By applying mathematical machine-checked software verification,
-  Proofcraft increases critical software systems&apos; reliability, safety and
-  security, for a verified future.
-&lt;/p&gt;
-&lt;p&gt;
-  See &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/sponsor/&quot;&gt;here&lt;/a&gt;
-  if you are interested in sponsoring the  &lt;a href=&quot;../Summit/2025&quot;&gt;seL4 Summit
-    2025&lt;/a&gt;.
-&lt;/p&gt;
-
-    </content>
-  </entry>
-  <rights>Copyright 2025 seL4 Foundation</rights>
-  <entry>
-    <title>Thank you UNSW, Bronze sponsor of the seL4 Summit 2025</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html#sponsor25-unsw"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html#sponsor25-unsw</id>
-    <published>Mon, 19 May 2025 00:00:00 +0000</published>
-    <updated>Mon, 19 May 2025 00:00:00 +0000</updated>
-    <content type="html">
-      &lt;p&gt;
-  The seL4 Foundation thanks &lt;a href=&quot;https://unsw.edu.au&quot;&gt;UNSW Sydney&lt;/a&gt; for
-  becoming a Bronze sponsor of the &lt;a href=&quot;../Summit/2025&quot;&gt;seL4
-  Summit 2025&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-  seL4 was created by the &lt;a href=&quot;https://trustworthy.systems/&quot;&gt;Trustworthy
-  Systems (TS)&lt;/a&gt; team, which is now part of the &lt;a
-  href=&quot;https://unsw.edu.au&quot;&gt;UNSW&lt;/a&gt;, a founding member of the seL4 Foundation.
-&lt;/p&gt;
-&lt;p&gt;
-  The team has a track record of designing and implementing systems software for
-  performance and reliability, and using rigorous formal methods to prove that
-  they meet their security and reliability goals. Their aims are to:
-&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;shift the software industry away from ad-hoc, unreliable engineering
-  practices, and towards more principled and trustworthy methods; and&lt;/li&gt;
-  &lt;li&gt;make verified software a default choice, especially in safety- and
-  security-critical systems.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-  The team works with government and commercial partners, as well as the broader
-  software engineering community, to drive this change.
-&lt;/p&gt;
-&lt;p&gt;
-  See &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/sponsor/&quot;&gt;here&lt;/a&gt;
-  if you are interested in sponsoring the &lt;a href=&quot;../Summit/2025&quot;&gt;seL4 Summit
-    2025&lt;/a&gt;.
-&lt;/p&gt;
-
-    </content>
-  </entry>
-  <rights>Copyright 2025 seL4 Foundation</rights>
-  <entry>
-    <title>Thank you Collins, Bronze sponsor of the seL4 Summit 2025</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html#summit-collins"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html#summit-collins</id>
-    <published>Fri, 02 May 2025 00:00:00 +0000</published>
-    <updated>Fri, 02 May 2025 00:00:00 +0000</updated>
-    <content type="html">
-      &lt;p&gt;
-  The seL4 Foundation thanks &lt;a href=&quot;https://www.collinsaerospace.com&quot;&gt;Collins
-  Aerospace&lt;/a&gt; for becoming a sponsor of the seL4 Summit 2025. Collins
-  Aerospace has generously sponsored the seL4 summit every year since 2023.
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;a href=&quot;https://www.collinsaerospace.com&quot;&gt;Collins Aerospace&lt;/a&gt;, part of seL4
-  Foundation member &lt;a href=&quot;https://www.rtx.com&quot;&gt;RTX&lt;/a&gt;, has been a long-time
-  core participant in the seL4 ecosystem. Collins was a prime contractor in the
-  DARPA HACMS program which demonstrated the seL4-based incremental cyber
-  retrofit of autonomous military vehicles. This was a major milestone in the
-  growth of seL4, demonstrating that it protects against cyber attacks on real
-  systems in operation. The same team also led the follow-on DARPA CASE program,
-  aiming at designed-in cyber-resiliency, including the seL4-based framework for
-  verified initialisation and configuration of systems architectures.
-&lt;/p&gt;
-&lt;p&gt;
-  Collins Aerospace is now leading a team on the DARPA PROVERS program which has
-  a goal of enhancing the security of defense and aerospace systems by
-  dramatically improving the usability, flexibility, and accessibility of formal
-  methods-based development and verification tools, and targeting seL4 as an
-  implementation platform.
-&lt;/p&gt;
-&lt;p&gt;
-  See &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/sponsor/&quot;&gt;here&lt;/a&gt;
-  if you are interested in sponsoring the &lt;a href=&quot;../Summit/2025&quot;&gt;seL4 Summit
-  2025&lt;/a&gt;.
-&lt;/p&gt;
-    </content>
-  </entry>
-  <rights>Copyright 2025 seL4 Foundation</rights>
-  <entry>
-    <title>The new seL4 website is live!</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_502/news/2025.html</id>
-    <published>Mon, 28 Apr 2025 00:00:00 +0000</published>
-    <updated>Mon, 28 Apr 2025 00:00:00 +0000</updated>
-    <content type="html">
-      &lt;p&gt;
-  We are excited to announce the launch of the new seL4 website! The redesigned
-  site is streamlined for easy access and navigation, with updated content
-  accessible to a broader audience, and new material expanding the scope of
-  topics and information related to seL4 and its ecosystem.
-&lt;/p&gt;
-
-&lt;p&gt;
-  We thank &lt;a href=&quot;https://www.ncsc.gov.uk/&quot;&gt;NCSC&lt;/a&gt; for their funding of this
-  project, &lt;a href=&quot;https://proofcraft.systems&quot;&gt;Proofcraft&lt;/a&gt; and &lt;a href=&quot;/website_pr_hosting/PR_502/Foundation&quot;&gt;the seL4 Foundation&lt;/a&gt; for its execution,
-  and the community members who provided input and feedback throughout the
-  project.
-&lt;/p&gt;
-
-&lt;p&gt;
-  Stay tuned for the revamp of the &lt;a href=&quot;https://docs.sel4.systems&quot;&gt;seL4
-  docsite&lt;/a&gt;.
-&lt;/p&gt;
-
-&lt;p&gt;
-  We welcome your feedback and we hope you enjoy the new site!
 &lt;/p&gt;
 
     </content>
