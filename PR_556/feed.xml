@@ -19,7 +19,7 @@
     <published>Fri, 20 Feb 2026 00:00:00 +0000</published>
     <updated>Fri, 20 Feb 2026 00:00:00 +0000</updated>
     <content type="html">
-      &lt;p&gt;We have an exciting new program for 2026! A full first day dedicated to applications, overviews, and perspectives on seL4-based systems and formally verified software in the real world. Followed by two days of technical talks and discussion on development, research, and experience reports.&lt;/p&gt;
+      &lt;p&gt;We have an exciting new format for 2026! A full first day dedicated to applications, overviews, and perspectives on seL4-based systems and formally verified software in the real world. Followed by two days of technical talks and discussion on development, research, and experience reports.&lt;/p&gt;
 
 &lt;p&gt;If you’re new to seL4 or still developing your familiarity with the technology, this is an ideal opportunity to get a high-level view of the landscape and ecosystem.&lt;/p&gt;
 
@@ -34,7 +34,7 @@
   &lt;li&gt;technical progress, updates, breakthroughs.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;And join us for one of the informal &lt;mark&gt;[social activities](TODO: link)&lt;/mark&gt; on Monday 31 August 2026, for a fun gathering before the event starts!&lt;/p&gt;
+&lt;p&gt;And join us for one of the informal &lt;a href=&quot;../Summit/2026/program.html#social&quot;&gt;social activities&lt;/a&gt; on Monday 31 August 2026, for a fun gathering before the event starts!&lt;/p&gt;
 
 &lt;p&gt;If you have any cool work/idea/project/product related to seL4, don’t forget to submit a &lt;a href=&quot;../Summit/2026/cfp.html&quot;&gt;talk proposal&lt;/a&gt;.&lt;/p&gt;
 
