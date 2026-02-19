@@ -10,14 +10,14 @@
   <description>News feed about seL4, the seL4 Foundation, and the seL4 ecosystem.</description>
   <link rel="alternate">https://sel4.github.io/website_pr_hosting/PR_556/news/</link>
   <link rel="self">https://sel4.github.io/website_pr_hosting/PR_556/feed.xml</link>
-  <updated>Fri, 20 Feb 2026 00:00:00 +0000</updated>
+  <updated>Mon, 23 Feb 2026 00:00:00 +0000</updated>
   <rights>Copyright 2026 seL4 Foundation</rights>
   <entry>
     <title>Registration open for the seL4 summit 2026</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_556/news/2026.html"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_556/news/2026.html</id>
-    <published>Fri, 20 Feb 2026 00:00:00 +0000</published>
-    <updated>Fri, 20 Feb 2026 00:00:00 +0000</updated>
+    <published>Mon, 23 Feb 2026 00:00:00 +0000</published>
+    <updated>Mon, 23 Feb 2026 00:00:00 +0000</updated>
     <content type="html">
       &lt;p&gt;We have an exciting new format for 2026! A full first day dedicated to applications, overviews, and perspectives on seL4-based systems and formally verified software in the real world. Followed by two days of technical talks and discussion on development, research, and experience reports.&lt;/p&gt;
 
