@@ -64,13 +64,14 @@
   Woodmand&lt;/a&gt;, Board Member of the Erlang Ecosystem Foundation, who will share
   his insights on the European Cyber Resiliency Act and implications for open
   source software. Details coming soon!
+&lt;/p&gt;
 &lt;div class=&quot;grid grid-rows-1 w-2/3 sm:grid-cols-2 gap-10 mt-5&quot;&gt;
 &lt;div&gt;
-  &lt;p&gt;
+  &lt;&gt;
     &lt;img src=&quot;../images/summit/david-square.jpg&quot; class=&quot;rounded-xl w-full ml-1
     mt-0&quot; alt=&quot;Photo of David Hardin&quot;&gt;
     &lt;strong&gt;&lt;a href=&quot;https://loonwerks.com/people/david-hardin.html&quot;&gt;David
-    Hardin&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;Associate Director of Systems Engineering at
+    Hardin&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;Associate Director of Systems Engineering at
     Collins Aerospace.
   &lt;/p&gt;
   &lt;/div&gt;
