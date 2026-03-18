@@ -22,8 +22,7 @@
       &lt;h3&gt;Keynotes&lt;/h3&gt;
 &lt;p&gt;
   We are pleased to announce that we have two outstanding keynotes for the &lt;a
-  href=&quot;/website_pr_hosting/PR_565/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt;
-  will be &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/anjanarajan/&quot;&gt;Anjana
+  href=&quot;/website_pr_hosting/PR_565/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt;: &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/anjanarajan/&quot;&gt;Anjana
   Rajan&lt;/a&gt;&lt;/strong&gt;, Former Assistant National Cyber Director at The White
   House, and &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/mpdehnel/&quot;&gt;Martin
   Dehnel-Wild&lt;/a&gt;&lt;/strong&gt;, Technical Director &amp; Principal Security Researcher
@@ -55,27 +54,18 @@
   This year, the summit will feature a full first day dedicated to applications,
   overviews, and perspectives on seL4-based systems and formally verified
   software in the real world. This will include a session on &quot;Voices from
-  Nearby,&quot; with two industry experts who work in areas that are adjacent to the
-  core seL4 areas, &lt;a
-  href=&quot;https://loonwerks.com/people/david-hardin.html&quot;&gt;David Hardin&lt;/a&gt;,
-  Associate Director of Systems Engineering at Collins Aerospace, who will give
-  an overview on trends in real-world formal verification, and &lt;a
+  Nearby,&quot; with industry experts who work in or share their thoughts on
+  areas that are adjacent to the core seL4 areas. &lt;a
   href=&quot;https://www.linkedin.com/in/alistair-woodman-51934433/&quot;&gt;Alistair
-  Woodmand&lt;/a&gt;, Board Member of the Erlang Ecosystem Foundation, who will share
+  Woodmand&lt;/a&gt;, Board Member of the Erlang Ecosystem Foundation, will share
   his insights on the European Cyber Resiliency Act and implications for open
-  source software. Details coming soon!
+  source software, and &lt;a
+  href=&quot;https://loonwerks.com/people/david-hardin.html&quot;&gt;David Hardin&lt;/a&gt;,
+  Associate Director of Systems Engineering at Collins Aerospace, will give
+  an overview on trends in real-world formal verification. Details coming soon!
 &lt;/p&gt;
 &lt;div class=&quot;grid grid-rows-1 w-2/3 sm:grid-cols-2 gap-10 mt-5&quot;&gt;
 &lt;div&gt;
-  &lt;p&gt;
-    &lt;img src=&quot;../images/summit/david-square.jpg&quot; class=&quot;rounded-xl w-full ml-1
-    mt-0&quot; alt=&quot;Photo of David Hardin&quot;&gt;
-    &lt;strong&gt;&lt;a href=&quot;https://loonwerks.com/people/david-hardin.html&quot;&gt;David
-    Hardin&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;Associate Director of Systems Engineering at
-    Collins Aerospace.
-  &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
     &lt;p&gt;
       &lt;img src=&quot;../images/summit/alistair.jpg&quot; class=&quot;float-right rounded-xl
       w-full ml-1 mt-0&quot; alt=&quot;Photo of Alistair Woodman&quot;&gt;
@@ -84,11 +74,20 @@
       Woodmand&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;Board Member of the Erlang Ecosystem Foundation.
     &lt;/p&gt;
   &lt;/div&gt;
+  &lt;div&gt;
+    &lt;p&gt;
+      &lt;img src=&quot;../images/summit/david-square.jpg&quot; class=&quot;rounded-xl w-full ml-1
+      mt-0&quot; alt=&quot;Photo of David Hardin&quot;&gt;
+      &lt;strong&gt;&lt;a href=&quot;https://loonwerks.com/people/david-hardin.html&quot;&gt;David
+      Hardin&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;Associate Director of Systems Engineering at
+      Collins Aerospace.
+    &lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;mt-10&quot;&gt;
-  &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/register/&quot;&gt;Register
-  for the seL4 summit 2026&lt;/a&gt;
+  &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/register/&quot;&gt;Register&lt;/a&gt;
+  for the seL4 summit 2026, or &lt;a href=&quot;/website_pr_hosting/PR_565/Summit/2026/cfp/&quot;&gt;submit&lt;/a&gt; a talk proposal.
 &lt;/div&gt;
     </content>
   </entry>
