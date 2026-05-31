@@ -10,23 +10,36 @@
   <description>News feed about seL4, the seL4 Foundation, and the seL4 ecosystem.</description>
   <link rel="alternate">https://sel4.github.io/website_pr_hosting/PR_583/news/</link>
   <link rel="self">https://sel4.github.io/website_pr_hosting/PR_583/feed.xml</link>
-  <updated>Fri, 29 May 2026 00:00:00 +0000</updated>
+  <updated>Mon, 01 Jun 2026 00:00:00 +0000</updated>
   <rights>Copyright 2026 seL4 Foundation</rights>
   <entry>
     <title>Gapfruit joins the seL4 Foundation</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_583/news/2026.html"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_583/news/2026.html</id>
-    <published>Fri, 29 May 2026 00:00:00 +0000</published>
-    <updated>Fri, 29 May 2026 00:00:00 +0000</updated>
+    <published>Mon, 01 Jun 2026 00:00:00 +0000</published>
+    <updated>Mon, 01 Jun 2026 00:00:00 +0000</updated>
     <content type="html">
       &lt;p&gt;
-  We are pleased to welcome a new &lt;a href=&quot;/website_pr_hosting/PR_583/Foundation/Membership/&quot;&gt;member&lt;/a&gt; - &lt;a
-  href=&quot;https://www.gapfruit.com/&quot;&gt;Gapfruit&lt;/a&gt; - to the &lt;a href=&quot;/website_pr_hosting/PR_583/Foundation&quot;&gt;seL4 Foundation&lt;/a&gt;.
+  We are pleased to welcome a new &lt;a href=&quot;/website_pr_hosting/PR_583/Foundation/Membership/&quot;&gt;member&lt;/a&gt; - &lt;a href=&quot;https://www.gapfruit.com/&quot;&gt;Gapfruit&lt;/a&gt;
+  - to the &lt;a href=&quot;/website_pr_hosting/PR_583/Foundation&quot;&gt;seL4 Foundation&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;
-  Gapfruit is a Swiss technology company building trustworthy foundations for the systems society depends on - from industrial controls to energy infrastructure. To achieve this, Gapfruit combines microkernel operating systems with capability-based security and hardware-rooted trust - an approach grounded in standards from the Trusted Computing Group. Together, these technologies enable resilient, verifiable device operations for the critical systems that underpin modern infrastructure. By joining the seL4 Foundation, we aim to advance high-assurance computing in critical infrastructure and collaborate with the global seL4 community to make trustworthy systems the standard - not the exception.
+  Gapfruit is a Swiss technology company building trustworthy foundations for
+  the systems society depends on - from industrial controls to energy
+  infrastructure. To achieve this, Gapfruit combines microkernel operating
+  systems with capability-based security and hardware-rooted trust - an approach
+  grounded in standards from the &lt;a
+  href=&quot;https://trustedcomputinggroup.org/&quot;&gt;Trusted Computing Group&lt;/a&gt;.
+  Together, these technologies enable resilient, verifiable device operations
+  for the critical systems that underpin modern infrastructure. By joining the
+  seL4 Foundation, we aim to advance high-assurance computing in critical
+  infrastructure and collaborate with the global seL4 community to make
+  trustworthy systems the standard - not the exception.
 &lt;/p&gt;
-
+&lt;p&gt;
+  Gapfruit is an active contributor to the seL4 summit &lt;a href=&quot;/website_pr_hosting/PR_583/Summit/2023/abstracts2023.html#a-panel&quot;&gt;panels&lt;/a&gt; and &lt;a
+  href=&quot;/website_pr_hosting/PR_583/Summit/2023/abstracts2023.html#a-showcase-microkernel&quot;&gt;talks&lt;/a&gt;.
+&lt;/p&gt;
     </content>
   </entry>
   <rights>Copyright 2026 seL4 Foundation</rights>
