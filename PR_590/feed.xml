@@ -13,13 +13,14 @@
   <updated>Mon, 29 Jun 2026 00:00:00 +0000</updated>
   <rights>Copyright 2026 seL4 Foundation</rights>
   <entry>
-    <title>MCS seL4 now verified! (for RISC-V)</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_590/news/2026.html"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_590/news/2026.html</id>
+    <title>Functional correctness proof for MCS seL4 completed on RISC-V</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_590/news/2026.html#mcs26"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_590/news/2026.html#mcs26</id>
     <published>Mon, 29 Jun 2026 00:00:00 +0000</published>
     <updated>Mon, 29 Jun 2026 00:00:00 +0000</updated>
     <content type="html">
-      &lt;a href=&quot;https://proofcraft.systems&quot;&gt;Proofcraft&lt;/a&gt; achieved a significant
+      &lt;p&gt;
+&lt;a href=&quot;https://proofcraft.systems&quot;&gt;Proofcraft&lt;/a&gt; achieved a significant
 years-long milestone in the seL4 verification roadmap: the MCS configuration of
 seL4, providing support for mixed-criticality systems, is
 now &lt;a href=&quot;https://proofcraft.systems/news-2026/#2026-06-29&quot;&gt;proved to be
