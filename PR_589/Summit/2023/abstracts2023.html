@@ -6,7 +6,7 @@
     <title>seL4 Summit 2023 Abstracts | seL4</title>
     <meta name="author" content="seL4 Foundation">
     <link rel="canonical" href="https://sel4.github.io/website_pr_hosting/PR_589/Summit/2023/abstracts2023.html">
-    <link href="/website_pr_hosting/PR_589/css/sel4.css?v=1782435341" rel="stylesheet">
+    <link href="/website_pr_hosting/PR_589/css/sel4.css?v=1782435801" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -584,19 +584,18 @@
 
   <div id="a-scoping-assurance" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Scoping assurance activities with seL4</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Gage B</span>
-          <br>
-          <span class="text-light">NCSC</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Scoping assurance activities with seL4</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Gage B</span>
+        <br>
+        <span class="text-light">NCSC</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 In both the safety and security industries, high levels of product assurance are sought to mitigate the risk of product failure. Often this means that software developers need to demonstrate that all functions do what they are supposed to do, the product does not do anything it is not supposed to do, and that the product is free from all known bugs and vulnerabilities.
 </p>
 <p>
@@ -609,27 +608,27 @@ In this talk, I will describe how basing a software product on seL4 facilitates 
 Accepting that the assurance effort should be commensurate with the criticality of the security product, my hope is that this presentation provides a sliding scale of seL4 features we should seek to take advantage of, be it for articulating an assurance case, or conducting an independent assessment.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-01-gage.pdf" class="text-sm text-light underline">Slides</a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-01-gage.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-scoping-assurance" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
-          </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-scoping-assurance" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -651,19 +650,18 @@ Accepting that the assurance effort should be commensurate with the criticality 
 
   <div id="a-dynamic-sel4" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Dynamic seL4 based systems: designing for verifiability</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Matthew Brecknell</span>
-          <br>
-          <span class="text-light">Kry10</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Dynamic seL4 based systems: designing for verifiability</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Matthew Brecknell</span>
+        <br>
+        <span class="text-light">Kry10</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
     The current state of the art in seL4-based system design is to statically partition system resources into unprivileged components. Components may synchronise and communicate with each other, but otherwise only have rights to their own resources. For such static systems, the seL4 security theorems guarantee that seL4 correctly enforces access controls, and does not allow any component to gain new rights. The main benefit of this approach is that it automatically gives strong guarantees about component isolation, without further verification effort, and these can be used to support arguments about fault tolerance and security.
 </p>
 <p>
@@ -676,32 +674,32 @@ Support for dynamic features like updates adds significant complexity. Dynamic s
 This talk will report on our initial work on this challenge. We'll discuss our approach to system design, which uses a strict hierarchy of control to ensure that supervisors have complete oversight of their subsystems, and can enforce protocols for resource delegation and revocation. We'll look at our work-in-progress supervisor API design, whose distinguishing feature is the ability to apply complex configuration updates with all-or-nothing semantics. And finally, we'll speculate on how we might eventually back this up with formal guarantees.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/hHihCvB1cJI?si=3C1-F2wLJnEMHLDE" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/hHihCvB1cJI?si=3C1-F2wLJnEMHLDE" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-02-brecknell.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-dynamic-sel4" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-02-brecknell.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-dynamic-sel4" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -723,19 +721,18 @@ This talk will report on our initial work on this challenge. We'll discuss our a
 
   <div id="a-formally-stepping" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Formally Stepping Into The Unverified World</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Sandy Frost</span>
-          <br>
-          <span class="text-light">Los Alamos National Laboratory</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Formally Stepping Into The Unverified World</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Sandy Frost</span>
+        <br>
+        <span class="text-light">Los Alamos National Laboratory</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 With the rise in high profile attacks against safety and security critical systems, formal methods are being considered as a defensive option across many domains, such as with critical infrastructure, since they can prove that software behaves exactly according to specification, therefore minimizing software vulnerabilities. Unfortunately, there has been slow adoption of this technology due to technical (e.g., performance limitation of verification tools) and non-technical (e.g., unfamiliarity with concepts, difficult to implement) reasons. We propose an analysis of the interface between formally (checking software against specifications) and non-formally verified components, to better understand the impacts to system robustness. This work has the potential to be transformational by enabling wider adoption of this defensive measure.
 </p>
 <p>
@@ -745,32 +742,32 @@ We are analyzing system interaction impacts between components that are formally
 This talk is relevant to the seL4 scope because it covers an seL4 experience report relevant to developing capabilities toward “building a business case for using a verified kernel”. In order to use a verified kernel, especially with critical components, it is important to know its potential limitations and special considerations, therefore exploring the kernel’s interactions with components that might not be verified is paramount.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/YnjpB5GlIsA?si=Nc8NuVBz_6oqi7Kp" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/YnjpB5GlIsA?si=Nc8NuVBz_6oqi7Kp" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-03-frost.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-formally-stepping" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-03-frost.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-formally-stepping" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -792,19 +789,18 @@ This talk is relevant to the seL4 scope because it covers an seL4 experience rep
 
   <div id="a-reducing-reliance" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Reducing the reliance on verification experts for seL4 proofs</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Gerwin Klein</span>
-          <br>
-          <span class="text-light">Proofcraft</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Reducing the reliance on verification experts for seL4 proofs</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Gerwin Klein</span>
+        <br>
+        <span class="text-light">Proofcraft</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
     The seL4 microkernel is the world’s most highly assured OS kernel. Keeping this claim true is hard work. The formal verification journey of the seL4 microkernel is nearing two decades, and still has a busy roadmap for the years ahead. It started as a research project aiming for a highly challenging problem with the potential of significant impact. Today, the seL4 proofs represent more than a million lines of formal proofs that have been continuously maintained over a system that has evolved considerably, with significant new features being added in response to increased interest and adoption from numerous sectors.
 </p>
 <p>
@@ -820,32 +816,32 @@ This talk is relevant to the seL4 scope because it covers an seL4 experience rep
     For instance, the current seL4 invariant proofs are split into a generic architecture- independent part and an architecture-dependent part. This allows significantly speed up in development of proofs for new features, as well as reduction of the proof update bur- den on code changes. We plan to improve this architecture split and apply it to other large proof artefacts in seL4. Another example is our plan to almost completely automate the verification of platform ports within existing verified architectures of the seL4 kernel. Currently, porting seL4 to a new platform involves determining which architecture the platform runs on, for instance Arm v7, Intel x64, or RISC-V 64, determining which devices are included, at which memory addresses they reside, etc. These lead to configuration parameters for the kernel and the definition of a set of constants. Instead of requiring the involvement of experts, we can develop proof automation that shows these interface relationships are satisfied by a concrete platform configuration, greatly reducing the verification overhead of porting to a new platform.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/XJTdhZqFONI?si=YNeFC0bfC_tMeH1N" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/XJTdhZqFONI?si=YNeFC0bfC_tMeH1N" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-04-klein.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-reducing-reliance" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-04-klein.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-reducing-reliance" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -867,19 +863,18 @@ This talk is relevant to the seL4 scope because it covers an seL4 experience rep
 
   <div id="a-efficient-smp" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">More multiprocessing on seL4: Are efficient SMP virtual machines possible on verifiable seL4 kernels?</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Kent McLeod</span>
-          <br>
-          <span class="text-light">Kry10</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">More multiprocessing on seL4: Are efficient SMP virtual machines possible on verifiable seL4 kernels?</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Kent McLeod</span>
+        <br>
+        <span class="text-light">Kry10</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 Multicore systems with verified seL4 is just around the corner with multikernels - kernel state is isolated on each core and avoid kernel-mode concurrency for easier verification. Does this mean that it's not possible to support multicore at user level? Let's find out by investigating whether it's possible to efficiently support virtualizing SMP virtual machines
 with small core counts using our multikernel mechanisms.
 </p>
@@ -887,32 +882,32 @@ with small core counts using our multikernel mechanisms.
 This talk will detail how to construct such a system, the work involved and examples of how it can be used.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/ePdaQDO5nhc?si=LMtGK8b2i7b91o0s" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/ePdaQDO5nhc?si=LMtGK8b2i7b91o0s" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-05-mcleod.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-efficient-smp" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-05-mcleod.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-efficient-smp" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -934,51 +929,50 @@ This talk will detail how to construct such a system, the work involved and exam
 
   <div id="a-system-information" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">System Information Flow Analysis</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Ihor Kuz</span>
-          <br>
-          <span class="text-light">Kry10</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">System Information Flow Analysis</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Ihor Kuz</span>
+        <br>
+        <span class="text-light">Kry10</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 Most seL4 systems are multi-server systems - consisting of numerous user-level components that communicate amongst each other. These systems often rely on isolation and restricted communication between components to provide assurance about security and safety properties while minimising the trust put into individual components. For such assurance it is usually necessary to analyse the information and control flow in the systems in order to get an understanding of the isolation (or protection) domains and how the system could behave at runtime. This is something that we are interested in doing for the seL4-based Kry10 OS as well.
 </p>
 <p>
 There has been past work looking at analysing static seL4-based systems for various information flow properties, but Kry10 OS is a more dynamic system. This presentation will discuss the problem space of analysing information and control flow in multi-server systems and present options and solutions (both formal and informal) for doing this for static and dynamic seL4-based systems. We will also discuss how such analyses contribute to overall system assurance cases and how they relate to kernel and user-level component proofs.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/u-yhdme-o0k?si=zbYHmq0QxzmmeZzt" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/u-yhdme-o0k?si=zbYHmq0QxzmmeZzt" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-06-kuz.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-system-information" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-06-kuz.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-system-information" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1000,19 +994,18 @@ There has been past work looking at analysing static seL4-based systems for vari
 
   <div id="a-advancements-virtualization" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Advancements for Virtualization Support in seL4:CAmkES and seL4cp</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Markku Ahvenjärvi</span>
-          <br>
-          <span class="text-light">TII</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Advancements for Virtualization Support in seL4:CAmkES and seL4cp</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Markku Ahvenjärvi</span>
+        <br>
+        <span class="text-light">TII</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 Virtualization enables multiple virtual machines (VMs) to operate on a single physical machine, each with its own operating system, applications, and data, while sharing the underlying physical resources of the host machine. seL4 is a microkernel-based operating system that provides a high-assurance, secure, and efficient platform for the deployment of critical systems. It can be utilized as a hypervisor, providing a minimal and scalable infrastructure for virtualized environments, making it well-suited for use in embedded and real-time systems and high-assurance security-critical systems that require virtualization.
 </p>
 <p>
@@ -1026,32 +1019,32 @@ platform.
 Our approach provides a flexible and scalable solution for critical systems, addressing the limitations of existing solutions while building on the foundation of our previous work. Our talk will provide an overview of the implementation details, performance improvements, and future directions for the technology, highlighting the benefits of using the seL4 hypervisor for virtualized environments.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/AsYB6yOAEYQ?si=jEewVOADm8NQv3bl" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/AsYB6yOAEYQ?si=jEewVOADm8NQv3bl" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-07-ahvenjärvi.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-advancements-virtualization" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-07-ahvenjärvi.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-advancements-virtualization" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1073,48 +1066,47 @@ Our approach provides a flexible and scalable solution for critical systems, add
 
   <div id="a-sel4-device" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">The seL4 Device Driver Framework</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Lucy Parker</span>
-          <br>
-          <span class="text-light">UNSW</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">The seL4 Device Driver Framework</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Lucy Parker</span>
+        <br>
+        <span class="text-light">UNSW</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 A lack of a good approach to I/O is one of the primary barriers to uptake for seL4. Unfortunately, there’s a distinct lack of guidance, along with too many poor performing solutions that don’t make good use of seL4. We believe a thoughtful design can, and should, demonstrate performance competitive with Linux. We present such a design in the seL4 Device Driver framework (sDDF). Its simple design prioritises a strong separation of concerns by using multiple isolated components, each with a single task in the pipeline, that communicate via a low-overhead, asynchronous transport layer. It’s presently focused on networking systems, and comparison against Linux already shows that simplicity wins. This talk will revisit the design of the sDDF, and discuss ongoing work to further evaluate and optimise the framework for device sharing.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/be0_PSW0b5M?si=t7dB73HMk8hR9mk0" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/be0_PSW0b5M?si=t7dB73HMk8hR9mk0" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-08-parker.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-sel4-device" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-08-parker.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-sel4-device" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1136,19 +1128,18 @@ A lack of a good approach to I/O is one of the primary barriers to uptake for se
 
   <div id="a-rd-update" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">R&D Update from TS</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Gernot Heiser</span>
-          <br>
-          <span class="text-light">UNSW</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">R&D Update from TS</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Gernot Heiser</span>
+        <br>
+        <span class="text-light">UNSW</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 I will given an overview of seL4-related research and development at Trustworthy Systems.
 </p>
 <p>
@@ -1167,32 +1158,32 @@ Our third major activity is Pancake, our new systems language aimed at easing ve
 I will finally give an update on our work on verified Time Protection, the principled prevention of microarchitectural timing channels, as wel as the SMOS project, which is designing a fully dynamic, general-purpose OS that can be proved to enforce a security policy.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/v16ycALKDLM?si=5eVX9qe2faJhDQyq" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/v16ycALKDLM?si=5eVX9qe2faJhDQyq" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-09-heiser.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-rd-update" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-09-heiser.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-rd-update" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1214,48 +1205,47 @@ I will finally give an update on our work on verified Time Protection, the princ
 
   <div id="a-sel4-experiences" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">seL4: Experiences, Improvements and Optimizations</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Chris Guikema</span>
-          <br>
-          <span class="text-light">DornerWorks</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">seL4: Experiences, Improvements and Optimizations</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Chris Guikema</span>
+        <br>
+        <span class="text-light">DornerWorks</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 Sandboxing legacy code provides a low barrier approach for developers to start implementing systems in the seL4 ecosystem. However, these legacy applications often need to communicate with each other to function properly. seL4 provides a means of communication between virtual machines via a software implementation of an ethernet device called virtio-net, which currently suffers from performance and stability problems. These performance and stability issues present a barrier to adoption of seL4 for multiple markets. DornerWorks will present an overview of the seL4 virtio-net implementation, the challenges using it, how DornerWorks improved it in the mainline, and performance benchmarks which include our IP solution to increase performance by a factor of 40.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/SsEuhby_U6k?si=9dPxuHINTNOcLgFR" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/SsEuhby_U6k?si=9dPxuHINTNOcLgFR" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-10-guikema.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-sel4-experiences" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-10-guikema.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-sel4-experiences" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1277,19 +1267,18 @@ Sandboxing legacy code provides a low barrier approach for developers to start i
 
   <div id="a-from-zero" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">From Zero to a Native xHCl Driver</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Josh Felmeden</span>
-          <br>
-          <span class="text-light">Capgemini Engineering</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">From Zero to a Native xHCl Driver</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Josh Felmeden</span>
+        <br>
+        <span class="text-light">Capgemini Engineering</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 At the 2022 seL4 summit, our colleagues presented a framework allowing u-boot drivers to be used in seL4. This submission presents follow on work, with the goal of improving seL4 USB support. Specifically, by writing a native xHCI driver and stack for use in seL4.
 </p>
 <p>
@@ -1299,32 +1288,32 @@ We use the Avnet MaaXBoard as our development board although our intention is to
 We also present an experience report detailing our development with seL4 as a team who had no prior experience with it.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/Jsp2VMq3uDI?si=JucKo2C5ykhWaItl" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/Jsp2VMq3uDI?si=JucKo2C5ykhWaItl" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-11-felmeden.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-from-zero" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-11-felmeden.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-from-zero" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1346,19 +1335,18 @@ We also present an experience report detailing our development with seL4 as a te
 
   <div id="a-crashing-for" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Crashing For Reliability</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Ihor Kuz</span>
-          <br>
-          <span class="text-light">Kry10</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Crashing For Reliability</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Ihor Kuz</span>
+        <br>
+        <span class="text-light">Kry10</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 A reliable OS needs to make sure that it, and the software that runs on it, keeps running and is always available.
 </p>
 <p>
@@ -1371,32 +1359,32 @@ One approach to dealing with failure is to let software crash, but monitor it an
 We’ve applied this “let it crash” approach in the sel4-based Kry10 OS. In this presentation we will dive into our use of this approach, describe the challenges of applying it in Kry10 OS (such as resource recovery, dependency managements, re-initialisation of resources, etc), explain why seL4 provides all the right features for applying this approach at the system level, and give examples of how it helps to achieve reliability.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/jAzo4J9mrrE?si=h5slswaN53Ws4Ncf" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/jAzo4J9mrrE?si=h5slswaN53Ws4Ncf" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-12-kuz.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-crashing-for" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-12-kuz.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-crashing-for" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1418,48 +1406,47 @@ We’ve applied this “let it crash” approach in the sel4-based Kry10 OS. In 
 
   <div id="a-gold-kry10" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Building a Platform for Critical Devices in the “Real World”</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Boyd Multerer</span>
-          <br>
-          <span class="text-light">Kry10</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Building a Platform for Critical Devices in the “Real World”</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Boyd Multerer</span>
+        <br>
+        <span class="text-light">Kry10</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 Boyd Multerer, Founder and CEO of Kry10 will talk about the role of seL4 as a one of the critical ingredients for addressing the “real world” requirements and high level of assurance required by their critical systems.  Boyd will talk about the importance of the continued innovation around seL4 and the additional platform services platform work Kry10 is doing to need to deliver addition of seL4 and the new work underway as a key ingredient to any broader platform for critical systems and the importance of new investments done and the critical role that seL4 plays as Boyd will emphasize role of seL4 and the Kry10 Platform. Hear about the design principles of the KRy10 Platform Kry10 Platform that caters to the real-world demands of critical systems.  Don't miss this opportunity to learn about the exciting advancements in seL4 and the Kry10 Platform and its potential to support the real-world challenges faced by critical systems.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/1H5EQ4DrJeo?si=ZffQVqCmYRdZ4dfu" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/1H5EQ4DrJeo?si=ZffQVqCmYRdZ4dfu" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day1-13-multerer.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-gold-kry10" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day1-13-multerer.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-gold-kry10" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1481,48 +1468,47 @@ Boyd Multerer, Founder and CEO of Kry10 will talk about the role of seL4 as a on
 
   <div id="a-cantripos" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">CantripOS: An OS for Ambient ML Applications</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Sam Leffler</span>
-          <br>
-          <span class="text-light">Google</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">CantripOS: An OS for Ambient ML Applications</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Sam Leffler</span>
+        <br>
+        <span class="text-light">Google</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 CantripOS is an open source operating system purpose-built to run ML workloads for embedded systems. It is being developed as part of Google’s project Sparrow, whose charter is to build a low-power embedded platform for ML applications with a focus on security and privacy. CantripOS is built in the Rust programming language1, runs under the seL4 microkernel2, and uses a modified CAmkES framework3. This allows CantripOS to run dynamically loaded applications in a controlled sandbox, while still retaining the benefits of a statically designed system. This paper describes the system design, modifications made to seL4 and CAmkES, and future directions. All the work described here is publicly available on GitHub4.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/-3SCCx-b61k?si=IpAa7ZHfBQf8Wd9l" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/-3SCCx-b61k?si=IpAa7ZHfBQf8Wd9l" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-01-leffler.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-cantripos" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-01-leffler.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-cantripos" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1544,48 +1530,47 @@ CantripOS is an open source operating system purpose-built to run ML workloads f
 
   <div id="a-magnetite" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Magnetite: Rust-Based OS Services for seL4</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Juliana Furgala</span>
-          <br>
-          <span class="text-light">MIT Lincoln Laboratory</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Magnetite: Rust-Based OS Services for seL4</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Juliana Furgala</span>
+        <br>
+        <span class="text-light">MIT Lincoln Laboratory</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 What if the isolation that seL4 provides could be applied at a fine-grained level to individual processes? Frequently seL4 is used as a hypervisor but at MIT Lincoln Laboratory, we explored the potential of seL4 as a foundational block in a new security-focused operating system. Magnetite is a suite of performant, secure-by-design, real-time OS services built upon the formally-verified microkernel seL4 and written in Rust, a memory-safe language. Magnetite offers a feature-rich API for both legacy C and new Rust applications to engage with its variety of resource types, which extend seL4’s capability-based system to provide common OS services. Magnetite is built upon the Principle of Least Privilege (PoLP) to limit trust and time of trust, and also adheres to strong isolation properties with self-contained processes and system services, and isolated domains known as silos.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/UFF93HcQfEc?si=MrX9dEbI3b_CAamZ" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/UFF93HcQfEc?si=MrX9dEbI3b_CAamZ" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-02-furgala.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-magnetite" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-02-furgala.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-magnetite" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1607,19 +1592,18 @@ What if the isolation that seL4 provides could be applied at a fine-grained leve
 
   <div id="a-showcase-microkernel" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Showcase: Microkernel OS, TPMs, and WASM in IIoT Environments</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Sid Hussmann</span>
-          <br>
-          <span class="text-light">Gapfruit</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Showcase: Microkernel OS, TPMs, and WASM in IIoT Environments</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Sid Hussmann</span>
+        <br>
+        <span class="text-light">Gapfruit</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 This talk will demonstrate how Gapfruit OS [0], an operating system built with the Genode Framework [1], can be deployed for edge computing in industrial IoT environments. Genode is an operating system framework that supports seL4.
 </p>
 <p>
@@ -1647,32 +1631,32 @@ I will then showcase a live demo demonstrating the zero-touch provisioning capab
 [4] https://azure.microsoft.com/en-us/products/iot-hub
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/R9zRyYVReKU?si=Jj-BjHhlqIQbCjob" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/R9zRyYVReKU?si=Jj-BjHhlqIQbCjob" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-03-hussman.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-showcase-microkernel" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-03-hussman.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-showcase-microkernel" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1694,48 +1678,47 @@ I will then showcase a live demo demonstrating the zero-touch provisioning capab
 
   <div id="a-rust-support" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Rust support in seL4 userspace: update and roadmap</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Nick Spinale</span>
-          <br>
-          <span class="text-light">Colias Group</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Rust support in seL4 userspace: update and roadmap</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Nick Spinale</span>
+        <br>
+        <span class="text-light">Colias Group</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 The Rust programming language and ecosystem provide memory safety and enhance developer productivity even at lower levels of the software stack. This talk outlines our efforts, funded by the seL4 Foundation, to apply Rust to seL4 userspace and facilitate its use in the seL4 software ecosystem. This talk will cover new bodies of Rust code related to libsel4, the seL4 Core Platform, and CapDL; information about how to integrate, extend, and contribute to this work; and our vision and roadmap moving forward.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/jR2i4Y2Aq3o?si=rJSRRTD7Y-3Z6lUu" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/jR2i4Y2Aq3o?si=rJSRRTD7Y-3Z6lUu" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-04-spinale.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-rust-support" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-04-spinale.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-rust-support" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1757,48 +1740,47 @@ The Rust programming language and ecosystem provide memory safety and enhance de
 
   <div id="a-sel4-microkit" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">The seL4 Microkit</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Ivan Velickovic</span>
-          <br>
-          <span class="text-light">UNSW</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">The seL4 Microkit</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Ivan Velickovic</span>
+        <br>
+        <span class="text-light">UNSW</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 The seL4 Microkit is an operating system framework on top of seL4 that aims to provide minimal abstractions to make it easier to build statically structured systems on seL4, while still leveraging the kernel’s benefits of security and performance. Since the 2022 seL4 Summit, seL4CP has become more mature and is seeing wider use. At Trustworthy Systems, seL4CP is the basis of much of our work, including the seL4 Device Driver Framework and other OS services such as a virtual machine monitor. The goal of this talk is to give you an understanding of seL4CP and surrounding developments by covering three topics:
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/1Y6uE3eZWKQ?si=9fIcnBFUlji0EOAj" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/1Y6uE3eZWKQ?si=9fIcnBFUlji0EOAj" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-05-velickovic.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-sel4-microkit" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-05-velickovic.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-sel4-microkit" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1820,19 +1802,18 @@ The seL4 Microkit is an operating system framework on top of seL4 that aims to p
 
   <div id="a-leveraging-rust" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Leveraging Rust for Core Platform</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Ben Hamlin</span>
-          <br>
-          <span class="text-light">Galois</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Leveraging Rust for Core Platform</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Ben Hamlin</span>
+        <br>
+        <span class="text-light">Galois</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 A natural way to perform hardware abstraction in SeL4 is to create a dedicated driver component. Writing such hardware driver components in SeL4 Core Platform for Rust is currently a manual process. Assuming a Rust library to perform register manipulation, etc. already exists (say, as an implementation of embedded-hal traits), it is still necessary to:
 </p>
 <p>
@@ -1852,32 +1833,32 @@ This approach is suitable for interactions with a networking stack (smoltcp) and
 We will present conclusions and examples developed as part of this work.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/JmqSfTEg0u8?si=pPKmIWJ4_PrHxvfk" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/JmqSfTEg0u8?si=pPKmIWJ4_PrHxvfk" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-06-hamlin.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-leveraging-rust" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-06-hamlin.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-leveraging-rust" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -1899,19 +1880,18 @@ We will present conclusions and examples developed as part of this work.
 
   <div id="a-panel" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">OS on seL4: so many options!</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Gernot Heiser, Sid Hussmann, Kent McLeod, Juliana Furgala</span>
-          <br>
-          <span class="text-light">UNSW, Gapfruit, Kry10, MIT Lincoln Laboratory</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <h3 id="a-panel-unsw">
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">OS on seL4: so many options!</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Gernot Heiser, Sid Hussmann, Kent McLeod, Juliana Furgala</span>
+        <br>
+        <span class="text-light">UNSW, Gapfruit, Kry10, MIT Lincoln Laboratory</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <h3 id="a-panel-unsw">
   Gernot Heiser, Leader, Trustworthy Systems at UNSW Sydney
 </h3>
 <p>
@@ -1974,28 +1954,28 @@ and mathematics to advance the state of the art in software and hardware
 trustworthiness.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/PynVzpXRW-o?si=JR_9nGM3fwILHnJc" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/PynVzpXRW-o?si=JR_9nGM3fwILHnJc" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-panel" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
-          </div>
+        
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-panel" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -2017,48 +1997,47 @@ trustworthiness.
 
   <div id="a-sel4-vmm" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">seL4 VMM on the RISC-V Rocket Chip</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Robbie VanVossen</span>
-          <br>
-          <span class="text-light">DornerWorks</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">seL4 VMM on the RISC-V Rocket Chip</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Robbie VanVossen</span>
+        <br>
+        <span class="text-light">DornerWorks</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
     The royalty-free, open-source RISC-V is an ideal ISA for the high-assurance seL4 microkernel since the formal proof requires definitive understanding of its underlying architecture. DornerWorks’ use-case generally utilizes virtualization with seL4 to provide a secure platform which allows for cyber-retrofit, rapid deployment, and cyber resilience. Virtualization is an area where RISC-V is immature. The hypervisor (H) extension has been ratified, but there are still no commercially available silicon processors that support the extension. The Rocket Chip is a soft-core RISC-V implementation which can be instantiated on an FPGA and is essentially equivalent to a real silicon processor. DornerWorks bridged the gap between the seL4 VMM running on QEMU and running on actual silicon by getting a seL4 VMM running, for the first time, on a Rocket Chip instantiation which has the hypervisor extensions implemented. This presentation will provide an overview of the Rocket Chip, the RISC-V H extension, the effort that went into getting the seL4 VMM to run on Rocket Chip, and thoughts on the next steps for seL4 virtualization on RISC-V platforms.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/a-JLqYVINxo?si=EjKQHSYPmGrlgLna" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/a-JLqYVINxo?si=EjKQHSYPmGrlgLna" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-08-vanvossen.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-sel4-vmm" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-08-vanvossen.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-sel4-vmm" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -2080,19 +2059,18 @@ trustworthiness.
 
   <div id="a-sel4-arm" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">seL4 on Arm Morello</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Martin Atkins</span>
-          <br>
-          <span class="text-light">Mission Critical Applications</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">seL4 on Arm Morello</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Martin Atkins</span>
+        <br>
+        <span class="text-light">Mission Critical Applications</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 seL4 has a formally-proven kernel, but the safe and secure operation of a system built on seL4 depends on the correct operation of the user-level tasks that implement the system policies, services, and device drivers needed by the application, as well as on the correct operation of the application tasks. Running an seL4 system on a processor with CHERI extensions brings the extra assurance of the capability architecture to these user-level tasks, and thus increases the assurance of the overall application.
 </p>
 <p>
@@ -2102,32 +2080,32 @@ Our project builds on initial work done at Arm Research to port the seL4 kernel 
 This paper will report on the progress of the project, and discuss the requirements and design options for the communication of CHERI capabilities between seL4 tasks, and the implications this has on the seL4 IPC mechanisms.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/VcufX8hZ5-o?si=zNc0rSodvxrm5DF8" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/VcufX8hZ5-o?si=zNc0rSodvxrm5DF8" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-09-atkins.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-sel4-arm" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-09-atkins.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-sel4-arm" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -2149,19 +2127,18 @@ This paper will report on the progress of the project, and discuss the requireme
 
   <div id="a-incremental-assurance" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Incremental assurance for a Rust network stack</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Michal Podhradsky</span>
-          <br>
-          <span class="text-light">Galois</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Incremental assurance for a Rust network stack</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Michal Podhradsky</span>
+        <br>
+        <span class="text-light">Galois</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 Despite the fact that numerous components and subsystems have been developed on top of or with seL4 over the past few years, sponsored mainly by DoD SBIR grants, seL4 does not have a high-assurance network stack. In earlier work on the HACMS project, Galois integrated an off-the-shelf TCP stack into a seL4 platform. Many other organizations have done something similar, either by shiming in existing low-assurance network code that has poor provenance and no rigorous assurance, or by using the Linux environment to provide networking features. To the best of our knowledge, there is currently no high assurance network stack readily available for embedded systems.
 </p>
 <p>
@@ -2171,32 +2148,32 @@ To mitigate this gap, we started with an existing and widely used Rust network s
 This summer, we used Prognosis framework, offering automated closed-box learning and analysis of models of network protocol implementations, for model based veritication of TCP protocol in smoltcp, and Kani Rust verifier to verify TCP protocol logic and packet format correctness via symbolic execution. We have found protocol violations or misimplementations in the library, and have been working with the smoltcp developers to mitigate these violations. Furthermore, we integrated Continuous Verification suite with the smoltcp library, to automatically validate the code after each commit.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/c7UC2Rgj3n4?si=XCFZwqwZbTeERon1" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/c7UC2Rgj3n4?si=XCFZwqwZbTeERon1" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-10-podhradsky.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-incremental-assurance" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-10-podhradsky.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-incremental-assurance" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -2218,19 +2195,18 @@ This summer, we used Prognosis framework, offering automated closed-box learning
 
   <div id="a-toward-verified" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Toward a Verified, Minimal IPv6 Network Stack Implementation</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Wyeth Greenlaw Rollins</span>
-          <br>
-          <span class="text-light">Lewis & Clark College</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Toward a Verified, Minimal IPv6 Network Stack Implementation</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Wyeth Greenlaw Rollins</span>
+        <br>
+        <span class="text-light">Lewis & Clark College</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 We are completing the implementation of a minimal, pure IPv6 network stack optimized to run on IoT endpoints connected to a network through a Layer 2 Ethernet interface. This implementation supports only the minimal set of protocols (IEEE 802.3, ICMP, IP, and UDP) to provide efficient UDP-based communication between an IoT endpoint and any other host.
 </p>
 <p>
@@ -2240,32 +2216,32 @@ We believe our implementation will provide high performance and reliability thro
 In this talk, we report on our progress implementing and verifying this networking stack.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/wjrA0HlW9JQ?si=O-s5cyDWcgz_LxTY" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/wjrA0HlW9JQ?si=O-s5cyDWcgz_LxTY" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-11-rollins.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-toward-verified" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-11-rollins.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-toward-verified" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -2287,19 +2263,18 @@ In this talk, we report on our progress implementing and verifying this networki
 
   <div id="a-iommu" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">IOMMU (take the ARM SMMUv3 for instance) solution for seL4</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Lei Mao</span>
-          <br>
-          <span class="text-light">Horizon Robotics</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">IOMMU (take the ARM SMMUv3 for instance) solution for seL4</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Lei Mao</span>
+        <br>
+        <span class="text-light">Horizon Robotics</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 The IOMMU Stage-2 only scheme (the view of IOMMU Stage-2 is as same as the MMU's) is simple, and seems good at most of time, but in order to go further for a more unrestricted and finely controlled Stage-1, we can apply the classic virtio scheme for IOMMU. The only extra important thing that needs to be done in virtio-smmu backend is managing relationships between messages in virtqueue and IOMMU or VSpace capabilities.
 </p>
 <p>
@@ -2318,32 +2293,32 @@ By hosting the installation/uninstallation of the Stage-1 context root, bring mu
 2. We can separate out Guest OS internal IO page management, and keep them the same as the native IOMMU drivers.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/6knMCkB-Qvw?si=sd1etRZ3Y4Y_Z0Kc" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/6knMCkB-Qvw?si=sd1etRZ3Y4Y_Z0Kc" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-12-mao.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-iommu" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-12-mao.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-iommu" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -2365,48 +2340,47 @@ By hosting the installation/uninstallation of the Stage-1 context root, bring mu
 
   <div id="a-gold-nio" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">OS for Software Defined Vehicle</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Qiyan Wang</span>
-          <br>
-          <span class="text-light">NIO</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">OS for Software Defined Vehicle</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Qiyan Wang</span>
+        <br>
+        <span class="text-light">NIO</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 This talk provides a brief introduction of NIO – a global smart EV company, and discusses how automotive industry evolves towards software defined vehicle, and how OS could play a key role in this transition, and shares what NIO’s vision and progress of building a vehicle OS using seL4.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/W_Y3M6s4E9w?si=OHlpA1kppVWKtbyk" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/W_Y3M6s4E9w?si=OHlpA1kppVWKtbyk" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-13-wang.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-gold-nio" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-13-wang.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-gold-nio" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -2428,48 +2402,47 @@ This talk provides a brief introduction of NIO – a global smart EV company, an
 
   <div id="a-gold-tii" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Secure Systems in Focus: Challenges, Solutions, and Future Directions</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Everton de Matos</span>
-          <br>
-          <span class="text-light">TII</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Secure Systems in Focus: Challenges, Solutions, and Future Directions</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Everton de Matos</span>
+        <br>
+        <span class="text-light">TII</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 In today's digital age, when cyber threats are everywhere, the importance of building robust and secure systems cannot be overstated. This presentation dives deep into the initiatives undertaken by the Secure Systems Research Center (SSRC). We'll shed light on our collaborations, projects, and the novel solutions we've pioneered to tackle pressing cyber challenges. The SSRC is a pillar among the ten research centers that comprise the Technology Innovation Institute (TII). Situated in Abu Dhabi, TII aims to lead the way in tech research, focusing on critical areas in the digital world today. In this presentation, we will discuss our latest work and how tools like the seL4 microkernel help make our systems even more secure. By the end of this session, attendees will gain a panoramic view of SSRC's achievements over the past year. We'll also offer a glimpse into the future, outlining our strategic plans and emphasizing SSRC's commitment to pushing the barriers of tech security.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/MX_svP-Sopk?si=L7DBrBEMd7eIxNYs" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/MX_svP-Sopk?si=L7DBrBEMd7eIxNYs" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day2-14-dematos.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-gold-tii" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day2-14-dematos.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-gold-tii" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -2491,19 +2464,18 @@ In today's digital age, when cyber threats are everywhere, the importance of bui
 
   <div id="a-sig-community" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">SIG update + Community update/discussion</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Yanyan Shen, Matthew Brecknell, Everton de Matos, Kent McLeod</span>
-          <br>
-          <span class="text-light">NIO, Kry10, TII, Kry10</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">SIG update + Community update/discussion</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Yanyan Shen, Matthew Brecknell, Everton de Matos, Kent McLeod</span>
+        <br>
+        <span class="text-light">NIO, Kry10, TII, Kry10</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
     This session will include a community update from Kent McLeod, Kry10, and SIG updates from Matt Brecknell, Kry10, Yanyan Shen, NIO, and Everton DeMatos, TII. There will also be opportunity for discussion.
 </p>
 <p><br>
@@ -2530,28 +2502,28 @@ In today's digital age, when cyber threats are everywhere, the importance of bui
     Everton de Matos serves as Lead Security Research Engineer at the Technology Innovation Institute (TII) within the Secure Systems Research Center (SSRC). He earned his Ph.D. in Computer Science from the Pontifical Catholic University of Rio Grande do Sul (PUCRS). During his doctoral studies, he was honored with a Fulbright scholarship, allowing him to further his research at the University of Southern California (USC). Presently, Everton's focus lies in security for embedded systems, specifically within the context of the seL4 Microkernel. He boasts numerous contributions to significant conferences and journals. His primary areas of interest encompass embedded systems security, the Internet of Things, virtualization, and context-aware security.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/ZHLePzGa4vs?si=2Jk9djA0IbBaO81G" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/ZHLePzGa4vs?si=2Jk9djA0IbBaO81G" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-sig-community" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
-          </div>
+        
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-sig-community" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -2573,19 +2545,18 @@ In today's digital age, when cyber threats are everywhere, the importance of bui
 
   <div id="a-sel4-virtualization" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">seL4 Virtualization (ARMv8 Edge Device) Guest OS Performance & HA Recovery</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Lei Mao</span>
-          <br>
-          <span class="text-light">Horizon Robotics</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">seL4 Virtualization (ARMv8 Edge Device) Guest OS Performance & HA Recovery</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Lei Mao</span>
+        <br>
+        <span class="text-light">Horizon Robotics</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
     Virtualization technology was widely used in X86 Cloud Server. There are various mature finetunes work was done for GuestOS Performance and High Availability Recovery.
 </p>
 <p>
@@ -2614,23 +2585,23 @@ Note: Most++ COST ARMv8 SoC only have GICv3 interrupt controller IP, GOS interru
 Note: Linux GOS basic system can recover less in 500ms, Linux GOS with an actual complex application may recover less in 1000 ms.
 </p>
 
-          </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-sel4-virtualization" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
-          </div>
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-sel4-virtualization" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -2652,19 +2623,18 @@ Note: Linux GOS basic system can recover less in 500ms, Linux GOS with an actual
 
   <div id="a-building-commercial" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Building a Commercial Virtualized Mobile Device with seL4 - Part 2</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Jason Sebranek</span>
-          <br>
-          <span class="text-light">Cog Systems</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Building a Commercial Virtualized Mobile Device with seL4 - Part 2</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Jason Sebranek</span>
+        <br>
+        <span class="text-light">Cog Systems</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 Cog Systems, Inc. specializes in developing secure solutions leveraging virtualization on connected mobile devices. Cog Systems has developed a Virtualized Mobile Device (VMD) architecture and has placed the seL4 microkernel and Virtual Machine Manager (VMM) at its heart. Thus, the VMD is built on a Type-1 hypervisor which manages physical device hardware and acts as a very small Trusted Computing Base (TCB).
 </p>
 <p>
@@ -2674,32 +2644,32 @@ In 2017 Cog Systems developed a single domain virtualized device on an HTC One A
 At the 2020 seL4 Summit, Cog Systems presented this effort as a case study in applying seL4 to a product commercialization effort. Since then, the project has experienced multiple and varied challenges, and has not yet been completed. Cog Systems feels there is value in giving a follow-up presentation to discuss the progress, setbacks, and lessons learned in the past few years.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/TSYXw4DIGXw?si=BGeO-2LhY1lGREJr" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/TSYXw4DIGXw?si=BGeO-2LhY1lGREJr" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day3-03-sebranek.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-building-commercial" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day3-03-sebranek.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-building-commercial" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -2721,51 +2691,50 @@ At the 2020 seL4 Summit, Cog Systems presented this effort as a case study in ap
 
   <div id="a-sel4-riscv" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">seL4 on RISC-V: Building a Trusted Execution Environment</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Everton de Matos</span>
-          <br>
-          <span class="text-light">TII</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">seL4 on RISC-V: Building a Trusted Execution Environment</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Everton de Matos</span>
+        <br>
+        <span class="text-light">TII</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
     The use of Trusted Execution Environments (TEEs) is becoming increasingly common in the design of secure systems. TEEs provide a secure execution environment for sensitive applications and data, ensuring that they are protected from attacks and unauthorized access. TEEs are typically implemented as a separate execution environment within a system, with their own hardware and software resources that are isolated from the rest of the system. The trend towards the use of TEEs is driven by the increasing sophistication of cyber-attacks and the need for more robust security solutions. As such, the use of TEEs is becoming increasingly important in the design of secure systems, and technologies such as seL4 and RISC-V are playing a key role in their development.
 </p>
 <p>
     In this talk, we will present our efforts on using seL4 on RISC-V to build a TEE service. We will discuss the challenges we faced during the development process and the solutions we implemented to address them. Additionally, we will provide an in-depth overview of our TEE architecture by discussing its features and demonstrating its functionality through real-world use cases. Our experimentation tests with the PolarFire Icicle kit have played a crucial role in enhancing our understanding of the platform and refining our implementation. Furthermore, we will discuss our ongoing efforts to improve and expand upon the TEE service and its potential applications, as well as outline our future research and development directions in this domain.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/QSo03imeTx8?si=x2Qx7DRZb82xnJ7b" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/QSo03imeTx8?si=x2Qx7DRZb82xnJ7b" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day3-04-dematos.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-sel4-riscv" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day3-04-dematos.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-sel4-riscv" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
@@ -2787,19 +2756,18 @@ At the 2020 seL4 Summit, Cog Systems presented this effort as a case study in ap
 
   <div id="a-trustworthy-measurements" class="py-12 mb-5 section-max-w sm:py-16">
 
-  <div class="py-12 mb-5 section-max-w sm:py-16">
-    <div class="mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="mx-auto lg:mx-0">
-        <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Trustworthy Measurements of a Linux Kernel and Layered Attestation via the seL4</h2>
-        <p>
-          <span class="text-gray-800 dark:text-gray-300">Michael Neises</span>
-          <br>
-          <span class="text-light">University of Kansas</span>
-        </p>
-        
-        <article class="theprose">
-          <div class="pt-5">
-            <p>
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Trustworthy Measurements of a Linux Kernel and Layered Attestation via the seL4</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Michael Neises</span>
+        <br>
+        <span class="text-light">University of Kansas</span>
+      </p>
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
 This application-in-development leverages the seL4 proofs to provide assurance for the trustworthy and remote attestation of a Linux VM. By focusing on a Linux VM running on an ODROID XU4 platform, this work demonstrates the potential of seL4-based remote attestation across different hardware architectures and platforms.
 </p>
 <p>
@@ -2818,32 +2786,32 @@ The principles also demand fresh information and constrained disclosure, which a
 It remains to implement a more comprehensive suite of measurements for the Linux kernel and the target program, and to demonstrate layered attestation on the bare metal of the ODROID XU4. If the measurements suffice to detect corruption, the appraiser will learn of this. Possible future work includes implementing this work for a wider range of Linux kernels and hardware platforms or formalizing a composition of seL4 kernel-level proofs and proofs over the attestation tools.
 </p>
 
+        </div>
+      </article>
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/lyTyJKugoqU?si=mbT_WOp2fGZsbL1h" target="_blank"><img
+      src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
           </div>
-        </article>
-        <div class="flex flex-row gap-x-2 pt-2">
-          
-            <div class="p-2 pb-1">
-              <a href="https://youtu.be/lyTyJKugoqU?si=mbT_WOp2fGZsbL1h" target="_blank"><img
-        src="/website_pr_hosting/PR_589/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
-            </div>
-          
-          
-            <div class="p-1 mt-2">
-              <a href="slides/day3-05-neises.pdf" class="text-sm text-light underline">Slides</a>
-            </div>
-          
-          <div>
-            <p class="p-1 mt-2">
-              
-                <a href="program.html#p-trustworthy-measurements" class="text-sm text-light underline">See this talk in the program</a>
-              
-            </p>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/day3-05-neises.pdf" class="text-sm text-light underline">Slides</a>
           </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-trustworthy-measurements" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+
 <div class="flex w-full mb-6">
   <div class="flex-1"></div>
   <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
