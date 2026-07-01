@@ -20,10 +20,10 @@
     <updated>Wed, 01 Jul 2026 00:00:00 +0000</updated>
     <content type="html">
       &lt;p&gt;
-  The &lt;a href=&quot;/website_pr_hosting/PR_589/Summit/2026/program.html&quot;&gt;program&lt;/a&gt;  of the &lt;a href=&quot;/website_pr_hosting/PR_589/Summit/2026/abstracts2026.html&quot;&gt;seL4 Summit 2026&lt;/a&gt; is now available!
+  The &lt;a href=&quot;/website_pr_hosting/PR_589/Summit/2026/program.html&quot;&gt;program&lt;/a&gt;  of the &lt;a href=&quot;/website_pr_hosting/PR_589/Summit/2026&quot;&gt;seL4 Summit 2026&lt;/a&gt; is now available!
 &lt;/p&gt;
 &lt;p&gt;
-  The 2026 edition of the seL4 summit features a full first day dedicated to high-level overviews and perspectives, followed by Days 2 and 3 focusing on more technical insights and updates. Have a look at the [abstracts] from our exciting keynotes and voices-from-nearby presenters, and the great line-up of interesting seL4-related research, development, field reports and technical discussions.
+  The 2026 edition of the seL4 summit features a full first day dedicated to high-level overviews and perspectives, followed by Days 2 and 3 focusing on more technical insights and updates. Have a look at the &lt;a href=&quot;/website_pr_hosting/PR_589/Summit/2026/abstracts2026.html&quot;&gt;abstracts&lt;/a&gt; from our exciting keynotes and voices-from-nearby presenters, and the great line-up of interesting seL4-related research, development, field reports and technical discussions.
 &lt;/p&gt;
 &lt;p&gt;
   The event will offer an ideal opportunity for people new to seL4 and to formally verified systems to increase their understanding of the landscape and ecosystem, and meet with seL4 developers, adopters and enthusiasts. Don&apos;t forget to &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/register/&quot;&gt;register&lt;/a&gt; and see you soon in Vancouver.
@@ -261,6 +261,40 @@
   program&lt;/a&gt;.
 &lt;/p&gt;
 
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>Functional correctness proof for MCS seL4 completed on RISC-V</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_589/news/2026.html#mcs26"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_589/news/2026.html#mcs26</id>
+    <published>Mon, 29 Jun 2026 00:00:00 +0000</published>
+    <updated>Mon, 29 Jun 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+&lt;a href=&quot;https://proofcraft.systems&quot;&gt;Proofcraft&lt;/a&gt; achieved a significant
+ milestone in the seL4 verification roadmap that was years in the making: the
+ MCS configuration of seL4, providing support for mixed-criticality systems, is
+ now &lt;a href=&quot;https://proofcraft.systems/news-2026/#2026-06-29&quot;&gt;proved to be
+ correct on RISC-V&lt;/a&gt;.
+&lt;/p&gt;
+
+
+&lt;p&gt;
+This configuration is the largest new seL4 feature, indispensable for mixed
+criticality real-time applications such as automotive use cases. It contains
+wide-ranging changes to the kernel&apos;s implementation and API. Its verification
+therefore required considerable effort and has been a priority in the seL4
+roadmap for a long time.
+&lt;/p&gt;
+
+&lt;p&gt;
+Proofcraft has now completed the verification of functional correctness for seL4
+with MCS. Functional correctness is the largest and most central proof in
+the &lt;a href=&quot;/website_pr_hosting/PR_589/Verification/proofs.html&quot;&gt;seL4 verification
+stack&lt;/a&gt;. The proof targets the RISC-V architecture and will now be ported to
+the Arm 64-bit architecture, as part of DARPA&apos;s PROVERS program.
+&lt;/p&gt;
     </content>
   </entry>
   <rights>Copyright 2026 seL4 Foundation</rights>
@@ -593,79 +627,6 @@ update of user code compared to Microkit 2.1.0.&lt;/p&gt;
   Fraunhofer AISEC is exploring the use of the seL4 microkernel and its
   ecosystem to build strictly separated, resilient embedded and IoT systems.
 &lt;/p&gt;
-
-    </content>
-  </entry>
-  <rights>Copyright 2026 seL4 Foundation</rights>
-  <entry>
-    <title>Call For Presentations for the seL4 Summit 2026</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_589/news/2026.html"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_589/news/2026.html</id>
-    <published>Fri, 23 Jan 2026 00:00:00 +0000</published>
-    <updated>Fri, 23 Jan 2026 00:00:00 +0000</updated>
-    <content type="html">
-      &lt;div class=&quot;mt-10&quot;&gt;
-  &lt;p&gt;
-    You can now &lt;a href=&quot;/website_pr_hosting/PR_589/Summit/2026/cfp.html&quot;&gt;submit a
-    proposal&lt;/a&gt; for the seL4 Summit 2026, to be held in Vancouver September
-    1-3.
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;text-f_green-600&quot;&gt;
-  &lt;p class=&quot;font-semibold text-2xl&quot;&gt;
-    NEW!
-  &lt;/p&gt;
-  &lt;p&gt;
-    The 2026 edition of the seL4 summit will feature a &lt;strong&gt;&lt;span
-    class=&quot;text-f_green-600&quot;&gt;full first day&lt;/span&gt;&lt;/strong&gt; dedicated to
-    &lt;strong&gt;&lt;span class=&quot;text-f_green-600&quot;&gt;applications, overviews, and
-    perspectives&lt;/span&gt;&lt;/strong&gt; on seL4-based systems and  formally verified
-    software in the real world. This will be followed by Days 2 and 3 focusing
-    on more technical development, research, reports, and discussions.
-  &lt;/p&gt;
-  &lt;p&gt;
-    We are particularly keen to &lt;strong&gt;&lt;span class=&quot;text-f_green-600&quot;&gt;welcome
-    people who are new to seL4&lt;/span&gt;&lt;/strong&gt; or still developing their
-    familiarity with the technology. The event will offer an &lt;strong&gt;&lt;span
-    class=&quot;text-f_green-600&quot;&gt;ideal opportunity to gain a high-level view of the
-    landscape and ecosystem&lt;/span&gt;&lt;/strong&gt; of seL4 and its associated tools,
-    frameworks and languages, as well as formally verified software in general,
-    and to take stock of the latest updates.
-  &lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;mt-10&quot;&gt;
-  &lt;p&gt;
-    The program includes a wide range of seL4-related themes and topics:
-  &lt;/p&gt;
-  &lt;p&gt;
-    Themes
-  &lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;visions, lessons-learned, roadmaps for verified software deployments&lt;/li&gt;
-    &lt;li&gt;use-cases, deployments, experiences&lt;/li&gt;
-    &lt;li&gt;walk-throughs and demos of tools, frameworks, systems&lt;/li&gt;
-    &lt;li&gt;early work, crazy ideas, out-of-the-box thinking&lt;/li&gt;
-    &lt;li&gt;technical progress, updates, breakthroughs&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;p&gt;
-    Topics
-  &lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;seL4 experience reports&lt;/li&gt;
-    &lt;li&gt;seL4 and assurance&lt;/li&gt;
-    &lt;li&gt;seL4 on-going and planned R&amp;D, mature of early stage&lt;/li&gt;
-    &lt;li&gt;seL4 and hardware&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&quot;mt-10&quot;&gt;
-  &lt;p&gt;
-    Check the full &lt;a href=&quot;/website_pr_hosting/PR_589/Summit/2026/cfp.html&quot;&gt;Call For
-    Presentations&lt;/a&gt;. To propose a talk, upload an abstract of one page or less
-    by &lt;strong&gt;20 April 2026&lt;/strong&gt; to the
-    &lt;strong&gt;&lt;a href=&quot;https://form.jotform.com/260147181364858&quot;&gt;submission portal&lt;/a&gt;&lt;/strong&gt;.
-  &lt;/p&gt;
-&lt;/div&gt;
 
     </content>
   </entry>
