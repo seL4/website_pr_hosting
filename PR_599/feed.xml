@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>seL4 News</title>
+  <author>
+    <name>seL4 Foundation</name>
+  </author>
+  <logo>/website_pr_hosting/PR_599/images/seL4.svg</logo>
+  <icon>/website_pr_hosting/PR_599/images/seL4.svg</icon>
+  <id>https://sel4.github.io/website_pr_hosting/PR_599/</id>
+  <description>News feed about seL4, the seL4 Foundation, and the seL4 ecosystem.</description>
+  <link rel="alternate">https://sel4.github.io/website_pr_hosting/PR_599/news/</link>
+  <link rel="self">https://sel4.github.io/website_pr_hosting/PR_599/feed.xml</link>
+  <updated>Wed, 01 Jul 2026 00:00:00 +0000</updated>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>The seL4 Summit 2026 Program and Abstracts</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html#summit-program-2026"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html#summit-program-2026</id>
+    <published>Wed, 01 Jul 2026 00:00:00 +0000</published>
+    <updated>Wed, 01 Jul 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  The &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2026/program.html&quot;&gt;program&lt;/a&gt;  of the &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2026&quot;&gt;seL4 Summit 2026&lt;/a&gt; is now available!
+&lt;/p&gt;
+&lt;p&gt;
+  The 2026 edition of the seL4 summit features a full first day dedicated to high-level overviews and perspectives, followed by Days 2 and 3 focusing on more technical insights and updates. Have a look at the &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2026/abstracts2026.html&quot;&gt;abstracts&lt;/a&gt; from our exciting keynotes and voices-from-nearby presenters, and the great line-up of interesting seL4-related research, development, field reports and technical discussions.
+&lt;/p&gt;
+&lt;p&gt;
+  The event will offer an ideal opportunity for people new to seL4 and to formally verified systems to increase their understanding of the landscape and ecosystem, and meet with seL4 developers, adopters and enthusiasts. Don&apos;t forget to &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/register/&quot;&gt;register&lt;/a&gt; and see you soon in Vancouver.
+&lt;p&gt;
+
+&lt;div class=&quot;w-full md:w-3/4 lg:w-3/4 mt-10 mb-10 mx-auto aspect-5/2&quot;&gt;
+    &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2026/program.html&quot;&gt;
+    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot; width=&quot;100%&quot; height=&quot;100%&quot; viewBox=&quot;0 0 792.41669 440.75&quot; content=&quot;&amp;lt;mxfile host=&amp;quot;app.diagrams.net&amp;quot; agent=&amp;quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36&amp;quot; version=&amp;quot;29.3.2&amp;quot;&amp;gt;&amp;#10; &amp;lt;diagram name=&amp;quot;Page-1&amp;quot; id=&amp;quot;vnLSUGy38cPuyNHt7b2f&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGraphModel dx=&amp;quot;957&amp;quot; dy=&amp;quot;641&amp;quot; grid=&amp;quot;1&amp;quot; gridSize=&amp;quot;10&amp;quot; guides=&amp;quot;1&amp;quot; tooltips=&amp;quot;1&amp;quot; connect=&amp;quot;1&amp;quot; arrows=&amp;quot;1&amp;quot; fold=&amp;quot;1&amp;quot; page=&amp;quot;1&amp;quot; pageScale=&amp;quot;1&amp;quot; pageWidth=&amp;quot;850&amp;quot; pageHeight=&amp;quot;1100&amp;quot; math=&amp;quot;0&amp;quot; shadow=&amp;quot;0&amp;quot;&amp;gt;&amp;#10; &amp;lt;root&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;0&amp;quot; /&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;1&amp;quot; parent=&amp;quot;0&amp;quot; /&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;Yvs-J3TOg6n32_sm5Zv9-1&amp;quot; parent=&amp;quot;1&amp;quot; style=&amp;quot;rounded=0;fillColor=#e1d5e7;fontFamily=roboto;fontStyle=0;fontSize=26;strokeColor=none;&amp;quot; value=&amp;quot;Applications,&amp;amp;#xa;Overviews&amp;amp;#xa;&amp;amp;amp;&amp;amp;#xa;Perspectives&amp;quot; vertex=&amp;quot;1&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGeometry height=&amp;quot;310&amp;quot; width=&amp;quot;190&amp;quot; x=&amp;quot;240&amp;quot; y=&amp;quot;170&amp;quot; as=&amp;quot;geometry&amp;quot; /&amp;gt;&amp;#10; &amp;lt;/mxCell&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;Yvs-J3TOg6n32_sm5Zv9-6&amp;quot; parent=&amp;quot;1&amp;quot; style=&amp;quot;rounded=0;fillColor=light-dark(#D2EBAB,#96CA50);fontFamily=roboto;fontStyle=0;fontSize=26;strokeColor=none;&amp;quot; value=&amp;quot;Dinner&amp;quot; vertex=&amp;quot;1&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGeometry height=&amp;quot;40&amp;quot; width=&amp;quot;190&amp;quot; x=&amp;quot;240&amp;quot; y=&amp;quot;500&amp;quot; as=&amp;quot;geometry&amp;quot; /&amp;gt;&amp;#10; &amp;lt;/mxCell&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;Yvs-J3TOg6n32_sm5Zv9-9&amp;quot; parent=&amp;quot;1&amp;quot; style=&amp;quot;rounded=0;fillColor=light-dark(#C0D7E1,#94BBCC);fontFamily=roboto;fontStyle=0;fontSize=26;strokeColor=none;&amp;quot; value=&amp;quot;Development,&amp;amp;#xa;Research,&amp;amp;#xa;Reports&amp;amp;#xa;&amp;amp;amp;&amp;amp;#xa;Discussions&amp;quot; vertex=&amp;quot;1&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGeometry height=&amp;quot;310&amp;quot; width=&amp;quot;190&amp;quot; x=&amp;quot;440&amp;quot; y=&amp;quot;170&amp;quot; as=&amp;quot;geometry&amp;quot; /&amp;gt;&amp;#10; &amp;lt;/mxCell&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;Yvs-J3TOg6n32_sm5Zv9-13&amp;quot; parent=&amp;quot;1&amp;quot; style=&amp;quot;rounded=0;fillColor=light-dark(#385378,#385378);fontFamily=roboto;fontStyle=0;fontSize=26;fontColor=light-dark(#d6dbe4, #ededed);strokeColor=none;&amp;quot; value=&amp;quot;Tue Sep 1&amp;quot; vertex=&amp;quot;1&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGeometry height=&amp;quot;40&amp;quot; width=&amp;quot;190&amp;quot; x=&amp;quot;240&amp;quot; y=&amp;quot;110&amp;quot; as=&amp;quot;geometry&amp;quot; /&amp;gt;&amp;#10; &amp;lt;/mxCell&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;Yvs-J3TOg6n32_sm5Zv9-14&amp;quot; parent=&amp;quot;1&amp;quot; style=&amp;quot;rounded=0;fillColor=light-dark(#385378,#385378);fontFamily=roboto;fontStyle=0;fontSize=26;fontColor=light-dark(#d6dbe4, #ededed);strokeColor=none;&amp;quot; value=&amp;quot;Mon Aug 31&amp;quot; vertex=&amp;quot;1&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGeometry height=&amp;quot;40&amp;quot; width=&amp;quot;190&amp;quot; x=&amp;quot;40&amp;quot; y=&amp;quot;110&amp;quot; as=&amp;quot;geometry&amp;quot; /&amp;gt;&amp;#10; &amp;lt;/mxCell&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;Yvs-J3TOg6n32_sm5Zv9-15&amp;quot; parent=&amp;quot;1&amp;quot; style=&amp;quot;rounded=0;fillColor=light-dark(#385378,#385378);fontFamily=roboto;fontStyle=0;fontSize=26;fontColor=light-dark(#d6dbe4, #ededed);strokeColor=none;&amp;quot; value=&amp;quot;Wed Sep 2&amp;quot; vertex=&amp;quot;1&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGeometry height=&amp;quot;40&amp;quot; width=&amp;quot;190&amp;quot; x=&amp;quot;440&amp;quot; y=&amp;quot;110&amp;quot; as=&amp;quot;geometry&amp;quot; /&amp;gt;&amp;#10; &amp;lt;/mxCell&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;Yvs-J3TOg6n32_sm5Zv9-16&amp;quot; parent=&amp;quot;1&amp;quot; style=&amp;quot;rounded=0;fillColor=light-dark(#385378,#385378);fontFamily=roboto;fontStyle=0;fontSize=26;fontColor=light-dark(#d6dbe4, #ededed);strokeColor=none;&amp;quot; value=&amp;quot;Fri Sep 3&amp;quot; vertex=&amp;quot;1&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGeometry height=&amp;quot;40&amp;quot; width=&amp;quot;190&amp;quot; x=&amp;quot;640&amp;quot; y=&amp;quot;110&amp;quot; as=&amp;quot;geometry&amp;quot; /&amp;gt;&amp;#10; &amp;lt;/mxCell&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;Yvs-J3TOg6n32_sm5Zv9-17&amp;quot; parent=&amp;quot;1&amp;quot; style=&amp;quot;rounded=0;fillColor=light-dark(#D2EBAB,#96CA50);fontFamily=roboto;fontStyle=0;fontSize=26;strokeColor=none;&amp;quot; value=&amp;quot;Informal&amp;amp;#xa;Social&amp;amp;#xa;Activities&amp;quot; vertex=&amp;quot;1&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGeometry height=&amp;quot;210&amp;quot; width=&amp;quot;190&amp;quot; x=&amp;quot;40&amp;quot; y=&amp;quot;330&amp;quot; as=&amp;quot;geometry&amp;quot; /&amp;gt;&amp;#10; &amp;lt;/mxCell&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;Yvs-J3TOg6n32_sm5Zv9-19&amp;quot; parent=&amp;quot;1&amp;quot; style=&amp;quot;rounded=0;fillColor=light-dark(#385378,#385378);fontFamily=roboto;fontStyle=0;fontSize=34;fontColor=light-dark(#d6dbe4, #ededed);strokeColor=none;&amp;quot; value=&amp;quot;Day 1&amp;quot; vertex=&amp;quot;1&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGeometry height=&amp;quot;50&amp;quot; width=&amp;quot;190&amp;quot; x=&amp;quot;240&amp;quot; y=&amp;quot;50&amp;quot; as=&amp;quot;geometry&amp;quot; /&amp;gt;&amp;#10; &amp;lt;/mxCell&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;Yvs-J3TOg6n32_sm5Zv9-20&amp;quot; parent=&amp;quot;1&amp;quot; style=&amp;quot;rounded=0;fillColor=light-dark(#385378,#385378);fontFamily=roboto;fontStyle=0;fontSize=34;fontColor=light-dark(#d6dbe4, #ededed);strokeColor=none;&amp;quot; value=&amp;quot;Day 2&amp;quot; vertex=&amp;quot;1&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGeometry height=&amp;quot;50&amp;quot; width=&amp;quot;190&amp;quot; x=&amp;quot;440&amp;quot; y=&amp;quot;50&amp;quot; as=&amp;quot;geometry&amp;quot; /&amp;gt;&amp;#10; &amp;lt;/mxCell&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;Yvs-J3TOg6n32_sm5Zv9-21&amp;quot; parent=&amp;quot;1&amp;quot; style=&amp;quot;rounded=0;fillColor=light-dark(#385378,#385378);fontFamily=roboto;fontStyle=0;fontSize=34;fontColor=light-dark(#d6dbe4, #ededed);strokeColor=none;&amp;quot; value=&amp;quot;Day 3&amp;quot; vertex=&amp;quot;1&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGeometry height=&amp;quot;50&amp;quot; width=&amp;quot;190&amp;quot; x=&amp;quot;640&amp;quot; y=&amp;quot;50&amp;quot; as=&amp;quot;geometry&amp;quot; /&amp;gt;&amp;#10; &amp;lt;/mxCell&amp;gt;&amp;#10; &amp;lt;mxCell id=&amp;quot;JTQsx1d-b1zgZmdPj7uW-1&amp;quot; parent=&amp;quot;1&amp;quot; style=&amp;quot;rounded=0;fillColor=light-dark(#C0D7E1,#94BBCC);fontFamily=roboto;fontStyle=0;fontSize=26;strokeColor=none;&amp;quot; value=&amp;quot;Development,&amp;amp;#xa;Research,&amp;amp;#xa;Reports&amp;amp;#xa;&amp;amp;amp;&amp;amp;#xa;Discussions&amp;quot; vertex=&amp;quot;1&amp;quot;&amp;gt;&amp;#10; &amp;lt;mxGeometry height=&amp;quot;310&amp;quot; width=&amp;quot;190&amp;quot; x=&amp;quot;640&amp;quot; y=&amp;quot;170&amp;quot; as=&amp;quot;geometry&amp;quot; /&amp;gt;&amp;#10; &amp;lt;/mxCell&amp;gt;&amp;#10; &amp;lt;/root&amp;gt;&amp;#10; &amp;lt;/mxGraphModel&amp;gt;&amp;#10; &amp;lt;/diagram&amp;gt;&amp;#10;&amp;lt;/mxfile&amp;gt;&quot; id=&quot;svg60&quot; xml:space=&quot;preserve&quot;&gt;
+  &lt;sodipodi:namedview id=&quot;namedview60&quot; pagecolor=&quot;#ffffff&quot; bordercolor=&quot;#000000&quot; borderopacity=&quot;0.25&quot;/&gt;
+  &lt;g id=&quot;g61&quot; transform=&quot;translate(1.91667,0.24999667)&quot;&gt;
+    &lt;rect fill=&quot;#ffffff&quot; width=&quot;100%&quot; height=&quot;100%&quot; x=&quot;0&quot; y=&quot;0&quot; id=&quot;rect1&quot;/&gt;
+    &lt;g id=&quot;g65&quot; transform=&quot;translate(-1.91667,-0.24999667)&quot;&gt;
+      &lt;rect fill=&quot;#ffffff&quot; width=&quot;100%&quot; height=&quot;100%&quot; x=&quot;0&quot; y=&quot;0&quot; id=&quot;rect1-6&quot;/&gt;
+      &lt;g id=&quot;g73&quot;&gt;
+        &lt;g data-cell-id=&quot;0&quot; id=&quot;g72&quot;&gt;
+          &lt;g data-cell-id=&quot;1&quot; id=&quot;g71&quot;&gt;
+            &lt;g data-cell-id=&quot;DBtUXKYY8ZC7aqgYdBf2-6&quot; id=&quot;g6&quot;&gt;
+              &lt;g transform=&quot;translate(0.5,0.5)&quot; id=&quot;g2&quot;&gt;
+                &lt;rect x=&quot;200&quot; y=&quot;400&quot; width=&quot;190&quot; height=&quot;40&quot; fill=&quot;#d2ebab&quot; stroke=&quot;none&quot; pointer-events=&quot;all&quot; id=&quot;rect2&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g5&quot;&gt;
+                &lt;g fill=&quot;#000000&quot; font-family=&quot;roboto&quot; text-anchor=&quot;middle&quot; font-size=&quot;26px&quot; id=&quot;g4&quot;&gt;
+                  &lt;g transform=&quot;translate(295,432)&quot; id=&quot;g3&quot;&gt;
+                    &lt;text id=&quot;text2&quot;&gt;
+                      &lt;tspan id=&quot;tspan2&quot;&gt;Dinner&lt;/tspan&gt;
+                    &lt;/text&gt;
+                  &lt;/g&gt;
+                &lt;/g&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;g data-cell-id=&quot;DBtUXKYY8ZC7aqgYdBf2-9&quot; id=&quot;g14&quot;&gt;
+              &lt;g transform=&quot;translate(0.5,0.5)&quot; id=&quot;g7&quot;&gt;
+                &lt;rect x=&quot;400&quot; y=&quot;120&quot; width=&quot;190&quot; height=&quot;260&quot; fill=&quot;#c0d7e1&quot; stroke=&quot;none&quot; pointer-events=&quot;all&quot; id=&quot;rect6&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g13&quot;&gt;
+                &lt;g fill=&quot;#000000&quot; font-family=&quot;roboto&quot; text-anchor=&quot;middle&quot; data-blockTextHeight=&quot;156&quot; font-size=&quot;26px&quot; id=&quot;g12&quot;&gt;
+                  &lt;g transform=&quot;translate(495,172)&quot; id=&quot;g11&quot;&gt;
+                    &lt;text y=&quot;26&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text7&quot;&gt;
+                      &lt;tspan id=&quot;tspan7&quot;&gt;Development,&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;57.200001&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text8&quot;&gt;
+                      &lt;tspan id=&quot;tspan8&quot;&gt;Research,&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;88.400002&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text9&quot;&gt;
+                      &lt;tspan id=&quot;tspan9&quot;&gt;Reports &lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;119.6&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text10&quot;&gt;
+                      &lt;tspan id=&quot;tspan10&quot;&gt;&amp;amp;&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;150.8&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text11&quot;&gt;
+                      &lt;tspan id=&quot;tspan11&quot;&gt;Discussions&lt;/tspan&gt;
+                    &lt;/text&gt;
+                  &lt;/g&gt;
+                &lt;/g&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;g data-cell-id=&quot;DBtUXKYY8ZC7aqgYdBf2-13&quot; id=&quot;g19&quot;&gt;
+              &lt;g transform=&quot;translate(0.5,0.5)&quot; id=&quot;g15&quot;&gt;
+                &lt;rect x=&quot;200&quot; y=&quot;60&quot; width=&quot;190&quot; height=&quot;40&quot; fill=&quot;#385378&quot; stroke=&quot;none&quot; pointer-events=&quot;all&quot; style=&quot;fill:#385378&quot; id=&quot;rect14&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g18&quot;&gt;
+                &lt;g fill=&quot;#d6dbe4&quot; font-family=&quot;roboto&quot; text-anchor=&quot;middle&quot; font-size=&quot;26px&quot; id=&quot;g17&quot;&gt;
+                  &lt;g transform=&quot;translate(295,92)&quot; id=&quot;g16&quot;&gt;
+                    &lt;text id=&quot;text15&quot;&gt;
+                      &lt;tspan id=&quot;tspan15&quot;&gt;Tue Sep 1&lt;/tspan&gt;
+                    &lt;/text&gt;
+                  &lt;/g&gt;
+                &lt;/g&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;g data-cell-id=&quot;DBtUXKYY8ZC7aqgYdBf2-14&quot; id=&quot;g24&quot;&gt;
+              &lt;g transform=&quot;translate(0.5,0.5)&quot; id=&quot;g20&quot;&gt;
+                &lt;rect x=&quot;0&quot; y=&quot;60&quot; width=&quot;190&quot; height=&quot;40&quot; fill=&quot;#385378&quot; stroke=&quot;none&quot; pointer-events=&quot;all&quot; style=&quot;fill:#385378&quot; id=&quot;rect19&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g23&quot;&gt;
+                &lt;g fill=&quot;#d6dbe4&quot; font-family=&quot;roboto&quot; text-anchor=&quot;middle&quot; font-size=&quot;26px&quot; id=&quot;g22&quot;&gt;
+                  &lt;g transform=&quot;translate(95,92)&quot; id=&quot;g21&quot;&gt;
+                    &lt;text id=&quot;text20&quot;&gt;
+                      &lt;tspan id=&quot;tspan20&quot;&gt;Mon Aug 31&lt;/tspan&gt;
+                    &lt;/text&gt;
+                  &lt;/g&gt;
+                &lt;/g&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;g data-cell-id=&quot;DBtUXKYY8ZC7aqgYdBf2-15&quot; id=&quot;g29&quot;&gt;
+              &lt;g transform=&quot;translate(0.5,0.5)&quot; id=&quot;g25&quot;&gt;
+                &lt;rect x=&quot;400&quot; y=&quot;60&quot; width=&quot;190&quot; height=&quot;40&quot; fill=&quot;#385378&quot; stroke=&quot;none&quot; pointer-events=&quot;all&quot; style=&quot;fill:#385378&quot; id=&quot;rect24&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g28&quot;&gt;
+                &lt;g fill=&quot;#d6dbe4&quot; font-family=&quot;roboto&quot; text-anchor=&quot;middle&quot; font-size=&quot;26px&quot; id=&quot;g27&quot;&gt;
+                  &lt;g transform=&quot;translate(495,92)&quot; id=&quot;g26&quot;&gt;
+                    &lt;text id=&quot;text25&quot;&gt;
+                      &lt;tspan id=&quot;tspan25&quot;&gt;Wed Sep 2&lt;/tspan&gt;
+                    &lt;/text&gt;
+                  &lt;/g&gt;
+                &lt;/g&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;g data-cell-id=&quot;DBtUXKYY8ZC7aqgYdBf2-16&quot; id=&quot;g34&quot;&gt;
+              &lt;g transform=&quot;translate(0.5,0.5)&quot; id=&quot;g30&quot;&gt;
+                &lt;rect x=&quot;600&quot; y=&quot;60&quot; width=&quot;190&quot; height=&quot;40&quot; fill=&quot;#385378&quot; stroke=&quot;none&quot; pointer-events=&quot;all&quot; style=&quot;fill:#385378&quot; id=&quot;rect29&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g33&quot;&gt;
+                &lt;g fill=&quot;#d6dbe4&quot; font-family=&quot;roboto&quot; text-anchor=&quot;middle&quot; font-size=&quot;26px&quot; id=&quot;g32&quot;&gt;
+                  &lt;g transform=&quot;translate(695,92)&quot; id=&quot;g31&quot;&gt;
+                    &lt;text id=&quot;text30&quot;&gt;
+                      &lt;tspan id=&quot;tspan30&quot;&gt;Thu Sep 3&lt;/tspan&gt;
+                    &lt;/text&gt;
+                  &lt;/g&gt;
+                &lt;/g&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;g data-cell-id=&quot;DBtUXKYY8ZC7aqgYdBf2-17&quot; id=&quot;g40&quot;&gt;
+              &lt;g transform=&quot;translate(0.5,0.5)&quot; id=&quot;g35&quot;&gt;
+                &lt;rect x=&quot;0&quot; y=&quot;230&quot; width=&quot;190&quot; height=&quot;210&quot; fill=&quot;#d2ebab&quot; stroke=&quot;none&quot; pointer-events=&quot;all&quot; id=&quot;rect34&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g39&quot;&gt;
+                &lt;g fill=&quot;#000000&quot; font-family=&quot;roboto&quot; text-anchor=&quot;middle&quot; data-blockTextHeight=&quot;93.60000000000001&quot; font-size=&quot;26px&quot; id=&quot;g38&quot;&gt;
+                  &lt;g transform=&quot;translate(95,288.2)&quot; id=&quot;g37&quot;&gt;
+                    &lt;text y=&quot;26&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text35&quot;&gt;
+                      &lt;tspan id=&quot;tspan35&quot;&gt;Informal&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;57.200001&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text36&quot;&gt;
+                      &lt;tspan id=&quot;tspan36&quot;&gt;Social&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;88.400002&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text37&quot;&gt;
+                      &lt;tspan id=&quot;tspan37&quot;&gt;Activities&lt;/tspan&gt;
+                    &lt;/text&gt;
+                  &lt;/g&gt;
+                &lt;/g&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;g data-cell-id=&quot;DBtUXKYY8ZC7aqgYdBf2-19&quot; id=&quot;g45&quot;&gt;
+              &lt;g transform=&quot;translate(0.5,0.5)&quot; id=&quot;g41&quot;&gt;
+                &lt;rect x=&quot;200&quot; y=&quot;0&quot; width=&quot;190&quot; height=&quot;50&quot; fill=&quot;#385378&quot; stroke=&quot;none&quot; pointer-events=&quot;all&quot; style=&quot;fill:#385378&quot; id=&quot;rect40&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g44&quot;&gt;
+                &lt;g fill=&quot;#d6dbe4&quot; font-family=&quot;roboto&quot; text-anchor=&quot;middle&quot; font-size=&quot;34px&quot; id=&quot;g43&quot;&gt;
+                  &lt;g transform=&quot;translate(295,41)&quot; id=&quot;g42&quot;&gt;
+                    &lt;text id=&quot;text41&quot;&gt;
+                      &lt;tspan id=&quot;tspan41&quot;&gt;Day 1&lt;/tspan&gt;
+                    &lt;/text&gt;
+                  &lt;/g&gt;
+                &lt;/g&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;g data-cell-id=&quot;DBtUXKYY8ZC7aqgYdBf2-20&quot; id=&quot;g50&quot;&gt;
+              &lt;g transform=&quot;translate(0.5,0.5)&quot; id=&quot;g46&quot;&gt;
+                &lt;rect x=&quot;400&quot; y=&quot;0&quot; width=&quot;190&quot; height=&quot;50&quot; fill=&quot;#385378&quot; stroke=&quot;none&quot; pointer-events=&quot;all&quot; style=&quot;fill:#385378&quot; id=&quot;rect45&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g49&quot;&gt;
+                &lt;g fill=&quot;#d6dbe4&quot; font-family=&quot;roboto&quot; text-anchor=&quot;middle&quot; font-size=&quot;34px&quot; id=&quot;g48&quot;&gt;
+                  &lt;g transform=&quot;translate(495,41)&quot; id=&quot;g47&quot;&gt;
+                    &lt;text id=&quot;text46&quot;&gt;
+                      &lt;tspan id=&quot;tspan46&quot;&gt;Day 2&lt;/tspan&gt;
+                    &lt;/text&gt;
+                  &lt;/g&gt;
+                &lt;/g&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;g data-cell-id=&quot;DBtUXKYY8ZC7aqgYdBf2-21&quot; id=&quot;g55&quot;&gt;
+              &lt;g transform=&quot;translate(0.5,0.5)&quot; id=&quot;g51&quot;&gt;
+                &lt;rect x=&quot;600&quot; y=&quot;0&quot; width=&quot;190&quot; height=&quot;50&quot; fill=&quot;#385378&quot; stroke=&quot;none&quot; pointer-events=&quot;all&quot; style=&quot;fill:#385378&quot; id=&quot;rect50&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g54&quot;&gt;
+                &lt;g fill=&quot;#d6dbe4&quot; font-family=&quot;roboto&quot; text-anchor=&quot;middle&quot; font-size=&quot;34px&quot; id=&quot;g53&quot;&gt;
+                  &lt;g transform=&quot;translate(695,41)&quot; id=&quot;g52&quot;&gt;
+                    &lt;text id=&quot;text51&quot;&gt;
+                      &lt;tspan id=&quot;tspan51&quot;&gt;Day 3&lt;/tspan&gt;
+                    &lt;/text&gt;
+                  &lt;/g&gt;
+                &lt;/g&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;g data-cell-id=&quot;DBtUXKYY8ZC7aqgYdBf2-24&quot; id=&quot;g63&quot;&gt;
+              &lt;g transform=&quot;translate(0.5,0.5)&quot; id=&quot;g56&quot;&gt;
+                &lt;rect x=&quot;600&quot; y=&quot;120&quot; width=&quot;190&quot; height=&quot;260&quot; fill=&quot;#c0d7e1&quot; stroke=&quot;none&quot; pointer-events=&quot;all&quot; id=&quot;rect55&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g62&quot;&gt;
+                &lt;g fill=&quot;#000000&quot; font-family=&quot;roboto&quot; text-anchor=&quot;middle&quot; data-blockTextHeight=&quot;156&quot; font-size=&quot;26px&quot; id=&quot;g61-2&quot;&gt;
+                  &lt;g transform=&quot;translate(695,172)&quot; id=&quot;g60&quot;&gt;
+                    &lt;text y=&quot;26&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text56&quot;&gt;
+                      &lt;tspan id=&quot;tspan56&quot;&gt;Development,&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;57.200001&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text57&quot;&gt;
+                      &lt;tspan id=&quot;tspan57&quot;&gt;Research,&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;88.400002&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text58&quot;&gt;
+                      &lt;tspan id=&quot;tspan58&quot;&gt;Reports &lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;119.6&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text59&quot;&gt;
+                      &lt;tspan id=&quot;tspan59&quot;&gt;&amp;amp;&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;150.8&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text60&quot;&gt;
+                      &lt;tspan id=&quot;tspan60&quot;&gt;Discussions&lt;/tspan&gt;
+                    &lt;/text&gt;
+                  &lt;/g&gt;
+                &lt;/g&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;g data-cell-id=&quot;TNBEagq9y8Wiq4CNqpp_-1&quot; id=&quot;g70&quot;&gt;
+              &lt;g transform=&quot;translate(0.5,0.5)&quot; id=&quot;g64&quot;&gt;
+                &lt;rect x=&quot;200&quot; y=&quot;120&quot; width=&quot;190&quot; height=&quot;260&quot; fill=&quot;#e1d5e7&quot; stroke=&quot;none&quot; pointer-events=&quot;all&quot; id=&quot;rect63&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g69&quot;&gt;
+                &lt;g fill=&quot;#000000&quot; font-family=&quot;roboto&quot; text-anchor=&quot;middle&quot; data-blockTextHeight=&quot;124.80000000000001&quot; font-size=&quot;26px&quot; id=&quot;g68&quot;&gt;
+                  &lt;g transform=&quot;translate(295,187.6)&quot; id=&quot;g67&quot;&gt;
+                    &lt;text y=&quot;26&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text64&quot;&gt;
+                      &lt;tspan id=&quot;tspan64&quot;&gt;Applications,&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;57.200001&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text65&quot;&gt;
+                      &lt;tspan id=&quot;tspan65&quot;&gt;Overviews&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;88.400002&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text66&quot;&gt;
+                      &lt;tspan id=&quot;tspan66&quot;&gt;&amp;amp;&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text y=&quot;119.6&quot; data-line-font-size=&quot;26&quot; x=&quot;0&quot; id=&quot;text67&quot;&gt;
+                      &lt;tspan id=&quot;tspan67&quot;&gt;Perspectives&lt;/tspan&gt;
+                    &lt;/text&gt;
+                  &lt;/g&gt;
+                &lt;/g&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+          &lt;/g&gt;
+        &lt;/g&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;
+  Program at a glance. Go to the &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2026/program.html&quot;&gt;full
+  program&lt;/a&gt;.
+&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>Functional correctness proof for MCS seL4 completed on RISC-V</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html#mcs26"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html#mcs26</id>
+    <published>Mon, 29 Jun 2026 00:00:00 +0000</published>
+    <updated>Mon, 29 Jun 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+&lt;a href=&quot;https://proofcraft.systems&quot;&gt;Proofcraft&lt;/a&gt; achieved a significant
+ milestone in the seL4 verification roadmap that was years in the making: the
+ MCS configuration of seL4, providing support for mixed-criticality systems, is
+ now &lt;a href=&quot;https://proofcraft.systems/news-2026/#2026-06-29&quot;&gt;proved to be
+ correct on RISC-V&lt;/a&gt;.
+&lt;/p&gt;
+
+
+&lt;p&gt;
+This configuration is the largest new seL4 feature, indispensable for mixed
+criticality real-time applications such as automotive use cases. It contains
+wide-ranging changes to the kernel&apos;s implementation and API. Its verification
+therefore required considerable effort and has been a priority in the seL4
+roadmap for a long time.
+&lt;/p&gt;
+
+&lt;p&gt;
+Proofcraft has now completed the verification of functional correctness for seL4
+with MCS. Functional correctness is the largest and most central proof in
+the &lt;a href=&quot;/website_pr_hosting/PR_599/Verification/proofs.html&quot;&gt;seL4 verification
+stack&lt;/a&gt;. The proof targets the RISC-V architecture and will now be ported to
+the Arm 64-bit architecture, as part of DARPA&apos;s PROVERS program.
+&lt;/p&gt;
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>Gapfruit joins the seL4 Foundation</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html</id>
+    <published>Mon, 01 Jun 2026 00:00:00 +0000</published>
+    <updated>Mon, 01 Jun 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  We are pleased to welcome a new &lt;a href=&quot;/website_pr_hosting/PR_599/Foundation/Membership/&quot;&gt;member&lt;/a&gt; - &lt;a href=&quot;https://www.gapfruit.com/&quot;&gt;Gapfruit&lt;/a&gt;
+  - to the &lt;a href=&quot;/website_pr_hosting/PR_599/Foundation&quot;&gt;seL4 Foundation&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+  Gapfruit is a Swiss technology company building trustworthy foundations for
+  the systems society depends on - from industrial controls to energy
+  infrastructure. To achieve this, Gapfruit combines microkernel operating
+  systems with capability-based security and hardware-rooted trust - an approach
+  grounded in standards from the &lt;a
+  href=&quot;https://trustedcomputinggroup.org/&quot;&gt;Trusted Computing Group&lt;/a&gt;.
+  Together, these technologies enable resilient, verifiable device operations
+  for the critical systems that underpin modern infrastructure. By joining the
+  seL4 Foundation, we aim to advance high-assurance computing in critical
+  infrastructure and collaborate with the global seL4 community to make
+  trustworthy systems the standard - not the exception.
+&lt;/p&gt;
+&lt;p&gt;
+  Learn more about Gapfruit&apos;s work in their contributions to previous seL4
+  summit &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2023/abstracts2023.html#a-panel&quot;&gt;panels&lt;/a&gt; and &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2023/abstracts2023.html#a-showcase-microkernel&quot;&gt;talks&lt;/a&gt;.
+&lt;/p&gt;
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>Thank you Proofcraft, silver sponsor of the seL4 Summit 2026</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html</id>
+    <published>Fri, 17 Apr 2026 00:00:00 +0000</published>
+    <updated>Fri, 17 Apr 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  The seL4 Foundation thanks &lt;a
+  href=&quot;https://proofcraft.systems&quot;&gt;Proofcraft&lt;/a&gt;, silver sponsor of the &lt;a
+  href=&quot;/website_pr_hosting/PR_599/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+  Founded by the seL4 verification leaders, &lt;a
+  href=&quot;https://proofcraft.systems&quot;&gt;Proofcraft&lt;/a&gt; offers commercial support
+  and projects in formal verification in general, and involving seL4
+  specifically. By applying mathematical machine-checked software verification,
+  Proofcraft increases critical software systems&apos; reliability, safety and
+  security, for a verified future.
+&lt;/p&gt;
+&lt;p&gt;
+  See &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/sponsor/&quot;&gt;here&lt;/a&gt;
+  if you are interested in sponsoring the  &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt;.
+&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>Thank you Riverside Research, sponsor of the seL4 Summit 2026 reception</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html</id>
+    <published>Wed, 15 Apr 2026 00:00:00 +0000</published>
+    <updated>Wed, 15 Apr 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  The seL4 Foundation thanks &lt;a
+  href=&quot;https://www.riversideresearch.org/&quot;&gt;Riverside Research&lt;/a&gt;
+  for sponsoring the &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2026/&quot;&gt;seL4 Summit
+  2026&lt;/a&gt; reception.
+&lt;/p&gt;
+&lt;p&gt;
+  Riverside Research is a national security nonprofit serving the DOD and
+  Intelligence Community. Through the company&apos;s Open Innovation Center (OIC), it
+  invests in multidisciplinary research and development and encourages
+  collaboration. Riverside Research&apos;s areas of expertise include Object and
+  Activity Detection; Accelerated AI/ML; Zero Trust; Open Architectures;
+  Computational Electromagnetics; Plasma Physics; Precision Timing; Terahertz
+  Imaging; Commercial Intelligence, Surveillance, and Reconnaissance (ISR);
+  Collection Planning; and more. Learn more at &lt;a
+  href=&quot;https://www.riversideresearch.org/&quot;&gt;www.riversideresearch.org&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+  See &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/sponsor/&quot;&gt;here&lt;/a&gt;
+  if you are interested in sponsoring the  &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt;.
+&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>New seL4 release available</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html</id>
+    <published>Tue, 31 Mar 2026 00:00:00 +0000</published>
+    <updated>Tue, 31 Mar 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;We’re pleased to announce the release of&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/sel4/15.0.0&quot;&gt;seL4 15.0.0&lt;/a&gt;: The seL4
+microkernel&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/microkit/2.2.0&quot;&gt;Microkit 2.2.0&lt;/a&gt;: The seL4
+Microkit for building static-architecture systems&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/camkes/camkes-3.12.0&quot;&gt;CAmkES 3.12.0&lt;/a&gt;:
+Component Architecture for microkernel-based Embedded Systems&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/capdl/0.5.0&quot;&gt;capDL 0.5.0&lt;/a&gt;: Tools for
+generating, parsing and loading capability distribution specifications&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/seL4/rust-sel4/releases/tag/v4.0.0&quot;&gt;rust-sel4 4.0.0&lt;/a&gt;: Rust
+support for seL4 userspace. See the Rust section on the
+&lt;a href=&quot;https://docs.sel4.systems/projects/rust/&quot;&gt;seL4 docsite&lt;/a&gt; for more
+information.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;seL4 15.0.0 and the corresponding Rust support come with new features and will
+require updates if you are using the seL4 API directly. CAmkES and the capDL
+tool add domain schedules as a new feature and applications will need updates if
+they use the seL4 domain scheduler. The Microkit release should not require any
+update of user code compared to Microkit 2.1.0.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>The seL4 Summit 2026 Keynotes and &quot;Voices from Nearby&quot;</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html</id>
+    <published>Wed, 18 Mar 2026 00:00:00 +0000</published>
+    <updated>Wed, 18 Mar 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;h3&gt;Keynotes&lt;/h3&gt;
+&lt;p&gt;
+  We are pleased to announce that we have two outstanding keynotes for the &lt;a
+  href=&quot;/website_pr_hosting/PR_599/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt;: &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/anjanarajan/&quot;&gt;Anjana
+  Rajan&lt;/a&gt;&lt;/strong&gt;, Former Assistant National Cyber Director at The White
+  House, and &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/mpdehnel/&quot;&gt;Martin
+  Dehnel-Wild&lt;/a&gt;&lt;/strong&gt;, Chief Scientist
+  at Kry10. Abstracts coming soon — stay tuned!
+&lt;/p&gt;
+&lt;div class=&quot;grid grid-rows-1 w-2/3 sm:grid-cols-2 gap-10 mt-5&quot;&gt;
+  &lt;div&gt;
+    &lt;p&gt;
+      &lt;img src=&quot;../images/summit/anjana-square.jpg&quot; class=&quot;rounded-xl w-full
+      ml-1 mt-0&quot; alt=&quot;Photo of Anjana Rajan&quot;&gt;
+      &lt;a href=&quot;https://www.linkedin.com/in/anjanarajan/&quot;&gt;&lt;strong&gt;Anjana
+      Rajan&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Former Assistant National Cyber Director at The
+      White House.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;p&gt;
+      &lt;img src=&quot;../images/summit/martin-square.jpg&quot; class=&quot;float-right
+      rounded-xl w-full ml-1 mt-0&quot; alt=&quot;Photo of Martin Dehnel-Wild&quot;&gt;
+      &lt;a href=&quot;https://www.linkedin.com/in/mpdehnel/&quot;&gt;&lt;strong&gt;Martin
+      Dehnel-Wild&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Chief Scientist at Kry10.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;&quot;Voices from Nearby&quot;&lt;/h3&gt;
+&lt;p&gt;
+  This year, the summit will feature a full first day dedicated to applications,
+  overviews, and perspectives on seL4-based systems and formally verified
+  software in the real world. This will include a session on &quot;Voices from
+  Nearby,&quot; with industry experts who work in or share their thoughts on
+  areas that are adjacent to the core seL4 areas. &lt;a
+  href=&quot;https://www.linkedin.com/in/alistair-woodman-51934433/&quot;&gt;Alistair
+  Woodmand&lt;/a&gt;, Board Member of the Erlang Ecosystem Foundation, will share
+  his insights on the European Cyber Resiliency Act and implications for open
+  source software, and &lt;a
+  href=&quot;https://loonwerks.com/people/david-hardin.html&quot;&gt;David Hardin&lt;/a&gt;,
+  Associate Director of Systems Engineering at Collins Aerospace, will give
+  an overview on trends in real-world formal verification. Details coming soon!
+&lt;/p&gt;
+&lt;div class=&quot;grid grid-rows-1 w-2/3 sm:grid-cols-2 gap-10 mt-5&quot;&gt;
+&lt;div&gt;
+    &lt;p&gt;
+      &lt;img src=&quot;../images/summit/alistair.jpg&quot; class=&quot;float-right rounded-xl
+      w-full ml-1 mt-0&quot; alt=&quot;Photo of Alistair Woodman&quot;&gt;
+      &lt;strong&gt;&lt;a
+      href=&quot;https://www.linkedin.com/in/alistair-woodman-51934433/&quot;&gt;Alistair
+      Woodmand&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;Board Member of the Erlang Ecosystem Foundation.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;p&gt;
+      &lt;img src=&quot;../images/summit/david-square.jpg&quot; class=&quot;rounded-xl w-full ml-1
+      mt-0&quot; alt=&quot;Photo of David Hardin&quot;&gt;
+      &lt;strong&gt;&lt;a href=&quot;https://loonwerks.com/people/david-hardin.html&quot;&gt;David
+      Hardin&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;Associate Director of Systems Engineering at
+      Collins Aerospace.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mt-10&quot;&gt;
+  &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/register/&quot;&gt;Register&lt;/a&gt;
+  for the seL4 summit 2026, or &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2026/cfp&quot;&gt;submit&lt;/a&gt; a talk proposal.
+&lt;/div&gt;
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>Neutrality joins the seL4 Foundation</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html</id>
+    <published>Fri, 13 Mar 2026 00:00:00 +0000</published>
+    <updated>Fri, 13 Mar 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  We are pleased to welcome a new &lt;a href=&quot;/website_pr_hosting/PR_599/Foundation/Membership/&quot;&gt;member&lt;/a&gt; - &lt;a
+  href=&quot;https://neutrality.ch/&quot;&gt;Neutrality&lt;/a&gt; - to the &lt;a href=&quot;/website_pr_hosting/PR_599/Foundation&quot;&gt;seL4 Foundation&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+  Designed for organisations that cannot compromise on trust, Neutrality is
+  building Atoll, a formally-verified, secure, European-sovereign virtualisation
+  and cloud hosting platform. Atoll provides a mathematical proof of isolation
+  between customer workloads, delivering a new level of assurance. Atoll builds
+  on the foundation provided by the formally-verified seL4 microkernel,
+  extending its formal correctness proof and platform support to securely run
+  colocated commercial workloads handling sensitive data on commodity hardware.
+&lt;/p&gt;
+&lt;p&gt;
+  Neutrality combines cutting-edge research in Systems, Formal Methods, and
+  Security with a world class engineering team to provide organisations
+  unprecedented levels of trust in their most critical systems.
+&lt;/p&gt;
+&lt;p&gt;
+  Joining the seL4 Foundation enables the team at Neutrality to collaborate with
+  the global community advancing the seL4 microkernel and formally verified,
+  high-assurance computing.
+&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>Registration open for the seL4 summit 2026</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html</id>
+    <published>Mon, 23 Feb 2026 00:00:00 +0000</published>
+    <updated>Mon, 23 Feb 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  We have an exciting new format for 2026! A full first day dedicated to
+  applications, overviews, and perspectives on seL4-based systems and formally
+  verified software in the real world. Followed by two days of technical talks
+  and discussion on development, research, and experience reports.
+&lt;/p&gt;
+&lt;p&gt;
+  If you&apos;re new to seL4 or still developing your familiarity with the
+  technology, this is an ideal opportunity to get a high-level view of the
+  landscape and ecosystem.
+&lt;/p&gt;
+&lt;p&gt;
+  The &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2026/&quot;&gt;seL4 summit
+  2026&lt;/a&gt; will be in Vancouver, Canada, on 1 - 3 September 2026.
+&lt;/p&gt;
+&lt;p&gt;
+  Come hear about:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;vision, lessons-learned, roadmaps for verified software deployments;&lt;/li&gt;
+  &lt;li&gt;use-cases, deployments, experiences;&lt;/li&gt;
+  &lt;li&gt;walk-throughs and demos of tools, frameworks, systems;&lt;/li&gt;
+  &lt;li&gt;early work, crazy ideas, out-of-the-box thinking;&lt;/li&gt;
+  &lt;li&gt;technical progress, updates, breakthroughs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  And join us for one of the informal &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2026/program.html#social&quot;&gt;social activities&lt;/a&gt; on
+  Monday 31 August 2026, for a fun gathering before the event starts!
+&lt;/p&gt;
+&lt;p&gt;
+  If you have any cool work/idea/project/product related to seL4, don&apos;t forget
+  to submit a &lt;a href=&quot;/website_pr_hosting/PR_599/Summit/2026/program.html&quot;&gt;talk
+  proposal&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+  Tickets include:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Participation in the 3-day conference, including talks, keynotes, seL4
+  updates &amp; discussions&lt;/li&gt;
+  &lt;li&gt;Networking with other seL4 experts and enthusiasts&lt;/li&gt;
+  &lt;li&gt;Dinner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;strong&gt;&lt;a
+  href=&quot;https://events.linuxfoundation.org/sel4-summit/register/&quot;&gt;Register
+  here&lt;/a&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  The early bird cut-off date is 31 July 2026.
+&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>Fraunhofer AISEC joins the seL4 Foundation</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_599/news/2026.html</id>
+    <published>Wed, 28 Jan 2026 00:00:00 +0000</published>
+    <updated>Wed, 28 Jan 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  The &lt;a href=&quot;/website_pr_hosting/PR_599/Foundation&quot;&gt;seL4 Foundation&lt;/a&gt; is
+  pleased to welcome the Fraunhofer Institute for Applied and Integrated
+  Security AISEC as our latest &lt;a href=&quot;/website_pr_hosting/PR_599/Foundation/Membership&quot;&gt;Associate Member&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;a href=&quot;https://www.aisec.fraunhofer.de/en.html&quot;&gt;Fraunhofer AISEC&lt;/a&gt; is
+  considered one of the world-leading institutions for applied research in
+  cybersecurity. Around 230 highly qualified researchers develop customized
+  security concepts and solutions for commercial businesses and the public
+  sector, boosting the overall competitiveness of clients and partners.
+  Fraunhofer AISEC designs solutions for enhanced data security and effective
+  defense against cybercrimes such as corporate espionage and tampering attacks.
+  The institute&apos;s portfolio ranges from embedded and hardware security,
+  automotive and mobile security to security solutions for industry and
+  automation.
+&lt;/p&gt;
+&lt;p&gt;
+  Fraunhofer AISEC is exploring the use of the seL4 microkernel and its
+  ecosystem to build strictly separated, resilient embedded and IoT systems.
+&lt;/p&gt;
+
+    </content>
+  </entry>
+</feed>
