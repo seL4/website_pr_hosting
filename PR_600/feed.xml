@@ -10,21 +10,23 @@
   <description>News feed about seL4, the seL4 Foundation, and the seL4 ecosystem.</description>
   <link rel="alternate">https://sel4.github.io/website_pr_hosting/PR_600/news/</link>
   <link rel="self">https://sel4.github.io/website_pr_hosting/PR_600/feed.xml</link>
-  <updated>Mon, 20 Jul 2026 00:00:00 +0000</updated>
+  <updated>Wed, 22 Jul 2026 00:00:00 +0000</updated>
   <rights>Copyright 2026 seL4 Foundation</rights>
   <entry>
     <title>Panellists for seL4 Summit announced</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_600/news/2026.html#panellists26"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_600/news/2026.html#panellists26</id>
-    <published>Mon, 20 Jul 2026 00:00:00 +0000</published>
-    <updated>Mon, 20 Jul 2026 00:00:00 +0000</updated>
+    <published>Wed, 22 Jul 2026 00:00:00 +0000</published>
+    <updated>Wed, 22 Jul 2026 00:00:00 +0000</updated>
     <content type="html">
       &lt;p&gt;
-  We are very fortunate to welcome five industry leaders to
-  participate at the &lt;a href=&quot;/website_pr_hosting/PR_600/Summit/2026/&quot;&gt;seL4 Summit
-  2026&lt;/a&gt;, in a session &lt;a href=&quot;/website_pr_hosting/PR_600/Summit/2026/abstracts2026.html#a-panel&quot;&gt;Certification, Compliance and Policies: enabler or barrier to innovation?&lt;/a&gt;:
-  Atalanta, Collins Aerospace, Defence Science and Technology Laboratory (Dstl), SafeShark, and Thales. The
-  panel will be moderated by Martin Dehnel-Wild from Kry10.
+  We are very fortunate to welcome five industry leaders to participate at the
+  &lt;a href=&quot;/website_pr_hosting/PR_600/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt;, in a
+  session on &lt;a href=&quot;/website_pr_hosting/PR_600/Summit/2026/abstracts2026.html#a-panel&quot;&gt;Certification, Compliance and Policies: enabler or barrier to
+  innovation?&lt;/a&gt;: Darren Cofer (Collins Aerospace), Peter Davies (Thales)
+  Jonathan Marshall (SafeShark) Anjana Rajan (Atalanta), and James Sharp
+  (Defence Science and Technology Laboratory). The panel will be moderated by
+  Martin Dehnel-Wild (Kry10)
 &lt;/p&gt;
 
 &lt;div class=&quot;not-prose&quot;&gt;
