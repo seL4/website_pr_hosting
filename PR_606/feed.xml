@@ -39,7 +39,7 @@ information.&lt;/li&gt;
 &lt;p&gt;seL4 16.0.0 and the corresponding Rust support have breaking changes and will
 require updates if you are using the seL4 API directly. CAmkES and the capDL
 tool add units for domain schedules as a new feature, but are backwards
-compatible. The Microkit release comes with new features and requires updates
+compatible. The Microkit release comes with new features and has breaking changes
 for x86_64 systems.&lt;/p&gt;
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
