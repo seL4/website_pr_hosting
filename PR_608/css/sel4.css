@@ -1765,6 +1765,9 @@
   .-mb-8 {
     margin-bottom: calc(var(--spacing) * -8);
   }
+  .-mb-px {
+    margin-bottom: -1px;
+  }
   .mb-0 {
     margin-bottom: calc(var(--spacing) * 0);
   }
@@ -1830,6 +1833,9 @@
   }
   .ml-4 {
     margin-left: calc(var(--spacing) * 4);
+  }
+  .ml-5 {
+    margin-left: calc(var(--spacing) * 5);
   }
   .ml-6 {
     margin-left: calc(var(--spacing) * 6);
@@ -2720,6 +2726,21 @@
   }
   .rounded-xl {
     border-radius: var(--radius-xl);
+  }
+  .rounded-t-md {
+    border-top-left-radius: var(--radius-md);
+    border-top-right-radius: var(--radius-md);
+  }
+  .rounded-tr-md {
+    border-top-right-radius: var(--radius-md);
+  }
+  .\!rounded-b-none {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+  .rounded-b-md {
+    border-bottom-right-radius: var(--radius-md);
+    border-bottom-left-radius: var(--radius-md);
   }
   .border {
     border-style: var(--tw-border-style);
@@ -3681,9 +3702,9 @@
       display: block;
     }
   }
-  .peer-checked\/assoc\:\!border-transparent {
+  .peer-checked\/assoc\:\!border-gray-200 {
     &:is(:where(.peer\/assoc):checked ~ *) {
-      border-color: transparent !important;
+      border-color: var(--color-gray-200) !important;
     }
   }
   .peer-checked\/assoc\:\!bg-accentdark {
@@ -3696,10 +3717,10 @@
       color: var(--color-white) !important;
     }
   }
-  .peer-checked\/assoc\:shadow-md {
+  .peer-checked\/assoc\:\!shadow-none {
     &:is(:where(.peer\/assoc):checked ~ *) {
-      --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+      --tw-shadow: 0 0 #0000 !important;
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow) !important;
     }
   }
   .peer-checked\/gen\:block {
@@ -3707,9 +3728,9 @@
       display: block;
     }
   }
-  .peer-checked\/gen\:\!border-transparent {
+  .peer-checked\/gen\:\!border-gray-200 {
     &:is(:where(.peer\/gen):checked ~ *) {
-      border-color: transparent !important;
+      border-color: var(--color-gray-200) !important;
     }
   }
   .peer-checked\/gen\:\!bg-accentdark {
@@ -3722,10 +3743,106 @@
       color: var(--color-white) !important;
     }
   }
-  .peer-checked\/gen\:shadow-md {
+  .peer-checked\/gen\:\!shadow-none {
     &:is(:where(.peer\/gen):checked ~ *) {
-      --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+      --tw-shadow: 0 0 #0000 !important;
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow) !important;
+    }
+  }
+  .peer-checked\/assoc\:after\:absolute {
+    &:is(:where(.peer\/assoc):checked ~ *) {
+      &::after {
+        content: var(--tw-content);
+        position: absolute;
+      }
+    }
+  }
+  .peer-checked\/assoc\:after\:right-0 {
+    &:is(:where(.peer\/assoc):checked ~ *) {
+      &::after {
+        content: var(--tw-content);
+        right: calc(var(--spacing) * 0);
+      }
+    }
+  }
+  .peer-checked\/assoc\:after\:bottom-0 {
+    &:is(:where(.peer\/assoc):checked ~ *) {
+      &::after {
+        content: var(--tw-content);
+        bottom: calc(var(--spacing) * 0);
+      }
+    }
+  }
+  .peer-checked\/assoc\:after\:left-0 {
+    &:is(:where(.peer\/assoc):checked ~ *) {
+      &::after {
+        content: var(--tw-content);
+        left: calc(var(--spacing) * 0);
+      }
+    }
+  }
+  .peer-checked\/assoc\:after\:h-\[2px\] {
+    &:is(:where(.peer\/assoc):checked ~ *) {
+      &::after {
+        content: var(--tw-content);
+        height: 2px;
+      }
+    }
+  }
+  .peer-checked\/assoc\:after\:content-\[\'\'\] {
+    &:is(:where(.peer\/assoc):checked ~ *) {
+      &::after {
+        --tw-content: '';
+        content: var(--tw-content);
+      }
+    }
+  }
+  .peer-checked\/gen\:after\:absolute {
+    &:is(:where(.peer\/gen):checked ~ *) {
+      &::after {
+        content: var(--tw-content);
+        position: absolute;
+      }
+    }
+  }
+  .peer-checked\/gen\:after\:right-0 {
+    &:is(:where(.peer\/gen):checked ~ *) {
+      &::after {
+        content: var(--tw-content);
+        right: calc(var(--spacing) * 0);
+      }
+    }
+  }
+  .peer-checked\/gen\:after\:bottom-0 {
+    &:is(:where(.peer\/gen):checked ~ *) {
+      &::after {
+        content: var(--tw-content);
+        bottom: calc(var(--spacing) * 0);
+      }
+    }
+  }
+  .peer-checked\/gen\:after\:left-0 {
+    &:is(:where(.peer\/gen):checked ~ *) {
+      &::after {
+        content: var(--tw-content);
+        left: calc(var(--spacing) * 0);
+      }
+    }
+  }
+  .peer-checked\/gen\:after\:h-\[2px\] {
+    &:is(:where(.peer\/gen):checked ~ *) {
+      &::after {
+        content: var(--tw-content);
+        height: 2px;
+      }
+    }
+  }
+  .peer-checked\/gen\:after\:content-\[\'\'\] {
+    &:is(:where(.peer\/gen):checked ~ *) {
+      &::after {
+        --tw-content: '';
+        content: var(--tw-content);
+      }
     }
   }
   .last\:border-none {
@@ -6180,6 +6297,11 @@ td.data-stddev {
   syntax: "*";
   inherits: false;
 }
+@property --tw-content {
+  syntax: "*";
+  initial-value: "";
+  inherits: false;
+}
 @keyframes infinite-scroll {
   0% {
     transform: translateX(0);
@@ -6254,6 +6376,7 @@ td.data-stddev {
       --tw-backdrop-sepia: initial;
       --tw-duration: initial;
       --tw-ease: initial;
+      --tw-content: "";
     }
   }
 }

@@ -6,7 +6,7 @@
     <title>Join the seL4 Foundation | seL4</title>
     <meta name="author" content="seL4 Foundation">
     <link rel="canonical" href="https://sel4.github.io/website_pr_hosting/PR_608/Foundation/Join/join-now.html">
-    <link href="/website_pr_hosting/PR_608/css/sel4.css?v=1784852992" rel="stylesheet">
+    <link href="/website_pr_hosting/PR_608/css/sel4.css?v=1784864636" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -667,24 +667,29 @@
 
 <div class="my-20 section-max-w md:min-w-2xl">
 
+  <!-- TAB 1: PREMIUM & GENERAL - INPUT & LABEL -->
   <input type="radio" id="tab-general" name="membership-toggle" class="peer/gen hidden" checked />
-  <input type="radio" id="tab-associate" name="membership-toggle" class="peer/assoc hidden" />
-
-  <label for="tab-general" class="button-outline inline-block select-none cursor-pointer transition-all duration-200 mb-4 mr-2
-    px-3.5 py text-sm font-semibold rounded-md
-    peer-checked/gen:!bg-accentdark peer-checked/gen:!text-white peer-checked/gen:!border-transparent peer-checked/gen:shadow-md">
+  <label for="tab-general" class="inline-block select-none cursor-pointer transition-all duration-200 ml-5 mr-1
+    px-3.5 py-2 text-sm font-semibold rounded-t-md !rounded-b-none border border-gray-200 bg-gray-50 text-gray-700
+    peer-checked/gen:!bg-accentdark peer-checked/gen:!text-white peer-checked/gen:!border-gray-200 peer-checked/gen:!shadow-none
+    relative z-10 -mb-px
+    peer-checked/gen:after:content-[''] peer-checked/gen:after:absolute peer-checked/gen:after:bottom-0 peer-checked/gen:after:left-0 peer-checked/gen:after:right-0 peer-checked/gen:after:h-[2px] peer-checked/gen:after:bg-accent-dark">
     Premium & General
   </label>
 
-  <label for="tab-associate" class="button-outline inline-block select-none cursor-pointer transition-all duration-200 mb-4
-    px-3.5 text-sm font-semibold rounded-md
-    peer-checked/assoc:!bg-accentdark peer-checked/assoc:!text-white peer-checked/assoc:!border-transparent peer-checked/assoc:shadow-md">
+  <!-- TAB 2: ASSOCIATE - INPUT & LABEL -->
+  <input type="radio" id="tab-associate" name="membership-toggle" class="peer/assoc hidden" />
+  <label for="tab-associate" class="inline-block select-none cursor-pointer transition-all duration-200
+    px-3.5 py-2 text-sm font-semibold rounded-t-md !rounded-b-none border border-gray-200 bg-gray-50 text-gray-700
+    peer-checked/assoc:!bg-accentdark peer-checked/assoc:!text-white peer-checked/assoc:!border-gray-200 peer-checked/assoc:!shadow-none
+    relative z-10 -mb-px
+    peer-checked/assoc:after:content-[''] peer-checked/assoc:after:absolute peer-checked/assoc:after:bottom-0 peer-checked/assoc:after:left-0 peer-checked/assoc:after:right-0 peer-checked/assoc:after:h-[2px] peer-checked/assoc:after:bg-accent-dark">
     Associate
   </label>
 
 
   <!-- PREMIUM AND GENERAL -->
-  <div class="hidden peer-checked/gen:block bg-white rounded-sm shadow-md p-4">
+  <div class="hidden peer-checked/gen:block bg-white border border-gray-200 rounded-b-md rounded-tr-md p-4 relative z-0">
 
     <div class="mt-1 mb-9">
   
@@ -696,7 +701,8 @@
   
   <input
       type = "text"
-      class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700  "
+      class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700"
+      autocomplete="off"
       required>
   
 
@@ -849,6 +855,7 @@
         <input
           type = "text"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
       </div>
     
@@ -858,6 +865,7 @@
         <input
           type = "email"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
       </div>
     
@@ -885,6 +893,7 @@
         <input
           type = "text"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
       </div>
     
@@ -894,6 +903,7 @@
         <input
           type = "text"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
       </div>
     
@@ -903,6 +913,7 @@
         <input
           type = "email"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
       </div>
     
@@ -929,6 +940,7 @@
         <input
           type = "text"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
       </div>
     
@@ -938,6 +950,7 @@
         <input
           type = "email"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
       </div>
     
@@ -949,6 +962,7 @@
         <textarea
           rows = "4"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
         </textarea>
       </div>
@@ -987,7 +1001,7 @@
   </div>
 
   <!-- ASSOCIATE -->
-  <div class="hidden peer-checked/assoc:block bg-white rounded-sm shadow-md p-4">
+  <div class="hidden peer-checked/assoc:block bg-white border border-gray-200 rounded-b-md rounded-tr-md p-4 relative z-0">
     <div class="mt-1 mb-9">
   
     <p class = "text-left font-semibold py-3 mt-2">Company name</p>
@@ -998,7 +1012,8 @@
   
   <input
       type = "text"
-      class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700  "
+      class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700"
+      autocomplete="off"
       required>
   
 
@@ -1030,6 +1045,7 @@
         <input
           type = "text"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
       </div>
     
@@ -1039,6 +1055,7 @@
         <input
           type = "email"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
       </div>
     
@@ -1066,6 +1083,7 @@
         <input
           type = "text"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
       </div>
     
@@ -1075,6 +1093,7 @@
         <input
           type = "text"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
       </div>
     
@@ -1084,6 +1103,7 @@
         <input
           type = "email"
           class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
+          autocomplete="off"
           required>
       </div>
     
