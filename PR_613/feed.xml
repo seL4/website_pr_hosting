@@ -10,27 +10,22 @@
   <description>News feed about seL4, the seL4 Foundation, and the seL4 ecosystem.</description>
   <link rel="alternate">https://sel4.github.io/website_pr_hosting/PR_613/news/</link>
   <link rel="self">https://sel4.github.io/website_pr_hosting/PR_613/feed.xml</link>
-  <updated>Fri, 07 Aug 2026 00:00:00 +0000</updated>
+  <updated>Mon, 10 Aug 2026 00:00:00 +0000</updated>
   <rights>Copyright 2026 seL4 Foundation</rights>
   <entry>
     <title>Thank you DornerWorks, sponsor of the seL4 Summit 2026 AM &amp; PM Break</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_613/news/2026.html"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_613/news/2026.html</id>
-    <published>Fri, 07 Aug 2026 00:00:00 +0000</published>
-    <updated>Fri, 07 Aug 2026 00:00:00 +0000</updated>
+    <published>Mon, 10 Aug 2026 00:00:00 +0000</published>
+    <updated>Mon, 10 Aug 2026 00:00:00 +0000</updated>
     <content type="html">
       &lt;p&gt;
   The seL4 Foundation thanks &lt;a
-  href=&quot;https://www.dornerworks.com/&quot;&gt;DornerWorks&lt;/a&gt;, sponsor of the &lt;a
+  href=&quot;https://dornerworks.com/&quot;&gt;DornerWorks&lt;/a&gt;, sponsor of the &lt;a
   href=&quot;/website_pr_hosting/PR_613/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt; AM &amp; PM Break.
 &lt;/p&gt;
 &lt;p&gt;
-  &lt;a href=&quot;https://www.dornerworks.com&quot;&gt;DornerWorks&lt;/a&gt;, a founding
-  &lt;a href=&quot;/website_pr_hosting/PR_613/Foundation/Membership/&quot;&gt;member&lt;/a&gt; of
-  the &lt;a href=&quot;/website_pr_hosting/PR_613/Foundation/&quot;&gt;seL4 Foundation&lt;/a&gt; and one of
-  its &lt;a href=&quot;/website_pr_hosting/PR_613/Services/&quot;&gt;endorsed service providers&lt;/a&gt;,
-  has a dedicated team of seL4 experts who help organisations accelerate the
-  integration of seL4 as the trusted software base for their products.
+  &lt;a href=&quot;https://dornerworks.com&quot;&gt;DornerWorks&lt;/a&gt; is an embedded technology partner, a founding member of the  &lt;a href=&quot;/website_pr_hosting/PR_613/Foundation/&quot;&gt;seL4 Foundation&lt;/a&gt;, and one of its &lt;a href=&quot;/website_pr_hosting/PR_613/Services/&quot;&gt;endorsed service providers&lt;/a&gt;. Our dedicated team of seL4 experts helps organizations accelerate the integration of seL4 as the trusted software foundation for secure, safety-critical embedded systems and products.
 &lt;/p&gt;
 
     </content>
