@@ -10,14 +10,14 @@
   <description>News feed about seL4, the seL4 Foundation, and the seL4 ecosystem.</description>
   <link rel="alternate">https://sel4.github.io/website_pr_hosting/PR_631/news/</link>
   <link rel="self">https://sel4.github.io/website_pr_hosting/PR_631/feed.xml</link>
-  <updated>Mon, 14 Sep 2026 07:30:34 +0000</updated>
+  <updated>Mon, 14 Sep 2026 07:42:05 +0000</updated>
   <rights>Copyright 2026 seL4 Foundation</rights>
   <entry>
     <title>The videos and slides of the seL4 Summit 2026 are available online</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_631/news/2026.html#summit-videos"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_631/news/2026.html#summit-videos</id>
-    <published>Mon, 14 Sep 2026 07:30:34 +0000</published>
-    <updated>Mon, 14 Sep 2026 07:30:34 +0000</updated>
+    <published>Mon, 14 Sep 2026 07:42:05 +0000</published>
+    <updated>Mon, 14 Sep 2026 07:42:05 +0000</updated>
     <content type="html">
       &lt;p&gt;
   Videos of the &lt;a href=&quot;/website_pr_hosting/PR_631/Summit/2026/&quot;&gt;seL4 Summit
