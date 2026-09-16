@@ -10,20 +10,20 @@
   <description>News feed about seL4, the seL4 Foundation, and the seL4 ecosystem.</description>
   <link rel="alternate">https://sel4.github.io/website_pr_hosting/PR_628/news/</link>
   <link rel="self">https://sel4.github.io/website_pr_hosting/PR_628/feed.xml</link>
-  <updated>Wed, 02 Sep 2026 05:08:57 +0000</updated>
+  <updated>Fri, 18 Sep 2026 00:00:00 +0000</updated>
   <rights>Copyright 2026 seL4 Foundation</rights>
   <entry>
     <title>The Australian National University joins seL4 Foundation</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_628/news/2026.html"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_628/news/2026.html</id>
-    <published>Wed, 02 Sep 2026 05:08:57 +0000</published>
-    <updated>Wed, 02 Sep 2026 05:08:57 +0000</updated>
+    <published>Fri, 18 Sep 2026 00:00:00 +0000</published>
+    <updated>Fri, 18 Sep 2026 00:00:00 +0000</updated>
     <content type="html">
       &lt;p&gt;
-  The &lt;a href=&quot;/website_pr_hosting/PR_628/Foundation&quot;&gt;seL4 Foundation&lt;/a&gt; is pleased to welcome the &lt;a href=&quot;https://www.anu.edu.au/&quot;&gt;Australian National University (ANU)&lt;/a&gt; as an &lt;a href=&quot;/website_pr_hosting/PR_628/Foundation/Membership/&quot;&gt;Associate Member&lt;/a&gt;. ANU&apos;s School of Computing has a longstanding connection to seL4, and ANU researchers have contributed to seL4&apos;s original verification efforts and DARPA&apos;s HACMS program.
+  The &lt;a href=&quot;/website_pr_hosting/PR_628/Foundation&quot;&gt;seL4 Foundation&lt;/a&gt; is pleased to welcome the &lt;a href=&quot;https://www.anu.edu.au/&quot;&gt;Australian National University (ANU)&lt;/a&gt; as an &lt;a href=&quot;/website_pr_hosting/PR_628/Foundation/Membership/&quot;&gt;Associate Member&lt;/a&gt;. ANU&apos;s School of Computing has a longstanding connection to seL4, and ANU researchers have contributed to seL4&apos;s &lt;a href=&quot;/website_pr_hosting/PR_628/About/history.html&quot;&gt;original verification efforts&lt;/a&gt; and &lt;a href=&quot;https://www.darpa.mil/research/programs/high-assurance-cyber-military-systems&quot;&gt;DARPA&apos;s HACMS program&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;
-  This research contribution continues to grow through a broader concentration of formal methods and programming-languages expertise at ANU. Current work involves the development of programming languages for use with the seL4 Microkit.
+  This research contribution continues to grow through a broader concentration of formal methods and programming-languages expertise at ANU. Current work involves the development of programming languages for use with the &lt;a href=&quot;https://docs.sel4.systems/projects/microkit/&quot;&gt;seL4 Microkit&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;
   The membership strengthens active collaborations between ANU&apos;s School of Computing and fellow Australian-based member organisations on the development of secure technology based on the seL4 ecosystem.
