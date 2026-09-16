@@ -6,7 +6,7 @@
     <title>The seL4 Microkernel | seL4</title>
     <meta name="author" content="seL4 Foundation">
     <link rel="canonical" href="https://sel4.github.io/website_pr_hosting/PR_631/">
-    <link href="/website_pr_hosting/PR_631/css/sel4.css?v=1789371725" rel="stylesheet">
+    <link href="/website_pr_hosting/PR_631/css/sel4.css?v=1789539550" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -340,7 +340,7 @@
           <a href="/website_pr_hosting/PR_631/news/" class="text-sm font-semibold leading-6 text-f_green-600">See all <span aria-hidden="true">&rarr;</span></a>
         </div>
         <ul class="mt-6 space-y-6"><li class="relative">
-            <time datetime="2026-09-14" class="block text-xs leading-6 text-light">14 Sep 2026</time>
+            <time datetime="2026-09-16" class="block text-xs leading-6 text-light">16 Sep 2026</time>
             <a href="/website_pr_hosting/PR_631/news/2026.html#summit-videos" class="block truncate text-sm font-semibold leading-6 text-dark">
               The videos and slides of the seL4 Summit 2026 are available online
               <span class="absolute inset-0"></span>
@@ -1083,16 +1083,17 @@
               <div class="text-sm">
                 <a href="/website_pr_hosting/PR_631/news/#summit-videos" class="font-medium text-dark hover:underline">The videos and slides of the seL4 Summit 2026 are available online&nbsp;&rightarrow;</a>
               </div>
-              <p class="mt-0.5 text-sm text-gray-500 dark:text-gray-600">14 Sep 2026</p>
+              <p class="mt-0.5 text-sm text-gray-500 dark:text-gray-600">16 Sep 2026</p>
             </div>
             <div class="mt-2 text-sm text-gray-700 dark:text-gray-500 line-clamp-2">
               <p>
   Videos of the <a href="/website_pr_hosting/PR_631/Summit/2026/">seL4 Summit
-  2026</a> are now available on the <a href="https://www.youtube.com/@seL4"
+  2026</a> are now available on the <a href="https://www.youtube.com/playlist?list=PLd7rrADYxxQQ"
   target="_blank">seL4 YouTube channel</a>! Links, slides, and posters can be
   found on the summit <a href="/website_pr_hosting/PR_631/Summit/2026/program.html">Program</a>
   and <a href="/website_pr_hosting/PR_631/Summit/2026/abstracts2026.html">Abstracts</a> pages. Thanks to all the speakers for making the seL4 Summit
   2026 a great <a href="/website_pr_hosting/PR_631/Summit/2026/#gallery">success!</a>
+  <img src="../images/summit/summit-2026-7.jpg" alt="seL4 Summit 2026" class="rounded bg-gray-900/5 shadow-lg">
 </p>
 
             </div>
@@ -1446,6 +1447,7 @@ critical applications and compromising them.
         .enableNodeDrag(false)
         .enableNavigationControls(true)
         .showNavInfo(false);
+    Graph.controls().maxDistance = 2500;
 
     addEventListener("resize", _ => {
       const el = document.getElementById('the_div');
