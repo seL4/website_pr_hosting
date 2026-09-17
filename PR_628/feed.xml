@@ -33,6 +33,26 @@
   </entry>
   <rights>Copyright 2026 seL4 Foundation</rights>
   <entry>
+    <title>The videos and slides of the seL4 Summit 2026 are available online</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_628/news/2026.html#summit-videos"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_628/news/2026.html#summit-videos</id>
+    <published>Wed, 16 Sep 2026 00:00:00 +0000</published>
+    <updated>Wed, 16 Sep 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  Videos of the &lt;a href=&quot;/website_pr_hosting/PR_628/Summit/2026/&quot;&gt;seL4 Summit
+  2026&lt;/a&gt; are now available on the &lt;a href=&quot;https://www.youtube.com/playlist?list=PLd7rrADYxxQQ&quot;
+  target=&quot;_blank&quot;&gt;seL4 YouTube channel&lt;/a&gt;! Links, slides, and posters can be
+  found on the summit &lt;a href=&quot;/website_pr_hosting/PR_628/Summit/2026/program.html&quot;&gt;Program&lt;/a&gt;
+  and &lt;a href=&quot;/website_pr_hosting/PR_628/Summit/2026/abstracts2026.html&quot;&gt;Abstracts&lt;/a&gt; pages. Thanks to all the speakers for making the seL4 Summit
+  2026 a great &lt;a href=&quot;/website_pr_hosting/PR_628/Summit/2026/#gallery&quot;&gt;success!&lt;/a&gt;
+  &lt;img src=&quot;../images/summit/summit-2026-7.jpg&quot; alt=&quot;seL4 Summit 2026&quot; class=&quot;rounded bg-gray-900/5 shadow-lg&quot;&gt;
+&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
     <title>seL4 security proofs now complete on AArch64</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_628/news/2026.html"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_628/news/2026.html</id>
@@ -576,37 +596,6 @@ with MCS. Functional correctness is the largest and most central proof in
 the &lt;a href=&quot;/website_pr_hosting/PR_628/Verification/proofs.html&quot;&gt;seL4 verification
 stack&lt;/a&gt;. The proof targets the RISC-V architecture and will now be ported to
 the Arm 64-bit architecture, as part of DARPA&apos;s PROVERS program.
-&lt;/p&gt;
-    </content>
-  </entry>
-  <rights>Copyright 2026 seL4 Foundation</rights>
-  <entry>
-    <title>Gapfruit joins the seL4 Foundation</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_628/news/2026.html"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_628/news/2026.html</id>
-    <published>Mon, 01 Jun 2026 00:00:00 +0000</published>
-    <updated>Mon, 01 Jun 2026 00:00:00 +0000</updated>
-    <content type="html">
-      &lt;p&gt;
-  We are pleased to welcome a new &lt;a href=&quot;/website_pr_hosting/PR_628/Foundation/Membership/&quot;&gt;member&lt;/a&gt; - &lt;a href=&quot;https://www.gapfruit.com/&quot;&gt;Gapfruit&lt;/a&gt;
-  - to the &lt;a href=&quot;/website_pr_hosting/PR_628/Foundation&quot;&gt;seL4 Foundation&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-  Gapfruit is a Swiss technology company building trustworthy foundations for
-  the systems society depends on - from industrial controls to energy
-  infrastructure. To achieve this, Gapfruit combines microkernel operating
-  systems with capability-based security and hardware-rooted trust - an approach
-  grounded in standards from the &lt;a
-  href=&quot;https://trustedcomputinggroup.org/&quot;&gt;Trusted Computing Group&lt;/a&gt;.
-  Together, these technologies enable resilient, verifiable device operations
-  for the critical systems that underpin modern infrastructure. By joining the
-  seL4 Foundation, we aim to advance high-assurance computing in critical
-  infrastructure and collaborate with the global seL4 community to make
-  trustworthy systems the standard - not the exception.
-&lt;/p&gt;
-&lt;p&gt;
-  Learn more about Gapfruit&apos;s work in their contributions to previous seL4
-  summit &lt;a href=&quot;/website_pr_hosting/PR_628/Summit/2023/abstracts2023.html#a-panel&quot;&gt;panels&lt;/a&gt; and &lt;a href=&quot;/website_pr_hosting/PR_628/Summit/2023/abstracts2023.html#a-showcase-microkernel&quot;&gt;talks&lt;/a&gt;.
 &lt;/p&gt;
     </content>
   </entry>
