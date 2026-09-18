@@ -10,14 +10,14 @@
   <description>News feed about seL4, the seL4 Foundation, and the seL4 ecosystem.</description>
   <link rel="alternate">https://sel4.github.io/website_pr_hosting/PR_632/news/</link>
   <link rel="self">https://sel4.github.io/website_pr_hosting/PR_632/feed.xml</link>
-  <updated>Fri, 18 Sep 2026 01:43:43 +0000</updated>
+  <updated>Fri, 18 Sep 2026 02:08:19 +0000</updated>
   <rights>Copyright 2026 seL4 Foundation</rights>
   <entry>
     <title>Next summit will be in Sydney! Meet its co-chairs</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_632/news/2026.html#summit-co-chairs"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_632/news/2026.html#summit-co-chairs</id>
-    <published>Fri, 18 Sep 2026 01:43:43 +0000</published>
-    <updated>Fri, 18 Sep 2026 01:43:43 +0000</updated>
+    <published>Fri, 18 Sep 2026 02:08:19 +0000</published>
+    <updated>Fri, 18 Sep 2026 02:08:19 +0000</updated>
     <content type="html">
       &lt;p&gt;
   We are thrilled to announce our co-chairs, Martin Dehnel-Wild and Lucy
@@ -72,7 +72,7 @@
   We look forward to welcoming the community at the seL4 summit 2027!
 &lt;/p&gt;
 &lt;p&gt;
-  Stay tuned by following us on &lt;a href=&quot;https://www.linkedin.com/company/sel4&quot;&gt;LinkedIn&lt;/a&gt; or subscribing to the &lt;a type=&quot;application/atom+xml&quot; href=&quot;/website_pr_hosting/PR_632/feed.xml&quot;&gt;RSS&lt;/a&gt; for our &lt;a href=&quot;/website_pr_hosting/PR_632/News&quot;&gt;News&lt;/a&gt; page.
+  Stay tuned by following us on &lt;a href=&quot;https://www.linkedin.com/company/sel4&quot;&gt;LinkedIn&lt;/a&gt; or subscribing to the &lt;a type=&quot;application/atom+xml&quot; href=&quot;/website_pr_hosting/PR_632/feed.xml&quot;&gt;RSS&lt;/a&gt; for our &lt;a href=&quot;/website_pr_hosting/PR_632/news&quot;&gt;News&lt;/a&gt; page.
 &lt;/p&gt;
 &lt;/div&gt;
     </content>
