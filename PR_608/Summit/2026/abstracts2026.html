@@ -6,7 +6,7 @@
     <title>seL4 Summit 2026 Abstracts | seL4</title>
     <meta name="author" content="seL4 Foundation">
     <link rel="canonical" href="https://sel4.github.io/website_pr_hosting/PR_608/Summit/2026/abstracts2026.html">
-    <link href="/website_pr_hosting/PR_608/css/sel4.css?v=1785460813" rel="stylesheet">
+    <link href="/website_pr_hosting/PR_608/css/sel4.css?v=1791334463" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -339,21 +339,21 @@
           <a href="/website_pr_hosting/PR_608/news/" class="text-sm font-semibold leading-6 text-f_green-600">See all <span aria-hidden="true">&rarr;</span></a>
         </div>
         <ul class="mt-6 space-y-6"><li class="relative">
-            <time datetime="2026-07-29" class="block text-xs leading-6 text-light">29 Jul 2026</time>
-            <a href="/website_pr_hosting/PR_608/news/2026.html#sel4-day" class="block truncate text-sm font-semibold leading-6 text-dark">
-              Happy seL4 day!
+            <time datetime="2026-09-18" class="block text-xs leading-6 text-light">18 Sep 2026</time>
+            <a href="/website_pr_hosting/PR_608/news/2026.html#09-18" class="block truncate text-sm font-semibold leading-6 text-dark">
+              The Australian National University joins seL4 Foundation
               <span class="absolute inset-0"></span>
             </a>
           </li><li class="relative">
-            <time datetime="2026-07-22" class="block text-xs leading-6 text-light">22 Jul 2026</time>
-            <a href="/website_pr_hosting/PR_608/news/2026.html#07-22" class="block truncate text-sm font-semibold leading-6 text-dark">
-              New seL4 release available
+            <time datetime="2026-09-16" class="block text-xs leading-6 text-light">16 Sep 2026</time>
+            <a href="/website_pr_hosting/PR_608/news/2026.html#summit-videos" class="block truncate text-sm font-semibold leading-6 text-dark">
+              The videos and slides of the seL4 Summit 2026 are available online
               <span class="absolute inset-0"></span>
             </a>
           </li><li class="relative">
-            <time datetime="2026-07-22" class="block text-xs leading-6 text-light">22 Jul 2026</time>
-            <a href="/website_pr_hosting/PR_608/news/2026.html#panellists26" class="block truncate text-sm font-semibold leading-6 text-dark">
-              Panellists for seL4 Summit announced
+            <time datetime="2026-08-24" class="block text-xs leading-6 text-light">24 Aug 2026</time>
+            <a href="/website_pr_hosting/PR_608/news/2026.html#08-24" class="block truncate text-sm font-semibold leading-6 text-dark">
+              seL4 security proofs now complete on AArch64
               <span class="absolute inset-0"></span>
             </a>
           </li></ul>
@@ -581,7 +581,7 @@
 </div>
 
   
-<div class="flex justify-center items-center gap-x-5 mt-5 mb-20">
+<div class="flex flex-col lg:flex-row justify-center items-center lg:gap-x-5 gap-y-5 lg:mt-5 mb-20">
   
     <a href="#keynotes" class="button-outline px-10">Keynotes</a>
   
@@ -610,37 +610,49 @@
 </div>
 
 
-  <div id="a-age-software" class="py-12 mb-5 section-max-w sm:py-16">
+  <div id="a-proof-product" class="py-12 mb-5 section-max-w sm:py-16">
 
   <div class="mx-auto px-2 sm:px-6 lg:px-8">
     <div class="mx-auto lg:mx-0">
-      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">The Age of Software Understanding</h2>
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">From Proof to Product: Why Formal Methods Is Finally Ready</h2>
       <p>
-        <span class="text-gray-800 dark:text-gray-300">Anjana Rajan</span>
+        <span class="text-gray-800 dark:text-gray-300">Martin Dehnel-Wild</span>
         <br>
-        <span class="text-light">Atalanta</span>
+        <span class="text-light">Kry10</span>
       </p>
+      
       
       <article class="theprose">
         <div class="pt-5">
           <p>
-  The emergence of formally verified building blocks across the stack, from memory-safe languages toverified microkernels like seL4, represents a hard-won foundation. But it raises a deeper challenge: local correctness does not translate to system reliability. Each component may behave exactly as proven, while the system as a whole remains unpredictable.
+  For most of its history, formal methods has been a discipline of proof rather than product: rigorous, powerful, and largely confined to academia. That is changing rapidly. I'll argue that FM is finally ready to deliver secure, resilient systems in the real world, and that the obstacles left are largely self-inflicted: a history of over-promising, tools that are painful to use and barely interoperate, and a habit of staying in the lab rather than supporting customers through real, evolving deployments.
 </p>
 <p>
-  This talk introduces Software Understanding as a new discipline: the science of formally verifying that software-controlled systems perform correctly across normal, abnormal, and hostile conditions, and making that reasoning legible across the teams responsible for them. As critical infrastructure becomes increasingly autonomous and AI-driven, the gap between what we build and what we can reason about continues to widen. Closing that gap requires more than proof; it requires bringing mathematical rigor into the pace and complexity of real-world operations.
+  Drawing on systems we're building today for a wide range of government and commercial partners, I'll make the case that security is fundamentally an economic argument rather than a quest for perfection: the goal is to make attacking a system so costly that adversaries focus elsewhere. Reaching that at scale depends far less on stronger proofs than on ruthless attention to wider adoption: on meeting real customers in the messy, changing environments they actually deploy into.
 </p>
 <p>
-  Drawing on lessons from national security and mission-critical systems, this talk examines what it will take to move formal methods from technical scripture to organizational discipline, and why verified microkernels like seL4 are not the end of the story, but the beginning.
+  Regardless of your views on AI, it is rapidly lowering the barrier to entry. I'll show — not just tell — what becomes possible when modern AI is combined with formal tools and seL4. This is a talk for anyone who wants formal methods to matter beyond academia.
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/u9jClxwVUm8?si=JKaw32vohCU5MuPy" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/proof-product.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
           <p class="p-1 mt-2">
             
-              <a href="program.html#p-age-software" class="text-sm text-light underline">See this talk in the program</a>
+              <a href="program.html#p-proof-product" class="text-sm text-light underline">See this talk in the program</a>
             
           </p>
         </div>
@@ -669,37 +681,49 @@
 
 
 
-  <div id="a-proof-product" class="py-12 mb-5 section-max-w sm:py-16">
+  <div id="a-age-software" class="py-12 mb-5 section-max-w sm:py-16">
 
   <div class="mx-auto px-2 sm:px-6 lg:px-8">
     <div class="mx-auto lg:mx-0">
-      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">From Proof to Product: Why Formal Methods Is Finally Ready</h2>
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">The Age of Software Understanding</h2>
       <p>
-        <span class="text-gray-800 dark:text-gray-300">Martin Dehnel-Wild</span>
+        <span class="text-gray-800 dark:text-gray-300">Anjana Rajan</span>
         <br>
-        <span class="text-light">Kry10</span>
+        <span class="text-light">Atalanta</span>
       </p>
+      
       
       <article class="theprose">
         <div class="pt-5">
           <p>
-  For most of its history, formal methods has been a discipline of proof rather than product: rigorous, powerful, and largely confined to academia. That is changing rapidly. I'll argue that FM is finally ready to deliver secure, resilient systems in the real world, and that the obstacles left are largely self-inflicted: a history of over-promising, tools that are painful to use and barely interoperate, and a habit of staying in the lab rather than supporting customers through real, evolving deployments.
+  The emergence of formally verified building blocks across the stack, from memory-safe languages toverified microkernels like seL4, represents a hard-won foundation. But it raises a deeper challenge: local correctness does not translate to system reliability. Each component may behave exactly as proven, while the system as a whole remains unpredictable.
 </p>
 <p>
-  Drawing on systems we're building today for a wide range of government and commercial partners, I'll make the case that security is fundamentally an economic argument rather than a quest for perfection: the goal is to make attacking a system so costly that adversaries focus elsewhere. Reaching that at scale depends far less on stronger proofs than on ruthless attention to wider adoption: on meeting real customers in the messy, changing environments they actually deploy into.
+  This talk introduces Software Understanding as a new discipline: the science of formally verifying that software-controlled systems perform correctly across normal, abnormal, and hostile conditions, and making that reasoning legible across the teams responsible for them. As critical infrastructure becomes increasingly autonomous and AI-driven, the gap between what we build and what we can reason about continues to widen. Closing that gap requires more than proof; it requires bringing mathematical rigor into the pace and complexity of real-world operations.
 </p>
 <p>
-  Regardless of your views on AI, it is rapidly lowering the barrier to entry. I'll show — not just tell — what becomes possible when modern AI is combined with formal tools and seL4. This is a talk for anyone who wants formal methods to matter beyond academia.
+  Drawing on lessons from national security and mission-critical systems, this talk examines what it will take to move formal methods from technical scripture to organizational discipline, and why verified microkernels like seL4 are not the end of the story, but the beginning.
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/KfN00MYrFzQ?si=4_0SNB4-5SHz6jbx" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/age-software.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
           <p class="p-1 mt-2">
             
-              <a href="program.html#p-proof-product" class="text-sm text-light underline">See this talk in the program</a>
+              <a href="program.html#p-age-software" class="text-sm text-light underline">See this talk in the program</a>
             
           </p>
         </div>
@@ -748,6 +772,7 @@
         <span class="text-light">Erlang Ecosystem Foundation</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -767,7 +792,14 @@
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/zmxTnb2kw1g?si=xGA5JIG9YpoElBap" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
         
         
         <div>
@@ -813,6 +845,7 @@
         <span class="text-light">Collins Aerospace</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -821,7 +854,18 @@
 
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/6sxS06RJTzE?si=8ffsESNHgglD2VYN" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/trends-formal.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -880,10 +924,11 @@
   <a href="abstracts2026.html#a-panel-darren"><span class="text-dark text-sm sm:text-base">Darren Cofer</span>, <span class="text-light text-sm sm:text-base"> Collins Aerospace</span></a>
   <br><a href="abstracts2026.html#a-panel-peter"><span class="text-dark text-sm sm:text-base">Peter Davies</span>, <span class="text-light text-sm sm:text-base"> Thales</span></a>
   <br><a href="abstracts2026.html#a-panel-jonathan"><span class="text-dark text-sm sm:text-base">Jonathan Marshall</span>, <span class="text-light text-sm sm:text-base">SafeShark</span></a>
-  <br><a href="abstracts2026.html#a-panel-anjana"><span class="text-dark text-sm sm:text-base">Anjana Rajan</span>, <span class="text-light text-sm sm:text-base">Atalanta</span></a>
+  <br><a href="abstracts2026.html#a-panel-june"><span class="text-dark text-sm sm:text-base">June Andronick</span>, <span class="text-light text-sm sm:text-base">Proofcraft and seL4 Foundation</span></a>
   <br><a href="abstracts2026.html#a-panel-james"><span class="text-dark text-sm sm:text-base">James Sharp</span>, <span class="text-light text-sm sm:text-base">Defence Science and Technology Laboratory (Dstl)</span></a>
   <br><a href="abstracts2026.html#a-panel-martin"><span class="text-dark text-sm sm:text-base">Martin Dehnel-Wild</span>, <span class="text-light text-sm sm:text-base">Kry10 (moderator)</span></a>
         
+      
       
       <article class="theprose">
         <div class="pt-5">
@@ -933,11 +978,20 @@
 <p>
   Jonathan founded SafeShark in April 2016 and is responsible for driving the company's strategic business development. He collaborates with key stakeholders, monitors market trends, identifies emerging risks, and helps shape SafeShark's long-term direction. He is also a frequent presenter at industry events, including Infosecurity, CYBER, ISE, and IoTSF.
 </p>
-<h3 id="a-panel-anjana">
-  Anjana Rajan, CEO & Co-Founder, Atalanta
+<h3 id="a-panel-june">
+  June Andronick, CEO, Proofcraft and CEO, seL4 Foundation
 </h3>
 <p>
-  Anjana Rajan is the co-founder and CEO of Atalanta. She previously served as the Assistant National Cyber Director for Technology Security at the White House, where she led national security policy on formal methods. She is an applied cryptographer whose prior work focused on human rights missions, including as CTO of Polaris, the largest anti-human trafficking organization in the United States, and co-founder and CTO of Callisto, a cryptography company protecting survivors of sexual assault. She began her career in the forward deployed engineering organization at Palantir. Anjana holds bachelor's and master's degrees in engineering from Cornell University, and is a former elite triathlete who competed for Team USA at two world championships.
+  June Andronick is CEO and co-founder
+        of <a href="https://proofcraft.systems">Proofcraft</a>, a company
+        providing commercial support for software verification in general and
+        the seL4 microkernel verification in particular. She is CEO and
+        treasurer of the <a href="/Foundation/index.html">seL4 Foundation</a> and member of
+        the <a href="/Foundation/TSC/index.html">Technical Steering Committee</a>. June
+        has extensive leadership experience towards making the vision of
+        verified software a reality in mainstream critical software. She was
+        previously leading the Trustworthy Systems group, and contributed to the
+        original seL4 verification.'
 </p>
 <h3 id="a-panel-james">
   James Sharp, Senior Principal Scientist, Defence Science and Technology Laboratory (Dstl)
@@ -953,7 +1007,14 @@
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/jAirEkULNsQ?si=ZkPxzFXNgK1lR0S-" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
         
         
         <div>
@@ -1008,6 +1069,7 @@
         <span class="text-light">Proofcraft and seL4 Foundation</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1018,7 +1080,18 @@
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/dF2qJdiaO4A?si=s25sdXgqAGj9yV1r" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/sel4-what.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1064,6 +1137,7 @@
         <span class="text-light">NCSC</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1074,7 +1148,18 @@
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/KB64yT9nBUU?si=YmsZMM3_6_EZx5DB" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/ncsc.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1120,6 +1205,7 @@
         <span class="text-light">Kry10</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1136,7 +1222,18 @@
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/0orNdV7DVAs?si=2D5QY8E8vB23Zqhh" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/kry10-os.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1182,6 +1279,7 @@
         <span class="text-light">SafeShark</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1193,7 +1291,18 @@
 
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/WTA15_NBuMY?si=ARAIAl_MOjGvRzCO" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/navigating-cyber.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1239,6 +1348,7 @@
         <span class="text-light">Proofcraft and seL4 Foundation</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1258,7 +1368,18 @@
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/JZ0XGySYX1c?si=bk_K7sydl89HhzoH" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/formal-verification.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1304,6 +1425,7 @@
         <span class="text-light">Dornerworks</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1329,7 +1451,18 @@
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/mp2QJ9_GlG8?si=JQBZLL7--O6AWeZj" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/cyber-hardened.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1375,6 +1508,7 @@
         <span class="text-light">Dornerworks</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1385,7 +1519,18 @@
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/DA6duKrxSN4?si=d_PDUdjwlcN2ob-A" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/throwing-sel4.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1433,6 +1578,7 @@
       
       <br><span class='text-dark text-sm sm:text-base'>Paul Pazandak,</span><br><span class='text-light text-sm sm:text-base'>Real-Time Innovations (RTI)</span>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1466,7 +1612,18 @@
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/BBmW6RosnV8?si=0XRtUtZz30bFdADu" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/assured-robotics.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1512,6 +1669,7 @@
         <span class="text-light">ABB Corporate Research</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1531,7 +1689,18 @@
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/LbQRX0uBs1E?si=d8ReXNmYzlS-tyvX" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/evolving-legacy.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1577,6 +1746,7 @@
         <span class="text-light">Fraunhofer IESE</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1593,7 +1763,18 @@
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/rqxFbrnAAb0?si=IfFaixARz_cfBXkQ" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/tsdx.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1639,6 +1820,7 @@
         <span class="text-light">Proofcraft</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1652,7 +1834,18 @@
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/y6_lAgqqcBo?si=79qnJeSbTPCCxNeI" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/sel4-security.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1698,6 +1891,7 @@
         <span class="text-light">UNSW Sydney</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1728,7 +1922,18 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/iwjZ2zdqnTY?si=Lg2DrESoUikpYcpt" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/trustworthy-systems.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1774,6 +1979,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">UNSW Sydney</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1781,7 +1987,18 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/OpFlTLtLNwM?si=6jf_WXxBUeIDbo8p" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/time-protection.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1827,6 +2044,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">UNSW Sydney</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1840,7 +2058,18 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/xdMnlcZrOS4?si=R5oWyyDNNk3AmJ9v" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/pancake.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1881,10 +2110,11 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
     <div class="mx-auto lg:mx-0">
       <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Verifying seL4 device drivers with CN</h2>
       <p>
-        <span class="text-gray-800 dark:text-gray-300">Michal Podhradsky</span>
+        <span class="text-gray-800 dark:text-gray-300">Gus O'Hanley</span>
         <br>
         <span class="text-light">Galois</span>
       </p>
+      
       
       <article class="theprose">
         <div class="pt-5">
@@ -1905,7 +2135,18 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/p8dO5xXuE4U?si=EXKSdLk1odgSs-t6" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/verifying-sel4.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -1951,6 +2192,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">UNSW Sydney</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -1961,7 +2203,18 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/BseyKnmVRlk?si=WcArERdgavUNDhrp" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/formalising-device.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -2002,10 +2255,11 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
     <div class="mx-auto lg:mx-0">
       <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Verification of a UDP Implementation: Challenges and Solutions</h2>
       <p>
-        <span class="text-gray-800 dark:text-gray-300">Alain Kägi</span>
+        <span class="text-gray-800 dark:text-gray-300">Daniel Neshyba-Rowe</span>
         <br>
         <span class="text-light">Lewis & Clark College</span>
       </p>
+      
       
       <article class="theprose">
         <div class="pt-5">
@@ -2017,7 +2271,18 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/mRIyOmu7OBg?si=EFP0g2zrqVW3jk22" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/verification-udp.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -2063,6 +2328,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">UNSW Sydney</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -2073,7 +2339,18 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
   </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/9JK9P4k_08w?si=llkPEzX_dHm5PtmC" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/simplifying-microkit.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -2119,6 +2396,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">Neutrality</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -2135,7 +2413,18 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/v0An0l3kIHc?si=6KTZu7NRAdGZck3L" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/policy-free.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -2181,6 +2470,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">UNSW Sydney</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -2197,7 +2487,18 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/MqxP5Z8qUw4?si=frEPSiF4mChz5A25" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/carrels.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -2243,6 +2544,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">Riverside Research</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -2253,7 +2555,18 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/W5CeUUCoS7o?si=yxy4oLCVznoZsozd" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/single-kernel.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -2299,6 +2612,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">UNSW Sydney</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -2315,13 +2629,88 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/-8GFIiVdSUY?si=HF0Y19mAiYUbBrbB" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/booting-windows.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
           <p class="p-1 mt-2">
             
               <a href="program.html#p-booting-windows" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="flex w-full mb-6">
+  <div class="flex-1"></div>
+  <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
+  
+<a href="#page-top" class="relative -mt-3.5 mx-4">
+  <div class="dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 p-1.5 h-7 w-7 rounded-full shadow-xs left-1">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 text-slate-400 dark:text-slate-500">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0-6.75 6.75M12 4.5l6.75 6.75"/>
+</svg>
+  </div>
+</a>
+
+  <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
+  <div class="flex-1"></div>
+</div>
+
+
+
+
+  <div id="a-from-formal" class="py-12 mb-5 section-max-w sm:py-16">
+
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">From Formal Proof to Certification Evidence: The Role of Assurance Arguments</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Laure Millet</span>
+        <br>
+        <span class="text-light">Critical Systems Labs Inc.</span>
+      </p>
+      
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
+  Formal verification can provide particularly strong evidence in support of certification claims. However, using formal verification results effectively in a certification context can be challenging, particularly when their scope, assumptions, and relevance to broader system-level claims need to be understood and communicated. This presentation identifies some of these challenges and examines what is needed for formal verification results to become compelling certification evidence.
+</p>
+<p>
+  This presentation explores how structured assurance arguments can provide a framework for addressing these challenges. Such arguments are increasingly used for complex systems, and in some industries are becoming an expected part of the certification package. These arguments can make explicit how formal verification contributes to higher-level claims, how it relates to other forms of evidence, and how together these elements support confidence in the overall safety case.
+</p>
+        </div>
+      </article>
+      
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/0_xJtZ9hTIQ?si=OylggG3S_nHeEq0p" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-from-formal" class="text-sm text-light underline">See this talk in the program</a>
             
           </p>
         </div>
@@ -2361,6 +2750,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">Kansas State University</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -2380,75 +2770,24 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/fP8jA9T0C9c?si=hmuN-9AbxTuq3Fuo" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/rigorous-agentic.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
           <p class="p-1 mt-2">
             
               <a href="program.html#p-rigorous-agentic" class="text-sm text-light underline">See this talk in the program</a>
-            
-          </p>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-<div class="flex w-full mb-6">
-  <div class="flex-1"></div>
-  <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
-  
-<a href="#page-top" class="relative -mt-3.5 mx-4">
-  <div class="dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 p-1.5 h-7 w-7 rounded-full shadow-xs left-1">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 text-slate-400 dark:text-slate-500">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0-6.75 6.75M12 4.5l6.75 6.75"/>
-</svg>
-  </div>
-</a>
-
-  <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
-  <div class="flex-1"></div>
-</div>
-
-
-
-
-  <div id="a-efficient-user-level" class="py-12 mb-5 section-max-w sm:py-16">
-
-  <div class="mx-auto px-2 sm:px-6 lg:px-8">
-    <div class="mx-auto lg:mx-0">
-      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Efficient User-level Physical Memory Management on seL4</h2>
-      <p>
-        <span class="text-gray-800 dark:text-gray-300">Guangtao Zhu</span>
-        <br>
-        <span class="text-light">UNSW Sydney</span>
-      </p>
-      
-      <article class="theprose">
-        <div class="pt-5">
-          <p>
-  seL4 gives user-level systems a great deal of control over hardware resources through capability-protected kernel abstractions. This is powerful, but it also means that performance depends heavily on how user-level resource management is designed.
-</p>
-<p>
-  In this talk, we use physical memory management as a case study. We show that the wrong design can make dynamic memory allocation expensive by placing capability-related operations and metadata bookkeeping directly on the allocation critical path.
-</p>
-<p>
-  We then present a different design: keep the fast path small, and move capability-heavy functions out of the critical path whenever it can be prepared ahead of time or handled asynchronously. We implement this idea in the seL4 library OS and compare it with baseline designs.
-</p>
-<p>
-  The results show that efficient dynamic memory management is practical on seL4, but only if the memory manager is designed to respect the cost structure of capability-based systems.
-</p>
-        </div>
-      </article>
-      <div class="flex flex-row gap-x-2 pt-2">
-        
-        
-        <div>
-          <p class="p-1 mt-2">
-            
-              <a href="program.html#p-efficient-user-level" class="text-sm text-light underline">See this talk in the program</a>
             
           </p>
         </div>
@@ -2488,6 +2827,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">UNSW Sydney</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -2498,7 +2838,18 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/leO2IxJ-X3k?si=fIXS6k5zJ7Od-uR9" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/modelling-performance.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
         
         
         <div>
@@ -2541,8 +2892,9 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
       <p>
         <span class="text-gray-800 dark:text-gray-300">Andrew Ruef</span>
         <br>
-        <span class="text-light">Institute for Defense Analyses</span>
+        <span class="text-light">Inflection Points</span>
       </p>
+      
       
       <article class="theprose">
         <div class="pt-5">
@@ -2551,13 +2903,94 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/mZ2KQ-Twvv8?si=ZYLJHaFaC6i_zEao" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
         
         
         <div>
           <p class="p-1 mt-2">
             
               <a href="program.html#p-building-safe" class="text-sm text-light underline">See this talk in the program</a>
+            
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="flex w-full mb-6">
+  <div class="flex-1"></div>
+  <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
+  
+<a href="#page-top" class="relative -mt-3.5 mx-4">
+  <div class="dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 p-1.5 h-7 w-7 rounded-full shadow-xs left-1">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 text-slate-400 dark:text-slate-500">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0-6.75 6.75M12 4.5l6.75 6.75"/>
+</svg>
+  </div>
+</a>
+
+  <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
+  <div class="flex-1"></div>
+</div>
+
+
+
+
+  <div id="a-efficient-user-level" class="py-12 mb-5 section-max-w sm:py-16">
+
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Efficient User-level Physical Memory Management on seL4</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Guangtao Zhu</span>
+        <br>
+        <span class="text-light">UNSW Sydney</span>
+      </p>
+      
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
+  seL4 gives user-level systems a great deal of control over hardware resources through capability-protected kernel abstractions. This is powerful, but it also means that performance depends heavily on how user-level resource management is designed.
+</p>
+<p>
+  In this talk, we use physical memory management as a case study. We show that the wrong design can make dynamic memory allocation expensive by placing capability-related operations and metadata bookkeeping directly on the allocation critical path.
+</p>
+<p>
+  We then present a different design: keep the fast path small, and move capability-heavy functions out of the critical path whenever it can be prepared ahead of time or handled asynchronously. We implement this idea in the seL4 library OS and compare it with baseline designs.
+</p>
+<p>
+  The results show that efficient dynamic memory management is practical on seL4, but only if the memory manager is designed to respect the cost structure of capability-based systems.
+</p>
+        </div>
+      </article>
+      
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+          <div class="p-2 pb-1">
+            <a href="https://youtu.be/0rB9rhGrJew?si=yzYOfe3EPYRdkT34" target="_blank"><img
+      src="/website_pr_hosting/PR_608/images/icons/youtube_nobckgnd.svg" width="30" alt="YouTube icon"></a>
+          </div>
+        
+        
+          <div class="p-1 mt-2">
+            <a href="slides/efficient-user-level.pdf" class="text-sm text-light underline">Slides</a>
+          </div>
+        
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+              <a href="program.html#p-efficient-user-level" class="text-sm text-light underline">See this talk in the program</a>
             
           </p>
         </div>
@@ -2610,6 +3043,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">UNSW Sydney</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -2626,8 +3060,14 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
         
+        
+        
+          <div class="p-1 mt-2 mb-5">
+            <a href="posters/rethinking-sel4.pdf" class="text-sm text-light underline">Poster</a>
+          </div>
         
         <div>
           <p class="p-1 mt-2">
@@ -2674,6 +3114,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">Colias Group</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -2684,8 +3125,14 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
         
+        
+        
+          <div class="p-1 mt-2 mb-5">
+            <a href="posters/binary-verification.pdf" class="text-sm text-light underline">Poster</a>
+          </div>
         
         <div>
           <p class="p-1 mt-2">
@@ -2732,6 +3179,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">Fraunhofer AISEC</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -2739,8 +3187,14 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
         
+        
+        
+          <div class="p-1 mt-2 mb-5">
+            <a href="posters/updates-confidential.pdf" class="text-sm text-light underline">Poster</a>
+          </div>
         
         <div>
           <p class="p-1 mt-2">
@@ -2787,6 +3241,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">Dornerworks</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -2797,8 +3252,14 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
         
+        
+        
+          <div class="p-1 mt-2 mb-5">
+            <a href="posters/vm-composer.pdf" class="text-sm text-light underline">Poster</a>
+          </div>
         
         <div>
           <p class="p-1 mt-2">
@@ -2845,6 +3306,7 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
         <span class="text-light">Critical Technologies Inc.</span>
       </p>
       
+      
       <article class="theprose">
         <div class="pt-5">
           <p>
@@ -2867,8 +3329,184 @@ Updates on verification work will be provided by Miki Tanaka and Rob Sison in th
 </p>
         </div>
       </article>
+      
       <div class="flex flex-row gap-x-2 pt-2">
         
+        
+        
+          <div class="p-1 mt-2 mb-5">
+            <a href="posters/tccoe.pdf" class="text-sm text-light underline">Poster</a>
+          </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+          </p>
+        </div>
+      </div>
+      
+      <div>
+        See Posters in program -  <a href='program.html#p-posters-day2'><span class='underline'>Day 2</span></a>, <a href='program.html#p-posters-day3'><span class='underline'>Day 3</span></a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="flex w-full mb-6">
+  <div class="flex-1"></div>
+  <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
+  
+<a href="#page-top" class="relative -mt-3.5 mx-4">
+  <div class="dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 p-1.5 h-7 w-7 rounded-full shadow-xs left-1">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 text-slate-400 dark:text-slate-500">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0-6.75 6.75M12 4.5l6.75 6.75"/>
+</svg>
+  </div>
+</a>
+
+  <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
+  <div class="flex-1"></div>
+</div>
+
+
+
+
+  <div class="py-12 mb-5 section-max-w sm:py-16">
+
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">NIO's SkyOS product line</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Yanyan Shen</span>
+        <br>
+        <span class="text-light">NIO</span>
+      </p>
+      
+      
+      <article class="theprose">
+        <div class="pt-5">
+          <p>
+  The poster will be about the whole stack of SkyOS, from hypervisor, OS, to middleware layer, a complete systems software solution for vehicle platforms.
+</p>
+        </div>
+      </article>
+      
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+        
+        
+          <div class="p-1 mt-2 mb-5">
+            <a href="posters/skyos.pdf" class="text-sm text-light underline">Poster</a>
+          </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+          </p>
+        </div>
+      </div>
+      
+      <div>
+        See Posters in program -  <a href='program.html#p-posters-day2'><span class='underline'>Day 2</span></a>, <a href='program.html#p-posters-day3'><span class='underline'>Day 3</span></a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="flex w-full mb-6">
+  <div class="flex-1"></div>
+  <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
+  
+<a href="#page-top" class="relative -mt-3.5 mx-4">
+  <div class="dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 p-1.5 h-7 w-7 rounded-full shadow-xs left-1">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 text-slate-400 dark:text-slate-500">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0-6.75 6.75M12 4.5l6.75 6.75"/>
+</svg>
+  </div>
+</a>
+
+  <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
+  <div class="flex-1"></div>
+</div>
+
+
+
+
+  <div class="py-12 mb-5 section-max-w sm:py-16">
+
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">OT Network Guard</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">Martin Dehnel-Wild</span>
+        <br>
+        <span class="text-light">Kry10</span>
+      </p>
+      
+      
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+        
+        
+          <div class="p-1 mt-2 mb-5">
+            <a href="posters/ot-network.pdf" class="text-sm text-light underline">Poster</a>
+          </div>
+        
+        <div>
+          <p class="p-1 mt-2">
+            
+          </p>
+        </div>
+      </div>
+      
+      <div>
+        See Posters in program -  <a href='program.html#p-posters-day2'><span class='underline'>Day 2</span></a>, <a href='program.html#p-posters-day3'><span class='underline'>Day 3</span></a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="flex w-full mb-6">
+  <div class="flex-1"></div>
+  <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
+  
+<a href="#page-top" class="relative -mt-3.5 mx-4">
+  <div class="dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 p-1.5 h-7 w-7 rounded-full shadow-xs left-1">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 text-slate-400 dark:text-slate-500">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0-6.75 6.75M12 4.5l6.75 6.75"/>
+</svg>
+  </div>
+</a>
+
+  <hr class="w-10 h-px bg-gray-200 border-0 dark:bg-gray-600">
+  <div class="flex-1"></div>
+</div>
+
+
+
+
+  <div class="py-12 mb-5 section-max-w sm:py-16">
+
+  <div class="mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto lg:mx-0">
+      <h2 class="text-xl font-bold tracking-tight text-dark mb-6 sm:text-4xl">Join the seL4 Foundation today!</h2>
+      <p>
+        <span class="text-gray-800 dark:text-gray-300">June Andronick</span>
+        <br>
+        <span class="text-light">Proofcraft and seL4 Foundation</span>
+      </p>
+      
+      
+      <div class="flex flex-row gap-x-2 pt-2">
+        
+        
+        
+          <div class="p-1 mt-2 mb-5">
+            <a href="posters/join-foundation.pdf" class="text-sm text-light underline">Poster</a>
+          </div>
         
         <div>
           <p class="p-1 mt-2">

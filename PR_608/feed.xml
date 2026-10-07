@@ -10,7 +10,134 @@
   <description>News feed about seL4, the seL4 Foundation, and the seL4 ecosystem.</description>
   <link rel="alternate">https://sel4.github.io/website_pr_hosting/PR_608/news/</link>
   <link rel="self">https://sel4.github.io/website_pr_hosting/PR_608/feed.xml</link>
-  <updated>Wed, 29 Jul 2026 00:00:00 +0000</updated>
+  <updated>Fri, 18 Sep 2026 00:00:00 +0000</updated>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>The Australian National University joins seL4 Foundation</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html</id>
+    <published>Fri, 18 Sep 2026 00:00:00 +0000</published>
+    <updated>Fri, 18 Sep 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  The &lt;a href=&quot;/website_pr_hosting/PR_608/Foundation&quot;&gt;seL4 Foundation&lt;/a&gt; is pleased to welcome the &lt;a href=&quot;https://www.anu.edu.au/&quot;&gt;Australian National University (ANU)&lt;/a&gt; as an &lt;a href=&quot;/website_pr_hosting/PR_608/Foundation/Membership/&quot;&gt;Associate Member&lt;/a&gt;. ANU&apos;s School of Computing has a longstanding connection to seL4, and ANU researchers have contributed to seL4&apos;s &lt;a href=&quot;/website_pr_hosting/PR_608/About/history.html&quot;&gt;original verification efforts&lt;/a&gt; and &lt;a href=&quot;https://www.darpa.mil/research/programs/high-assurance-cyber-military-systems&quot;&gt;DARPA&apos;s HACMS program&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+  This research contribution continues to grow through a broader concentration of formal methods and programming-languages expertise at ANU. Current work involves the development of programming languages for use with the &lt;a href=&quot;https://docs.sel4.systems/projects/microkit/&quot;&gt;seL4 Microkit&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+  The membership strengthens active collaborations between ANU&apos;s School of Computing and fellow Australian-based member organisations on the development of secure technology based on the seL4 ecosystem.
+&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>The videos and slides of the seL4 Summit 2026 are available online</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html#summit-videos"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html#summit-videos</id>
+    <published>Wed, 16 Sep 2026 00:00:00 +0000</published>
+    <updated>Wed, 16 Sep 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  Videos of the &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/&quot;&gt;seL4 Summit
+  2026&lt;/a&gt; are now available on the &lt;a href=&quot;https://www.youtube.com/playlist?list=PLd7rrADYxxQQ&quot;
+  target=&quot;_blank&quot;&gt;seL4 YouTube channel&lt;/a&gt;! Links, slides, and posters can be
+  found on the summit &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/program.html&quot;&gt;Program&lt;/a&gt;
+  and &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/abstracts2026.html&quot;&gt;Abstracts&lt;/a&gt; pages. Thanks to all the speakers for making the seL4 Summit
+  2026 a great &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/#gallery&quot;&gt;success!&lt;/a&gt;
+  &lt;img src=&quot;../images/summit/summit-2026-7.jpg&quot; alt=&quot;seL4 Summit 2026&quot; class=&quot;rounded bg-gray-900/5 shadow-lg&quot;&gt;
+&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>seL4 security proofs now complete on AArch64</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html</id>
+    <published>Mon, 24 Aug 2026 00:00:00 +0000</published>
+    <updated>Mon, 24 Aug 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+The verification of seL4 on the 64-bit Arm architecture has reached another
+milestone. After completing the proofs of
+&lt;a href=&quot;https://proofcraft.systems/news-2024/#2024-04-01&quot;&gt;functional
+correctness&lt;/a&gt; and
+&lt;a href=&quot;https://proofcraft.systems/news-2025/#2025-04-29&quot;&gt;integrity&lt;/a&gt;,
+&lt;a href=&quot;https://proofcraft.systems&quot;&gt;Proofcraft&lt;/a&gt; has now established the
+proof that seL4 enforces
+&lt;a href=&quot;https://proofcraft.systems/news-2026/#2026-08-21&quot;&gt;confidentiality&lt;/a&gt; on
+AArch64, providing a formal mathematical proof that the kernel prevents an
+application running on top of seL4 from learning information without
+authorisation.
+&lt;/p&gt;
+
+&lt;p&gt;
+This milestone completes the formal proof that the seL4 implementation code on
+AArch64 enforces security isolation of the applications running on top (under
+the assumptions listed
+&lt;a href=&quot;/website_pr_hosting/PR_608/Verification/assumptions.html&quot;&gt;here&lt;/a&gt;). This
+isolation prevents attacks on non-critical applications from propagating to
+critical applications and compromising them.
+&lt;/p&gt;
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>Thank you UNSW Sydney, bronze sponsor of the seL4 Summit 2026</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html</id>
+    <published>Mon, 17 Aug 2026 00:00:00 +0000</published>
+    <updated>Mon, 17 Aug 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  The seL4 Foundation thanks &lt;a href=&quot;https://unsw.edu.au&quot;&gt;UNSW Sydney&lt;/a&gt; for
+  becoming a Bronze sponsor of the &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/&quot;&gt;seL4
+  Summit 2026&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+  seL4 was created by the &lt;a href=&quot;https://trustworthy.systems/&quot;&gt;Trustworthy
+  Systems (TS)&lt;/a&gt; team, which is now part of the &lt;a
+  href=&quot;https://unsw.edu.au&quot;&gt;UNSW&lt;/a&gt;, a founding member of the seL4 Foundation.
+&lt;/p&gt;
+&lt;p&gt;
+  The team has a track record of designing and implementing systems software for
+  performance and reliability, and using rigorous formal methods to prove that
+  they meet their security and reliability goals. Their aims are to:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;shift the software industry away from ad-hoc, unreliable engineering
+  practices, and towards more principled and trustworthy methods; and&lt;/li&gt;
+  &lt;li&gt;make verified software a default choice, especially in safety- and
+  security-critical systems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  The team works with government and commercial partners, as well as the broader
+  software engineering community, to drive this change.
+&lt;/p&gt;
+
+    </content>
+  </entry>
+  <rights>Copyright 2026 seL4 Foundation</rights>
+  <entry>
+    <title>Thank you DornerWorks, sponsor of the seL4 Summit 2026 AM &amp; PM Break</title>
+    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html"/>
+    <id>https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html</id>
+    <published>Fri, 14 Aug 2026 00:00:00 +0000</published>
+    <updated>Fri, 14 Aug 2026 00:00:00 +0000</updated>
+    <content type="html">
+      &lt;p&gt;
+  The seL4 Foundation thanks &lt;a
+  href=&quot;https://dornerworks.com/&quot;&gt;DornerWorks&lt;/a&gt;, sponsor of the &lt;a
+  href=&quot;/website_pr_hosting/PR_608/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt; AM &amp; PM Break.
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;a href=&quot;https://dornerworks.com&quot;&gt;DornerWorks&lt;/a&gt; is an embedded technology partner, a founding member of the  &lt;a href=&quot;/website_pr_hosting/PR_608/Foundation/&quot;&gt;seL4 Foundation&lt;/a&gt;, and one of its &lt;a href=&quot;/website_pr_hosting/PR_608/Services/&quot;&gt;endorsed service providers&lt;/a&gt;. Our dedicated team of seL4 experts helps organizations accelerate the integration of seL4 as the trusted software foundation for secure, safety-critical embedded systems and products.
+&lt;/p&gt;
+
+    </content>
+  </entry>
   <rights>Copyright 2026 seL4 Foundation</rights>
   <entry>
     <title>Happy seL4 day!</title>
@@ -90,7 +217,7 @@ for x86_64 systems.&lt;/p&gt;
   &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt;, in a
   session on &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/abstracts2026.html#a-panel&quot;&gt;Certification, Compliance and Policies: enabler or barrier to
   innovation?&lt;/a&gt;: Darren Cofer, Peter Davies,
-  Jonathan Marshall, Anjana Rajan, and James Sharp. The panel will be moderated by
+  Jonathan Marshall, June Andronick, and James Sharp. The panel will be moderated by
   Martin Dehnel-Wild.
 &lt;/p&gt;
 
@@ -143,14 +270,14 @@ for x86_64 systems.&lt;/p&gt;
 
 &lt;li&gt;
   
-  &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/abstracts2026.html#a-panel-anjana&quot; class=&quot;text-dark no-underline! hover:underline!&quot;&gt;
+  &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/abstracts2026.html#a-panel-june&quot; class=&quot;text-dark no-underline! hover:underline!&quot;&gt;
   
-    &lt;img class=&quot;mx-auto h-24 w-24 rounded-full&quot; src=&quot;/website_pr_hosting/PR_608/images/summit/anjana-square.jpg&quot; alt=&quot;Picture of Anjana Rajan&quot;&gt;
-    &lt;p class=&quot;mt-6 text-base font-semibold leading-7 tracking-tight text-dark&quot;&gt;Anjana Rajan&lt;/p&gt;
+    &lt;img class=&quot;mx-auto h-24 w-24 rounded-full&quot; src=&quot;/website_pr_hosting/PR_608/Foundation/Board/TS-June-square.jpg&quot; alt=&quot;Picture of June Andronick&quot;&gt;
+    &lt;p class=&quot;mt-6 text-base font-semibold leading-7 tracking-tight text-dark&quot;&gt;June Andronick&lt;/p&gt;
   
   &lt;/a&gt;
   
-  &lt;p class=&quot;text-sm leading-6 text-light&quot;&gt;&lt;a href=&apos;https://www.atalanta.tech/&apos;&gt;Atalanta&lt;/a&gt;&lt;/p&gt;
+  &lt;p class=&quot;text-sm leading-6 text-light&quot;&gt;&lt;a href=&apos;https://proofcraft.systems&apos;&gt;Proofcraft&lt;/a&gt; and &lt;a href=&apos;https://sel4.systems/&apos;&gt;seL4 Foundation&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 
 
@@ -470,211 +597,6 @@ the &lt;a href=&quot;/website_pr_hosting/PR_608/Verification/proofs.html&quot;&g
 stack&lt;/a&gt;. The proof targets the RISC-V architecture and will now be ported to
 the Arm 64-bit architecture, as part of DARPA&apos;s PROVERS program.
 &lt;/p&gt;
-    </content>
-  </entry>
-  <rights>Copyright 2026 seL4 Foundation</rights>
-  <entry>
-    <title>Gapfruit joins the seL4 Foundation</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html</id>
-    <published>Mon, 01 Jun 2026 00:00:00 +0000</published>
-    <updated>Mon, 01 Jun 2026 00:00:00 +0000</updated>
-    <content type="html">
-      &lt;p&gt;
-  We are pleased to welcome a new &lt;a href=&quot;/website_pr_hosting/PR_608/Foundation/Membership/&quot;&gt;member&lt;/a&gt; - &lt;a href=&quot;https://www.gapfruit.com/&quot;&gt;Gapfruit&lt;/a&gt;
-  - to the &lt;a href=&quot;/website_pr_hosting/PR_608/Foundation&quot;&gt;seL4 Foundation&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-  Gapfruit is a Swiss technology company building trustworthy foundations for
-  the systems society depends on - from industrial controls to energy
-  infrastructure. To achieve this, Gapfruit combines microkernel operating
-  systems with capability-based security and hardware-rooted trust - an approach
-  grounded in standards from the &lt;a
-  href=&quot;https://trustedcomputinggroup.org/&quot;&gt;Trusted Computing Group&lt;/a&gt;.
-  Together, these technologies enable resilient, verifiable device operations
-  for the critical systems that underpin modern infrastructure. By joining the
-  seL4 Foundation, we aim to advance high-assurance computing in critical
-  infrastructure and collaborate with the global seL4 community to make
-  trustworthy systems the standard - not the exception.
-&lt;/p&gt;
-&lt;p&gt;
-  Learn more about Gapfruit&apos;s work in their contributions to previous seL4
-  summit &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2023/abstracts2023.html#a-panel&quot;&gt;panels&lt;/a&gt; and &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2023/abstracts2023.html#a-showcase-microkernel&quot;&gt;talks&lt;/a&gt;.
-&lt;/p&gt;
-    </content>
-  </entry>
-  <rights>Copyright 2026 seL4 Foundation</rights>
-  <entry>
-    <title>Thank you Proofcraft, silver sponsor of the seL4 Summit 2026</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html</id>
-    <published>Fri, 17 Apr 2026 00:00:00 +0000</published>
-    <updated>Fri, 17 Apr 2026 00:00:00 +0000</updated>
-    <content type="html">
-      &lt;p&gt;
-  The seL4 Foundation thanks &lt;a
-  href=&quot;https://proofcraft.systems&quot;&gt;Proofcraft&lt;/a&gt;, silver sponsor of the &lt;a
-  href=&quot;/website_pr_hosting/PR_608/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-  Founded by the seL4 verification leaders, &lt;a
-  href=&quot;https://proofcraft.systems&quot;&gt;Proofcraft&lt;/a&gt; offers commercial support
-  and projects in formal verification in general, and involving seL4
-  specifically. By applying mathematical machine-checked software verification,
-  Proofcraft increases critical software systems&apos; reliability, safety and
-  security, for a verified future.
-&lt;/p&gt;
-&lt;p&gt;
-  See &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/sponsor/&quot;&gt;here&lt;/a&gt;
-  if you are interested in sponsoring the  &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt;.
-&lt;/p&gt;
-
-    </content>
-  </entry>
-  <rights>Copyright 2026 seL4 Foundation</rights>
-  <entry>
-    <title>Thank you Riverside Research, sponsor of the seL4 Summit 2026 reception</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html</id>
-    <published>Wed, 15 Apr 2026 00:00:00 +0000</published>
-    <updated>Wed, 15 Apr 2026 00:00:00 +0000</updated>
-    <content type="html">
-      &lt;p&gt;
-  The seL4 Foundation thanks &lt;a
-  href=&quot;https://www.riversideresearch.org/&quot;&gt;Riverside Research&lt;/a&gt;
-  for sponsoring the &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/&quot;&gt;seL4 Summit
-  2026&lt;/a&gt; reception.
-&lt;/p&gt;
-&lt;p&gt;
-  Riverside Research is a national security nonprofit serving the DOD and
-  Intelligence Community. Through the company&apos;s Open Innovation Center (OIC), it
-  invests in multidisciplinary research and development and encourages
-  collaboration. Riverside Research&apos;s areas of expertise include Object and
-  Activity Detection; Accelerated AI/ML; Zero Trust; Open Architectures;
-  Computational Electromagnetics; Plasma Physics; Precision Timing; Terahertz
-  Imaging; Commercial Intelligence, Surveillance, and Reconnaissance (ISR);
-  Collection Planning; and more. Learn more at &lt;a
-  href=&quot;https://www.riversideresearch.org/&quot;&gt;www.riversideresearch.org&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-  See &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/sponsor/&quot;&gt;here&lt;/a&gt;
-  if you are interested in sponsoring the  &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt;.
-&lt;/p&gt;
-
-    </content>
-  </entry>
-  <rights>Copyright 2026 seL4 Foundation</rights>
-  <entry>
-    <title>New seL4 release available</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html</id>
-    <published>Tue, 31 Mar 2026 00:00:00 +0000</published>
-    <updated>Tue, 31 Mar 2026 00:00:00 +0000</updated>
-    <content type="html">
-      &lt;p&gt;We’re pleased to announce the release of&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/sel4/15.0.0&quot;&gt;seL4 15.0.0&lt;/a&gt;: The seL4
-microkernel&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/microkit/2.2.0&quot;&gt;Microkit 2.2.0&lt;/a&gt;: The seL4
-Microkit for building static-architecture systems&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/camkes/camkes-3.12.0&quot;&gt;CAmkES 3.12.0&lt;/a&gt;:
-Component Architecture for microkernel-based Embedded Systems&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.sel4.systems/releases/capdl/0.5.0&quot;&gt;capDL 0.5.0&lt;/a&gt;: Tools for
-generating, parsing and loading capability distribution specifications&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/seL4/rust-sel4/releases/tag/v4.0.0&quot;&gt;rust-sel4 4.0.0&lt;/a&gt;: Rust
-support for seL4 userspace. See the Rust section on the
-&lt;a href=&quot;https://docs.sel4.systems/projects/rust/&quot;&gt;seL4 docsite&lt;/a&gt; for more
-information.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;seL4 15.0.0 and the corresponding Rust support come with new features and will
-require updates if you are using the seL4 API directly. CAmkES and the capDL
-tool add domain schedules as a new feature and applications will need updates if
-they use the seL4 domain scheduler. The Microkit release should not require any
-update of user code compared to Microkit 2.1.0.&lt;/p&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;
-
-    </content>
-  </entry>
-  <rights>Copyright 2026 seL4 Foundation</rights>
-  <entry>
-    <title>The seL4 Summit 2026 Keynotes and &quot;Voices from Nearby&quot;</title>
-    <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html"/>
-    <id>https://sel4.github.io/website_pr_hosting/PR_608/news/2026.html</id>
-    <published>Wed, 18 Mar 2026 00:00:00 +0000</published>
-    <updated>Wed, 18 Mar 2026 00:00:00 +0000</updated>
-    <content type="html">
-      &lt;h3&gt;Keynotes&lt;/h3&gt;
-&lt;p&gt;
-  We are pleased to announce that we have two outstanding keynotes for the &lt;a
-  href=&quot;/website_pr_hosting/PR_608/Summit/2026/&quot;&gt;seL4 Summit 2026&lt;/a&gt;: &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/anjanarajan/&quot;&gt;Anjana
-  Rajan&lt;/a&gt;&lt;/strong&gt;, Former Assistant National Cyber Director at The White
-  House, and &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/mpdehnel/&quot;&gt;Martin
-  Dehnel-Wild&lt;/a&gt;&lt;/strong&gt;, Chief Scientist
-  at Kry10. Abstracts coming soon — stay tuned!
-&lt;/p&gt;
-&lt;div class=&quot;grid grid-rows-1 w-2/3 sm:grid-cols-2 gap-10 mt-5&quot;&gt;
-  &lt;div&gt;
-    &lt;p&gt;
-      &lt;img src=&quot;../images/summit/anjana-square.jpg&quot; class=&quot;rounded-xl w-full
-      ml-1 mt-0&quot; alt=&quot;Photo of Anjana Rajan&quot;&gt;
-      &lt;a href=&quot;https://www.linkedin.com/in/anjanarajan/&quot;&gt;&lt;strong&gt;Anjana
-      Rajan&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Former Assistant National Cyber Director at The
-      White House.
-    &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;p&gt;
-      &lt;img src=&quot;../images/summit/martin-square.jpg&quot; class=&quot;float-right
-      rounded-xl w-full ml-1 mt-0&quot; alt=&quot;Photo of Martin Dehnel-Wild&quot;&gt;
-      &lt;a href=&quot;https://www.linkedin.com/in/mpdehnel/&quot;&gt;&lt;strong&gt;Martin
-      Dehnel-Wild&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Chief Scientist at Kry10.
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3&gt;&quot;Voices from Nearby&quot;&lt;/h3&gt;
-&lt;p&gt;
-  This year, the summit will feature a full first day dedicated to applications,
-  overviews, and perspectives on seL4-based systems and formally verified
-  software in the real world. This will include a session on &quot;Voices from
-  Nearby,&quot; with industry experts who work in or share their thoughts on
-  areas that are adjacent to the core seL4 areas. &lt;a
-  href=&quot;https://www.linkedin.com/in/alistair-woodman-51934433/&quot;&gt;Alistair
-  Woodmand&lt;/a&gt;, Board Member of the Erlang Ecosystem Foundation, will share
-  his insights on the European Cyber Resiliency Act and implications for open
-  source software, and &lt;a
-  href=&quot;https://loonwerks.com/people/david-hardin.html&quot;&gt;David Hardin&lt;/a&gt;,
-  Associate Director of Systems Engineering at Collins Aerospace, will give
-  an overview on trends in real-world formal verification. Details coming soon!
-&lt;/p&gt;
-&lt;div class=&quot;grid grid-rows-1 w-2/3 sm:grid-cols-2 gap-10 mt-5&quot;&gt;
-&lt;div&gt;
-    &lt;p&gt;
-      &lt;img src=&quot;../images/summit/alistair.jpg&quot; class=&quot;float-right rounded-xl
-      w-full ml-1 mt-0&quot; alt=&quot;Photo of Alistair Woodman&quot;&gt;
-      &lt;strong&gt;&lt;a
-      href=&quot;https://www.linkedin.com/in/alistair-woodman-51934433/&quot;&gt;Alistair
-      Woodmand&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;Board Member of the Erlang Ecosystem Foundation.
-    &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;p&gt;
-      &lt;img src=&quot;../images/summit/david-square.jpg&quot; class=&quot;rounded-xl w-full ml-1
-      mt-0&quot; alt=&quot;Photo of David Hardin&quot;&gt;
-      &lt;strong&gt;&lt;a href=&quot;https://loonwerks.com/people/david-hardin.html&quot;&gt;David
-      Hardin&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;Associate Director of Systems Engineering at
-      Collins Aerospace.
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;mt-10&quot;&gt;
-  &lt;a href=&quot;https://events.linuxfoundation.org/sel4-summit/register/&quot;&gt;Register&lt;/a&gt;
-  for the seL4 summit 2026, or &lt;a href=&quot;/website_pr_hosting/PR_608/Summit/2026/cfp&quot;&gt;submit&lt;/a&gt; a talk proposal.
-&lt;/div&gt;
     </content>
   </entry>
 </feed>
