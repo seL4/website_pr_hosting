@@ -6,7 +6,7 @@
     <title>Join the seL4 Foundation | seL4</title>
     <meta name="author" content="seL4 Foundation">
     <link rel="canonical" href="https://sel4.github.io/website_pr_hosting/PR_608/Foundation/Join/join-now.html">
-    <link href="/website_pr_hosting/PR_608/css/sel4.css?v=1791960840" rel="stylesheet">
+    <link href="/website_pr_hosting/PR_608/css/sel4.css?v=1793865334" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -31,6 +31,7 @@
     <meta name="msapplication-square310x310logo" content="/website_pr_hosting/PR_608/images/icons/mstile-310x310.png">
     <link rel="shortcut icon" href="/website_pr_hosting/PR_608/images/icons/favicon.ico">
     <script defer src="/website_pr_hosting/PR_608/js/menu.js"></script>
+    <script defer src="/js/membership-form.js" ></script>
   </head>
   <body class="flex flex-col h-screen dark:bg-[#030020] bg-white"><header class="bg-white dark:bg-darkblue">
   <nav class="mx-auto flex items-center justify-between px-6 py-2 lg:pt-4 lg:pb-3 mb-2 lg:px-8
@@ -339,6 +340,12 @@
           <a href="/website_pr_hosting/PR_608/news/" class="text-sm font-semibold leading-6 text-f_green-600">See all <span aria-hidden="true">&rarr;</span></a>
         </div>
         <ul class="mt-6 space-y-6"><li class="relative">
+            <time datetime="2026-10-30" class="block text-xs leading-6 text-light">30 Oct 2026</time>
+            <a href="/website_pr_hosting/PR_608/news/2026.html#10-30" class="block truncate text-sm font-semibold leading-6 text-dark">
+              New seL4 release available
+              <span class="absolute inset-0"></span>
+            </a>
+          </li><li class="relative">
             <time datetime="2026-09-18" class="block text-xs leading-6 text-light">18 Sep 2026</time>
             <a href="/website_pr_hosting/PR_608/news/2026.html#09-18" class="block truncate text-sm font-semibold leading-6 text-dark">
               The Australian National University joins seL4 Foundation
@@ -348,12 +355,6 @@
             <time datetime="2026-09-16" class="block text-xs leading-6 text-light">16 Sep 2026</time>
             <a href="/website_pr_hosting/PR_608/news/2026.html#summit-videos" class="block truncate text-sm font-semibold leading-6 text-dark">
               The videos and slides of the seL4 Summit 2026 are available online
-              <span class="absolute inset-0"></span>
-            </a>
-          </li><li class="relative">
-            <time datetime="2026-08-24" class="block text-xs leading-6 text-light">24 Aug 2026</time>
-            <a href="/website_pr_hosting/PR_608/news/2026.html#08-24" class="block truncate text-sm font-semibold leading-6 text-dark">
-              seL4 security proofs now complete on AArch64
               <span class="absolute inset-0"></span>
             </a>
           </li></ul>
@@ -668,67 +669,65 @@
 <div class="my-20 section-max-w md:min-w-2xl">
 
   <!-- TAB 1: PREMIUM & GENERAL - INPUT & LABEL -->
-  <input type="radio" id="tab-general" name="membership-toggle" class="peer/gen hidden" checked />
+  <input type="radio" id="tab-general" name="membership-toggle" class="peer/gen sr-only" checked />
   <label for="tab-general" class="inline-block select-none cursor-pointer transition-all duration-200 ml-5 mr-1
     px-3.5 py-2 text-sm font-semibold rounded-t-md !rounded-b-none border border-gray-200 bg-gray-50 text-gray-700
     peer-checked/gen:!bg-accentdark peer-checked/gen:!text-white peer-checked/gen:!border-gray-200 peer-checked/gen:!shadow-none
     relative z-10 -mb-px
-    peer-checked/gen:after:content-[''] peer-checked/gen:after:absolute peer-checked/gen:after:bottom-0 peer-checked/gen:after:left-0 peer-checked/gen:after:right-0 peer-checked/gen:after:h-[2px] peer-checked/gen:after:bg-accent-dark">
-    Premium & General
+    peer-checked/gen:after:content-[''] peer-checked/gen:after:absolute peer-checked/gen:after:bottom-0 peer-checked/gen:after:left-0 peer-checked/gen:after:right-0 peer-checked/gen:after:h-[2px] peer-checked/gen:after:bg-accentdark
+    peer-focus-visible/gen:outline-2 peer-focus-visible/gen:outline-f_green-700">
+    Premium &amp; General
   </label>
 
   <!-- TAB 2: ASSOCIATE - INPUT & LABEL -->
-  <input type="radio" id="tab-associate" name="membership-toggle" class="peer/assoc hidden" />
+  <input type="radio" id="tab-associate" name="membership-toggle" class="peer/assoc sr-only" />
   <label for="tab-associate" class="inline-block select-none cursor-pointer transition-all duration-200
     px-3.5 py-2 text-sm font-semibold rounded-t-md !rounded-b-none border border-gray-200 bg-gray-50 text-gray-700
     peer-checked/assoc:!bg-accentdark peer-checked/assoc:!text-white peer-checked/assoc:!border-gray-200 peer-checked/assoc:!shadow-none
     relative z-10 -mb-px
-    peer-checked/assoc:after:content-[''] peer-checked/assoc:after:absolute peer-checked/assoc:after:bottom-0 peer-checked/assoc:after:left-0 peer-checked/assoc:after:right-0 peer-checked/assoc:after:h-[2px] peer-checked/assoc:after:bg-accent-dark">
+    peer-checked/assoc:after:content-[''] peer-checked/assoc:after:absolute peer-checked/assoc:after:bottom-0 peer-checked/assoc:after:left-0 peer-checked/assoc:after:right-0 peer-checked/assoc:after:h-[2px] peer-checked/assoc:after:bg-accentdark
+    peer-focus-visible/assoc:outline-2 peer-focus-visible/assoc:outline-f_green-700">
     Associate
   </label>
 
 
   <!-- PREMIUM AND GENERAL -->
-  <div class="hidden peer-checked/gen:block bg-white border border-gray-200 rounded-b-md rounded-tr-md p-4 relative z-0">
+  <form
+    data-endpoint="http://localhost:3000/api/submit-membership"
+    class="hidden peer-checked/gen:block bg-white border border-gray-200 rounded-b-md rounded-tr-md p-4 relative z-0">
+    <input type="hidden" name="membership_type" value="general">
 
     <p class="mb-2 text-sm mx-2">
       For premium and general members
     </p>
     <p class="mb-10 text-sm mx-2">
       Please fill this form to join as a Premium member or General member (see
-      <a href="../Join#tiers" target="_blank">Membership Tiers</a>).
+      <a href="./#tiers" target="_blank">Membership Tiers</a>).
     </p>
-    <div class="mt-1 mb-9">
-  
-    <p class = "text-left font-semibold py-3 mt-2">Company name</p>
-  
-  <p class = "mb-2 text-sm mx-2">Legal name of the entity applying for membership</p>
+    
 
-  <!-- single textbox for input with no label, e.g. company name -->
-  
+
+
+<div class="mt-1 mb-9">
+  <label for="general-company" class="block text-left font-semibold py-3 mt-2">Company name</label>
+  <p class="mb-2 text-sm mx-2">Legal name of the entity applying for membership</p>
+
   <input
-      type = "text"
-      class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700"
-      autocomplete="off"
+      type="text"
+      id="general-company"
+      name="company"
+      class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700"
+      autocomplete="organization"
       required>
-  
-
-  <!-- text boxes with labels, e.g. contact details -->
-  <div class="grid grid-cols-7 gap-x-2 gap-y-2">
-    
-    
-    
-
-  
-  </div>
 </div>
 
 
-    <p class="text-left font-semibold py-3 mt-10">Membership Level</p>
+    <div role="radiogroup" aria-labelledby="membership-level">
+<p id="membership-level" class="text-left font-semibold py-3 mt-10">Membership Level</p>
 <table class="mb-10 min-w-11/12">
   <thead>
     <tr class="text-center text-xs sm:text-sm text-white bg-f_green-600">
-      <th class="py-3 px-1"></th>
+      <th class="py-3 px-1"><span class="sr-only">Select</span></th>
       <th class="py-3 px-1">Tier</th>
       <th class="py-3 px-1">
         <span class="sm:hidden">Consolidated<br>Employees</span>
@@ -740,271 +739,273 @@
       </th>
     </tr>
   </thead>
-  <tbody class="text-xs text-center sm:text-sm"><tr class="text-center text-xs sm:text-sm group cursor-pointer transition-colors hover:bg-gray-50 has-[:checked]:bg-green-50 has-[:checked]:text-black">
+  <tbody class="text-xs text-center sm:text-sm">
+    <tr class="text-center text-xs sm:text-sm group transition-colors hover:bg-gray-50 has-[:checked]:bg-f_green-50 has-[:checked]:text-black">
       <td class="whitespace-normal px-5 py-5">
         <input
           type="radio"
-          name="membership_selection" class="accent-green-700"
-          value='1'
+          id="membership-tier-1"
+          name="membership_selection" class="accent-f_green-700"
+          value="1"
+          required
         />
       </td>
       <td>
-        Premium
+        <label for="membership-tier-1" class="block py-5 cursor-pointer">Premium</label>
       </td>
       <td>
-        --
+        <label for="membership-tier-1" class="block py-5 cursor-pointer">--</label>
       </td>
       <td>
-        CHF 100,000
+        <label for="membership-tier-1" class="block py-5 cursor-pointer">CHF 100,000</label>
       </td>
-    </tr><tr class="text-center text-xs sm:text-sm group cursor-pointer transition-colors hover:bg-gray-50 has-[:checked]:bg-green-50 has-[:checked]:text-black">
+    </tr>
+    <tr class="text-center text-xs sm:text-sm group transition-colors hover:bg-gray-50 has-[:checked]:bg-f_green-50 has-[:checked]:text-black">
       <td class="whitespace-normal px-5 py-5">
         <input
           type="radio"
-          name="membership_selection" class="accent-green-700"
-          value='2'
+          id="membership-tier-2"
+          name="membership_selection" class="accent-f_green-700"
+          value="2"
+          required
         />
       </td>
       <td>
-        General
+        <label for="membership-tier-2" class="block py-5 cursor-pointer">General</label>
       </td>
       <td>
-        5,000 and above
+        <label for="membership-tier-2" class="block py-5 cursor-pointer">5,000 and above</label>
       </td>
       <td>
-        CHF 35,000
+        <label for="membership-tier-2" class="block py-5 cursor-pointer">CHF 35,000</label>
       </td>
-    </tr><tr class="text-center text-xs sm:text-sm group cursor-pointer transition-colors hover:bg-gray-50 has-[:checked]:bg-green-50 has-[:checked]:text-black">
+    </tr>
+    <tr class="text-center text-xs sm:text-sm group transition-colors hover:bg-gray-50 has-[:checked]:bg-f_green-50 has-[:checked]:text-black">
       <td class="whitespace-normal px-5 py-5">
         <input
           type="radio"
-          name="membership_selection" class="accent-green-700"
-          value='3'
+          id="membership-tier-3"
+          name="membership_selection" class="accent-f_green-700"
+          value="3"
+          required
         />
       </td>
       <td>
-        General
+        <label for="membership-tier-3" class="block py-5 cursor-pointer">General</label>
       </td>
       <td>
-        Between 500 and 4,999
+        <label for="membership-tier-3" class="block py-5 cursor-pointer">Between 500 and 4,999</label>
       </td>
       <td>
-        CHF 20,000
+        <label for="membership-tier-3" class="block py-5 cursor-pointer">CHF 20,000</label>
       </td>
-    </tr><tr class="text-center text-xs sm:text-sm group cursor-pointer transition-colors hover:bg-gray-50 has-[:checked]:bg-green-50 has-[:checked]:text-black">
+    </tr>
+    <tr class="text-center text-xs sm:text-sm group transition-colors hover:bg-gray-50 has-[:checked]:bg-f_green-50 has-[:checked]:text-black">
       <td class="whitespace-normal px-5 py-5">
         <input
           type="radio"
-          name="membership_selection" class="accent-green-700"
-          value='4'
+          id="membership-tier-4"
+          name="membership_selection" class="accent-f_green-700"
+          value="4"
+          required
         />
       </td>
       <td>
-        General
+        <label for="membership-tier-4" class="block py-5 cursor-pointer">General</label>
       </td>
       <td>
-        Between 100 and 499
+        <label for="membership-tier-4" class="block py-5 cursor-pointer">Between 100 and 499</label>
       </td>
       <td>
-        CHF 10,000
+        <label for="membership-tier-4" class="block py-5 cursor-pointer">CHF 10,000</label>
       </td>
-    </tr><tr class="text-center text-xs sm:text-sm group cursor-pointer transition-colors hover:bg-gray-50 has-[:checked]:bg-green-50 has-[:checked]:text-black">
+    </tr>
+    <tr class="text-center text-xs sm:text-sm group transition-colors hover:bg-gray-50 has-[:checked]:bg-f_green-50 has-[:checked]:text-black">
       <td class="whitespace-normal px-5 py-5">
         <input
           type="radio"
-          name="membership_selection" class="accent-green-700"
-          value='5'
+          id="membership-tier-5"
+          name="membership_selection" class="accent-f_green-700"
+          value="5"
+          required
         />
       </td>
       <td>
-        General
+        <label for="membership-tier-5" class="block py-5 cursor-pointer">General</label>
       </td>
       <td>
-        Between 21 and 99
+        <label for="membership-tier-5" class="block py-5 cursor-pointer">Between 21 and 99</label>
       </td>
       <td>
-        CHF 4,000
+        <label for="membership-tier-5" class="block py-5 cursor-pointer">CHF 4,000</label>
       </td>
-    </tr><tr class="text-center text-xs sm:text-sm group cursor-pointer transition-colors hover:bg-gray-50 has-[:checked]:bg-green-50 has-[:checked]:text-black">
+    </tr>
+    <tr class="text-center text-xs sm:text-sm group transition-colors hover:bg-gray-50 has-[:checked]:bg-f_green-50 has-[:checked]:text-black">
       <td class="whitespace-normal px-5 py-5">
         <input
           type="radio"
-          name="membership_selection" class="accent-green-700"
-          value='6'
+          id="membership-tier-6"
+          name="membership_selection" class="accent-f_green-700"
+          value="6"
+          required
         />
       </td>
       <td>
-        General
+        <label for="membership-tier-6" class="block py-5 cursor-pointer">General</label>
       </td>
       <td>
-        Up to 20
+        <label for="membership-tier-6" class="block py-5 cursor-pointer">Up to 20</label>
       </td>
       <td>
-        CHF 2,500
+        <label for="membership-tier-6" class="block py-5 cursor-pointer">CHF 2,500</label>
       </td>
     </tr></tbody>
 </table>
+</div>
 
-    <div class="mt-1 mb-9">
-  
-  <p class = "text-left font-semibold py-3 mt-10">Primary contact</p>
-  
-  <p class = "mb-2 text-sm mx-2">The person who will act as the primary voting contact unless a different assignment is requested by email at a later date.</p>
 
-  <!-- single textbox for input with no label, e.g. company name -->
-  
+    
 
-  <!-- text boxes with labels, e.g. contact details -->
+
+
+<div class="mt-1 mb-9" role="group" aria-labelledby="general-primary-heading">
+  <p id="general-primary-heading" class="text-left font-semibold py-3 mt-10">Primary contact</p>
+  <p class="mb-2 text-sm mx-2">The person who will act as the primary voting contact unless a different assignment is requested by email at a later date.</p>
+
   <div class="grid grid-cols-7 gap-x-2 gap-y-2">
-    
-      <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Name</div>
-      <div class="col-span-6">
-        <input
-          type = "text"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-      </div>
-    
-    
-    <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Email</div>
-      <div class="col-span-6">
-        <input
-          type = "email"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-      </div>
-    
-    
-
-  
+    <label for="general-primary-name" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Name</label>
+    <div class="col-span-6">
+      <input
+        type="text"
+        id="general-primary-name"
+        name="primary_name"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-primary name"
+        required>
+    </div>
+    <label for="general-primary-email" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Email</label>
+    <div class="col-span-6">
+      <input
+        type="email"
+        id="general-primary-email"
+        name="primary_email"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-primary email"
+        required>
+    </div>
   </div>
 </div>
 
 
-    <div class="mt-1 mb-9">
-  
-  <p class = "text-left font-semibold py-3 mt-10">Legal (signatory) contact</p>
-  
-  <p class = "mb-2 text-sm mx-2">The person who will officially execute or sign the membership agreement.</p>
+    
 
-  <!-- single textbox for input with no label, e.g. company name -->
-  
 
-  <!-- text boxes with labels, e.g. contact details -->
+
+<div class="mt-1 mb-9" role="group" aria-labelledby="general-legal-heading">
+  <p id="general-legal-heading" class="text-left font-semibold py-3 mt-10">Legal (signatory) contact</p>
+  <p class="mb-2 text-sm mx-2">The person who will officially execute or sign the membership agreement.</p>
+
   <div class="grid grid-cols-7 gap-x-2 gap-y-2">
-    
-      <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Name</div>
-      <div class="col-span-6">
-        <input
-          type = "text"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-      </div>
-    
-    
-    <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Title</div>
-      <div class="col-span-6">
-        <input
-          type = "text"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-      </div>
-    
-    
-    <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Email</div>
-      <div class="col-span-6">
-        <input
-          type = "email"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-      </div>
-    
-
-  
+    <label for="general-legal-name" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Name</label>
+    <div class="col-span-6">
+      <input
+        type="text"
+        id="general-legal-name"
+        name="legal_name"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-legal name"
+        required>
+    </div>
+    <label for="general-legal-title" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Title</label>
+    <div class="col-span-6">
+      <input
+        type="text"
+        id="general-legal-title"
+        name="legal_title"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-legal organization-title">
+    </div>
+    <label for="general-legal-email" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Email</label>
+    <div class="col-span-6">
+      <input
+        type="email"
+        id="general-legal-email"
+        name="legal_email"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-legal email"
+        required>
+    </div>
   </div>
 </div>
 
 
-    <div class="mt-1 mb-9">
-  
-  <p class = "text-left font-semibold py-3 mt-10">Billing contact</p>
-  
-  <p class = "mb-2 text-sm mx-2">The person who will handle billing and payments.</p>
+    
 
-  <!-- single textbox for input with no label, e.g. company name -->
-  
 
-  <!-- text boxes with labels, e.g. contact details -->
+
+<div class="mt-1 mb-9" role="group" aria-labelledby="general-billing-heading">
+  <p id="general-billing-heading" class="text-left font-semibold py-3 mt-10">Billing contact</p>
+  <p class="mb-2 text-sm mx-2">The person who will handle billing and payments.</p>
+
   <div class="grid grid-cols-7 gap-x-2 gap-y-2">
-    
-      <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Name</div>
-      <div class="col-span-6">
-        <input
-          type = "text"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-      </div>
-    
-    
-    <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Email</div>
-      <div class="col-span-6">
-        <input
-          type = "email"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-      </div>
-    
-    
-
-  
-    <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Address</div>
-      <div class="col-span-6">
-        <textarea
-          rows = "4"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-        </textarea>
-      </div>
-  
+    <label for="general-billing-name" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Name</label>
+    <div class="col-span-6">
+      <input
+        type="text"
+        id="general-billing-name"
+        name="billing_name"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-billing name"
+        required>
+    </div>
+    <label for="general-billing-email" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Email</label>
+    <div class="col-span-6">
+      <input
+        type="email"
+        id="general-billing-email"
+        name="billing_email"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-billing email"
+        required>
+    </div>
+    <label for="general-billing-address" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Address</label>
+    <div class="col-span-6">
+      <textarea
+        rows="4"
+        id="general-billing-address"
+        name="billing_address"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-billing street-address"
+        required></textarea>
+    </div>
   </div>
 </div>
 
 
-    <div class="flex gap-4 mt-10 text-sm justify-center items-center">
-  <div class="font-semibold">PO required:</div>
-  <div>
+    <div class="flex gap-4 mt-10 text-sm justify-center items-center" role="radiogroup" aria-labelledby="po-required">
+  <div id="po-required" class="font-semibold">PO required:</div>
+  <label class="cursor-pointer">
     <input
       type="radio"
-      name="po_selection" class="accent-green-700"
-      value='1'
+      name="po_selection" class="accent-f_green-700"
+      value="yes"
+      required
     />
     <span>Yes</span>
-  </div>
-  <div>
+  </label>
+  <label class="cursor-pointer">
     <input
       type="radio"
-      name="po_selection" class="accent-green-700"
-      value='2'
+      name="po_selection" class="accent-f_green-700"
+      value="no"
     />
     <span>No</span>
-  </div>
+  </label>
 </div>
 
-    <!-- CAPTCHA -->
-    <!-- Friendly Captcha v2 SDK -->
-<script type="module" src="https://cdn.jsdelivr.net/npm/@friendlycaptcha/sdk@0.2.0/site.min.js"></script>
-<script nomodule src="https://cdn.jsdelivr.net/npm/@friendlycaptcha/sdk@0.2.0/site.compat.min.js" async defer></script>
 
-<!-- Captcha Widget Component -->
-<div class="flex items-center justify-center my-10">
+    <!-- CAPTCHA -->
+    <div class="flex items-center justify-center my-10">
   <div
     class="frc-captcha"
     data-sitekey="FCMQDHD5NMOKR1Q0"
@@ -1012,239 +1013,121 @@
   </div>
 </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    // Locate the parent form containing this captcha component
-    const captchaElement = document.querySelector(".frc-captcha");
-    if (!captchaElement) return;
-
-    const parentForm = captchaElement.closest("form");
-    if (!parentForm) return;
-
-    parentForm.addEventListener("submit", async function (e) {
-      e.preventDefault();
-
-      const formData = new FormData(parentForm);
-      // Friendly Captcha inserts this response parameter into the form automatically
-      const solutionToken = formData.get("frc-captcha-response");
-
-      if (!solutionToken) {
-        alert("Please complete the captcha challenge before submitting.");
-        return;
-      }
-
-      // Convert FormData into a standard JSON payload
-      const payload = Object.fromEntries(formData.entries());
-      payload.solutionToken = solutionToken;
-
-      try {
-        // Point this to your running Node.js endpoint / serverless route
-        const response = await fetch("http://localhost:3000/api/verify-membership", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify(payload)
-        });
-
-        const result = await response.json();
-
-        if (response.ok && result.success) {
-          alert("Membership submission received successfully!");
-          parentForm.reset();
-        } else {
-          alert("Verification failed: " + (result.message || "Invalid Captcha Token"));
-          return response.status(400).json({
-            success: false,
-            message: "Captcha verification failed.",
-            error_code: verifyData.error?.error_code,
-            detail: verifyData.error?.detail
-          });
-        }
-      } catch (err) {
-        console.error("Submission error:", err);
-        alert("An error occurred while attempting to submit the form.");
-      }
-    });
-  });
-</script>
 
     <div class="flex justify-center pt-5 pb-5">
-  <button
-    class = "button-outline"
-    id="submit-membership-btn-general">
+  <button type="submit" class="button-outline">
     Submit
   </button>
 </div>
 
-<script>
-  document.getElementById("submit-membership-btn-general").addEventListener("click", async function () {
 
-    // 1. Extract the hidden solution token generated by Friendly Captcha
-    // The SDK dynamically creates an input named "frc-captcha-response" inside the widget div
-    const captchaHiddenInput = document.querySelector('input[name="frc-captcha-response"]');
-    const solutionToken = captchaHiddenInput ? captchaHiddenInput.value : "";
-
-    // 2. Prevent sending if missing token or missing inputs
-    if (!solutionToken) {
-      // alert("Please complete the captcha challenge before clicking submit.");
-      return;
-    // }
-    // else {
-    //   alert("Token found");
-    // }
-
-    // 3. Send directly to your Node server
-    try {
-      const response = await fetch("http://localhost:3000/api/verify-membership", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          solutionToken: solutionToken
-        })
-      });
-
-      const result = await response.json();
-
-      // if (response.ok && result.success) {
-      //   alert("Success! Form received.");
-      // } else {
-      //   alert("Verification failed: " + (result.message || "Invalid Captcha"));
-      // }
-    } catch (err) {
-      console.error("Fetch error:", err);
-      // alert("Could not connect to verification server.");
-    }
-  });
-</script>
-
-  </div>
+  </form>
 
   <!-- ASSOCIATE -->
-  <div class="hidden peer-checked/assoc:block bg-white border border-gray-200 rounded-b-md rounded-tr-md p-4 relative z-0">
+  <form
+    data-endpoint="http://localhost:3000/api/submit-membership"
+    class="hidden peer-checked/assoc:block bg-white border border-gray-200 rounded-b-md rounded-tr-md p-4 relative z-0">
+    <input type="hidden" name="membership_type" value="associate">
     <p class="mb-10 text-sm mx-2">
       Please fill this form to join as an Associate member. Only use this form for non-profits and government entities (see
-      <a href="../Join#tiers" target="_blank">Membership Tiers</a>).
+      <a href="./#tiers" target="_blank">Membership Tiers</a>).
     </p>
 
-    <div class="mt-1 mb-9">
-  
-    <p class = "text-left font-semibold py-3 mt-2">Company name</p>
-  
-  <p class = "mb-2 text-sm mx-2">Legal name of the entity applying for membership</p>
+    
 
-  <!-- single textbox for input with no label, e.g. company name -->
-  
+
+
+<div class="mt-1 mb-9">
+  <label for="associate-company" class="block text-left font-semibold py-3 mt-2">Company name</label>
+  <p class="mb-2 text-sm mx-2">Legal name of the entity applying for membership</p>
+
   <input
-      type = "text"
-      class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700"
-      autocomplete="off"
+      type="text"
+      id="associate-company"
+      name="company"
+      class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700"
+      autocomplete="organization"
       required>
-  
+</div>
 
-  <!-- text boxes with labels, e.g. contact details -->
+
+    
+
+
+
+<div class="mt-1 mb-9" role="group" aria-labelledby="associate-primary-heading">
+  <p id="associate-primary-heading" class="text-left font-semibold py-3 mt-10">Primary contact</p>
+  <p class="mb-2 text-sm mx-2">The person who will act as the primary voting contact unless a different assignment is requested by email at a later date.</p>
+
   <div class="grid grid-cols-7 gap-x-2 gap-y-2">
-    
-    
-    
-
-  
+    <label for="associate-primary-name" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Name</label>
+    <div class="col-span-6">
+      <input
+        type="text"
+        id="associate-primary-name"
+        name="primary_name"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-primary name"
+        required>
+    </div>
+    <label for="associate-primary-email" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Email</label>
+    <div class="col-span-6">
+      <input
+        type="email"
+        id="associate-primary-email"
+        name="primary_email"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-primary email"
+        required>
+    </div>
   </div>
 </div>
 
 
-    <div class="mt-1 mb-9">
-  
-  <p class = "text-left font-semibold py-3 mt-10">Primary contact</p>
-  
-  <p class = "mb-2 text-sm mx-2">The person who will act as the primary voting contact unless a different assignment is requested by email at a later date.</p>
+    
 
-  <!-- single textbox for input with no label, e.g. company name -->
-  
 
-  <!-- text boxes with labels, e.g. contact details -->
+
+<div class="mt-1 mb-9" role="group" aria-labelledby="associate-legal-heading">
+  <p id="associate-legal-heading" class="text-left font-semibold py-3 mt-10">Legal (signatory) contact</p>
+  <p class="mb-2 text-sm mx-2">The person who will officially execute or sign the membership agreement.</p>
+
   <div class="grid grid-cols-7 gap-x-2 gap-y-2">
-    
-      <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Name</div>
-      <div class="col-span-6">
-        <input
-          type = "text"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-      </div>
-    
-    
-    <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Email</div>
-      <div class="col-span-6">
-        <input
-          type = "email"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-      </div>
-    
-    
-
-  
-  </div>
-</div>
-
-
-    <div class="mt-1 mb-9">
-  
-  <p class = "text-left font-semibold py-3 mt-10">Legal (signatory) contact</p>
-  
-  <p class = "mb-2 text-sm mx-2">The person who will officially execute or sign the membership agreement.</p>
-
-  <!-- single textbox for input with no label, e.g. company name -->
-  
-
-  <!-- text boxes with labels, e.g. contact details -->
-  <div class="grid grid-cols-7 gap-x-2 gap-y-2">
-    
-      <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Name</div>
-      <div class="col-span-6">
-        <input
-          type = "text"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-      </div>
-    
-    
-    <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Title</div>
-      <div class="col-span-6">
-        <input
-          type = "text"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-      </div>
-    
-    
-    <div class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Email</div>
-      <div class="col-span-6">
-        <input
-          type = "email"
-          class = "text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-green-700 sm:text-base"
-          autocomplete="off"
-          required>
-      </div>
-    
-
-  
+    <label for="associate-legal-name" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Name</label>
+    <div class="col-span-6">
+      <input
+        type="text"
+        id="associate-legal-name"
+        name="legal_name"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-legal name"
+        required>
+    </div>
+    <label for="associate-legal-title" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Title</label>
+    <div class="col-span-6">
+      <input
+        type="text"
+        id="associate-legal-title"
+        name="legal_title"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-legal organization-title">
+    </div>
+    <label for="associate-legal-email" class="text-sm font-semibold mt-2 text-right mr-1 sm:ml-2">Email</label>
+    <div class="col-span-6">
+      <input
+        type="email"
+        id="associate-legal-email"
+        name="legal_email"
+        class="text-left bg-neutral-100 min-w-11/12 text-sm border border-none p-2 focus:outline-f_green-700 sm:text-base"
+        autocomplete="section-legal email"
+        required>
+    </div>
   </div>
 </div>
 
 
     <!-- CAPTCHA -->
-     <!-- Friendly Captcha v2 SDK -->
-<script type="module" src="https://cdn.jsdelivr.net/npm/@friendlycaptcha/sdk@0.2.0/site.min.js"></script>
-<script nomodule src="https://cdn.jsdelivr.net/npm/@friendlycaptcha/sdk@0.2.0/site.compat.min.js" async defer></script>
-
-<!-- Captcha Widget Component -->
-<div class="flex items-center justify-center my-10">
+    <div class="flex items-center justify-center my-10">
   <div
     class="frc-captcha"
     data-sitekey="FCMQDHD5NMOKR1Q0"
@@ -1252,113 +1135,19 @@
   </div>
 </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    // Locate the parent form containing this captcha component
-    const captchaElement = document.querySelector(".frc-captcha");
-    if (!captchaElement) return;
-
-    const parentForm = captchaElement.closest("form");
-    if (!parentForm) return;
-
-    parentForm.addEventListener("submit", async function (e) {
-      e.preventDefault();
-
-      const formData = new FormData(parentForm);
-      // Friendly Captcha inserts this response parameter into the form automatically
-      const solutionToken = formData.get("frc-captcha-response");
-
-      if (!solutionToken) {
-        alert("Please complete the captcha challenge before submitting.");
-        return;
-      }
-
-      // Convert FormData into a standard JSON payload
-      const payload = Object.fromEntries(formData.entries());
-      payload.solutionToken = solutionToken;
-
-      try {
-        // Point this to your running Node.js endpoint / serverless route
-        const response = await fetch("http://localhost:3000/api/verify-membership", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify(payload)
-        });
-
-        const result = await response.json();
-
-        if (response.ok && result.success) {
-          alert("Membership submission received successfully!");
-          parentForm.reset();
-        } else {
-          alert("Verification failed: " + (result.message || "Invalid Captcha Token"));
-          return response.status(400).json({
-            success: false,
-            message: "Captcha verification failed.",
-            error_code: verifyData.error?.error_code,
-            detail: verifyData.error?.detail
-          });
-        }
-      } catch (err) {
-        console.error("Submission error:", err);
-        alert("An error occurred while attempting to submit the form.");
-      }
-    });
-  });
-</script>
 
     <div class="flex justify-center pt-5 pb-5">
-  <button
-    class = "button-outline"
-    id="submit-membership-btn-associate">
+  <button type="submit" class="button-outline">
     Submit
   </button>
 </div>
 
-<script>
-  document.getElementById("submit-membership-btn-associate").addEventListener("click", async function () {
-
-    // 1. Extract the hidden solution token generated by Friendly Captcha
-    // The SDK dynamically creates an input named "frc-captcha-response" inside the widget div
-    const captchaHiddenInput = document.querySelector('input[name="frc-captcha-response"]');
-    const solutionToken = captchaHiddenInput ? captchaHiddenInput.value : "";
-
-    // 2. Prevent sending if missing token or missing inputs
-    if (!solutionToken) {
-      // alert("Please complete the captcha challenge before clicking submit.");
-      return;
-    }
-    // else {
-    //   alert("Token found");
-    // }
-
-    // 3. Send directly to your Node server
-    try {
-      const response = await fetch("http://localhost:3000/api/verify-membership", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          solutionToken: solutionToken
-        })
-      });
-
-      const result = await response.json();
-
-      // if (response.ok && result.success) {
-      //   alert("Success! Form received.");
-      // } else {
-      //   alert("Verification failed: " + (result.message || "Invalid Captcha"));
-      // }
-    } catch (err) {
-      console.error("Fetch error:", err);
-      // alert("Could not connect to verification server.");
-    }
-  });
-</script>
-  </div>
+  </form>
 </div>
+
+<!-- Friendly Captcha v2 SDK -->
+<script type="module" src="https://cdn.jsdelivr.net/npm/@friendlycaptcha/sdk@0.2.0/site.min.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@friendlycaptcha/sdk@0.2.0/site.compat.min.js" async defer></script>
 
 </div>
 </div>
