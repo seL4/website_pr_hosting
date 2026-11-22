@@ -10,18 +10,18 @@
   <description>News feed about seL4, the seL4 Foundation, and the seL4 ecosystem.</description>
   <link rel="alternate">https://sel4.github.io/website_pr_hosting/PR_632/news/</link>
   <link rel="self">https://sel4.github.io/website_pr_hosting/PR_632/feed.xml</link>
-  <updated>Mon, 23 Nov 2026 00:00:00 +0000</updated>
+  <updated>Wed, 25 Nov 2026 00:00:00 +0000</updated>
   <rights>Copyright 2026 seL4 Foundation</rights>
   <entry>
     <title>Next summit will be in Sydney! Meet its co-chairs</title>
     <link rel="alternate" type="text/html" href="https://sel4.github.io/website_pr_hosting/PR_632/news/2026.html#summit-co-chairs"/>
     <id>https://sel4.github.io/website_pr_hosting/PR_632/news/2026.html#summit-co-chairs</id>
-    <published>Mon, 23 Nov 2026 00:00:00 +0000</published>
-    <updated>Mon, 23 Nov 2026 00:00:00 +0000</updated>
+    <published>Wed, 25 Nov 2026 00:00:00 +0000</published>
+    <updated>Wed, 25 Nov 2026 00:00:00 +0000</updated>
     <content type="html">
       &lt;p&gt;
   We are thrilled to announce our co-chairs, Martin Dehnel-Wild and Lucy
-  Fletcher, for the &lt;a href=&quot;/website_pr_hosting/PR_632/Summit/2027&quot;&gt;seL4 summit 2027&lt;/a&gt;, which will be held in Sydney, 21 - 23 September 2027.
+  Fletcher, for the &lt;a href=&quot;/website_pr_hosting/PR_632/Summit/2027&quot;&gt;seL4 summit 2027&lt;/a&gt;, which will be held in Sydney, September 2027 (Dates TBC).
 &lt;/p&gt;
 
 &lt;ul class=&quot;space-y-12 divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3&quot;&gt;
